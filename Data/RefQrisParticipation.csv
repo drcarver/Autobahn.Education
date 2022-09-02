@@ -1,0 +1,5 @@
+1|Yes|Yes|Yes: Provider does participate in the QRIS||1.00||
+2|No|No|No: Provider is eligible, but does not participate in the QRIS||2.00||
+3|Not Eligible|NotEligible|The State has an operating QRIS in the provider's area, but the provider is not eligible to participate||3.00||
+4|No Operating QRIS|NoOperatingQRIS|The State does not have an operating QRIS in the provider's area||4.00||
+5|Information Unavailable|InformationUnavailable|The State has an operating QRIS in the provider's area, but information is currently unavailable at the provider level||5.00||

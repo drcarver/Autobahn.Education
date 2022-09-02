@@ -1,0 +1,7 @@
+1|Enterprise zone|02446|The government identification for special funding opportunities based on income of residents of the area.||1.00||
+2|Environmental contamination|02449|All or a portion of the site is subject to any environmental contamination such as oil or toxic soil conditions.||2.00||
+3|Environmental protection|02448|All or a portion of the site is protected under any environmental restrictions for development, such as wetlands.||3.00||
+4|Historic district|02447|The school or LEA facility is located in a publicly designated historic district, whether or not the facility itself is historic.||4.00||
+5|Land use|02445|The underlying municipal zoning regulation which guides the potential development of a site.||5.00||
+6|Site easements|02450|The covenants legally attached to a site, including agreements allowing other parties to use the site and agreements allowing the LEA to use sites belonging to others.||6.00||
+7|Other|09999|Other is specified as a characterization of a site that would define restrictions or opportunities.||99.00||

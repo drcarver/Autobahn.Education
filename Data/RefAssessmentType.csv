@@ -1,0 +1,27 @@
+1|Achievement test|AchievementTest|Achievement test is specified as the category of an assessment based on format and content.||1.00||
+2|Advanced placement test|AdvancedPlacementTest|Advanced placement test is specified as the category of an assessment based on format and content.||2.00||
+3|Alternate assessment/ELL|AlternateAssessmentELL|Alternate assessment/ELL is specified as the category of an assessment based on format and content.||4.00||
+4|Alternate assessment/grade-level standards|AlternateAssessmentGradeLevelStandards|Alternate assessment/grade-level standards is specified as the category of an assessment based on format and content.||6.00||
+5|Alternative assessment/modified standards|AlternativeAssessmentModifiedStandards|Alternative assessment/modified standards is specified as the category of an assessment based on format and content.||8.00||
+6|Aptitude Test|AptitudeTest|Aptitude Test is specified as the category of an assessment based on format and content.||10.00||
+7|Benchmark|Benchmark|Benchmark is specified as the category of an assessment based on format and content.||12.00||
+8|Cognitive and perceptual skills test|CognitiveAndPerceptualSkills|Cognitive and perceptual skills test is specified as the category of an assessment based on format and content.||14.00||
+9|Computer Adaptive Test|ComputerAdaptiveTest|Computer Adaptive Test is specified as the category of an assessment based on format and content.||15.00||
+10|Developmental observation|DevelopmentalObservation|Developmental observation is specified as the category of an assessment based on format and content.||16.00||
+11|Diagnostic|Diagnostic|Diagnostic is specified as the category of an assessment based on format and content.||18.00||
+12|Direct Assessment|DirectAssessment|Direct Assessment is specified as the category of an assessment based on format and content.||20.00||
+13|Formative|Formative|Formative is specified as the category of an assessment based on format and content.||22.00||
+14|Growth Measure|GrowthMeasure|Growth Measure is specified as the category of an assessment based on format and content.||23.00||
+15|Interim|Interim|Interim is specified as the category of an assessment based on format and content.||24.00||
+16|Kindergarten Readiness|KindergartenReadiness|Kindergarten Readiness is specified as the category of an assessment based on format and content.||26.00||
+17|Language proficiency test|LanguageProficiency|Language proficiency test is specified as the category of an assessment based on format and content.||28.00||
+18|Mental ability (intelligence) test|MentalAbility|Mental ability (intelligence) test is specified as the category of an assessment based on format and content.||30.00||
+19|Observation|Observation|Observation is specified as the category of an assessment based on format and content.||32.00||
+20|Parent Report|ParentReport|Parent Report is specified as the category of an assessment based on format and content.||34.00||
+21|Performance assessment|PerformanceAssessment|Performance assessment is specified as the category of an assessment based on format and content.||36.00||
+22|Portfolio assessment|PortfolioAssessment|Portfolio assessment is specified as the category of an assessment based on format and content.||38.00||
+23|Prekindergarten Readiness|PrekindergartenReadiness|Prekindergarten Readiness is specified as the category of an assessment based on format and content.||40.00||
+24|Reading readiness test|ReadingReadiness|Reading readiness test is specified as the category of an assessment based on format and content.||42.00||
+25|Screening|Screening|Screening is specified as the category of an assessment based on format and content.||44.00||
+26|Teacher Report|TeacherReport|Teacher Report is specified as the category of an assessment based on format and content.||46.00||
+27|Other|Other|Other is specified as the category of an assessment based on format and content.||48.00||

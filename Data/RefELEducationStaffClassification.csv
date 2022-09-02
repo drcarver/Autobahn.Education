@@ -1,0 +1,31 @@
+1|Teacher|Teacher|Teacher is the title/role of employment, official status, or rank of education staff.||-10.00||
+2|Assistance Teacher|AssistanceTeacher|Assistance Teacher is the title/role of employment, official status, or rank of education staff.||-8.00||
+3|Administrator|Administrator|Administrator is the title/role of employment, official status, or rank of education staff.||-6.00||
+4|Non-teaching Leadership|NonTeachingLeadership|Non-teaching Leadership is the title/role of employment, official status, or rank of education staff.||-4.00||
+5|Non-teacher Other|NonTeacherOther|Non-teacher Other is the title/role of employment, official status, or rank of education staff.||-2.00||
+6|Audiologist|Audiologist|Audiologist is the title/role of employment, official status, or rank of education staff.||1.00||
+7|Board Certified Behavior Analyst (BCBA)|BCBA|Board Certified Behavior Analyst (BCBA) is the title/role of employment, official status, or rank of education staff.||3.00||
+8|Board Certified Assistant Behavior Analyst (BCaBA)|BCaBA|Board Certified Assistant Behavior Analyst (BCaBA)||5.00||
+9|Applied Behavior Analysis (ABA) Aide|ABAAide|Applied Behavior Analysis (ABA) Aide is the title/role of employment, official status, or rank of education staff.||7.00||
+10|Certified Occupational Therapy Assistant|OccupationalTherapyAssistant|Certified Occupational Therapy Assistant is the title/role of employment, official status, or rank of education staff.||9.00||
+11|Nurse (LPN, RN, NP)|Nurse|Nurse (LPN, RN, NP) is the title/role of employment, official status, or rank of education staff.||11.00||
+12|Certified Low Vision Specialist|LowVisionSpecialist|Certified Low Vision Specialist is the title/role of employment, official status, or rank of education staff.||13.00||
+13|Orientation and Mobility Specialist|OrientationMobilitySpecialist|Orientation and Mobility Specialist is the title/role of employment, official status, or rank of education staff.||15.00||
+14|Vision Rehabilitation Therapist|VisionRehabTherapist|Vision Rehabilitation Therapist is the title/role of employment, official status, or rank of education staff.||17.00||
+15|Occupational Therapist|OccupationalTherapist|Occupational Therapist is the title/role of employment, official status, or rank of education staff.||19.00||
+16|Optometrist|Optometrist|Optometrist is the title/role of employment, official status, or rank of education staff.||21.00||
+17|Physical Therapist/Physical Therapy Assistant|PhysicalTherapist|Physical Therapist/Physical Therapy Assistant is the title/role of employment, official status, or rank of education staff.||23.00||
+18|Pediatrician|Pediatrician|Pediatrician is the title/role of employment, official status, or rank of education staff.||25.00||
+19|Other Physician|OtherPhysician|Other Physician is the title/role of employment, official status, or rank of education staff.||27.00||
+20|Physician Assistant|PhysicianAssistant|Physician Assistant is the title/role of employment, official status, or rank of education staff.||29.00||
+21|Psychologists|Psychologists|Psychologists is the title/role of employment, official status, or rank of education staff.||31.00||
+22|Registered or Certified Dietitian/Nutritionist|RegisteredNutritionist|Registered or Certified Dietitian/Nutritionist is the title/role of employment, official status, or rank of education staff.||33.00||
+23|School Psychologist|SchoolPsychologist|School Psychologist is the title/role of employment, official status, or rank of education staff.||35.00||
+24|Clinical and Masters Social Worker|SocialWorker|Clinical and Masters Social Worker is the title/role of employment, official status, or rank of education staff.||37.00||
+25|Special Education Teacher|SpecialEducationTeacher|Special Education Teacher is the title/role of employment, official status, or rank of education staff.||39.00||
+26|Speech and Language Pathologist|SpeechPathologist|Speech and Language Pathologist is the title/role of employment, official status, or rank of education staff.||41.00||
+27|Teacher of the Blind and Visually Impaired|TeacherOfVisuallyImpaired|Teacher of the Blind and Visually Impaired is the title/role of employment, official status, or rank of education staff.||43.00||
+28|Teacher of the Deaf and Hearing Impaired|TeacherOfHearingImpaired|Teacher of the Deaf and Hearing Impaired is the title/role of employment, official status, or rank of education staff.||45.00||
+29|Teacher of Speech and Language Disabilities|TeacherOfLanguageDisabilities|Teacher of Speech and Language Disabilities is the title/role of employment, official status, or rank of education staff.||47.00||
+30|Service Coordinator|ServiceCoordinator|Service Coordinator is the title/role of employment, official status, or rank of education staff.||49.00||
+31|Contract Staff|ContractStaff|Contract Staff is the title/role of employment, official status, or rank of education staff.||51.00||

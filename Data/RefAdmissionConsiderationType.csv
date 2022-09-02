@@ -1,0 +1,10 @@
+1|Secondary school GPA|SecondarySchoolGPA|Secondary school GPA is specified as a type of admission consideration used at an institution during the selection process.||1.00||
+2|Secondary school rank|SecondarySchoolRank|Secondary school rank is specified as a type of admission consideration used at an institution during the selection process.||2.00||
+3|Secondary school record|SecondarySchoolRecord|Secondary school record is specified as a type of admission consideration used at an institution during the selection process.||3.00||
+4|Completion of college-preparatory program|CompletionOfCollegePrepProgram|Completion of college-preparatory program is specified as a type of admission consideration used at an institution during the selection process.||5.00||
+5|Recommendations|Recommendations|Recommendations is specified as a type of admission consideration used at an institution during the selection process.||7.00||
+6|Formal demonstration of competencies (e.g., portfolios, certificates of mastery, assessment instruments)|FormalDemonstrationOfCompetencies|Formal demonstration of competencies (e.g., portfolios, certificates of mastery, assessment instruments) is specified as a type of admission consideration used at an institution during the selection process.||9.00||
+7|Admission test scores|AdmissionTestScores|Admission test scores is specified as a type of admission consideration used at an institution during the selection process.||11.00||
+8|SAT / ACT|SAT_ACT|SAT / ACT is specified as a type of admission consideration used at an institution during the selection process.||13.00||
+9|Test of English as a Foreign Language|TOEFL|Test of English as a Foreign Language is specified as a type of admission consideration used at an institution during the selection process.||15.00||
+10|Other Test (ABT, Wonderlic, WISC-III, etc.)|OtherTest|Other Test (ABT, Wonderlic, WISC-III, etc.) is specified as a type of admission consideration used at an institution during the selection process.||17.00||

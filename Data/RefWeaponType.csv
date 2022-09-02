@@ -1,0 +1,15 @@
+1|Firearm|Firearm|Any weapon (including a starter gun) which will or is designed to or may readily be converted to expel a projectile by the action of an explosive;  the frame or receiver of any such weapon; any firearm muffler or firearm silencer; or any destructive device.||.00||
+2|Handgun|Handgun|Any firearm which has a short stock and is designed to be held and fired by the use of a single hand.||2.00||
+3|Shotgun|Shotgun|A weapon designed or redesigned, made or remade, and intended to be fired from the shoulder and designed or redesigned and made or remade to use the  energy of an explosive to fire through a smooth bore either a number of ball shots or a single projectile for each single pull of the trigger.||4.00||
+4|Rifle|Rifle|A weapon designed or redesigned, made or remade, and intended to be fired from the shoulder and designed or redesigned and made or remade to use the energy of an explosive to fire only a single projectile through a rifled bore for each single pull of the trigger.||6.00||
+5|Other Firearm|OtherFirearm|Other type of firearm||8.00||
+6|Knife|Knife|The weapon involved was a knife.||10.00||
+7|Knife Less Than 2.5 Inches|KnifeLessThanTwoPointFiveInches|Knife with blade length less than 2.5 inches - the weapon involved was a knife with a blade less than 2.5 inches in length.||12.00||
+8|Knife Less Than Three Inches|KnifeLessThanThreeInches|Knife with blade length less than 3 inches in length - the weapon involved was a knife with a blade at least 2.5 inches in length, but less than 3 inches in length.||14.00||
+9|Knife Greater Than Three Inches|KnifeGreaterThanThreeInches|Knife with blade length greater than or equal to 3 inches - the weapon involved was a knife with a blade 3 inches or greater in length.||16.00||
+10|Other sharp object|OtherSharpObject|The weapon involved was another type of sharp object, (e.g., razor blade, ice pick, dirk, Chinese star, other pointed instrument [used as a weapon]).||18.00||
+11|Other object|OtherObject|The weapon involved was another known object (e.g., chain, nunchakus, brass knuckle, billy club, electrical weapon or device [stun gun], BB or pellet gun).||20.00||
+12|Substance used as weapon|Substance|The weapon involved was a substance (e.g., mace, tear gas) that was used as a weapon.||22.00||
+13|Other weapon|OtherWeapon|The incident involved a weapon other than those described above.||24.00||
+14|None|None|No weapon was used in the incident||26.00||
+15|Unknown weapon|Unknown|A weapon was used in the incident, but the type is unknown.||28.00||

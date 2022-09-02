@@ -1,0 +1,11 @@
+1|Correct|Correct|Correct is specified as the status of the response for a given item.||1.00||
+2|Incorrect|Incorrect|Incorrect is specified as the status of the response for a given item.||2.00||
+3|Complete|Complete|Complete is specified as the status of the response for a given item.||3.00||
+4|Partial Complete|PartialComplete|Partial Complete is specified as the status of the response for a given item.||4.00||
+5|Viewed|Viewed|Viewed is specified as the status of the response for a given item.||5.00||
+6|Not Viewed|NotViewed|Not Viewed is specified as the status of the response for a given item.||6.00||
+7|Attempted|Attempted|Attempted is specified as the status of the response for a given item.||7.00||
+8|Incomplete|Incomplete|Incomplete is specified as the status of the response for a given item.||8.00||
+9|In Progress|InProgress|In Progress is specified as the status of the response for a given item.||10.00||
+10|Not Yet Proficient|NotProficient|Not Yet Proficient is specified as the status of the response for a given item.||12.00||
+11|Proficient|Proficient|Proficient is specified as the status of the response for a given item.||14.00||

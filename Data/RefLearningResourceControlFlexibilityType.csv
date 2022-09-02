@@ -1,0 +1,5 @@
+1|Full Audio Control|fullAudioControl|Audio input is sufficient to control the described learning resource.||2.00||
+2|Full Keyboard Control|fullKeyboardControl|Keyboard input is sufficient to control the described learning resource.||4.00||
+3|Full Mouse Control|fullMouseControl|Mouse input is sufficient to control the described learning resource.||6.00||
+4|Full Touch Control|fullTouchControl|Touch input is sufficient to control the described learning resource.||8.00||
+5|Full Video Control|fullVideoControl| Video input is sufficient to control the described learning resource.||10.00||

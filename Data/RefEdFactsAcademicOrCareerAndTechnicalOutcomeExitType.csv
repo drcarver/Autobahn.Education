@@ -1,0 +1,8 @@
+1|Earned a GED|EARNGED|The student earned a GED after exiting the facility or program.||1.00||
+2|Earned high school course credits|EARNCRE|The student earned high school course credits after exiting the facility or program.||2.00||
+3|Enrolled in a GED program|ENROLLGED|The student enrolled in a GED program after exiting the facility or program.||3.00||
+4|Enrolled in job training courses/programs|ENROLLTRAIN|The student enrolled in job training courses/programs after exiting the facility or program.||4.00||
+5|Enrolled in local district school|ENROLLSCH|The student enrolled in a local school district after exiting the facility or program.||5.00||
+6|Obtained employment|OBTAINEMP|The student obtained employment after exiting the facility or program.||6.00||
+7|Obtained high school diploma|EARNDIPL|The student obtained a high school diploma after exiting the facility or program.||7.00||
+8|Were accepted and/or enrolled into postsecondary education|POSTSEC|The student was accepted and/or enrolled into postsecondary education after exiting the facility or program.||8.00||

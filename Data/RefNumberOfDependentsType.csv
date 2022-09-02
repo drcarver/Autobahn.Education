@@ -1,0 +1,4 @@
+1|All|All|The dependents are the person's children, spouse, and person other than the children or spouse||1.00||
+2|Children|Children|The dependents are the person's children.||2.00||
+3|Person other than children or spouse|PersonOtherThanChildrenOrSpouse|The dependent is a person other than the person's children or spouse||3.00||
+4|Spouse|Spouse|The dependent is the person's spouse.||4.00||

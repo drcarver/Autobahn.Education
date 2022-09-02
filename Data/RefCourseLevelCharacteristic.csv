@@ -1,0 +1,19 @@
+1|Remedial course|00568|Remedial course is specified as the general nature and difficulty of instruction provided throughout a course.||1.00||
+2|Students with disabilities course|00569|Students with disabilities course is specified as the general nature and difficulty of instruction provided throughout a course.||2.00||
+3|Basic course|00570|Basic course is specified as the general nature and difficulty of instruction provided throughout a course.||3.00||
+4|General course|00571|General course is specified as the general nature and difficulty of instruction provided throughout a course.||4.00||
+5|Honors level course|00572|Honors level course is specified as the general nature and difficulty of instruction provided throughout a course.||5.00||
+6|Gifted and talented course|00573|Gifted and talented course is specified as the general nature and difficulty of instruction provided throughout a course.||6.00||
+7|International Baccalaureate course|00574|International Baccalaureate course is specified as the general nature and difficulty of instruction provided throughout a course.||7.00||
+8|Advanced placement course|00575|Advanced placement course is specified as the general nature and difficulty of instruction provided throughout a course.||8.00||
+9|College-level course|00576|College-level course is specified as the general nature and difficulty of instruction provided throughout a course.||9.00||
+10|Untracked course|00577|Untracked course is specified as the general nature and difficulty of instruction provided throughout a course.||10.00||
+11|English Learner course|00578|English Learner course is specified as the general nature and difficulty of instruction provided throughout a course.||11.00||
+12|Accepted as a high school equivalent|00579|Accepted as a high school equivalent is specified as the general nature and difficulty of instruction provided throughout a course.||12.00||
+13|Completion of requirement, but no units of value awarded|00741|Completion of requirement, but no units of value awarded is specified as the general nature and difficulty of instruction provided throughout a course.||13.00||
+14|Career and technical education general course|73044|Career and technical education general course is specified as the general nature and difficulty of instruction provided throughout a course.||13.00||
+15|Career and technical education dual-credit course|73045|Career and technical education dual-credit course (course qualifies for high school and postsecondary credit) is specified as the general nature and difficulty of instruction provided throughout a course.||14.00||
+16|Dual enrollment|73048|Dual enrollment is specified as the general nature and difficulty of instruction provided throughout a course.||15.00||
+17|Not applicable|73047|The general nature and difficulty of instruction provided throughout a course is not defined.||16.00||
+18|Pre-advanced placement|73046|Pre-advanced placement is specified as the general nature and difficulty of instruction provided throughout a course.||17.00||
+19|Other|73049|The general nature and difficulty of instruction provided throughout a course is known but not represented by any available code.||99.00||

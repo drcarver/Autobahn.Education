@@ -1,0 +1,10 @@
+1|Appeal|Appeal|Appeal is specified as the completion and scoring status for an instance of a person taking an assessment.||1.00||
+2|Completed|Completed|Completed is specified as the completion and scoring status for an instance of a person taking an assessment.||3.00||
+3|Expired|Expired|Expired is specified as the completion and scoring status for an instance of a person taking an assessment.||5.00||
+4|Handscoring|Handscoring|Hand scoring is specified as the completion and scoring status for an instance of a person taking an assessment.||7.00||
+5|Invalidated|Invalidated|Invalidated is specified as the completion and scoring status for an instance of a person taking an assessment.||9.00||
+6|Paused|Paused|Paused is specified as the completion and scoring status for an instance of a person taking an assessment.||11.00||
+7|Reported|Reported|Reported is specified as the completion and scoring status for an instance of a person taking an assessment.||13.00||
+8|Reset|Reset|Reset is specified as the completion and scoring status for an instance of a person taking an assessment.||15.00||
+9|Scored|Scored|Scored is specified as the completion and scoring status for an instance of a person taking an assessment.||17.00||
+10|Submitted|Submitted|Submitted is specified as the completion and scoring status for an instance of a person taking an assessment.||19.00||

@@ -1,0 +1,15 @@
+1|Detention ponds|02470|Detention ponds is specified as the component of an on-site system for supplying, eliminating, and treating water.||1.00||
+2|Domestic water distribution|13596|Domestic water distribution is specified as the component of an on-site system for supplying, eliminating, and treating water.||2.00||
+3|Drains|02463|Drains is specified as the component of an on-site system for supplying, eliminating, and treating water.||3.00||
+4|Filtration system|02471|Filtration system is specified as the component of an on-site system for supplying, eliminating, and treating water.||4.00||
+5|Parcel drainage|02467|Parcel drainage is specified as the component of an on-site system for supplying, eliminating, and treating water.||5.00||
+6|Piping|02468|Piping is specified as the component of an on-site system for supplying, eliminating, and treating water.||6.00||
+7|Plumbing fixtures|13597|Plumbing fixtures is specified as the component of an on-site system for supplying, eliminating, and treating water.||7.00||
+8|Rain water drainage|13598|Rain water drainage is specified as the component of an on-site system for supplying, eliminating, and treating water.||8.00||
+9|Sanitary waste|13599|Sanitary waste is specified as the component of an on-site system for supplying, eliminating, and treating water.||9.00||
+10|Sewage treatment|02465|Sewage treatment is specified as the component of an on-site system for supplying, eliminating, and treating water.||10.00||
+11|Vents|02464|Vents is specified as the component of an on-site system for supplying, eliminating, and treating water.||11.00||
+12|Water softeners|02469|Water softeners is specified as the component of an on-site system for supplying, eliminating, and treating water.||12.00||
+13|Water source|02466|Water source is specified as the component of an on-site system for supplying, eliminating, and treating water.||13.00||
+14|Water supply|02462|Water supply is specified as the component of an on-site system for supplying, eliminating, and treating water.||14.00||
+15|Other|09999|Other is specified as the component of an on-site system for supplying, eliminating, and treating water.||99.00||

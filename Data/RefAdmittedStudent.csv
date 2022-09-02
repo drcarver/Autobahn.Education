@@ -1,0 +1,8 @@
+1|Conditional Admit|Conditional|Conditional Admit is specified as the category under which an applicant has been granted an official offer to enroll in a postsecondary institution.||.00||
+2|Early Action|EarlyAction|Early Action is specified as the category under which an applicant has been granted an official offer to enroll in a postsecondary institution.||2.00||
+3|Early Admit|EarlyAdmit|Early Admit is specified as the category under which an applicant has been granted an official offer to enroll in a postsecondary institution.||4.00||
+4|Early Decision|EarlyDecision|Early Decision is specified as the category under which an applicant has been granted an official offer to enroll in a postsecondary institution.||6.00||
+5|Regular Admit|Regular|Regular Admit is specified as the category under which an applicant has been granted an official offer to enroll in a postsecondary institution.||8.00||
+6|Waitlist Admit|Waitlist|Waitlist Admit is specified as the category under which an applicant has been granted an official offer to enroll in a postsecondary institution.||10.00||
+7|Other Admit|Other|Other Admit is specified as the category under which an applicant has been granted an official offer to enroll in a postsecondary institution.||12.00||
+8|No|No|Then applicant has NOT been granted an official offer to enroll in the postsecondary institution.||14.00||

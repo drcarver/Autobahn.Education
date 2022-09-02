@@ -1,0 +1,7 @@
+1|Absent|03451|Absent is the primary reason the student was not tested.||1.00||
+2|Disruptive behavior|03455|Disruptive behavior is the primary reason the student was not tested.||2.00||
+3|Medical waiver|03454|Medical waiver is the primary reason the student was not tested.||3.00||
+4|Previously passed the examination|03456|Previously passed the examination is the primary reason the student was not tested.||4.00||
+5|Refusal by parent|03452|Refusal by parent is the primary reason the student was not tested.||5.00||
+6|Refusal by student|03453|Refusal by student is the primary reason the student was not tested.||6.00||
+7|Other|09999|The primary reason the student was not tested is in a category not yet defined in CEDS.||7.00||

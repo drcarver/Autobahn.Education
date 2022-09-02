@@ -1,0 +1,9 @@
+1|Circuit breakers|02476|Circuit breakers is specified as the component and system required to distribute electricity throughout the building or site.||1.00||
+2|Communications and security|13570|Communications and security is specified as the component and system required to distribute electricity throughout the building or site.||2.00||
+3|Electrical distribution|02473|Electrical distribution is specified as the component and system required to distribute electricity throughout the building or site.||3.00||
+4|Electrical interface|02475|Electrical interface is specified as the component and system required to distribute electricity throughout the building or site.||4.00||
+5|Electrical service and distribution|13571|Electrical service and distribution is specified as the component and system required to distribute electricity throughout the building or site.||5.00||
+6|Electrical supply|02472|Electrical supply is specified as the component and system required to distribute electricity throughout the building or site.||6.00||
+7|Emergency generator|02474|Emergency generator is specified as the component and system required to distribute electricity throughout the building or site.||7.00||
+8|Lighting and branch wiring|13572|Lighting and branch wiring is specified as the component and system required to distribute electricity throughout the building or site.||8.00||
+9|Other|09999|Other is specified as the component and system required to distribute electricity throughout the building or site.||99.00||

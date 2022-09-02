@@ -1,0 +1,18 @@
+1|Open|Open|The operational condition of a local education agency (LEA) at the start of the school year is Open.||1|1.00||
+2|Closed|Closed|The operational condition of a local education agency (LEA) at the start of the school year is Closed.||1|2.00||
+3|New|New|The operational condition of a local education agency (LEA) at the start of the school year is New.||1|3.00||
+4|Added|Added|The operational condition of a local education agency (LEA) at the start of the school year is Added.||1|4.00||
+5|Changed boundary|ChangedBoundary|The operational condition of a local education agency (LEA) at the start of the school year is Changed boundary.||1|5.00||
+6|Inactive|Inactive|The operational condition of a local education agency (LEA) at the start of the school year is Inactive.||1|6.00||
+7|Future agency|FutureAgency|The operational condition of a local education agency (LEA) at the start of the school year is Future agency.||1|7.00||
+8|Reopened|Reopened|The operational condition of a local education agency (LEA) at the start of the school year is Reopened.||1|8.00||
+9|Open|Open|Open is the status of the school operations, exclusive of scheduled breaks, holidays, or other temporary interruptions.||2|1.00||
+10|Closed|Closed|Closed is the status of the school operations, exclusive of scheduled breaks, holidays, or other temporary interruptions.||2|2.00||
+11|New|New|New is the status of the school operations, exclusive of scheduled breaks, holidays, or other temporary interruptions.||2|3.00||
+12|Added|Added|Added is the status of the school operations, exclusive of scheduled breaks, holidays, or other temporary interruptions.||2|4.00||
+13|Changed Agency|ChangedAgency|Changed Agency is the status of the school operations, exclusive of scheduled breaks, holidays, or other temporary interruptions.||2|5.00||
+14|Inactive|Inactive|Inactive is the status of the school operations, exclusive of scheduled breaks, holidays, or other temporary interruptions.||2|6.00||
+15|Future school|FutureSchool|Future school is the status of the school operations, exclusive of scheduled breaks, holidays, or other temporary interruptions.||2|7.00||
+16|Reopened|Reopened|Reopened is the status of the school operations, exclusive of scheduled breaks, holidays, or other temporary interruptions.||2|8.00||
+17|Active|Active|The organization is active, except for scheduled breaks, holidays, or other temporary interruptions.||3|1.00||
+18|Inactive|Inactive|The organization is inactive.||3|2.00||

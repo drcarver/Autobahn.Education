@@ -1,0 +1,4 @@
+1|Single Indicator|SingleIndicator|Testable using a single indicator type, measuring a single competency||2.00||
+2|Multiple Indicator|MultipleIndicator|Testability requires more than one indicator type used to measure a single competency||4.00||
+3|Multiple Competency|MultipleCompetency|Testability requires a combination of indicators that assess multiple competencies or performance tasks||6.00||
+4|Cannot be assessed|CannotBeAssessed|The competency (skill, knowledge, ability, disposition) cannot be assessed.||8.00||

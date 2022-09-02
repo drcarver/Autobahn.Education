@@ -1,0 +1,7 @@
+1|Earned a GED|EARNGED|The student earned a GED while enrolled in the program.||1.00||
+2|Earned high school course credits|EARNCRE|The student earned high school course credits while enrolled in the program.||2.00||
+3|Enrolled in a GED program|ENROLLGED|The student enrolled in a GED program while enrolled in the program.||3.00||
+4|Enrolled in job training courses/programs|ENROLLTRAIN|The student enrolled in job training courses/programs while enrolled in the program.||4.00||
+5|Obtained employment|OBTAINEMP|The student obtained employment while enrolled in the program.||5.00||
+6|Obtained high school diploma|EARNDIPL|The student obtained a high school diploma while enrolled in the program.||6.00||
+7|Were accepted and/or enrolled into postsecondary education|POSTSEC|The student was accepted and/or enrolled into postsecondary education while enrolled in the program.||7.00||

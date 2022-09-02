@@ -1,0 +1,11 @@
+1|Android Accessibility|AndroidAccessibility|The learning resource is compatible with Android Accessibility.||2.00||
+2|ARIA|ARIA|The learning resource is compatible with ARIA for accessibility.||4.00||
+3|ATK|ATK|The learning resource is compatible with ATK for accessibility.||6.00||
+4|AT-SPI|AT-SPI|The learning resource is compatible with AT-SPI for accessibility.||8.00||
+5|Blackberry Accessibility|BlackberryAccessibility|The learning resource is compatible with Blackberry Accessibility.||10.00||
+6|I Accessible2|iAccessible2|The learning resource is compatible with I Accessible2.||12.00||
+7|iOS Accessibility|iOSAccessibility|The learning resource is compatible with iOS Accessibility.||14.00||
+8|Java Accessibility|JavaAccessibility|The learning resource is compatible with Java Accessibility.||16.00||
+9|Mac OSX Accessibility|MacOSXAccessibility|The learning resource is compatible with Mac OSX Accessibility.||18.00||
+10|MSAA|MSAA|The learning resource is compatible with MSAA.||20.00||
+11|UI Automation|UIAutomation|The learning resource is compatible with the UI Automation.||22.00||

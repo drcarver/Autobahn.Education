@@ -1,0 +1,74 @@
+1|Aunt|Aunt|The person is the related person's Aunt.||6.00||
+2|Brother|Brother|The person is the related person's Brother.||8.00||
+3|Brother-in-law|BrotherInLaw|The person is the related person's Brother-in-law.||10.00||
+4|Court appointed guardian|CourtAppointedGuardian|The person is the related person's court appointed guardian.||11.00||
+5|Daughter|Daughter|The person is the related person's Daughter.||13.00||
+6|Daughter-in-law|DaughterInLaw|The person is the related person's Aunt.||14.00||
+7|Employer|Employer|The person is the related person's Employer.||16.00||
+8|Father|Father|The person is the related person's Father.||17.00||
+9|Father's significant other|FathersSignificantOther|The person is the significant other of the related person's Father.||18.00||
+10|Father's civil partner|FathersCivilPartner|The person is a legal partner of the related person's father, established by a civil union other than marriage.||19.00||
+11|Father-in-law|FatherInLaw|The person is the father of the related person's spouse.||22.00||
+12|Fiance|Fiance|The person is a man who is engaged to be married to the related person.||23.00||
+13|Fiancee|Fiancee|The person is a woman who is engaged to be married to the related person.||24.00||
+14|Friend|Friend|The person is the related person's Friend.||30.00||
+15|Grandfather|Grandfather|The person is the related person's Grandfather.||32.00||
+16|Grandmother|Grandmother|The person is the related person's Grandmother.||33.00||
+17|Husband|Husband|The person is the related person's Husband.||37.00||
+18|Mother's significant other|MothersSignificantOther|The person is the significant other of the related person's Mother.||41.00||
+19|Mother|Mother|The person is the related person's Mother||43.00||
+20|Mother's civil partner|MothersCivilPartner|The person is a legal partner of the related person's mother, established by a civil union other than marriage.||44.00||
+21|Nephew|Nephew|The person is the related person's Nephew.||46.00||
+22|Niece|Niece|The person is the related person's Niece.||47.00||
+23|Other|Other|The person is related to the related person in a way not represented by other standard options.||49.00||
+24|Significant other|SignificantOther|The person is the Significant other of the related person.||53.00||
+25|Sister|Sister|The person is the related person's Sister.||55.00||
+26|Son|Son|The person is the related person's Son.||58.00||
+27|Unknown|Unknown|The person is the related person's Unknown.||61.00||
+28|Uncle|Uncle|The person is the related person's Uncle.||62.00||
+29|Ward|Ward|The person is the related person's Ward.||63.00||
+30|Wife|Wife|The person is the related person's Wife.||64.00||
+31|Adopted Daughter|AdoptedDaughter|The person is the related person's Adopted Daughter.||65.00||
+32|Adopted son|AdoptedSon|The person is the related person's Adopted son.||66.00||
+33|Adoptive parent|AdoptiveParent|The person is the related person's Adoptive parent.||67.00||
+34|Advisor|Advisor|The person is the related person's Advisor.||68.00||
+35|Agency representative|AgencyRepresentative|The person is the related person's Agency representative.||69.00||
+36|Cousin|Cousin|The person is the related person's Cousin.||70.00||
+37|Dependent|Dependent|The person is the related person's Dependent.||71.00||
+38|Family member|FamilyMember|The person is the related person's Family member.||72.00||
+39|Former husband|FormerHusband|The person is the related person's Former husband.||73.00||
+40|Former wife|FormerWife|The person is the related person's Former wife.||74.00||
+41|Foster daughter|FosterDaughter|The person is the related person's Foster daughter.||75.00||
+42|Foster father|FosterFather|The person is the related person's Foster father.||76.00||
+43|Foster mother|FosterMother|The person is the related person's Foster mother.||77.00||
+44|Foster Parent|FosterParent|The person is the related person's Foster Parent.||78.00||
+45|Foster son|FosterSon|The person is the related person's Foster son.||79.00||
+46|Godparent|Godparent|The person is the related person's Godparent.||80.00||
+47|Granddaughter|Granddaughter|The person is the related person's Granddaughter.||81.00||
+48|Grandparent|Grandparent|The person is the related person's Grandparent.||82.00||
+49|Grandson|Grandson|The person is the related person's Grandson.||83.00||
+50|Great aunt|GreatAunt|The person is the related person's Great aunt.||84.00||
+51|Great grandparent|GreatGrandparent|The person is the related person's Great grandparent.||85.00||
+52|Great uncle|GreatUncle|The person is the related person's Great uncle.||86.00||
+53|Half-brother|HalfBrother|The person is the related person's Half-brother.||87.00||
+54|Half-sister|HalfSister|The person is the related person's Half-sister.||88.00||
+55|Life partner|LifePartner|The person is the related person's Life partner.||89.00||
+56|Life partner of parent|LifePartnerOfParent|The person is the related person's Life partner of parent.||90.00||
+57|Mother-in-law|MotherInLaw|The person is the related person's Mother-in-law||91.00||
+58|Neighbor|Neighbor|The person is the related person's Neighbor.||92.00||
+59|Parent|Parent|The person is the related person's Parent.||93.00||
+60|Partner|Partner|The person is the related person's Partner.||94.00||
+61|Partner of parent|PartnerOfParent|The person is the related person's Partner of parent.||95.00||
+62|Probation officer|ProbationOfficer|The person is the related person's Probation officer.||96.00||
+63|Relative|Relative|The person is the related person's Relative.||97.00||
+64|Sibling|Sibling|The person is the related person's Sibling.||98.00||
+65|Sister-in-law|SisterInLaw|The person is the related person's Sister-in-law||99.00||
+66|Son-in-law|SonInLaw|The person is the related person's Son-in-law||100.00||
+67|Spouse|Spouse|The person is the related person's Spouse.||101.00||
+68|Stepbrother|Stepbrother|The person is the related person's Stepbrother.||102.00||
+69|Stepdaughter|Stepdaughter|The person is the related person's Stepdaughter.||103.00||
+70|Stepfather|Stepfather|The person is the related person's Stepfather.||104.00||
+71|Stepmother|Stepmother|The person is the related person's Stepmother.||105.00||
+72|Stepparent|Stepparent|The person is the related person's Stepparent.||106.00||
+73|Stepsister|Stepsister|The person is the related person's Stepsister.||107.00||
+74|Stepson|Stepson|The person is the related person's Stepson.||108.00||

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Autobahn.Core\Autobahn.Core.csproj" />
+    <ProjectReference Include="..\..\Autobahn.Education.Common\Autobahn.Education.Common\Autobahn.Education.Common.csproj" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
+    <ApplicationId>com.drcarver.autobahn.education.adulteducation</ApplicationId>
+    <ApplicationDisplayVersion>1.0.0</ApplicationDisplayVersion>
+    <ApplicationVersion>1.0</ApplicationVersion>
+    <ApplicationIdGuid>bdf0e0d6-d628-44b9-882d-ccb92de9ae46</ApplicationIdGuid>
+    <ApplicationTitle>Adult Education (AE)</ApplicationTitle>
+    <AssemblyName>Autobahn.Education.AdultEducation</AssemblyName>
+    <CompanyName>dcarver.com</CompanyName>
+    <Copyright>(c)Darrel Carver, 2021-2022</Copyright>
+    <Description>Adult Education (AE) is the CEDS domain on programs that help adults get the basic skills they need to be productive workers, family members, and citizens. It includes information about the adults served by these programs.</Description>
+    <ProductName>Autobahn</ProductName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+  </ItemGroup>
+</Project>

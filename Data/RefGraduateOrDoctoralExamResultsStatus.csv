@@ -1,0 +1,5 @@
+1|Exam not required|NotRequired|Exam not required is the individual's status in completing exams required for graduate or doctoral degree programs.||1.00||
+2|Exam required but not taken|NotTaken|Exam required but not taken is the individual's status in completing exams required for graduate or doctoral degree programs.||2.00||
+3|Exam waived|Waived|Exam waived is the individual's status in completing exams required for graduate or doctoral degree programs.||3.00||
+4|Exam taken and passed|Passed|Exam taken and passed is the individual's status in completing exams required for graduate or doctoral degree programs.||4.00||
+5|Exam taken and failed|Failed|Exam taken and failed is the individual's status in completing exams required for graduate or doctoral degree programs.||5.00||

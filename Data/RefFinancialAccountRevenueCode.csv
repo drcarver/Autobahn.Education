@@ -1,0 +1,104 @@
+1|Revenue From Local Sources|1000|||1.00||
+2|Taxes Levied/Assessed by the School District|1100|||2.00||
+3|Ad Valorem Taxes (Levied/Assessed by School Districts)|1110|||3.00||
+4|Sales and Use Taxes (Levied/Assessed by School Districts)|1120|||4.00||
+5|Income Taxes (Levied/Assessed by School Districts)|1130|||5.00||
+6|Penalties and Interest on Taxes (Levied/Assessed by School Districts)|1140|||6.00||
+7|Other Taxes (Levied/Assessed by School Districts)|1190|||7.00||
+8|Revenue from Local Governmental Units Other Than School Districts|1200|||8.00||
+9|Ad Valorem Taxes (Received from Other Government Units)|1210|||9.00||
+10|Sales and Use Tax (Received from Other Government Units)|1220|||10.00||
+11|Income Taxes (Received from Other Government Units)|1230|||11.00||
+12|Penalties and Interest on Taxes (Received from Other Government Units)|1240|||12.00||
+13|Revenue in Lieu of Taxes (Received from Other Government Units)|1280|||13.00||
+14|Other Taxes (Received from Other Government Units)|1290|||14.00||
+15|Tuition|1300|||15.00||
+16|Tuition From Individuals|1310|||16.00||
+17|Tuition from Individuals Excluding Summer School|1311|||17.00||
+18|Tuition from Individuals for Summer School|1312|||18.00||
+19|Tuition from Other Government Sources Within the State|1320|||19.00||
+20|Tuition from Other School Districts Within the State|1321|||20.00||
+21|Tuition from Other Government Sources Excluding School Districts Within the State|1322|||21.00||
+22|Tuition from Other Government Sources Outside the State|1330|||22.00||
+23|Tuition from School Districts Outside the State|1331|||23.00||
+24|Tuition from Other Private Sources (Other Than Individuals)|1340|||24.00||
+25|Tuition from the State/Other School Districts for Voucher Program Students|1350|||25.00||
+26|Transportation Fees|1400|||26.00||
+27|Transportation Fees from Individuals|1410|||27.00||
+28|Transportation Fees from Other Government Sources Within the State|1420|||28.00||
+29|Transportation Fees from Other School Districts Within the State|1421|||29.00||
+30|Transportation Fees from Other Government Sources Excluding School Districts Within the State|1422|||30.00||
+31|Transportation Fees from Other Government Sources Outside the State|1430|||31.00||
+32|Transportation Fees from Other School Districts Outside the State|1431|||32.00||
+33|Transportation Fees from Other Private Sources (other than individuals)|1440|||33.00||
+34|Investment Income|1500|||34.00||
+35|Interest on Investments|1510|||35.00||
+36|Dividends on Investments|1520|||36.00||
+37|Net Increase in the Fair Value of Investments|1530|||37.00||
+38|Realized Gains (Losses) on Investments|1531|||38.00||
+39|Unrealized Gains (Losses) on Investments|1532|||39.00||
+40|Investment Income from Real Property|1540|||40.00||
+41|Food Services|1600|||41.00||
+42|Daily Sales-Reimbursable Programs|1610|||42.00||
+43|Daily Sales-School Lunch Program|1611|||43.00||
+44|Daily Sales-School Breakfast Program|1612|||44.00||
+45|Daily Sales-Special Milk Program|1613|||45.00||
+46|Daily Sales-After-School Programs|1614|||46.00||
+47|Daily Sales-Nonreimbursable Programs|1620|||47.00||
+48|Special Functions|1630|||48.00||
+49|Daily Sales-Summer Food Programs|1650|||49.00||
+50|District Activities|1700|||50.00||
+51|Admissions|1710|||51.00||
+52|Bookstore Sales|1720|||52.00||
+53|Student Organization Membership Dues and Fees|1730|||53.00||
+54|Fees|1740|||54.00||
+55|Revenue From Enterprise Activities|1750|||55.00||
+56|Other Activity Income|1790|||56.00||
+57|Revenue From Community Services Activities|1800|||57.00||
+58|Other Revenue From Local Sources|1900|||58.00||
+59|Rentals|1910|||59.00||
+60|Contributions and Donations From Private Sources|1920|||60.00||
+61|Gains or Losses on the Sale of Capital Assets|1930|||61.00||
+62|Textbook Sales and Rentals|1940|||62.00||
+63|Textbook Sales|1941|||63.00||
+64|Textbook Rentals|1942|||64.00||
+65|Miscellaneous Revenues From Other School Districts|1950|||65.00||
+66|Miscellaneous Revenue from Other School Districts Within the State|1951|||66.00||
+67|Miscellaneous Revenue from Other School Districts Outside the State|1952|||67.00||
+68|Miscellaneous Revenues from Other Local Governmental Units|1960|||68.00||
+69|Revenues From Other Departments in the Agency|1970|||69.00||
+70|Refund of Prior Year's Expenditures|1980|||70.00||
+71|Miscellaneous Local Revenue|1990|||71.00||
+72|Revenue From Intermediate Sources|2000|||72.00||
+73|Unrestricted Grants-in-Aid|2100|||73.00||
+74|Restricted Grants-in-Aid|2200|||74.00||
+75|Revenue in Lieu of Taxes|2800|||75.00||
+76|Revenue for/on Behalf of the School District|2900|||76.00||
+77|Revenue From State Sources|3000|||77.00||
+78|Unrestricted Grants-in-Aid|3100|||78.00||
+79|Restricted Grants-in-Aid|3200|||79.00||
+80|State Grants Through Intermediate Sources|3700|||80.00||
+81|Revenue in Lieu of Taxes|3800|||81.00||
+82|Revenue for/on Behalf of the School District|3900|||82.00||
+83|Revenue From Federal Sources|4000|||83.00||
+84|Unrestricted Grants-in-Aid Direct from the Federal Government|4100|||84.00||
+85|Unrestricted Grants-in-Aid from the Federal Government Through the State|4200|||85.00||
+86|Restricted Grants-in-Aid Direct From the Federal Government|4300|||86.00||
+87|Restricted Grants-in-Aid From the Federal Government Through the State|4500|||87.00||
+88|Grants-in-Aid From the Federal Government Through Other Intermediate Agencies|4700|||88.00||
+89|Revenue in Lieu of Taxes|4800|||89.00||
+90|Revenue for/on Behalf of the School District|4900|||90.00||
+91|Other Financing Sources|5000|||91.00||
+92|Issuance of Bonds|5100|||92.00||
+93|Bond Principal|5110|||93.00||
+94|Premium on the Issuance of Bonds|5120|||94.00||
+95|Fund Transfers In|5200|||95.00||
+96|Proceeds From the Disposal of Real or Personal Property|5300|||96.00||
+97|Loan Proceeds|5400|||97.00||
+98|Capital Lease Proceeds|5500|||98.00||
+99|Other Long-Term Debt Proceeds|5600|||99.00||
+100|Other Revenue Items|6000|||100.00||
+101|Capital Contributions|6100|||101.00||
+102|Amortization of Premium on Issuance of Bonds|6200|||102.00||
+103|Special Items|6300|||103.00||
+104|Extraordinary Items|6400|||104.00||

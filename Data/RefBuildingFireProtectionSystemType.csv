@@ -1,0 +1,8 @@
+1|Alarms|02513|Alarms is specified as the type of system that protects the facility against fire.||1.00||
+2|Automatic sprinkler|02511|Automatic sprinkler is specified as the type of system that protects the facility against fire.||2.00||
+3|Fire protection specialists|13579|Fire protection specialists is specified as the type of system that protects the facility against fire.||3.00||
+4|Fire pump/extinguishers|02512|Fire pump/extinguishers is specified as the type of system that protects the facility against fire.||4.00||
+5|Kitchen fire suppressor system|02514|Kitchen fire suppressor system is specified as the type of system that protects the facility against fire.||5.00||
+6|Other fire protection systems|13580|Other fire protection systems is specified as the type of system that protects the facility against fire.||6.00||
+7|Standpipes|13581|Standpipes is specified as the type of system that protects the facility against fire.||7.00||
+8|Other|09999|Other is specified as the type of system that protects the facility against fire.||99.00||

@@ -1,0 +1,15 @@
+1|Free breakfast|FreeBreakfast|The student participates in the free breakfast food service program.||1.00||
+2|Free lunch|FreeLunch|The student participates in the free lunch  food service program.||2.00||
+3|Free milk|FreeMilk|The student participates in the Free milk food service program.||3.00||
+4|Free snack|FreeSnack|The student participates in the Free snack food service program.||4.00||
+5|Free supper|FreeSupper|The student participates in the Free supper food service program.||5.00||
+6|Full price breakfast|FullPriceBreakfast|The student participates in the Full price breakfast food service program.||6.00||
+7|Full price lunch|FullPriceLunch|The student participates in the Full price lunch food service program.||7.00||
+8|Full price milk|FullPriceMilk|The student participates in the Full price milk food service program.||8.00||
+9|Full price snack|FullPriceSnack|The student participates in the Full price snack food service program.||9.00||
+10|Full price supper|FullPriceSupper|The student participates in the Full price supper food service program.||10.00||
+11|Reduced price breakfast|ReducedPriceBreakfast|The student participates in the Reduced price breakfast food service program.||11.00||
+12|Reduced price lunch|ReducedPriceLunch|The student participates in the Reduced price lunch food service program.||12.00||
+13|Reduced price snack|ReducedPriceSnack|The student participates in the Reduced price snac food service program.||13.00||
+14|Reduced price supper|ReducedPriceSupper|The student participates in the Reduced price supper food service program.||14.00||
+15|Other|Other|The student participates in a category of the food service program not yet defined in CEDS.||15.00||

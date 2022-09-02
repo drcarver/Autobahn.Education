@@ -1,0 +1,14 @@
+1|Age|Age|Age is the category under which the person is eligible for an early childhood program or service.||1.00||
+2|Family income|FamilyIncome|Family income is the category under which the person is eligible for an early childhood program or service.||2.00||
+3|Disability Status|DisabilityStatus|Disability Status is the category under which the person is eligible for an early childhood program or service.||3.00||
+4|Supplemental social security income|SSSI|Supplemental social security income is the category under which the person is eligible for an early childhood program or service.||4.00||
+5|Women, infants, and children|WIC|Women, infants, and children is the category under which the person is eligible for an early childhood program or service.||5.00||
+6|Temporary assistance for needy families|TANF|Temporary assistance for needy families is the category under which the person is eligible for an early childhood program or service.||6.00||
+7|Other public assistance|OtherPublicAssistance|Other public assistance is the category under which the person is eligible for an early childhood program or service.||7.00||
+8|Foster|Foster|Foster is the category under which the person is eligible for an early childhood program or service.||8.00||
+9|Military family|MilitaryFamily|Military family is the category under which the person is eligible for an early childhood program or service.||9.00||
+10|Home language other than English|ELL|Home language other than English is the category under which the person is eligible for an early childhood program or service.||10.00||
+11|Other family risk factors|OtherFamilyRisk|Other family risk factors is the category under which the person is eligible for an early childhood program or service.||11.00||
+12|Other child risk factors|OtherChildRisk|Other child risk factors is the category under which the person is eligible for an early childhood program or service.||12.00||
+13|At-risk of having a substantial developmental delay|AtRisk|At-risk of having a substantial developmental delay is the category under which the person is eligible for an early childhood program or service.||20.00||
+14|Other|Other|The category under which the person is eligible for an early childhood program or service is not yet defined in CEDS.||21.00||

@@ -1,0 +1,7 @@
+1|None: 0|None|The category for the difficulty of the item based on the Item Response Theory value is None: 0||1.00||
+2|Very low: 0.01 - 0.34|VeryLow|The category for the difficulty of the item based on the Item Response Theory value is Very low: 0.01 - 0.34||2.00||
+3|Low: 0.35 - 0.64|Low|The category for the difficulty of the item based on the Item Response Theory value is Low: 0.35 - 0.64||3.00||
+4|Moderate: 0.65 - 1.34|Moderate|The category for the difficulty of the item based on the Item Response Theory value is Moderate: 0.65 - 1.34||4.00||
+5|High: 1.35 - 1.69|High|The category for the difficulty of the item based on the Item Response Theory value is High: 1.35 - 1.69||5.00||
+6|Very high: > 1.70|VeryHigh|The category for the difficulty of the item based on the Item Response Theory value is Very high: > 1.70||6.00||
+7|Perfect: + infinity|Perfect|The category for the difficulty of the item based on the Item Response Theory value is Perfect: + infinity||7.00||

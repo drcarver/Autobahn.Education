@@ -1,0 +1,7 @@
+1|Air handler units|02497|Air handler units is specified as the primary means by which air is circulated, freshened, and exhausted.||1.00||
+2|Both mechanical exhaust and supply units|02496|Both mechanical exhaust and supply units is specified as the primary means by which air is circulated, freshened, and exhausted.||2.00||
+3|Gravity ventilation units|02493|Gravity ventilation units is specified as the primary means by which air is circulated, freshened, and exhausted.||3.00||
+4|Mechanical exhaust units|02494|Mechanical exhaust units is specified as the primary means by which air is circulated, freshened, and exhausted.||4.00||
+5|Mechanical supply units|02495|Mechanical supply units is specified as the primary means by which air is circulated, freshened, and exhausted.||5.00||
+6|Other units|09999|Other units is specified as the primary means by which air is circulated, freshened, and exhausted.||6.00||
+7|Window ventilation units|02492|Window ventilation units is specified as the primary means by which air is circulated, freshened, and exhausted.||7.00||

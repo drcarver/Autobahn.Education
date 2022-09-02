@@ -1,0 +1,4 @@
+1|Integer|Integer| A positive or negative whole number or zero such as -2, 4, 4567.||1.00||
+2|Decimal|Decimal|A representation of a real number using the base ten and decimal notation, such as 201.4, -3.89, or 0.0006||3.00||
+3|Percentile|Percentile|Any of 100 equal parts into which the range of the values of a set of data can be divided in order to show the distribution of those values. The part may be represented as an integer between 0 and 100, or further broken down into tenths or hundredths.  (e.g. 87, 5.2, 45.74)||5.00||
+4|String|String|A string representative of a non-numeric or numeric range value.||7.00||

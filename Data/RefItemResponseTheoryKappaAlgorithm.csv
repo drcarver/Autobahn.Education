@@ -1,0 +1,3 @@
+1|Cohen's unweighted algorithm|CohenUnweighted|Cohen's unweighted algorithm is specified as the algorithm used to derive the Assessment Item Kappa Value.||1.00||
+2|Cohen's weighted algorithm|CohenWeighted|Cohen's weighted algorithm is specified as the algorithm used to derive the Assessment Item Kappa Value.||2.00||
+3|Fleiss algorithm|FleissAlgorithm|Fleiss algorithm is specified as the algorithm used to derive the Assessment Item Kappa Value.||3.00||

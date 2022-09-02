@@ -1,0 +1,15 @@
+1|Adult education certification, endorsement, or degree|73063|Adult education certification, endorsement, or degree is the type of degree or certificate earned by a person.||1.00||
+2|Associate's degree (two years or more)|01050|Associate's degree (two years or more) is the type of degree or certificate earned by a person.||2.00||
+3|Bachelor's (Baccalaureate) degree|01051|Bachelor's (Baccalaureate) degree is the type of degree or certificate earned by a person.||3.00||
+4|Doctoral (Doctor's) degree|01057|Doctoral (Doctor's) degree is the type of degree or certificate earned by a person.||4.00||
+5|First-professional degree|01053|First-professional degree is the type of degree or certificate earned by a person.||5.00||
+6|Formal award, certificate or diploma (less than one year)|01047|Formal award, certificate or diploma (less than one year) is the type of degree or certificate earned by a person.||6.00||
+7|Formal award, certificate or diploma (more than or equal to one year)|01048|Formal award, certificate or diploma (more than or equal to one year) is the type of degree or certificate earned by a person.||7.00||
+8|Graduate certificate|01052|Graduate certificate is the type of degree or certificate earned by a person.||8.00||
+9|High school diploma or the equivalent (e.g., GED or recognized home school)|01045|High school diploma or the equivalent (e.g., GED or recognized home school) is the type of degree or certificate earned by a person.||9.00||
+10|Master's degree (e.g., M.A., M.S., M. Eng., M.Ed., M.S.W., M.B.A., M.L.S.)|01054|Master's degree (e.g., M.A., M.S., M. Eng., M.Ed., M.S.W., M.B.A., M.L.S.) is the type of degree or certificate earned by a person.||10.00||
+11|Post-professional degree|01056|Post-professional degree is the type of degree or certificate earned by a person.||11.00||
+12|Some college but no degree|01049|Some college but no degree is the type of degree or certificate earned by a person.||12.00||
+13|Specialist's degree (e.g., Ed.S.)|01055|Specialist's degree (e.g., Ed.S.) is the type of degree or certificate earned by a person.||13.00||
+14|Career and Technical Education certificate|00819|Career and Technical Education certificate is the type of degree or certificate earned by a person.||14.00||
+15|Other|09999|Other is the type of degree or certificate earned by a person.||15.00||

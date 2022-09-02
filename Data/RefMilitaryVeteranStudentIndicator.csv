@@ -1,0 +1,3 @@
+1|Not a Veteran|NotVeteran|Student is not a veteran of the military.||1.00||
+2|Veteran|Veteran|Student is a Veteran of the Active Duty Forces, National Guard, or Reserve Forces.||3.00||
+3|Unknown|Unknown|It is unknown whether or not the Student is a veteran of the military.||5.00||

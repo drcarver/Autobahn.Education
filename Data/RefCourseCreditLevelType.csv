@@ -1,0 +1,10 @@
+1|Undergraduate|Undergraduate|Undergraduate is specified as the level of credit associated with the credit hours earned for the course.||2.00||
+2|Ungraded|Ungraded|Ungraded is specified as the level of credit associated with the credit hours earned for the course.||4.00||
+3|Lower division credit (associated with first/second year)|LowerDivision|Lower division credit (associated with first/second year) is specified as the level of credit associated with the credit hours earned for the course.||6.00||
+4|Higher or upper division credit (associated with third or fourth year)|UpperDivision|Higher or upper division credit (associated with third or fourth year) is specified as the level of credit associated with the credit hours earned for the course.||8.00||
+5|Vocational/technical credit|Vocational|Vocational/technical credit is specified as the level of credit associated with the credit hours earned for the course.||10.00||
+6|Technical preparatory credit|TechnicalPreparatory|Technical preparatory credit is specified as the level of credit associated with the credit hours earned for the course.||12.00||
+7|Graduate level credit|Graduate|Graduate level credit is specified as the level of credit associated with the credit hours earned for the course.||14.00||
+8|Professional|Professional|Professional is specified as the level of credit associated with the credit hours earned for the course.||16.00||
+9|Dual Level|Dual|Dual level (upper division and graduate- may be applicable to a bachelor's degree or graduate degree or both) is specified as the level of credit associated with the credit hours earned for the course.||18.00||
+10|Graduate Professional|GraduateProfessional|Dual level (graduate and professional- may be applicable to both) is specified as the level of credit associated with the credit hours earned for the course.||20.00||

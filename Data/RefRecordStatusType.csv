@@ -1,0 +1,7 @@
+1|Certified|Certified|A person or organization with authority over this record or this process indicated the record was complete and accurate to the best of their knowledge.||1.00||
+2|Decertified|Decertified|A person or organization with authority over this record or this process indicated they wish to reverse the decision that was previously indicated through the status of Certified.||2.00||
+3|Deleted|Deleted|This record is no longer valid.||3.00||
+4|In Process|InProcess|The data in this record are potentially transactional in nature.||4.00||
+5|Published|Published|The data in this record is in use or was used for federal, state, or local reporting or to fulfill research or data request purposes.||5.00||
+6|Retired|Retired|The data in this record was once valid for use and is no longer valid for use per the requirements defined by the organization responsible for the record.||6.00||
+7|Submitted|Submitted|The data in this record are not transactional in nature but are complete and do not require any formal certification process.||7.00||

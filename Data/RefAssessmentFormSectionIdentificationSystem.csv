@@ -1,0 +1,4 @@
+1|Client|Client|The related Assessment Form Section Identifier is based on the identification system defined by the Client.||1.00||
+2|Publisher|Publisher|The related Assessment Form Section Identifier is based on the identification system defined by the Publisher.||2.00||
+3|Internal|Internal|The related Assessment Form Section Identifier is based on the identification system defined internally.||3.00||
+4|Other|Other|The related Assessment Form Section Identifier is based on an identification system in a category not yet defined in CEDS.||4.00||

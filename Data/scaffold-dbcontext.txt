@@ -1,0 +1,3 @@
+Scaffold-DbContext 'Server=DESKTOP-6CQUBDS\SQLEXPRESS\SQLEXPRESS;Initial Catalog=Autobahn;Trusted_Connection=True;' Microsoft.EntityFrameworkCore.SqlServer -DataAnnotations -Context Autobahn -OutputDir Entities
+
+Server=myServerAddress;Database=myDataBase;Trusted_Connection=True;

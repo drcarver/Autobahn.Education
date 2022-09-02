@@ -1,0 +1,5 @@
+1|Fee for Service|FeeForService|Reimbursed via fee for service.||1.00||
+2|Capitated Rate|CapitatedRate|Reimbursed via capitated rate.||3.00||
+3|Grant/contract|GrantContract|Reimbursed via grant/contract.||5.00||
+4|Subsidy|Subsidy|Reimbursed via subsidy.||7.00||
+5|Other|Other|The reimbursement type is in a category not yet defined in CEDS.||9.00||

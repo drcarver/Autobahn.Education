@@ -1,0 +1,170 @@
+1|Infant/toddler|IT|||1|1.00||
+2|Preschool|PR|||1|2.00||
+3|Prekindergarten|PK|||1|3.00||
+4|Transitional Kindergarten|TK|||1|4.00||
+5|Kindergarten|KG|||1|5.00||
+6|First grade|01|||1|6.00||
+7|Second grade|02|||1|7.00||
+8|Third grade|03|||1|8.00||
+9|Fourth grade|04|||1|9.00||
+10|Fifth grade|05|||1|10.00||
+11|Sixth grade|06|||1|11.00||
+12|Seventh grade|07|||1|12.00||
+13|Eighth grade|08|||1|13.00||
+14|Ninth grade|09|||1|14.00||
+15|Tenth grade|10|||1|15.00||
+16|Eleventh grade|11|||1|16.00||
+17|Twelfth grade|12|||1|17.00||
+18|Grade 13|13|||1|18.00||
+19|Postsecondary|PS|||1|19.00||
+20|Ungraded|UG|||1|21.00||
+21|Adult Education|AE|||1|22.00||
+22|Other|Other|||1|22.00||
+23|Infant/toddler|IT|||2|1.00||
+24|Preschool|PR|||2|2.00||
+25|Prekindergarten|PK|||2|3.00||
+26|Transitional Kindergarten|TK|||2|4.00||
+27|Kindergarten|KG|||2|5.00||
+28|First grade|01|||2|6.00||
+29|Second grade|02|||2|7.00||
+30|Third grade|03|||2|8.00||
+31|Fourth grade|04|||2|9.00||
+32|Fifth grade|05|||2|10.00||
+33|Sixth grade|06|||2|11.00||
+34|Seventh grade|07|||2|12.00||
+35|Eighth grade|08|||2|13.00||
+36|Ninth grade|09|||2|14.00||
+37|Tenth grade|10|||2|15.00||
+38|Eleventh grade|11|||2|16.00||
+39|Twelfth grade|12|||2|17.00||
+40|Grade 13|13|||2|18.00||
+41|Postsecondary|PS|||2|19.00||
+42|Ungraded|UG|||2|21.00||
+43|Other|Other|||2|22.00||
+44|Infant/toddler|IT|Infant/toddler||3|1.00||
+45|Preschool|PR|Preschool||3|2.00||
+46|Prekindergarten|PK|Prekindergarten||3|3.00||
+47|Transitional Kindergarten|TK|Transitional Kindergarten||3|4.00||
+48|Kindergarten|KG|Kindergarten||3|5.00||
+49|First grade|01|First grade||3|6.00||
+50|Second grade|02|Second grade||3|7.00||
+51|Third grade|03|Third grade||3|8.00||
+52|Fourth grade|04|Fourth grade||3|9.00||
+53|Fifth grade|05|Fifth grade||3|10.00||
+54|Sixth grade|06|Sixth grade||3|11.00||
+55|Seventh grade|07|Seventh grade||3|12.00||
+56|Eighth grade|08|Eighth grade||3|13.00||
+57|Ninth grade|09|Ninth grade||3|14.00||
+58|Tenth grade|10|Tenth grade||3|15.00||
+59|Eleventh grade|11|Eleventh grade||3|16.00||
+60|Twelfth grade|12|Twelfth grade||3|17.00||
+61|Grade 13|13|Grade 13||3|18.00||
+62|Postsecondary|PS|Postsecondary||3|19.00||
+63|Ungraded|UG|Ungraded||3|21.00||
+64|Other|Other|Other||3|22.00||
+65|Out of school|OutOfSchool|Out of school||3|30.00||
+66|Infant/toddler|IT|Infant/toddler is a grade offered by the education institution.||4|1.00||
+67|Preschool|PR|Preschool is a grade offered by the education institution.||4|2.00||
+68|Prekindergarten|PK|Prekindergarten is a grade offered by the education institution.||4|3.00||
+69|Transitional Kindergarten|TK|Transitional Kindergarten is a grade offered by the education institution.||4|4.00||
+70|Kindergarten|KG|Kindergarten is a grade offered by the education institution.||4|5.00||
+71|First grade|01|First grade is a grade offered by the education institution.||4|6.00||
+72|Second grade|02|Second grade is a grade offered by the education institution.||4|7.00||
+73|Third grade|03|Third grade is a grade offered by the education institution.||4|8.00||
+74|Fourth grade|04|Fourth grade is a grade offered by the education institution.||4|9.00||
+75|Fifth grade|05|Fifth grade is a grade offered by the education institution.||4|10.00||
+76|Sixth grade|06|Sixth grade is a grade offered by the education institution.||4|11.00||
+77|Seventh grade|07|Seventh grade is a grade offered by the education institution.||4|12.00||
+78|Eighth grade|08|Eighth grade is a grade offered by the education institution.||4|13.00||
+79|Ninth grade|09|Ninth grade is a grade offered by the education institution.||4|14.00||
+80|Tenth grade|10|Tenth grade is a grade offered by the education institution.||4|15.00||
+81|Eleventh grade|11|Eleventh grade is a grade offered by the education institution.||4|16.00||
+82|Twelfth grade|12|Twelfth grade is a grade offered by the education institution.||4|17.00||
+83|Grade 13|13|Grade 13 is a grade offered by the education institution.||4|18.00||
+84|Postsecondary|PS|Postsecondary is a grade offered by the education institution.||4|19.00||
+85|Adult Basic Education|ABE|Adult Basic Education is a grade offered by the education institution.||4|21.00||
+86|Adult Secondary Education|ASE|Adult Secondary Education is a grade offered by the education institution.||4|22.00||
+87|Adult English as a Second Language|AdultESL|Adult English as a Second Language is a grade offered by the education institution.||4|23.00||
+88|Ungraded|UG|Ungraded is a grade offered by the education institution.||4|24.00||
+89|Other|Other|The grade offered by the education institution is not yet defined in CEDS.||4|25.00||
+90|Birth|Birth|Birth is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|-2.00||
+91|Prenatal|Prenatal|Prenatal is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|-1.00||
+92|Infant/toddler|IT|Infant/toddler is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|1.00||
+93|Preschool|PR|Preschool is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|2.00||
+94|Prekindergarten|PK|Prekindergarten is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|3.00||
+95|Transitional Kindergarten|TK|Transitional Kindergarten is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|4.00||
+96|Kindergarten|KG|Kindergarten is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|5.00||
+97|First grade|01|First grade is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|6.00||
+98|Second grade|02|Second grade is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|7.00||
+99|Third grade|03|Third grade is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|8.00||
+100|Fourth grade|04|Fourth grade is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|9.00||
+101|Fifth grade|05|Fifth grade is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|10.00||
+102|Sixth grade|06|Sixth grade is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|11.00||
+103|Seventh grade|07|Seventh grade is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|12.00||
+104|Eighth grade|08|Eighth grade is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|13.00||
+105|Ninth grade|09|Ninth grade is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|14.00||
+106|Tenth grade|10|Tenth grade is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|15.00||
+107|Eleventh grade|11|Eleventh grade is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|16.00||
+108|Twelfth grade|12|Twelfth grade is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|17.00||
+109|Grade 13|13|Grade 13 is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|18.00||
+110|Postsecondary|PS|Postsecondary is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|19.00||
+111|Ungraded|UG|Ungraded is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|21.00||
+112|Other|Other|Other is specified as the typical grade or combination of grade-levels, developmental levels, or age-levels for which an assessment is designed.||5|22.00||
+113|No school completed |01043|No school completed is the extent of formal instruction a person has received.||6|.00||
+114|Preschool |00788|Preschool is the extent of formal instruction a person has received.||6|1.00||
+115|Kindergarten |00805|Kindergarten is the extent of formal instruction a person has received.||6|2.00||
+116|First grade |00790|First grade is the extent of formal instruction a person has received.||6|3.00||
+117|Second grade |00791|Second grade is the extent of formal instruction a person has received.||6|4.00||
+118|Third grade |00792|Third grade is the extent of formal instruction a person has received.||6|5.00||
+119|Fourth grade |00793|Fourth grade is the extent of formal instruction a person has received.||6|6.00||
+120|Fifth grade |00794|Fifth grade is the extent of formal instruction a person has received.||6|7.00||
+121|Sixth grade |00795|Sixth grade is the extent of formal instruction a person has received.||6|8.00||
+122|Seventh grade |00796|Seventh grade is the extent of formal instruction a person has received.||6|9.00||
+123|Eighth grade |00798|Eighth grade is the extent of formal instruction a person has received.||6|10.00||
+124|Ninth grade |00799|Ninth grade is the extent of formal instruction a person has received.||6|11.00||
+125|Tenth grade |00800|Tenth grade is the extent of formal instruction a person has received.||6|12.00||
+126|Eleventh Grade |00801|Eleventh Grade is the extent of formal instruction a person has received.||6|13.00||
+127|12th grade, no diploma |01809|12th grade, no diploma is the extent of formal instruction a person has received.||6|14.00||
+128|High school diploma |01044|High school diploma is the extent of formal instruction a person has received.||6|15.00||
+129|High school completers (e.g., certificate of attendance) |02408|High school completers (e.g., certificate of attendance) is the extent of formal instruction a person has received.||6|16.00||
+130|High school equivalency (e.g., GED) |02409|High school equivalency (e.g., GED) is the extent of formal instruction a person has received.||6|17.00||
+131|Grade 13|00803|Grade 13 is the extent of formal instruction a person has received.||6|18.00||
+132|Career and Technical Education certificate|00819|Career and Technical Education certificate is the extent of formal instruction a person has received.||6|18.00||
+133|Some college but no degree |01049|Some college but no degree is the extent of formal instruction a person has received.||6|19.00||
+134|Formal award, certificate or diploma (less than one year) |01047|Formal award, certificate or diploma (less than one year) is the extent of formal instruction a person has received.||6|20.00||
+135|Formal award, certificate or diploma (more than or equal to one year) |01048|Formal award, certificate or diploma (more than or equal to one year) is the extent of formal instruction a person has received.||6|21.00||
+136|Associate's degree (two years or more) |01050|Associate's degree (two years or more) is the extent of formal instruction a person has received.||6|22.00||
+137|Adult education certification, endorsement, or degree|73063|Adult education certification, endorsement, or degree is the extent of formal instruction a person has received.||6|22.00||
+138|Bachelor's (Baccalaureate) degree |01051|Bachelor's (Baccalaureate) degree is the extent of formal instruction a person has received.||6|24.00||
+139|Master's degree (e.g., M.A., M.S., M. Eng., M.Ed., M.S.W., M.B.A., M.L.S.) |01054|Master's degree (e.g., M.A., M.S., M. Eng., M.Ed., M.S.W., M.B.A., M.L.S.) is the extent of formal instruction a person has received.||6|25.00||
+140|Specialist's degree (e.g., Ed.S.) |01055|Specialist's degree (e.g., Ed.S.) is the extent of formal instruction a person has received.||6|26.00||
+141|Post-master's certificate|73081|Post-master's certificate is the extent of formal instruction a person has received.||6|26.00||
+142|Graduate certificate |01052|Graduate certificate is the extent of formal instruction a person has received.||6|27.00||
+143|Doctoral (Doctor's) degree |01057|Doctoral (Doctor's) degree is the extent of formal instruction a person has received.||6|28.00||
+144|First-professional degree |01053|First-professional degree is the extent of formal instruction a person has received.||6|29.00||
+145|Post-professional degree |01056|Post-professional degree is the extent of formal instruction a person has received.||6|30.00||
+146|Doctor's degree-professional practice|73083|Doctor's degree-professional practice is the extent of formal instruction a person has received.||6|31.00||
+147|Doctor's degree-other|73084|Doctor's degree-other is the extent of formal instruction a person has received.||6|31.00||
+148|Doctor's degree-research/scholarship|73085|Doctor's degree-research/scholarship is the extent of formal instruction a person has received.||6|31.00||
+149|Other|09999|The extent of formal instruction a person has received is in a category not yet defined in CEDS.||6|32.00||
+150|Infant/toddler|IT|||7|1.00||
+151|Preschool|PR|||7|2.00||
+152|Prekindergarten|PK|||7|3.00||
+153|Transitional Kindergarten|TK|||7|4.00||
+154|Kindergarten|KG|||7|5.00||
+155|First grade|01|||7|6.00||
+156|Second grade|02|||7|7.00||
+157|Third grade|03|||7|8.00||
+158|Fourth grade|04|||7|9.00||
+159|Fifth grade|05|||7|10.00||
+160|Sixth grade|06|||7|11.00||
+161|Seventh grade|07|||7|12.00||
+162|Eighth grade|08|||7|13.00||
+163|Ninth grade|09|||7|14.00||
+164|Tenth grade|10|||7|15.00||
+165|Eleventh grade|11|||7|16.00||
+166|Twelfth grade|12|||7|17.00||
+167|Grade 13|13|||7|18.00||
+168|Postsecondary|PS|||7|19.00||
+169|Ungraded|UG|||7|21.00||
+170|Other|Other|||7|22.00||

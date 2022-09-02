@@ -1,0 +1,10 @@
+1|Central duct system|02482|Central duct system is specified as the method by which the heat is distributed and delivered throughout the room(s) or building.||1.00||
+2|Displacement ventilation|02485|Displacement ventilation is specified as the method by which the heat is distributed and delivered throughout the room(s) or building.||2.00||
+3|Forced air|02484|Forced air is specified as the method by which the heat is distributed and delivered throughout the room(s) or building.||3.00||
+4|Heat pump|02479|Heat pump is specified as the method by which the heat is distributed and delivered throughout the room(s) or building.||4.00||
+5|Hot water radiator|02478|Hot water radiator is specified as the method by which the heat is distributed and delivered throughout the room(s) or building.||5.00||
+6|Open plenum system|02483|Open plenum system is specified as the method by which the heat is distributed and delivered throughout the room(s) or building.||6.00||
+7|Steam radiator|02477|Steam radiator is specified as the method by which the heat is distributed and delivered throughout the room(s) or building.||7.00||
+8|Unit heaters/baseboard heaters|02481|Unit heaters/baseboard heaters is specified as the method by which the heat is distributed and delivered throughout the room(s) or building.||8.00||
+9|Unit ventilators|02480|Unit ventilators is specified as the method by which the heat is distributed and delivered throughout the room(s) or building.||9.00||
+10|Other|09999|Other is specified as the method by which the heat is distributed and delivered throughout the room(s) or building.||99.00||

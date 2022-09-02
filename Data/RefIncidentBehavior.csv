@@ -1,0 +1,30 @@
+1|Alcohol|04618|Alcohol related behavior associated with the incident.||1.00||
+2|Arson|04625|Arson is a behavior associated with the incident.||2.00||
+3|Attendance Policy Violation|04626|Attendance Policy Violation is a behavior associated with the incident.||3.00||
+4|Battery|04632|Battery is a behavior associated with the incident.||4.00||
+5|Burglary/Breaking and Entering|04633|Burglary/Breaking and Entering is a behavior associated with the incident.||5.00||
+6|Disorderly Conduct|04634|Disorderly Conduct is a behavior associated with the incident.||6.00||
+7|Drugs Excluding Alcohol and Tobacco|04635|Drugs Excluding Alcohol and Tobacco is a behavior associated with the incident.||7.00||
+8|Fighting|04645|Fighting is a behavior associated with the incident.||8.00||
+9|Harassment or bullying on the basis of disability|13354|Harassment or bullying on the basis of disability is a behavior associated with the incident.||9.00||
+10|Harassment or bullying on the basis of race, color, or national origin|13355|Harassment or bullying on the basis of race, color, or national origin is a behavior associated with the incident.||10.00||
+11|Harassment or bullying on the basis of sex|13356|Harassment or bullying on the basis of sex is a behavior associated with the incident.||11.00||
+12|Harassment, Nonsexual|04646|Harassment, Nonsexual is a behavior associated with the incident.||12.00||
+13|Harassment, Sexual|04650|Harassment, Sexual is a behavior associated with the incident.||13.00||
+14|Homicide|04651|Homicide is a behavior associated with the incident.||14.00||
+15|Inappropriate Use of Medication|04652|Inappropriate Use of Medication is a behavior associated with the incident.||15.00||
+16|Insubordination|04659|Insubordination is a behavior associated with the incident.||16.00||
+17|Kidnapping|04660|Kidnapping is a behavior associated with the incident.||17.00||
+18|Obscene Behavior|04661|Obscene Behavior is a behavior associated with the incident.||18.00||
+19|Physical Altercation, Minor|04669|Physical Altercation, Minor is a behavior associated with the incident.||19.00||
+20|Robbery|04670|Robbery is a behavior associated with the incident.||20.00||
+21|School Threat|04671|School Threat is a behavior associated with the incident.||21.00||
+22|Sexual Battery (sexual assault)|04677|Sexual Battery (sexual assault) is a behavior associated with the incident.||22.00||
+23|Sexual Offenses, Other (lewd behavior, indecent exposure)|04678|Sexual Offenses, Other (lewd behavior, indecent exposure) is a behavior associated with the incident.||23.00||
+24|Theft|04682|Theft is a behavior associated with the incident.||24.00||
+25|Threat/Intimidation|04686|Threat/Intimidation is a behavior associated with the incident.||25.00||
+26|Tobacco Possession or Use|04692|Tobacco Possession or Use is a behavior associated with the incident.||26.00||
+27|Trespassing|04699|Trespassing is a behavior associated with the incident.||27.00||
+28|Vandalism|04700|Vandalism is a behavior associated with the incident.||28.00||
+29|Violation of School Rules|04704|Violation of School Rules is a behavior associated with the incident.||29.00||
+30|Weapons Possession|04705|Weapons Possession is a behavior associated with the incident.||30.00||

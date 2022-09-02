@@ -1,0 +1,9 @@
+1|Elevator|02516|Elevator is specified as a space designed to enable people to move within the building.||1.00||
+2|Escalator|02517|Escalator is specified as a space designed to enable people to move within the building.||2.00||
+3|Hallway|02774|Hallway is specified as a space designed to enable people to move within the building.||3.00||
+4|Handicap Access Ramp|13619|Handicap access ramp is specified as a space designed to enable people to move within the building.||4.00||
+5|Lift|13593|Lift is specified as a space designed to enable people to move within the building.||5.00||
+6|Lobby|02776|Lobby is specified as a space designed to enable people to move within the building.||6.00||
+7|Moving Walk|13594|Moving walk is specified as a space designed to enable people to move within the building.||7.00||
+8|Stairway|02775|Stairway is specified as a space designed to enable people to move within the building.||8.00||
+9|Other|09999|Other is specified as a space designed to enable people to move within the building.||99.00||

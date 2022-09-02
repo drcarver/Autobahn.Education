@@ -1,0 +1,17 @@
+1|Administrative|Administrative|Administrative is the  type of leave event for staff.||2.00||
+2|Annual leave|AnnualLeave|Annual leave is the  type of leave event for staff.||4.00||
+3|Bereavement|Bereavement|Bereavement is the  type of leave event for staff.||6.00||
+4|Compensatory leave time|CompensatoryLeaveTime|Compensatory leave time is the  type of leave event for staff.||8.00||
+5|Family and medical leave|FamilyAndMedicalLeave|Family and medical leave is the  type of leave event for staff.||10.00||
+6|Flex time|FlexTime|Flex time is the  type of leave event for staff.||11.00||
+7|Government-requested|GovernmentRequested|Government-requested is the  type of leave event for staff.||12.00||
+8|Jury Duty|JuryDuty|Jury Duty is the  type of leave event for staff.||13.00||
+9|Military leave|MilitaryLeave|Military leave is the  type of leave event for staff.||14.00||
+10|Other|Other|Other is the  type of leave event for staff.||16.00||
+11|Personal|Personal|Personal is the  type of leave event for staff.||18.00||
+12|Professional development|ProfessionalDevelopment|Professional development is the  type of leave event for staff.||19.00||
+13|Release time|ReleaseTime|Release time is the  type of leave event for staff.||20.00||
+14|Sabbatical leave|SabbaticalLeave|Sabbatical leave is the  type of leave event for staff.||22.00||
+15|Sick leave|SickLeave|Sick leave is the  type of leave event for staff.||24.00||
+16|Suspension|Suspension|Suspension is the  type of leave event for staff.||26.00||
+17|Workers compensation|WorkersCompensation|Workers compensation is the  type of leave event for staff.||32.00||

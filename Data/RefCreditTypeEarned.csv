@@ -1,0 +1,20 @@
+1|Carnegie unit|00585|Carnegie unit is specified as the type of credits or units of value awarded for the completion of a course.||1.00||
+2|Semester hour credit|00586|Semester hour credit is specified as the type of credits or units of value awarded for the completion of a course.||2.00||
+3|Trimester hour credit|00587|Trimester hour credit is specified as the type of credits or units of value awarded for the completion of a course.||3.00||
+4|Quarter hour credit|00588|Quarter hour credit is specified as the type of credits or units of value awarded for the completion of a course.||4.00||
+5|Quinmester hour credit|00589|Quinmester hour credit is specified as the type of credits or units of value awarded for the completion of a course.||5.00||
+6|Mini-term hour credit|00590|Mini-term hour credit is specified as the type of credits or units of value awarded for the completion of a course.||6.00||
+7|Summer term hour credit|00591|Summer term hour credit is specified as the type of credits or units of value awarded for the completion of a course.||7.00||
+8|Intersession hour credit|00592|Intersession hour credit is specified as the type of credits or units of value awarded for the completion of a course.||8.00||
+9|Long session hour credit|00595|Long session hour credit is specified as the type of credits or units of value awarded for the completion of a course.||9.00||
+10|Twelve month hour credit|00596|Twelve month hour credit is specified as the type of credits or units of value awarded for the completion of a course.||10.00||
+11|Career and Technical Education credit|00597|Career and Technical Education credit is specified as the type of credits or units of value awarded for the completion of a course.||11.00||
+12|Adult high school credit|73062|Adult high school credit is specified as the type of credits or units of value awarded for the completion of a course.||12.00||
+13|Credit by examination|00599|Credit by examination is specified as the type of credits or units of value awarded for the completion of a course.||13.00||
+14|Correspondence credit|00600|Correspondence credit is specified as the type of credits or units of value awarded for the completion of a course.||14.00||
+15|Converted occupational experience credit|00601|Converted occupational experience credit is specified as the type of credits or units of value awarded for the completion of a course.||15.00||
+16|Other|09999|Other is specified as the type of credits or units of value awarded for the completion of a course.||16.00||
+17|Certificate credit|75001|Credit that is issued or accepted for certificates.  Includes credits earned while enrolled in a certificate program.||16.00||
+18|Degree credit|75002|Credit that is issued or is accepted as credit for earning a college-level degree.Includes credits earned while enrolled in a postsecondary program for a college-level degree.||16.00||
+19|Continuing education credit|75003|Credit that is issued or is accepted as education units for meeting professional requirements.||16.00||
+20|Professional development hours|75004|One contact hour of instruction, presentation or study.||16.00||

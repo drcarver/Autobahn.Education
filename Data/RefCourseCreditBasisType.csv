@@ -1,0 +1,18 @@
+1|Regular/general enrollment|Regular|Regular/general enrollment is specified as the  type of enrollment associated with the credit hours for the course.||2.00||
+2|Credit associated with the student's major|Major|Credit associated with the student's major is specified as the  type of enrollment associated with the credit hours for the course.||4.00||
+3|Academic Renewal|AcademicRenewal|Academic Renewal is specified as the  type of enrollment associated with the credit hours for the course.||6.00||
+4|Adult Basic|AdultBasic|Adult Basic is specified as the  type of enrollment associated with the credit hours for the course.||8.00||
+5|Advanced Placement|AdvancedPlacement|Advanced Placement is specified as the  type of enrollment associated with the credit hours for the course.||10.00||
+6|Advanced Standing|AdvancedStanding|Advanced Standing is specified as the  type of enrollment associated with the credit hours for the course.||12.00||
+7|Correspondence|Correspondence|Correspondence is specified as the  type of enrollment associated with the credit hours for the course.||14.00||
+8|Continuing Education|ContinuingEducation|Continuing Education is specified as the  type of enrollment associated with the credit hours for the course.||16.00||
+9|Exemption|Exemption|Exemption is specified as the  type of enrollment associated with the credit hours for the course.||18.00||
+10|Equivalence|Equivalence|Equivalence is specified as the  type of enrollment associated with the credit hours for the course.||20.00||
+11|International Baccalaureate|InternationalBaccalaureate|International Baccalaureate is specified as the  type of enrollment associated with the credit hours for the course.||22.00||
+12|Military|Military|Military is specified as the  type of enrollment associated with the credit hours for the course.||24.00||
+13|Remedial/developmental|Remedial|Remedial/developmental is specified as the  type of enrollment associated with the credit hours for the course.||26.00||
+14|Credit granted from successful score on a standardized test of comprehension or proficiency.|CreditByExam|Credit granted for the course based on successful score on a standardized test of comprehension or proficiency.||28.00||
+15|Credit from a high school course is transferred to the college.|HighSchoolTransferCredit|Credit granted for a course from a high school course is transferred to the college.||30.00||
+16|Credit from a college course is transferred back to high school and not counted by the college.|HighSchoolCreditOnly|Credit granted for a course from a college course is transferred back to high school and not counted by the college.||32.00||
+17|Credit from a college course is counted at both the college and high school.|HighSchoolDualCredit|Credit for a course from a college course is counted at both the college and high school.||34.00||
+18|Credit from a junior high school course is counted at the high school.|JuniorHighSchoolCredit|Credit for a course from a junior high school course counted at the high school.||36.00||

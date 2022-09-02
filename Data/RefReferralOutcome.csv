@@ -1,0 +1,6 @@
+1|Waiting list|WaitingList|The student is on a waiting list to receive services based on the referral.||2.00||
+2|Parent declined service|ParentDeclined|Parent declined service offered based on the referral.||4.00||
+3|Enrolled|Enrolled|The student is enrolled based on the referral.||6.00||
+4|Unable to contact parent/family/guardian|Unreachable|The service provider has been unable to contact parent/family/guardian.||8.00||
+5|Not eligible|NotEligible|The student is not eligible to receive services related to the referral.||10.00||
+6|Other|Other|The outcome of the referral is in a category not yet defined in CEDS.||99.00||

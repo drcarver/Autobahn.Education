@@ -1,0 +1,15 @@
+1|Audited or visited the course|AuditedCourse|Audited or visited the course is specified as additional information regarding the context of the given grade.||1.00||
+2|Honors grade|HonorsGrade|Honors grade is specified as additional information regarding the context of the given grade.||3.00||
+3|Incomplete|Incomplete|Incomplete is specified as additional information regarding the context of the given grade.||5.00||
+4|Incomplete Not Resolved Fail|IncompleteNotResolvedFail|Failing/no pass/unsatisfactory grade awarded because incomplete not resolved satisfactorily is specified as additional information regarding the context of the given grade.||7.00||
+5|In Progress|InProgress|Current enrollment course in progress, permanent grade not yet assigned is specified as additional information regarding the context of the given grade.||9.00||
+6|Not Yet Reported|NotYetReported|No grade reported yet by instructor (although the course has ended) is specified as additional information regarding the context of the given grade.||11.00||
+7|Other Fail|OtherFail|Other not passing/unsatisfactory grade not described by other options is specified as additional information regarding the context of the given grade.||13.00||
+8|Other Pass|OtherPass|Other passing/satisfactory grade not described by other options is specified as additional information regarding the context of the given grade.||15.00||
+9|Pass-Fail : Fail|PassFailFail|Failing grade in a course (credit or non-credit) which is normally, or based on student option, given a pass/fail or satisfactory/unsatisfactory designation is specified as additional information regarding the context of the given grade.||17.00||
+10|Pass-Fail : Pass|PassFailPass|Passing grade in a course (credit or non-credit) which is normally, or based on student option, given a pass/fail or satisfactory/unsatisfactory designation is specified as additional information regarding the context of the given grade.||19.00||
+11|Transfer No Grade|TransferNoGrade|Transfer credit; grade not carried on receiving institution's transcript is specified as additional information regarding the context of the given grade.||21.00||
+12|Withdrew|Withdrew|Withdrew is specified as additional information regarding the context of the given grade.||23.00||
+13|Withdrew failing|WithdrewFailing|Withdrew failing is specified as additional information regarding the context of the given grade.||25.00||
+14|Withdrew No Penalty|WithdrewNoPenalty|Withdrew without penalty or pass/fail designation is specified as additional information regarding the context of the given grade.||27.00||
+15|Withdrew passing|WithdrewPassing|Withdrew passing is specified as additional information regarding the context of the given grade.||29.00||

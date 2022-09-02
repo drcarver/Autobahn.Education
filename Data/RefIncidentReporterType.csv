@@ -1,0 +1,42 @@
+1|Student|00126|Student reported the incident.||1.00||
+2|Student enrolled in the school where the incident occurred|03032|Student enrolled in the school where the incident occurred reported the incident.||2.00||
+3|Student enrolled in another school|03033|Student enrolled in another school reported the incident.||3.00||
+4|Student expelled or involuntarily withdrawn|03034|Student expelled or involuntarily withdrawn reported the incident.||4.00||
+5|Staff member|03422|Staff member reported the incident.||5.00||
+6|Professional educational staff|03035|Professional educational staff reported the incident.||6.00||
+7|Teacher|04732|Teacher reported the incident.||7.00||
+8|Substitute teacher|13782|Substitute teacher reported the incident.||8.00||
+9|Librarians/Media Specialist|13335|Librarians/Media Specialist reported the incident.||9.00||
+10|Counselor|04725|Counselor reported the incident.||10.00||
+11|School Counselor|13334|School Counselor||11.00||
+12|Athletic coach|04723|Athletic coach reported the incident.||12.00||
+13|Student activity advisor/non athletic coach|04730|Student activity advisor/non athletic coach reported the incident.||13.00||
+14|Other Professional Staff|13403|Other Professional Staff reported the incident.||14.00||
+15|Registered nurse|04783|Registered nurse reported the incident.||15.00||
+16|Social worker|04788|Social worker reported the incident.||16.00||
+17|Administrator|03041|Administrator reported the incident.||17.00||
+18|Principal/headmaster/headmistress/head of school|04718|Principal/headmaster/headmistress/head of school reported the incident.||18.00||
+19|Deputy/associate/vice /assistant principal|04711|Deputy/associate/vice /assistant principal reported the incident.||19.00||
+20|Dean/dean of instructions/dean of students/dean of boys/dean of girls/dean of student activities|04710|Dean/dean of instructions/dean of students/dean of boys/dean of girls/dean of student activities reported the incident.||20.00||
+21|Superintendent/commissioner|04721|Superintendent/commissioner reported the incident.||21.00||
+22|Deputy/associate/assistant superintendent/ commissioner|04712|Deputy/associate/assistant superintendent/ commissioner reported the incident.||22.00||
+23|Board of education/school board/board of trustees member|04708|Board of education/school board/board of trustees member reported the incident.||23.00||
+24|All Other Support Staff|13342|All Other Support Staff reported the incident.||24.00||
+25|Bus driver|04864|Bus driver reported the incident.||25.00||
+26|School Administrative Support Staff|13340|School Administrative Support Staff reported the incident.||26.00||
+27|Custodian|04878|Custodian reported the incident.||27.00||
+28|Cook/food preparer (food service staff)|04877|Cook/food preparer (food service staff) reported the incident.||28.00||
+29|Paraprofessionals/Instructional Aide|13333|Paraprofessionals/Instructional Aide reported the incident.||29.00||
+30|Security guard|04885|Security guard reported the incident.||30.00||
+31|Law enforcement officer|03054|Law enforcement officer reported the incident.||31.00||
+32|Municipal law enforcement officer assigned to the school|03055|Municipal law enforcement officer assigned to the school reported the incident.||32.00||
+33|Municipal law enforcement officer not assigned to the school|03056|Municipal law enforcement officer not assigned to the school reported the incident.||33.00||
+34|School district police officer assigned to the school|03057|School district police officer assigned to the school reported the incident.||34.00||
+35|School district police officer not assigned to the school|03058|School district police officer not assigned to the school reported the incident.||35.00||
+36|Nonschool personnel|03059|Nonschool personnel reported the incident.||36.00||
+37|Parent/guardian|00850|Parent/guardian reported the incident.||37.00||
+38|Representative of visiting school|03060|Representative of visiting school reported the incident.||38.00||
+39|Other adult|03061|Other adult reported the incident.||39.00||
+40|Former student|03168|Former student reported the incident.||40.00||
+41|Other nonstudent youth|03062|Other nonstudent youth reported the incident.||41.00||
+42|Unknown|09997|An unknown category of person reported the incident.||42.00||

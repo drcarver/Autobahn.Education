@@ -1,0 +1,65 @@
+1|Instruction|1000|||1.00||
+2|Support Services|2000|||2.00||
+3|Support Services-Students|2100|||3.00||
+4|Attendance and Social Work Services|2110|||4.00||
+5|Guidance Services|2120|||5.00||
+6|Health Services|2130|||6.00||
+7|Psychological Services|2140|||7.00||
+8|Speech Pathology and Audiology Services|2150|||8.00||
+9|Occupational Therapy-Related Services|2160|||9.00||
+10|Physical Therapy-Related Services|2170|||10.00||
+11|Visually Impaired/Vision Services|2180|||11.00||
+12|Other Support Services-Student|2190|||12.00||
+13|Support Services-Instruction|2200|||13.00||
+14|Improvement of Instruction|2210|||14.00||
+15|Instruction and Curriculum Development|2212|||15.00||
+16|Instructional Staff Training|2213|||16.00||
+17|Other Improvement of Instruction Services|2219|||17.00||
+18|Library/Media Services|2220|||18.00||
+19|Instruction-Related Technology|2230|||19.00||
+20|Academic Student Assessment|2240|||20.00||
+21|Other Support Services-Instructional Staff|2290|||21.00||
+22|Support Services-General Administration|2300|||22.00||
+23|Board of Education|2310|||23.00||
+24|Executive Administration|2320|||24.00||
+25|Support Services-School Administration|2400|||25.00||
+26|Office of the Principal|2410|||26.00||
+27|Other Support Services-School Administration|2490|||27.00||
+28|Central Services|2500|||28.00||
+29|Fiscal Services|2510|||29.00||
+30|Purchasing, Warehousing, and Distributing Services|2520|||30.00||
+31|Printing, Publishing, and Duplicating Services|2530|||31.00||
+32|Planning, Research, Development, and Evaluation Services|2540|||32.00||
+33|Public Information Services|2560|||33.00||
+34|Personnel Services|2570|||34.00||
+35|Administrative Technology Services|2580|||35.00||
+36|Other Support Services-Central Services|2590|||36.00||
+37|Operation and Maintenance of Plant|2600|||37.00||
+38|Operation of Buildings|2610|||38.00||
+39|Maintenance of Buildings|2620|||39.00||
+40|Care and Upkeep of Grounds|2630|||40.00||
+41|Care and Upkeep of Equipment|2640|||41.00||
+42|Vehicle Operation and Maintenance (Other Than Student Transportation Vehicles)|2650|||42.00||
+43|Security|2660|||43.00||
+44|Safety|2670|||44.00||
+45|Other Operation and Maintenance of Plant|2680|||45.00||
+46|Student Transportation|2700|||46.00||
+47|Vehicle Operation|2710|||47.00||
+48|Monitoring Services|2720|||48.00||
+49|Vehicle Servicing and Maintenance|2730|||49.00||
+50|Other Student Transportation Services|2790|||50.00||
+51|Other Support Services|2900|||51.00||
+52|Operation of Noninstructional Services|3000|||52.00||
+53|Food Services Operations|3100|||53.00||
+54|Enterprise Operations|3200|||54.00||
+55|Community Services Operations|3300|||55.00||
+56|Facilities Acquisition and Construction|4000|||56.00||
+57|Land Acquisition|4100|||57.00||
+58|Land Improvement|4200|||58.00||
+59|Architecture and Engineering|4300|||59.00||
+60|Educational Specifications Development|4400|||60.00||
+61|Building Acquisition and Construction|4500|||61.00||
+62|Site Improvements|4600|||62.00||
+63|Building Improvements|4700|||63.00||
+64|Other Facilities Acquisition and Construction|4900|||64.00||
+65|Debt Service|5000|||65.00||

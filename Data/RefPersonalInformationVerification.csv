@@ -1,0 +1,27 @@
+1|Baptismal or church certificate|01003|Baptismal or church certificate was used as evidence to verify a person's name, address, date of birth, etc.||1.00||
+2|Birth certificate|01004|Birth certificate was used as evidence to verify a person's name, address, date of birth, etc.||2.00||
+3|Driver's license|01012|Driver's license was used as evidence to verify a person's name, address, date of birth, etc.||3.00||
+4|Entry in family Bible|01005|Entry in family Bible was used as evidence to verify a person's name, address, date of birth, etc.||4.00||
+5|Hospital certificate|01006|Hospital certificate was used as evidence to verify a person's name, address, date of birth, etc.||5.00||
+6|Immigration document/visa|01013|Immigration document/visa was used as evidence to verify a person's name, address, date of birth, etc.||6.00||
+7|Life insurance policy|02382|Life insurance policy was used as evidence to verify a person's name, address, date of birth, etc.||7.00||
+8|Other|09999|Evidence used to verify a person's name, address, date of birth, etc. is in a category not yet defined in CEDS.||8.00||
+9|Other non-official document|03424|Other non-official document  was used as evidence to verify a person's name, address, date of birth, etc.||9.00||
+10|Other official document|03423|Other official document was used as evidence to verify a person's name, address, date of birth, etc.||10.00||
+11|Parent's affidavit|01007|Parent's affidavit was used as evidence to verify a person's name, address, date of birth, etc.||11.00||
+12|Passport|01008|Passport was used as evidence to verify a person's name, address, date of birth, etc.||12.00||
+13|Physician's certificate|01009|Physician's certificate was used as evidence to verify a person's name, address, date of birth, etc.||13.00||
+14|Previously verified school records|01010|Previously verified school records was used as evidence to verify a person's name, address, date of birth, etc.||14.00||
+15|State-issued ID|01011|State-issued ID was used as evidence to verify a person's name, address, date of birth, etc.||15.00||
+16|Approved Transfer|73095|An approved student transfer in the student information system was used as evidence to verify a person's name, address, date of birth, etc.||16.00||
+17|Birth Registration Form|73102|A birth registration form was used as evidence to verify a person's name, address, date of birth, etc.||17.00||
+18|Citizenship Card|73097|A citizenship card was used as evidence to verify a person's name, address, date of birth, etc.||18.00||
+19|Lease Agreement|73100|A lease agreement was used as evidence to verify a person's name, address, date of birth, etc.||19.00||
+20|Non-Parent Affidavit of Residence|73093|A non-parent's affidavit of residency was used as evidence to verify a person's name, address, date of birth, etc.||20.00||
+21|Parent's Affidavit of Residence|73094|A parent/guardian affidavit of residency was used as evidence to verify a person's name, address, date of birth, etc.||21.00||
+22|Purchase Agreement|73101|A purchase agreement was used as evidence to verify a person's name, address, date of birth, etc.||22.00||
+23|Residence Verification Form|73092|A form verifying residency was used as evidence to verify a person's name, address, date of birth, etc.||23.00||
+24|Tax Bill|73098|A tax bill was used as evidence to verify a person's name, address, date of birth, etc.||24.00||
+25|Telephone Bill|73091|A telephone bill was used as evidence to verify a person's name, address, date of birth, etc.||25.00||
+26|Utility Bill|73099|A utility bill was used as evidence to verify a person's name, address, date of birth, etc.||26.00||
+27|Water Bill|73096|A water bill was used as evidence to verify a person's name, address, date of birth, etc.||27.00||

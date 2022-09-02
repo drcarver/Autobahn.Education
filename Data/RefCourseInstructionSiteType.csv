@@ -1,0 +1,9 @@
+1|On campus|OnCampus|On campus is specified as the type of location at which the course is taught.||2.00||
+2|Off campus (e.g., branch campus, etc.)|OffCampus|Off campus (e.g., branch campus, etc.) is specified as the type of location at which the course is taught.||4.00||
+3|Extension center or site|Extension|Extension center or site is specified as the type of location at which the course is taught.||6.00||
+4|Study abroad|StudyAbroad|Study abroad is specified as the type of location at which the course is taught.||8.00||
+5|Correctional institution|Correctional|Correctional institution is specified as the type of location at which the course is taught.||10.00||
+6|Military Base|Military|Military Base is specified as the type of location at which the course is taught.||12.00||
+7|Instructional telecommunications|Telecommunication|Instructional telecommunications is specified as the type of location at which the course is taught.||14.00||
+8|Auxiliary|Auxiliary|Auxiliary is specified as the type of location at which the course is taught.||16.00||
+9|Clinic or hospital|ClinicHospital|Clinic or hospital is specified as the type of location at which the course is taught.||18.00||

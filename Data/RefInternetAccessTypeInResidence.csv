@@ -1,0 +1,9 @@
+1|Cellular Network|CellularNetwork|The type of internet service used in the student's primary place of residence is a cellular network that creates a hot spot using a cell phone for additional device access or access to the internet is only available through a cellular device.||1.00||
+2|Community Provided Wi-Fi|CommunityProvidedWi-Fi|The type of internet service used in the student's primary place of residence is community provided Wi-Fi.||2.00||
+3|Dial-up|Dialup|The type of internet service used in the student's primary place of residence is dial-up.||3.00||
+4|Hot Spot|HotSpot|The type of internet service used in the student's primary place of residence is a standalone hot spot device that is not a cell phone that allows for additional device access.||4.00||
+5|None|None|There is no internet service in the student's primary place of residence.||5.00||
+6|Residential Broadband|ResidentialBroadband|The type of internet service used in the student's primary place of residence is residential broadband.||6.00||
+7|Satellite|Satellite|The type of internet service used in the student's primary place of residence is satellite.||7.00||
+8|Unknown|Unknown|It is not known whether there is internet service in the student's primary place of residence.||8.00||
+9|Other|Other|The type of internet service used in the student's primary place of residence is not yet defined.||99.00||

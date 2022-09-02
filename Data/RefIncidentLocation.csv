@@ -1,0 +1,25 @@
+1|On campus|03011|The incident occurred on campus.||1.00||
+2|Administrative offices area|03012|The incident occurred in an Administrative offices area.||2.00||
+3|Cafeteria area|03013|The incident occurred in a cafeteria area.||3.00||
+4|Classroom|03014|The incident occurred in a classroom.||4.00||
+5|Hallway or stairs|03015|The incident occurred in a hallway or stairs.||5.00||
+6|Locker room or gym areas|03016|The incident occurred in locker room or gym areas.||6.00||
+7|Restroom|03017|The incident occurred in a restroom.||7.00||
+8|Library/media center|03018|The incident occurred in a library/media center.||8.00||
+9|Computer lab|03019|The incident occurred in a computer lab.||9.00||
+10|Auditorium|03020|The incident occurred in an auditorium.||10.00||
+11|On-campus other inside area|03021|The incident occurred on-campus other inside area.||11.00||
+12|Athletic field or playground|03022|The incident occurred on an athletic field or playground.||12.00||
+13|Stadium|03023|The incident occurred in a stadium.||13.00||
+14|Parking lot|03024|The incident occurred in a parking lot.||14.00||
+15|On-campus other outside area|03025|The incident occurred in on-campus other outside area.||15.00||
+16|Off campus|03026|The incident occurred in off campus.||16.00||
+17|Bus stop|03027|The incident occurred at a bus stop.||17.00||
+18|School bus|03028|The incident occurred on a school bus.||18.00||
+19|Walking to or from school|03029|The incident occurred walking to or from school.||19.00||
+20|Off-campus at other school|03030|The incident occurred off-campus at other school.||20.00||
+21|Off-campus at other school district facility|03031|The incident occurred off-campus at other school district facility.||21.00||
+22|Online|03413|The incident occurred online.||22.00||
+23|Off-campus at a school sponsored activity|13773|The incident occurred off-campus at a school sponsored activity.||23.00||
+24|Off-campus at another location unrelated to school|13774|The incident occurred off-campus at another location unrelated to school.||24.00||
+25|Unknown|09997|The location where the incident occurred is unknown.||25.00||

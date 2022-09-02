@@ -1,0 +1,28 @@
+1|Prerequisite|Prerequisite|The destination of the association is required as a prior condition for the origin of the association.||1.00||
+2|Conforms To|ConformsTo|The origin of the association conforms to an established standard that the destination defines.||3.00||
+3|Defines|Defines|The information at origin of the association provides context or meaning for understanding the destination of the association.||4.00||
+4|Has Format|HasFormat|The destination of the association is substantially the same as the resource at the origin of the association, but in another format.||5.00||
+5|Has Part|HasPart|The destination of the association is included either physically or logically in the resource at the origin of the association.||7.00||
+6|Has Version|HasVersion|The destination of the association is a version, edition, or adaptation of the resource at the origin of the association.||9.00||
+7|Is Assessed By|IsAssessedBy|The destination of the association may be used to assess the origin of the association.||10.00||
+8|Is Conformed To|IsConformedTo|The destination of the association references an established standard to which the origin of the association conforms.||11.00||
+9|Is Defined By|IsDefinedBy|Context or meaning for understanding the origin of the association is provided by the destination of the association.||12.00||
+10|Is Format of|FormatOf|The destination of the association is substantially the same as the resource at the origin of the association, but in another format.||14.00||
+11|Is Part Of|IsPartOf|The origin of the association is included either physically or logically in the resource at the destination of the association.||15.00||
+12|Is Prerequisite To|IsPrerequisiteTo|The origin of the association is required as a prior condition for the destination of the association.||16.00||
+13|Is Referenced By|ReferencedBy|The origin of the association is cited by the resource at the destination of the association.||17.00||
+14|Is Replaced By|ReplacedBy|The origin of the association has been supplanted by, displaced by, or superseded by the destination of the association.||18.00||
+15|Is Required By|RequiredBy|The origin of the association is required by the destination of the association to support its function, delivery, or coherence.||19.00||
+16|Is Taught By|IsTaughtBy|The competency at the origin of the association may be taught by the resource or method at the destination of the association.||20.00||
+17|Is Version Of|VersionOf|The origin of the association is a version, edition, or adaptation of the resource at the destination of the association.||21.00||
+18|Referenced|Referenced|The origin of the association cites the resource at the destination of the association.||22.00||
+19|Assesses|Assesses|The origin of the association may be used to assess the destination of the association.||23.00||
+20|Teaches|Teaches|The resource or method at the origin of the association may be used to teach the competency at the destination of the association.||25.00||
+21|Requires|Requires|The origin of the association requires the destination of the association to support its function, delivery, or coherence.||27.00||
+22|Complexity Level|ComplexityLevel|The point in the framework being referenced defines a level or range that measures the difficulty or challenge presented by the learning resource being described.||29.00||
+23|Reading Level|ReadingLevel|The destination of the association defines a level or range of ability expected for a person using the resource at the origin of the association.||31.00||
+24|Educational Subject|EducationalSubject|The destination of the association defines a topic or subject from a controlled vocabulary.||33.00||
+25|Education Level|EducationLevel|The destination of the association defines an education level from a controlled vocabulary.||35.00||
+26|Precedes|Precedes|The origin of the association comes before the destination of the association in time or order.||37.00||
+27|Follows|Follows|The origin of the association comes after the destination of the association in time or order.||39.00||
+28|Is Concurrent To|IsConcurrentTo|The origin of the association is achieved or delivered at the same time, or has the same ordinal position, as the destination of the association.||41.00||

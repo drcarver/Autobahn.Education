@@ -1,0 +1,4 @@
+1|Assigned by the client|Client|Assigned by the client is specified as the type of identifier that is provided for this assessment asset.||1.00||
+2|Assigned by the asset owner|Publisher|Assigned by the asset owner is specified as the type of identifier that is provided for this assessment asset.||2.00||
+3|Provided by an internal assessment service|Internal|Provided by an internal assessment serviced is specified as the type of identifier that is provided for this assessment asset.||3.00||
+4|Custom identifier|Other|Custom identifier is specified as the type of identifier that is provided for this assessment asset.||4.00||

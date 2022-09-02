@@ -1,0 +1,8 @@
+1|Adequate system or component condition|02563|Some preventive maintenance and/or corrective repair is required.||1.00||
+2|Emergency system or component condition|02567|A condition that will result in injury, loss of life, or major damage.||2.00||
+3|Excellent System or Component Condition|02561|New or easily restorable to `like new` condition; only minimal routine maintenance is required.||3.00||
+4|Fair System or Component Condition|02564|Sometimes fails to meet code or functional requirements; failure(s) are inconvenient to school operation.||4.00||
+5|Good System or Component Condition|02562|Only routine maintenance or minor repair is required.||5.00||
+6|Nonoperable system or component condition|02983|The system or component exists in a significantly substandard level and cannot be used or operated. Replacement is required.||6.00||
+7|Poor System or Component Condition|02565|Consistently substandard performance; failure(s) are disruptive and costly; fails most code and functional requirements; requires constant attention, renovation, or replacement. Major corrective repair or overhaul is required.||7.00||
+8|Urgent building system or component condition|02566|A condition that will seriously affect the safety, environment, and/or educational mission, or could result in possible damage to the facility or inhabitants.||8.00||

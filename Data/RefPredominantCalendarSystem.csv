@@ -1,0 +1,7 @@
+1|Semester |Semester|The institution structures most of its courses for the academic year by Semester.||1.00||
+2|Quarter |Quarter|The institution structures most of its courses for the academic year by Quarter.||2.00||
+3|Trimester|Trimester|The institution structures most of its courses for the academic year by Trimester.||3.00||
+4|4-1-4 or similar plan|4-1-4|The institution structures most of its courses for the academic year by 4-1-4 or similar plan.||4.00||
+5|Other academic plan|Other|The institution structures most of its courses for the academic year by an academic plan not yet defined in CEDS.||5.00||
+6|Differs by program|DiffersByProgram|The method by which an institution structures most of its courses for the academic year differs by program.||6.00||
+7|Continuous basis|ContinuousBasis|The institution structures most of its courses for the academic year on a continuous basis.||7.00||

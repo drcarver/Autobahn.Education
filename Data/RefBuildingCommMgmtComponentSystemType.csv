@@ -1,0 +1,6 @@
+1|Data|02500|Data is specified as the type of system, interface, and management components for carrying voice, video, and data throughout a building.||1.00||
+2|Integrated (voice, data, video, etc.)|14905|Integrated (voice, data, video, etc.) is specified as the type of system, interface, and management components for carrying voice, video, and data throughout a building.||2.00||
+3|Public address system|02501|Public address system is specified as the type of system, interface, and management components for carrying voice, video, and data throughout a building.||3.00||
+4|Video|02499|Video is specified as the type of system, interface, and management components for carrying voice, video, and data throughout a building.||4.00||
+5|Voice|02498|Voice is specified as the type of system, interface, and management components for carrying voice, video, and data throughout a building.||5.00||
+6|Other|09999|Other is specified as the type of system, interface, and management components for carrying voice, video, and data throughout a building.||99.00||

@@ -1,0 +1,9 @@
+1|By physician|01|The disability determination was by a physician.||2.00||
+2|By health care provider|02|The disability determination was by a health care provider.||4.00||
+3|By school psychologist or other psychologist|03|The disability determination was by a school psychologist or other psychologist.||6.00||
+4|By licensed physical therapist|04|The disability determination was by a licensed physical therapist.||8.00||
+5|Self-reported|05|The disability determination was self-reported.||10.00||
+6|By social service or other type of agency|06|The disability determination was by a social service or other type of agency.||12.00||
+7|Not applicable to the student|97|Disability determination is not applicable to the student.||14.00||
+8|Unknown or Unreported|98|The disability determination source is unknown or unreported.||16.00||
+9|Other|99|The disability determination source is in a category not yet defined by CEDS.||18.00||

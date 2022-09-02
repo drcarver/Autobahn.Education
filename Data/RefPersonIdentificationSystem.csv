@@ -1,0 +1,50 @@
+1|Canadian Social Insurance Number|CanadianSIN|The related Child Identifier uses the child's Canadian Social Insurance Number.||1|1.00||
+2|District-assigned number|District|The related Child Identifier uses the child's District-assigned number.||1|2.00||
+3|Family unit number|Family|The related Child Identifier uses the child's Family unit number.||1|3.00||
+4|Federal identification number|Federal|The related Child Identifier uses the child's Federal identification number.||1|4.00||
+5|National migrant number|NationalMigrant|The related Child Identifier uses the child's National migrant number.||1|5.00||
+6|School-assigned number|School|The related Child Identifier uses the child's School-assigned number.||1|6.00||
+7|Social Security Administration number|SSN|The related Child Identifier uses the child's Social Security Administration number.||1|7.00||
+8|State-assigned number|State|The related Child Identifier uses the child's State-assigned number.||1|8.00||
+9|State migrant number|StateMigrant|The related Child Identifier uses the child's State migrant number.||1|9.00||
+10|Program-assigned number|Program|The related Child Identifier uses the child's Program-assigned number.||1|10.00||
+11|Social Security Administration number|SSN|The related Staff Identifier uses the staff member's Social Security Administration number.||2|1.00||
+12|US government Visa number|USVisa|The related Staff Identifier uses the staff member's US government Visa number.||2|2.00||
+13|Personal identification number|PIN|The related Staff Identifier uses the staff member's Personal identification number.||2|3.00||
+14|Federal identification number|Federal|The related Staff Identifier uses the staff member's Federal identification number.||2|4.00||
+15|Driver's license number|DriversLicense|The related Staff Identifier uses the staff member's Driver's license number.||2|5.00||
+16|Medicaid number|Medicaid|The related Staff Identifier uses the staff member's Medicaid number.||2|6.00||
+17|Health record number|HealthRecord|The related Staff Identifier uses the staff member's Health record number.||2|7.00||
+18|Professional certificate or license number|ProfessionalCertificate|The related Staff Identifier uses the staff member's Professional certificate or license number.||2|8.00||
+19|School-assigned number|School|The related Staff Identifier uses the staff member's School-assigned number.||2|9.00||
+20|District-assigned number|District|The related Staff Identifier uses the staff member's District-assigned number.||2|10.00||
+21|State-assigned number|State|The related Staff Identifier uses the staff member's State-assigned number.||2|11.00||
+22|Other federally assigned number|OtherFederal|The related Staff Identifier uses the staff member's Other federally assigned number.||2|12.00||
+23|Selective Service Number|SelectiveService|The related Staff Identifier uses the staff member's Selective Service Number.||2|13.00||
+24|Canadian Social Insurance Number|CanadianSIN|The related Staff Identifier uses the staff member's Canadian Social Insurance Number.||2|14.00||
+25|Other|Other|The related Staff Identifier is from an identification system not yet defined in CEDS.||2|15.00||
+26|Canadian Social Insurance Number|CanadianSIN|The related Student Identifier uses the student's Canadian Social Insurance Number.||3|1.00||
+27|District-assigned number|District|The related Student Identifier uses the student's district-assigned number.||3|2.00||
+28|Family unit number|Family|The related Student Identifier uses the student's family unit number.||3|3.00||
+29|Federal identification number|Federal|The related Student Identifier uses the student's federal identification number.||3|4.00||
+30|National migrant number|NationalMigrant|The related Student Identifier uses the student's national migrant number.||3|5.00||
+31|School-assigned number|School|The related Student Identifier uses the student's  school-assigned number.||3|6.00||
+32|Social Security Administration number|SSN|The related Student Identifier uses the student's Social Security Administration number.||3|7.00||
+33|State-assigned number|State|The related Student Identifier uses the student's state-assigned number.||3|8.00||
+34|State migrant number|StateMigrant|The related Student Identifier uses the student's State migrant number.||3|9.00||
+35|Social Security Administration number|SSN|The related Person Identifier uses the person's Social Security Administration number.||4|1.00||
+36|US government Visa number|USVisa|The related Person Identifier uses the person's US government Visa number.||4|2.00||
+37|Personal identification number|PIN|The related Person Identifier uses the person's Personal identification number.||4|3.00||
+38|Federal identification number|Federal|The related Person Identifier uses the person's Federal identification number.||4|4.00||
+39|Driver's license number|DriversLicense|The related Person Identifier uses the person's driver's license number.||4|5.00||
+40|Medicaid number|Medicaid|The related Person Identifier uses the person's Medicaid number.||4|6.00||
+41|Health record number|HealthRecord|The related Person Identifier uses the person's health record number.||4|7.00||
+42|Professional certificate or license number|ProfessionalCertificate|The related Person Identifier uses the person's professional certificate or license number.||4|8.00||
+43|School-assigned number|School|The related Person Identifier uses the person's school-assigned number.||4|9.00||
+44|District-assigned number|District|The related Person Identifier uses the person's district-assigned number.||4|10.00||
+45|State-assigned number|State|The related Person Identifier uses the person's state-assigned number.||4|11.00||
+46|Institution-assigned number|Institution|The related Person Identifier uses the person's institution-assigned number.||4|12.00||
+47|Other federally assigned number|OtherFederal|The related Person Identifier uses the person's other federally assigned number.||4|14.00||
+48|Selective Service Number|SelectiveService|The related Person Identifier uses the person's Selective Service Number.||4|16.00||
+49|Canadian Social Insurance Number|CanadianSIN|The related Person Identifier uses the person's Canadian Social Insurance Number.||4|18.00||
+50|Other|Other|The related Person Identifier is from an identification system not yet defined in CEDS.||4|20.00||

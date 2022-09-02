@@ -1,0 +1,9 @@
+1|Ineligible|02415|Building is ineligible to be declared a landmark or historic building.||1.00||
+2|Locally designated|02417|Building has been locally designated a landmark or historic building.||2.00||
+3|Locally eligible, not yet designated|02412|Building is locally eligible to be but has not yet been designated a landmark or historic building.||3.00||
+4|Located in historic district|75020|Building is located in a historic district.||4.00||
+5|Nationally designated|02419|Building has been nationally designated a landmark or historic building.||5.00||
+6|Nationally eligible, not yet designated|02414|Building is nationally eligible to be but has not yet been designated a landmark or historic building.||6.00||
+7|Not evaluated|02416|Building is not been evaluated for eligibility to be declared a landmark or historic building.||7.00||
+8|State designated|02418|Building has been state designated a landmark or historic building.||8.00||
+9|State eligible, not yet designated|02413|Building is state eligible to be but has not yet been designated a landmark or historic building.||9.00||

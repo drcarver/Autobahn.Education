@@ -1,0 +1,16 @@
+1|Administrative staff|03187|Administrative staff is specified as the type of position the staff member holds in the specific course section.||.00||
+2|Co-teacher|73071|Co-teacher is specified as the type of position the staff member holds in the specific course section.||1.00||
+3|Counselor|04725|Counselor is specified as the type of position the staff member holds in the specific course section.||2.00||
+4|Course Proctor|73073|Course Proctor is specified as the type of position the staff member holds in the specific course section.||3.00||
+5|Instructor of record|05973|Instructor of record is specified as the type of position the staff member holds in the specific course section.||4.00||
+6|Intern|01234|Intern is specified as the type of position the staff member holds in the specific course section.||6.00||
+7|Lead Team Teacher|73072|Lead Team Teacher is specified as the type of position the staff member holds in the specific course section.||7.00||
+8|Non-instructional staff|00069|Non-instructional staff is specified as the type of position the staff member holds in the specific course section.||8.00||
+9|Other|09999|Other is specified as the type of position the staff member holds in the specific course section.||10.00||
+10|Paraprofessionals/teacher aides|00059|Paraprofessionals/teacher aides is specified as the type of position the staff member holds in the specific course section.||12.00||
+11|Primary instructor|05971|Primary instructor is specified as the type of position the staff member holds in the specific course section.||14.00||
+12|Resource teacher|04735|Resource teacher is specified as the type of position the staff member holds in the specific course section.||16.00||
+13|Secondary instructor|05972|Secondary instructor is specified as the type of position the staff member holds in the specific course section.||18.00||
+14|Special Education Consultant|73074|Special Education Consultant is specified as the type of position the staff member holds in the specific course section.||19.00||
+15|Student teachers|00080|Student teachers is specified as the type of position the staff member holds in the specific course section.||20.00||
+16|Volunteer/no contract|01382|Volunteer/no contract is specified as the type of position the staff member holds in the specific course section.||22.00||

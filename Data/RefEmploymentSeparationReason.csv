@@ -1,0 +1,31 @@
+1|Change of assignment|01391|Change of assignment is the primary reason for the termination of the employment relationship.||1.00||
+2|Compensation|89604|Compensation is the primary reason for the termination of the employment relationship.||2.00||
+3|Death|01404|Death is the primary reason for the termination of the employment relationship.||3.00||
+4|Falsified application form|01401|Falsified application form is the primary reason for the termination of the employment relationship.||5.00||
+5|Continued absence or tardiness|01400|Continued absence or tardiness is the primary reason for the termination of the employment relationship.||7.00||
+6|Credential revoked or suspended|01402|Credential revoked or suspended is the primary reason for the termination of the employment relationship.||9.00||
+7|Misconduct|01399|Misconduct is the primary reason for the termination of the employment relationship.||11.00||
+8|Unsatisfactory work performance|01403|Unsatisfactory work performance is the primary reason for the termination of the employment relationship.||13.00||
+9|Unsuitability|01398|Unsuitability is the primary reason for the termination of the employment relationship.||15.00||
+10|Family/personal relocation|01390|Family/personal relocation is the primary reason for the termination of the employment relationship.||17.00||
+11|Formal study or research|01392|Formal study or research is the primary reason for the termination of the employment relationship.||19.00||
+12|Homemaking/caring for a family member|01394|Homemaking/caring for a family member is the primary reason for the termination of the employment relationship.||21.00||
+13|Illness/disability|01393|Illness/disability is the primary reason for the termination of the employment relationship.||23.00||
+14|Budgetary reduction|01395|Budgetary reduction is the primary reason for the termination of the employment relationship.||25.00||
+15|Decreased workload|01397|Decreased workload is the primary reason for the termination of the employment relationship.||27.00||
+16|Organizational restructuring|01396|Organizational restructuring is the primary reason for the termination of the employment relationship.||29.00||
+17|Other|09999|The primary reason for the termination of the employment relationship is in a category not yet defined in CEDS.||31.00||
+18|Personal reason|01405|Personal reason is the primary reason for the termination of the employment relationship.||33.00||
+19|Retirement|01389|Retirement is the primary reason for the termination of the employment relationship.||35.00||
+20|Termination with Cause|73201|Termination with Cause is the primary reason for the termination of the employment relationship.||37.00||
+21|Leave Planning to Return|73202|Leave Planning to Return is the primary reason for the termination of the employment relationship.||39.00||
+22|Leave Not Planning to Return|73203|Leave Not Planning to Return is the primary reason for the termination of the employment relationship.||41.00||
+23|Unknown|09997|The primary reason for the termination of the employment relationship is unknown.||43.00||
+24|Dissatisfied with teaching|73204|The employee is dissatisfied with teaching.||44.00||
+25|End of Term (Participate Learning)|73206|The employee's term with Participate Learning has ended.||45.00||
+26|End of Term (Teach For America)|73205|The employee's term with Teach for America has ended.||46.00||
+27|Interim contract ended -not rehired|73207|The employee's interim contract has ended, and they are not rehired.||47.00||
+28|Non-renewal (probationary contract ended)|73208|The employee's probationary contract has ended and is not renewed.||48.00||
+29|Re-employed retired teacher resigned|73209|A retired teacher who was re-employed has resigned.||49.00||
+30|Resigned due to career change|73210|An employee is leaving the teaching profession for a different career.||50.00||
+31|Resigned due to movement required by Military Orders|73211|The separation reason is related to movement required by Military Orders.||51.00||

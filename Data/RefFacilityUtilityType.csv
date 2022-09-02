@@ -1,0 +1,10 @@
+1|Electricity|02840|Electricity is specified as the type of utility used in the operation of a facility.||1.00||
+2|Internet service|02990|Internet service is specified as the type of utility used in the operation of a facility.||2.00||
+3|Natural gas|02841|Natural gas is specified as the type of utility used in the operation of a facility.||3.00||
+4|Oil|02842|Oil is specified as the type of utility used in the operation of a facility.||4.00||
+5|Recycling|13685|Recycling is specified as the type of utility used in the operation of a facility.||5.00||
+6|Sewer|02844|Sewer is specified as the type of utility used in the operation of a facility.||6.00||
+7|Telephone|02845|Telephone is specified as the type of utility used in the operation of a facility.||7.00||
+8|Waste|13686|Waste is specified as the type of utility used in the operation of a facility.||8.00||
+9|Water|02843|Water is specified as the type of utility used in the operation of a facility.||9.00||
+10|Other|09999|Other is specified as the type of utility used in the operation of a facility.||99.00||

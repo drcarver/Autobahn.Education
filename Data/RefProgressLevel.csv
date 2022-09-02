@@ -1,0 +1,5 @@
+1|Negative grade level change|NEGGRADE|The students showed a negative grade level change from the pre- to post- test||1.00||
+2|No change|NOCHANGE|The students showed no change from the pre- to post- test||2.00||
+3|Improvement of up to one half grade level|UPHALFGRADE|The students showed improvement of up to one half grade level from the pre- to post- test||3.00||
+4|Improvement from one half grade level up to one full grade level|UPONEGRADE|The students showed improvement from one half grade level up to one full grade level from the pre- to post- test||4.00||
+5|Improvement of more than one full grade level|UPGTONE|The students showed improvement of more than one full grade level from the pre- to post- test||5.00||

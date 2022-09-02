@@ -1,0 +1,154 @@
+1|Personal Services-Salaries|100|||1.00||
+2|Salaries Paid to Teachers|101|||2.00||
+3|Salaries Paid to Instructional Aides or Assistants|102|||3.00||
+4|Salaries Paid to Substitute Teachers|103|||4.00||
+5|Salaries of Regular Employees|110|||5.00||
+6|Salaries of Regular Employees Paid to Teachers|111|||6.00||
+7|Salaries of Regular Employees Paid to Instructional Aides and Assistants|112|||7.00||
+8|Salaries of Regular Employees Paid to Substitute Teachers|113|||8.00||
+9|Salaries of Temporary Employees|120|||9.00||
+10|Salaries of Temporary Employees Paid to Teachers|121|||10.00||
+11|Salaries of Temporary Employees Paid to Instructional Aides and Assistants|122|||11.00||
+12|Salaries of Temporary Employees Paid to Substitute Teachers|123|||12.00||
+13|Salaries for Overtime|130|||13.00||
+14|Salaries for Overtime Employees Paid to Teachers|131|||14.00||
+15|Salaries for Overtime Employees Paid to Instructional Aides and Assistants|132|||15.00||
+16|Salaries for Overtime Employees Paid to Substitute Teachers|133|||16.00||
+17|Salaries for Sabbatical Leave|140|||17.00||
+18|Salaries for Sabbatical Leave Paid to Teachers|141|||18.00||
+19|Salaries for Sabbatical Leave Paid to Instructional Aides and Assistants|142|||19.00||
+20|Salaries for Sabbatical Leave Paid to Substitute Teachers|143|||20.00||
+21|Additional Compensation Such as Bonuses or Incentives|150|||21.00||
+22|Additional Compensation Paid to Teachers|151|||22.00||
+23|Additional Compensation Paid to Instructional Aides and Assistants|152|||23.00||
+24|Additional Compensation Paid to Substitute Teachers|153|||24.00||
+25|Personal Services-Employee Benefits|200|||25.00||
+26|Employee Benefits for Teachers|201|||26.00||
+27|Employee Benefits for Instructional Aides or Assistants|202|||27.00||
+28|Employee Benefits for Substitute Teachers|203|||28.00||
+29|Group Insurance|210|||29.00||
+30|Group Insurance for Teachers|211|||30.00||
+31|Group Insurance for Instructional Aides or Assistants|212|||31.00||
+32|Group Insurance for Substitute Teachers|213|||32.00||
+33|Social Security Contributions|220|||33.00||
+34|Social Security Payments for Teachers|221|||34.00||
+35|Social Security Payments for Instructional Aides or Assistants|222|||35.00||
+36|Social Security Payments for Substitute Teachers|223|||36.00||
+37|Retirement Contributions|230|||37.00||
+38|Retirement Contributions for Teachers|231|||38.00||
+39|Retirement Contributions for Instructional Aides or Assistants|232|||39.00||
+40|Retirement Contributions for Substitute Teachers|233|||40.00||
+41|On-Behalf Payments|240|||41.00||
+42|On-Behalf Payments for Teachers|241|||42.00||
+43|On-Behalf Payments for Instructional Aides or Assistants|242|||43.00||
+44|On-Behalf Payments for Substitute Teachers|243|||44.00||
+45|Tuition Reimbursement|250|||45.00||
+46|Tuition Reimbursement for Teachers|251|||46.00||
+47|Tuition Reimbursement for Instructional Aides or Assistants|252|||47.00||
+48|Tuition Reimbursement for Substitute Teachers|253|||48.00||
+49|Unemployment Compensation|260|||49.00||
+50|Unemployment Compensation Paid for Teachers|261|||50.00||
+51|Unemployment Compensation Paid for Instructional Aides or Assistants|262|||51.00||
+52|Unemployment Compensation Paid for Substitute Teachers|263|||52.00||
+53|Workers' Compensation|270|||53.00||
+54|Worker's Compensation Paid for Teachers|271|||54.00||
+55|Worker's Compensation Paid for Instructional Aides or Assistants|272|||55.00||
+56|Worker's Compensation for Substitute Teachers|273|||56.00||
+57|Health Benefits|280|||57.00||
+58|Health Benefits Paid for Teachers|281|||58.00||
+59|Health Benefits Paid for Instructional Aides or Assistants|282|||59.00||
+60|Health Benefits Paid for Substitute Teachers|283|||60.00||
+61|Other Employee Benefits|290|||61.00||
+62|Other Employee Benefits Paid for Teachers|291|||62.00||
+63|Other Employee Benefits Paid for Instructional Aides or Assistants|292|||63.00||
+64|Other Employee Benefits for Substitute Teachers|293|||64.00||
+65|Purchased Professional and Technical Services|300|||65.00||
+66|Official/Administrative Services|310|||66.00||
+67|Professional Educational Services|320|||67.00||
+68|Employee Training and Development Services|330|||68.00||
+69|Other Professional Services|340|||69.00||
+70|Technical Services|350|||70.00||
+71|Data-Processing and Coding Services|351|||71.00||
+72|Other Technical Services|352|||72.00||
+73|Purchased Property Services|400|||73.00||
+74|Utility Services|410|||74.00||
+75|Cleaning Services|420|||75.00||
+76|Repairs and Maintenance Services|430|||76.00||
+77|Non-Technology-Related Repairs and Maintenance|431|||77.00||
+78|Technology-Related Repairs and Maintenance|432|||78.00||
+79|Rentals|440|||79.00||
+80|Rentals of Land and Buildings|441|||80.00||
+81|Rentals of Equipment and Vehicles|442|||81.00||
+82|Rentals of Computers and Related Equipment|443|||82.00||
+83|Construction Services|450|||83.00||
+84|Other Purchased Property Services|490|||84.00||
+85|Other Purchased Services|500|||85.00||
+86|Student Transportation Services|510|||86.00||
+87|Student Transportation Purchased From Another School District Within the State|511|||87.00||
+88|Student Transportation Purchased From Another School District Outside the State|512|||88.00||
+89|Student Transportation Purchased From Other Sources|519|||89.00||
+90|Insurance (Other Than Employee Benefits)|520|||90.00||
+91|Communications|530|||91.00||
+92|Advertising|540|||92.00||
+93|Printing and Binding|550|||93.00||
+94|Tuition|560|||94.00||
+95|Tuition to Other School Districts (Excluding Charter Schools) Within the State|561|||95.00||
+96|Tuition to Other School Districts (Including Charter Schools) Outside the State|562|||96.00||
+97|Tuition to Private Schools|563|||97.00||
+98|Tuition to Charter Schools Within the State|564|||98.00||
+99|Tuition to Postsecondary Schools|565|||99.00||
+100|Voucher Payments to Private Schools and to Other School Districts Outside the State|566|||100.00||
+101|Voucher Payments to School Districts, including Charter Schools, Within the State|567|||101.00||
+102|Voucher Payments Directly to Individuals|568|||102.00||
+103|Tuition-Other|569|||103.00||
+104|Food Service Management|570|||104.00||
+105|Travel|580|||105.00||
+106|Interagency Purchased Services|590|||106.00||
+107|Services Purchased From Another School District or Educational Services Agency Within the State|591|||107.00||
+108|Services Purchased From Another School District or Educational Services Agency Outside the State|592|||108.00||
+109|Supplies|600|||109.00||
+110|General Supplies|610|||110.00||
+111|Energy|620|||111.00||
+112|Natural Gas|621|||112.00||
+113|Electricity|622|||113.00||
+114|Bottled Gas|623|||114.00||
+115|Oil|624|||115.00||
+116|Coal|625|||116.00||
+117|Gasoline|626|||117.00||
+118|Other|629|||118.00||
+119|Food|630|||119.00||
+120|Books and Periodicals|640|||120.00||
+121|Supplies-Technology Related|650|||121.00||
+122|Property|700|||122.00||
+123|Land and Land Improvements|710|||123.00||
+124|Buildings|720|||124.00||
+125|Equipment|730|||125.00||
+126|Machinery|731|||126.00||
+127|Vehicles|732|||127.00||
+128|Furniture and Fixtures|733|||128.00||
+129|Technology-Related Hardware|734|||129.00||
+130|Technology Software|735|||130.00||
+131|Other Equipment|739|||131.00||
+132|Infrastructure|740|||132.00||
+133|Intangible Assets|750|||133.00||
+134|Depreciation and Amortization|790|||134.00||
+135|Debt Service and Miscellaneous|800|||135.00||
+136|Dues and Fees|810|||136.00||
+137|Judgments Against the School District|820|||137.00||
+138|Debt-Related Expenditures/Expenses|830|||138.00||
+139|Redemption of Principal|831|||139.00||
+140|Interest on Long-Term Debt|832|||140.00||
+141|Bond Issuance and Other Debt-Related Costs|833|||141.00||
+142|Amortization of Premium and Discount on Issuance of Bonds|834|||142.00||
+143|Interest on Short-Term Debt|835|||143.00||
+144|Miscellaneous Expenditures|890|||144.00||
+145|Other Items|900|||145.00||
+146|Fund Transfers Out|910|||146.00||
+147|Payments to Escrow Agents for Defeasance of Debt|920|||147.00||
+148|Discount on the Issuance of Bonds|925|||148.00||
+149|Net Decreases in the Fair Value of Investments|930|||149.00||
+150|Realized Losses on Investments|931|||150.00||
+151|Unrealized Losses on Investments|932|||151.00||
+152|Losses on the Sale of Capital Assets|940|||152.00||
+153|Special Items|950|||153.00||
+154|Extraordinary Items|960|||154.00||

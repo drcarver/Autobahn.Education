@@ -1,0 +1,11 @@
+1|Biomass|13655|Biomass is specified as the source of energy that directly powers a school district facility or building system.||1.00||
+2|Coal|02858|Coal is specified as the source of energy that directly powers a school district facility or building system.||2.00||
+3|Electric|02854|Electric is specified as the source of energy that directly powers a school district facility or building system.||3.00||
+4|Gas|02853|Gas is specified as the source of energy that directly powers a school district facility or building system.||4.00||
+5|Geothermal|02857|Geothermal is specified as the source of energy that directly powers a school district facility or building system.||5.00||
+6|Nuclear|02859|Nuclear is specified as the source of energy that directly powers a school district facility or building system.||6.00||
+7|Oil|02842|Oil is specified as the source of energy that directly powers a school district facility or building system.||7.00||
+8|Solar|02855|Solar is specified as the source of energy that directly powers a school district facility or building system.||8.00||
+9|Water|02843|Water is specified as the source of energy that directly powers a school district facility or building system.||9.00||
+10|Wind|02856|Wind is specified as the source of energy that directly powers a school district facility or building system.||10.00||
+11|Other|09999|Other is specified as the source of energy that directly powers a school district facility or building system.||99.00||

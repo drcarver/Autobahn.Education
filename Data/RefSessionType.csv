@@ -1,0 +1,11 @@
+1|Full School Year|FullSchoolYear|A regular school term consisting of no major subdivision of time segments. It usually begins in the late summer or early fall and ends in late spring or early summer (e.g., elementary school).||1.00||
+2|Intersession|Intersession|A short session which occurs between longer sessions.||2.00||
+3|Long Session|LongSession|A session that is longer than a semester but shorter than a full year.||3.00||
+4|Mini Term|MiniTerm|A school term which is shorter than a regular session.||4.00||
+5|Quarter|Quarter|One of four equal segments into which a school year is divided.||5.00||
+6|Quinmester|Quinmester|One of five equal segments into which a school year is divided.||6.00||
+7|Semester|Semester|One of two equal segments into which a school year is divided.||7.00||
+8|Summer Term|SummerTerm|A school term which takes place in the summer between two regular school terms.||8.00||
+9|Trimester|Trimester|One of three equal segments into which a school year is divided.||9.00||
+10|Twelve Month|TwelveMonth|An educational program that operates on a full twelve month cycle.||10.00||
+11|Other|Other|The session type is in a category not yet defined in CEDS.||11.00||

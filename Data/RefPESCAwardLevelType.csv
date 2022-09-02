@@ -1,0 +1,52 @@
+1|Certificate of completion|1.1|Certificate of completion||||
+2|Certificate of proficiency|1.2|Certificate of proficiency||||
+3|Certificate|2.0|Certificate||||
+4|Postsecondary Certificate Or Diploma (less than one year)|2.1|Postsecondary Certificate Or Diploma (less than one year)||||
+5|Postsecondary Certificate Or Diploma (one year or more but less than four years)|2.2|Postsecondary Certificate Or Diploma (one year or more but less than four years)||||
+6|Associate Degree (e.g., Associate In Arts, Associate In Science)|2.3|Associate Degree (e.g., Associate In Arts, Associate In Science)||||
+7|Baccalaureate Degree|2.4|Baccalaureate Degree||||
+8|Baccalaureate (Honors) Degree|2.5|Baccalaureate (Honors) Degree||||
+9|Postsecondary Certificate Or Diploma (one year or more but less than two years)|2.6|Postsecondary Certificate Or Diploma (one year or more but less than two years)||||
+10|Postsecondary Certificate Or Diploma (two years or more but less than four years)|2.7|Postsecondary Certificate Or Diploma (two years or more but less than four years)||||
+11|First Professional Degree|3.1|First Professional Degree||||
+12|Post-Professional Degree|3.2|Post-Professional Degree||||
+13|Graduate Certificate|4.1|Graduate Certificate||||
+14|Master's Degree|4.2|Master's Degree||||
+15|Intermediate Graduate Degree|4.3|Intermediate Graduate Degree||||
+16|Doctoral Degree|4.4|Doctoral Degree||||
+17|Post-doctoral Award|4.5|Post-doctoral Award||||
+18|Did not complete secondary school|B17|Did not complete secondary school||||
+19|Standard High School Diploma which may or may not include an exit test|B18|Standard High School Diploma which may or may not include an exit test||||
+20|Advanced or honors diploma|B19|Advanced or honors diploma||||
+21|Vocational diploma|B20|Vocational diploma||||
+22|Special Education Diploma normally for students with a disability|B21|Special Education Diploma normally for students with a disability||||
+23|Certificate of completion or attendance|B22|Certificate of completion or attendance||||
+24|Special certificate of completion or attendance|B23|Special certificate of completion or attendance||||
+25|General Education Development Test Diploma (GED)|B24|General Education Development Test Diploma (GED)||||
+26|Other high school equivalency diploma|B25|Other high school equivalency diploma||||
+27|International diploma or certificate (such as International Baccalaureate)|B26|International diploma or certificate (such as International Baccalaureate)||||
+28|Standard High School Diploma with only 3 year curriculum|B27|Standard High School Diploma with only 3 year curriculum||||
+29|Met all graduation requirements except for required exit test|B28|Met all graduation requirements except for required exit test||||
+30|Postsecondary award, certificate, or diploma of less than one academic year (less than 900 contact or clock hours)|IPEDS1|Postsecondary award, certificate, or diploma of less than one academic year (less than 900 contact or clock hours)||||
+31|First-Professional Degree|IPEDS10|First-Professional Degree||||
+32|First-Professional Certificate (Post-Degree)|IPEDS11|First-Professional Certificate (Post-Degree)||||
+33|Doctor's degree - research/scholarship|IPEDS17|Doctor's degree - research/scholarship||||
+34|Doctor's degree - professional practice|IPEDS18|Doctor's degree - professional practice||||
+35|Doctor's degree - other Award Levels|IPEDS19|Doctor's degree - other Award Levels||||
+36|Postsecondary award, certificate, or diploma of at least one but less than two academic years (at least 900 but less than 1800 contact or clock hours)|IPEDS2|Postsecondary award, certificate, or diploma of at least one but less than two academic years (at least 900 but less than 1800 contact or clock hours)||||
+37|Associate's Degree|IPEDS3|Associate's Degree||||
+38|Postsecondary award, certificate, or diploma of at least two but less than four academic years (at least 1800 contact or clock hours)|IPEDS4|Postsecondary award, certificate, or diploma of at least two but less than four academic years (at least 1800 contact or clock hours)||||
+39|Bachelor's Degree or equivalent|IPEDS5|Bachelor's Degree or equivalent||||
+40|Postbaccalaureate Certificate|IPEDS6|Postbaccalaureate Certificate||||
+41|Master's Degree|IPEDS7|Master's Degree||||
+42|Post Masters Certificate|IPEDS8|Post Masters Certificate||||
+43|Doctor's Degree|IPEDS9|Doctor's Degree||||
+44|CEGEP (an award made by Canadian secondary schools that is typically equivalent to a high school diploma plus one year of college level courses)|CEGEP|CEGEP (an award made by Canadian secondary schools that is typically equivalent to a high school diploma plus one year of college level courses)||1.00||
+45|French Baccalaureate (award made to high school students that allows French and international students to obtain a standardized qualification)|FrenchBaccalaureate|French Baccalaureate (an award made to high school students who complete a rigorous program of study including foreign languages. It allows French and international students to obtain a standardized qualification, typically at the age of 18)||2.00||
+46|Graduate non-degree - value to represent an award from graduate coursework that is not a certificate or degree|4.0|Graduate non-degree - value to represent an award from graduate coursework that is not a certificate or degree||3.00||
+47|Graduate Professional - value to represent an award from graduate coursework in a professional program|3.3|Graduate Professional - value to represent an award from graduate coursework in a professional program||4.00||
+48|Other - value to represent an award that does not otherwise fit existing enumerations|0.0|Other - value to represent an award that does not otherwise fit existing enumerations||5.00||
+49|Statement of achievement|1.5|Statement of achievement||6.00||
+50|Statement of completion|1.4|Statement of completion||7.00||
+51|Statement of participation|1.3|Statement of participation||8.00||
+52|Undergraduate non-degree - value to represent an award from undergraduate coursework that is not a certificate or degree|2.8|Undergraduate non-degree - value to represent an award from undergraduate coursework that is not a certificate or degree||9.00||

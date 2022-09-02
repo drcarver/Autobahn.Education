@@ -1,0 +1,9 @@
+1|Daily|Daily|The service is planned to be provided Daily.||2.00||
+2|Weekly|Weekly|The service is planned to be provided Weekly.||4.00||
+3|Biweekly|Biweekly|The service is planned to be provided Biweekly.||6.00||
+4|Monthly|Monthly|The service is planned to be provided Monthly.||8.00||
+5|Bimonthly|Bimonthly|The service is planned to be provided Bimonthly.||10.00||
+6|Quarterly|Quarterly|The service is planned to be provided Quarterly.||12.00||
+7|Semiannually|Semiannually|The service is planned to be provided Semiannually.||14.00||
+8|Annually|Annually|The service is planned to be provided Annually.||16.00||
+9|Other|Other|The service is planned to be provided at a frequency not yet defined in CEDS.||99.00||

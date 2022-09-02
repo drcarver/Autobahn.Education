@@ -1,0 +1,52 @@
+1|Intermediate agency course code|Intermediate|The related Course Code is based on the intermediate agency defined course code system.||3|1.00||
+2|LEA course code|LEA|The related Course Code is based on the LEA defined course code system.||3|2.00||
+3|NCES Pilot Standard National Course Classification System for Secondary Education Codes|NCES|The related Course Code is based on the NCES Pilot Standard National Course Classification System for Secondary Education Codes.||3|3.00||
+4|Other|Other|The related Course Code is based on a course code system not yet categorized within CEDS.||3|4.00||
+5|School Codes for the Exchange of Data (SCED) course code|SCED|The related Course Code is based on the School Codes for the Exchange of Data (SCED) course code system.||3|5.00||
+6|School course code|School|The related Course Code is based on the school's course code system.||3|6.00||
+7|State course code|State|The related Course Code is based on the State course code system.||3|7.00||
+8|University course code|University|The related Course Code is based on the university course code system.||3|8.00||
+9|School-assigned number|School|The related Adult Education Service Provider Identifier uses the school-assigned number.||9|1.00||
+10|College Board/ACT program code set of PK-grade 12 institutions|ACT|The related Adult Education Service Provider Identifier uses the College Board/ACT program code set of PK-grade 12 institutions.||9|2.00||
+11|Local Education Agency assigned number|LEA|The related Adult Education Service Provider Identifier uses the Local Education Agency assigned number.||9|3.00||
+12|State Education Agency assigned number|SEA|The related Adult Education Service Provider Identifier uses the State Education Agency assigned number.||9|4.00||
+13|National Center for Education Statistics assigned number|NCES|The related Adult Education Service Provider Identifier uses the National Center for Education Statistics assigned number.||9|5.00||
+14|Federal identification number|Federal|The related Adult Education Service Provider Identifier uses the Federal identification number.||9|6.00||
+15|Dun and Bradstreet number|DUNS|The related Adult Education Service Provider Identifier uses the Dun and Bradstreet number.||9|7.00||
+16|Other federally assigned number|OtherFederal|The related Adult Education Service Provider Identifier uses an other federally assigned number.||9|8.00||
+17|Other|Other|The related Adult Education Service Provider Identifier uses another identification system not yet defined n the CEDS vocabulary.||9|9.00||
+18|System for Award Management Unique Entity Identifier|SAM|The related Adult Education Service Provider Identifier uses the System for Award Management (SAM) Unique Entity Identifier (UEI).||9|9.00||
+19|School-assigned number|School|The Organization Identifier is a School-assigned number.||10|1.00||
+20|College Board/ACT program code set of PK-grade 12 institutions|ACT|The Organization Identifier is from the College Board/ACT program code set of PK-grade 12 institutions.||10|2.00||
+21|Local Education Agency assigned number|LEA|The Organization Identifier is a Local Education Agency assigned number.||10|3.00||
+22|State Education Agency assigned number|SEA|The Organization Identifier is a State Education Agency assigned number.||10|4.00||
+23|National Center for Education Statistics assigned number|NCES|The Organization Identifier is a National Center for Education Statistics assigned number.||10|5.00||
+24|Federal employer identification number|FEIN|The Organization Identifier is the organization's Federal identification number.||10|6.00||
+25|Dun and Bradstreet number|DUNS|The Organization Identifier is the organization's Dun and Bradstreet number.||10|7.00||
+26|Other federally assigned number|OtherFederal|The Organization Identifier is an other federally assigned number.||10|8.00||
+27|License Number|LicenseNumber|The Organization Identifier is a license number. A permit from an authority to own or use something, do a particular thing, or carry on a trade.||10|9.00||
+28|Other|Other|The Organization Identifier is from an identification system not yet defined in CEDS.||10|9.00||
+29|System for Award Management Unique Entity Identifier|SAM|The Organization Identifier is the organization's System for Award Management (SAM) Unique Entity Identifier (UEI).||10|10.00||
+30|District-assigned number|District|The related Local Education Agency Identifier uses the District-assigned number.||12|1.00||
+31|College Board/ACT program code set of PK-grade 12 institutions|ACT|The related Local Education Agency Identifier uses the College Board/ACT program code set of PK-grade 12 institutions.||12|2.00||
+32|State Education Agency assigned number|SEA|The related Local Education Agency Identifier uses the State Education Agency assigned number.||12|3.00||
+33|National Center for Education Statistics assigned number|NCES|The related Local Education Agency Identifier uses the National Center for Education Statistics assigned number.||12|4.00||
+34|Federal identification number|Federal|The related Local Education Agency Identifier uses the Federal identification number.||12|5.00||
+35|Dun and Bradstreet number|DUNS|The related Local Education Agency Identifier uses the Dun and Bradstreet number.||12|6.00||
+36|Census Bureau identification code|CENSUSID|The related Local Education Agency Identifier uses the Census Bureau identification code.||12|6.10||
+37|Other federally assigned number|OtherFederal|The related Local Education Agency Identifier uses the Other federally assigned number.||12|7.00||
+38|Other|Other|The related Local Education Agency Identifier is based on an identification system not yet defined in CEDS.||12|8.00||
+39|System for Award Management Unique Entity Identifier|SAM|The related Local Education Agency Identifier uses the System for Award Management (SAM) Unique Entity Identifier (UEI).||12|8.00||
+40|School-assigned number|School|The related School Identifier uses a School-assigned number.||13|1.00||
+41|College Board/ACT program code set of PK-grade 12 institutions|ACT|The related School Identifier uses the College Board/ACT program code set of PK-grade 12 institutions.||13|2.00||
+42|Local Education Agency assigned number|LEA|The related School Identifier uses a Local Education Agency assigned number.||13|3.00||
+43|State Education Agency assigned number|SEA|The related School Identifier uses the State Education Agency assigned number.||13|4.00||
+44|National Center for Education Statistics assigned number|NCES|The related School Identifier uses the National Center for Education Statistics assigned number.||13|5.00||
+45|Federal identification number|Federal|The related School Identifier uses the federal identification number.||13|6.00||
+46|Dun and Bradstreet number|DUNS|The related School Identifier uses the Dun and Bradstreet number.||13|7.00||
+47|Other federally assigned number|OtherFederal|The related School Identifier uses another federally assigned number.||13|8.00||
+48|State University System assigned number|StateUniversitySystem|The related School Identifier uses a State University System assigned number.||13|8.00||
+49|Other|Other|The related School Identifier uses an identification system not yet categorized in CEDS.||13|9.00||
+50|System for Award Management Unique Entity Identifier|SAM|The related School Identifier uses the System for Award Management (SAM) Unique Entity Identifier (UEI).||13|9.00||
+51|State-assigned number|State|The related State Agency Identifier uses a state-assigned number.||16|1.00||
+52|Federal identification number|Federal|The related State Agency Identifier uses the federal identification number.||16|2.00||

@@ -1,0 +1,15 @@
+1|General Intellectual Aptitude only|13452|The student's eligibility for Gifted/Talented program is in the category: General Intellectual Aptitude only.||.00||
+2|Specific Academic Aptitude only|13453|The student's eligibility for Gifted/Talented program is in the category: Specific Academic Aptitude only.||2.00||
+3|Visual/Performing Arts only|13454|The student's eligibility for Gifted/Talented program is in the category: Visual/Performing Arts only.||4.00||
+4|General Intellectual Aptitude & Specific Academic Aptitude|13456|The student's eligibility for Gifted/Talented program is in the category: General Intellectual Aptitude & Specific Academic Aptitude.||6.00||
+5|General Intellectual Aptitude & Visual/Performing Arts|13457|The student's eligibility for Gifted/Talented program is in the category: General Intellectual Aptitude & Visual/Performing Arts.||8.00||
+6|General Intellectual Aptitude & Technical/Practical Arts|13458|The student's eligibility for Gifted/Talented program is in the category: General Intellectual Aptitude & Technical/Practical Arts.||10.00||
+7|Specific Academic Aptitude & Visual/Performing Arts|13459|The student's eligibility for Gifted/Talented program is in the category: Specific Academic Aptitude & Visual/Performing Arts.||12.00||
+8|Specific Academic Aptitude & Technical/Practical Arts|13460|The student's eligibility for Gifted/Talented program is in the category: Specific Academic Aptitude & Technical/Practical Arts.||14.00||
+9|Visual/Performing Arts & Technical/Practical Arts|13461|The student's eligibility for Gifted/Talented program is in the category: Visual/Performing Arts & Technical/Practical Arts.||16.00||
+10|General Intellectual Aptitude, Specific Academic Aptitude, and Visual Performing Arts|13462|The student's eligibility for Gifted/Talented program is in the category: General Intellectual Aptitude, Specific Academic Aptitude, and Visual Performing Arts.||18.00||
+11|General Intellectual Aptitude, Specific Academic Aptitude, & Technical/Practical Arts|13463|The student's eligibility for Gifted/Talented program is in the category: General Intellectual Aptitude, Specific Academic Aptitude, & Technical/Practical Arts.||20.00||
+12|Specific Academic Aptitude, Visual/Performing Arts, & Technical/Practical Arts|13464|The student's eligibility for Gifted/Talented program is in the category: Specific Academic Aptitude, Visual/Performing Arts, & Technical/Practical Arts.||22.00||
+13|General Intellectual & Specific Academic Aptitude, Visual/Performing Arts & Technical/Practical Arts|13465|The student's eligibility for Gifted/Talented program is in the category: General Intellectual & Specific Academic Aptitude, Visual/Performing Arts & Technical/Practical Arts.||24.00||
+14|Not specified|06002|The student's eligibility for Gifted/Talented program is in the category is not specified.||26.00||
+15|Other|09999|The student's eligibility for Gifted/Talented program is in a category not yet defined in CEDS.||28.00||

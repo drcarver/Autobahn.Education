@@ -1,0 +1,16 @@
+1|Administration|02633|Administration is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||2.00||
+2|Assembly|02634|Assembly is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||4.00||
+3|Athletic|02631|Athletic is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||6.00||
+4|Basic classroom|02628|Basic classroom is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||8.00||
+5|Corridors|02635|Corridors is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||10.00||
+6|Dormitory room|02639|Dormitory room is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||12.00||
+7|Food service|02638|Food service is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||14.00||
+8|Library/media|02630|Library/media is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||16.00||
+9|Multi-purpose room|02773|Multi-purpose room is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||18.00||
+10|Operational support|02636|Operational support is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||20.00||
+11|Restroom|03017|Restroom is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||22.00||
+12|Specialty classroom|02629|Specialty classroom is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||24.00||
+13|Storage|02637|Storage is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||26.00||
+14|Storage - hazardous materials|02788|Storage - hazardous materials is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||28.00||
+15|Student support|02632|Student support is the primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design.||30.00||
+16|Other|09999|The primary use of a space, as determined by its physical layout and built-in systems and equipment, regardless of its original design is in a category not yet defined in CEDS.||32.00||

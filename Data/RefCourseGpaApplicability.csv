@@ -1,0 +1,3 @@
+1|Applicable in GPA|Applicable|The course being described is included in the computation of the student's Grade Point Average (GPA).||1.00||
+2|Not Applicable in GPA|NotApplicable|The course being described is not included in the computation of the student's Grade Point Average (GPA).||2.00||
+3|Weighted in GPA|Weighted|The course being described is weighted in the computation of the student's Grade Point Average (GPA)||3.00||

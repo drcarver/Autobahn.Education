@@ -1,0 +1,29 @@
+1|Concurrently enrolled|01812|The student is concurrently enrolled.||1.00|1||
+2|Currently enrolled|01811|The student is currently enrolled.||2.00|1||
+3|Previously enrolled|01810|The student was previously enrolled.||3.00|1||
+4|Transferring (will enroll)|01813|The student is transferring (will enroll).||4.00|1||
+5|Full-time|01|The student is enrolled full-time as defined by the institution for the specified term. ||1.00|2||
+6|Less than full-time but at least half-time|02|The student is enrolled less than full-time but at least half-time as defined by the institution for the specified term. ||2.00|2||
+7|Less than half-time|03|The student is enrolled Less than half-time as defined by the institution for the specified term. ||3.00|2||
+8|Less than full-time but at least three quarter-time|04|The student is enrolled Less than full-time but at least three quarter-time as defined by the institution for the specified term. ||5.00|2||
+9|Less than three quarter-time but at least half-time|05|The student is enrolled Less than three quarter-time but at least half-time as defined by the institution for the specified term. ||7.00|2||
+10|Contingent upon funding|01384|Contingent upon funding is the condition under which a person has agreed to serve as an employee.||1.00|3||
+11|Contractual|01379|Contractual is the condition under which a person has agreed to serve as an employee.||2.00|3||
+12|Employed or affiliated with outside agency part-time|06071|Employed or affiliated with outside agency part-time is the condition under which a person has agreed to serve as an employee.||3.00|3||
+13|Employed or affiliated with outside organization|01383|Employed or affiliated with outside organization is the condition under which a person has agreed to serve as an employee.||4.00|3||
+14|Non-contractual|01385|Non-contractual is the condition under which a person has agreed to serve as an employee.||5.00|3||
+15|Other|09999|Other is the condition under which a person has agreed to serve as an employee.||6.00|3||
+16|Probationary|01378|Probationary is the condition under which a person has agreed to serve as an employee.||7.00|3||
+17|Self-employed part-time|06070|Self-employed part-time is the condition under which a person has agreed to serve as an employee.||8.00|3||
+18|Substitute/temporary|01380|Substitute/temporary is the condition under which a person has agreed to serve as an employee.||9.00|3||
+19|Tenured or permanent|01381|Tenured or permanent is the condition under which a person has agreed to serve as an employee.||10.00|3||
+20|Volunteer/no contract|01382|Volunteer/no contract is the condition under which a person has agreed to serve as an employee.||11.00|3||
+21|No|No|The person is NOT pursuing certification as a teacher.||1.00|4||
+22|Seeking Candidacy|SeekingCandidacy|The person is seeking candidacy and pursuing certification as a teacher.||2.00|4||
+23|Enrolled|Enrolled|The person is enrolled in a program and pursuing certification as a teacher.||3.00|4||
+24|Pre-registered|Pre-registered|Pre-registered is the status related to a student enrollment in an instance of a course.||1.00|5||
+25|Registered|Registered|Registered is the status related to a student enrollment in an instance of a course.||2.00|5||
+26|Enrolled|Enrolled|Enrolled is the status related to a student enrollment in an instance of a course.||3.00|5||
+27|Wait Listed|WaitListed|Wait Listed is the status related to a student enrollment in an instance of a course.||4.00|5||
+28|Dropped|Dropped|Dropped is the status related to a student enrollment in an instance of a course.||5.00|5||
+29|Completed|Completed|Completed is the status related to a student enrollment in an instance of a course.||6.00|5||

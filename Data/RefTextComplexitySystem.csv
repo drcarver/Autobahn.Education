@@ -1,0 +1,19 @@
+1|Automated Readability Index|01|Automated Readability Index is specified as the scaling system used to specify the text complexity of an assessment item.||1.00||
+2|Bormuth Index|02|Bormuth Index is specified as the scaling system used to specify the text complexity of an assessment item.||3.00||
+3|Coleman Liau Index|03|Coleman Liau Index is specified as the scaling system used to specify the text complexity of an assessment item.||5.00||
+4|Coh-Metrix Readability|04|Coh-Metrix Readability is specified as the scaling system used to specify the text complexity of an assessment item.||7.00||
+5|Dale-Chall Readability Formula|05|Dale-Chall Readability Formula is specified as the scaling system used to specify the text complexity of an assessment item.||9.00||
+6|Flesch-Kincaid Grade Level|06|Flesch-Kincaid Grade Level is specified as the scaling system used to specify the text complexity of an assessment item.||11.00||
+7|Flesch Reading Ease Formula|07|Flesch Reading Ease Formula is specified as the scaling system used to specify the text complexity of an assessment item.||12.00||
+8|FORCAST|08|FORCAST is specified as the scaling system used to specify the text complexity of an assessment item.||13.00||
+9|Fry Readability Formula|09|Fry Readability Formula is specified as the scaling system used to specify the text complexity of an assessment item.||15.00||
+10|Gunning-Fog Scale|10|Gunning-Fog Scale is specified as the scaling system used to specify the text complexity of an assessment item.||17.00||
+11|Hull Formula|11|Hull Formula is specified as the scaling system used to specify the text complexity of an assessment item.||19.00||
+12|Lexile|12|Lexile is specified as the scaling system used to specify the text complexity of an assessment item.||21.00||
+13|Linsear Write Formula|13|Linsear Write Formula is specified as the scaling system used to specify the text complexity of an assessment item.||23.00||
+14|McAlpine EFLAW|14|McAlpine EFLAW is specified as the scaling system used to specify the text complexity of an assessment item.||25.00||
+15|Powers-Sumner-Kearl|15|Powers-Sumner-Kearl is specified as the scaling system used to specify the text complexity of an assessment item.||27.00||
+16|Raygor Readability Estimate|16|Raygor Readability Estimate is specified as the scaling system used to specify the text complexity of an assessment item.||29.00||
+17|SMOG Index|17|SMOG Index is specified as the scaling system used to specify the text complexity of an assessment item.||31.00||
+18|Spache Readability Formula|18|Spache Readability Formula is specified as the scaling system used to specify the text complexity of an assessment item.||33.00||
+19|Strain Index|19|Strain Index is specified as the scaling system used to specify the text complexity of an assessment item.||35.00||

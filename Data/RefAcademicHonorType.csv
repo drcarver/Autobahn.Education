@@ -1,0 +1,19 @@
+1|Honor roll|01985|Honor roll is specified as the type of academic distinctions earned by or awarded to the student.||1.00||
+2|Honor society|01986|Honor society is specified as the type of academic distinctions earned by or awarded to the student.||2.00||
+3|Honorable mention|01987|Honorable mention is specified as the type of academic distinctions earned by or awarded to the student.||3.00||
+4|Honors program|01988|Honors program is specified as the type of academic distinctions earned by or awarded to the student.||4.00||
+5|National Technical Education Honor Society|73064|National Technical Education Honor Society is specified as the type of academic distinctions earned by or awarded to the student.||4.00||
+6|Prize awards|01989|Prize awards is specified as the type of academic distinctions earned by or awarded to the student.||5.00||
+7|Scholarships|01991|Scholarships is specified as the type of academic distinctions earned by or awarded to the student.||6.00||
+8|Awarding of units of value|00738|Awarding of units of value is specified as the type of academic distinctions earned by or awarded to the student.||7.00||
+9|Citizenship award/recognition|00740|Citizenship award/recognition is specified as the type of academic distinctions earned by or awarded to the student.||8.00||
+10|Completion of requirement, but no units of value awarded|00741|Completion of requirement, but no units of value awarded is specified as the type of academic distinctions earned by or awarded to the student.||9.00||
+11|Attendance award|08692|Attendance award is specified as the type of academic distinctions earned by or awarded to the student.||10.00||
+12|Certificate|00742|Certificate is specified as the type of academic distinctions earned by or awarded to the student.||11.00||
+13|Honor award|02047|Honor award is specified as the type of academic distinctions earned by or awarded to the student.||12.00||
+14|Letter of student commendation|00744|Letter of student commendation is specified as the type of academic distinctions earned by or awarded to the student.||13.00||
+15|Medals|00745|Medals is specified as the type of academic distinctions earned by or awarded to the student.||14.00||
+16|National Merit scholar|08693|National Merit scholar is specified as the type of academic distinctions earned by or awarded to the student.||15.00||
+17|Points|00747|Points is specified as the type of academic distinctions earned by or awarded to the student.||16.00||
+18|Promotion or advancement|00748|Promotion or advancement is specified as the type of academic distinctions earned by or awarded to the student.||17.00||
+19|Other|09999|Other is specified as the type of academic distinctions earned by or awarded to the student.||18.00||

@@ -1,0 +1,3 @@
+1| High poverty quartile school|HighQuartile|The school is a high poverty quartile school according to state's indicator of poverty.||1.00||
+2|Low poverty quartile school|LowQuartile|The school is a low poverty quartile school according to state's indicator of poverty.||2.00||
+3|Neither high nor low poverty quartile school|Neither|The school is neither high nor low poverty quartile school according to state's indicator of poverty.||3.00||

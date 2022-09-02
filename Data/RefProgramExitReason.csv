@@ -1,0 +1,31 @@
+1|Attempts to contact the parent and/or child were unsuccessful|06262|Attempts to contact the parent and/or child were unsuccessful.||1.00||
+2|Completion of IFSP prior to reaching maximum age for Part C|02226|Completion of IFSP prior to reaching maximum age for Part C||2.00||
+3|Died or is permanently incapacitated|01923|Died or is permanently incapacitated||5.00||
+4|Discontinued schooling|01927|Discontinued schooling||6.00||
+5|Discontinued schooling, not special education|02222|Discontinued schooling, not special education||7.00||
+6|Discontinued schooling, special education only|02221|Discontinued schooling, special education only||8.00||
+7|Eligible for IDEA, Part B|02227|Eligible for IDEA, Part B||9.00||
+8|Expulsion|02224|Expulsion||10.00||
+9|Graduated with a high school diploma|02212|Graduated with a high school diploma||11.00||
+10|Moved out of state|02231|Moved out of state||12.00||
+11|No longer receiving special education|02216|No longer receiving special education||13.00||
+12|Not eligible for Part B, exit with no referrals|06261|Not eligible for Part B, exit with no referrals||14.00||
+13|Moved within the US, not known to be continuing|73075|Moved within the US, not known to be continuing||14.00||
+14|Not eligible for Part B, exit with referrals to other programs|02228|Not eligible for Part B, exit with referrals to other programs||15.00||
+15|Part B eligibility not determined|02230|Part B eligibility not determined||16.00||
+16|Program completion|02214|Program completion||17.00||
+17|Program discontinued|02225|Program discontinued||18.00||
+18|Reached maximum age|02215|Reached maximum age||19.00||
+19|Received certificate of completion, modified diploma, or finished IEP requirements|02213|Received certificate of completion, modified diploma, or finished IEP requirements||20.00||
+20|Refused services|02217|Refused services||21.00||
+21|Student data claimed in error/never attended|73076|Student data claimed in error/never attended||24.00||
+22|Student moved to another country, may or may not be continuing|73078|Student moved to another country, may or may not be continuing||25.00||
+23|Student with disabilities remaining in school to receive transitional services|73079|Student with disabilities who met the district graduation requirements for a regular diploma, but is remaining in school to receive transitional services deemed necessary by the IEP team.||25.00||
+24|Suspended from school|02220|Suspended from school||26.00||
+25|Transferred to another district or school, known not to be continuing in program/service|02406|Transferred to another district or school, known not to be continuing in program/service||30.00||
+26|Transferred to another district or school, known to be continuing in program/service|02218|Transferred to another district or school, known to be continuing in program/service||31.00||
+27|Transferred to another district or school, not known to be continuing in program/service|02219|Transferred to another district or school, not known to be continuing in program/service||32.00||
+28|Transferred to a juvenile or adult correctional facility where educational services are not provided|73077|Transferred to a juvenile or adult correctional facility where educational services are not provided||36.00||
+29|Unknown reason|02233|Unknown reason||37.00||
+30|Withdrawal by a parent (or guardian)|02232|Withdrawal by a parent (or guardian)||38.00||
+31|Other|09999|Other||40.00||

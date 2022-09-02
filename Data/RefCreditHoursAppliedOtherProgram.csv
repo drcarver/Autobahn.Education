@@ -1,0 +1,10 @@
+1|None|00|None is specified as the set of credit hours taken in other programs or degrees that were applied to the individual's degree.||2.00||
+2|Undergraduate hours applied towards graduate degree|01|Undergraduate hours applied towards graduate degree is specified as the set of credit hours taken in other programs or degrees that were applied to the individual's degree.||4.00||
+3|Credit hours taken at the postbaccalaureate level|02|Credit hours taken at the postbaccalaureate level is specified as the set of credit hours taken in other programs or degrees that were applied to the individual's degree.||6.00||
+4|Credit hours taken as unclassified student|03|Credit hours taken as unclassified student is specified as the set of credit hours taken in other programs or degrees that were applied to the individual's degree.||8.00||
+5|Credit hours taken as an independent student|04|Credit hours taken as an independent student is specified as the set of credit hours taken in other programs or degrees that were applied to the individual's degree.||10.00||
+6|Credit hours taken as traveling scholar at another university|05|Credit hours taken as traveling scholar at another university is specified as the set of credit hours taken in other programs or degrees that were applied to the individual's degree.||12.00||
+7|Credit hours taken at master's level|06|Credit hours taken at master's level is specified as the set of credit hours taken in other programs or degrees that were applied to the individual's degree.||14.00||
+8|Credit hours taken as a master's student in one program, applied towards another master's program|07|Credit hours taken as a master's student in one program, applied towards another master's program is specified as the set of credit hours taken in other programs or degrees that were applied to the individual's degree.||16.00||
+9|Unknown|98|Unknown is specified as the set of credit hours taken in other programs or degrees that were applied to the individual's degree.||18.00||
+10|Other|99|Other is specified as the set of credit hours taken in other programs or degrees that were applied to the individual's degree.||20.00||

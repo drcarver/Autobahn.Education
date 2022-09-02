@@ -1,0 +1,17 @@
+1|Early Learning|11000|||10.00||
+2|K12|11001|||20.00||
+3|Postsecondary|11002|||30.00||
+4|Career and Technical|11112|||40.00||
+5|Adult Education|11113|||50.00||
+6|Workforce|11114|||60.00||
+7|Assessments|11089|||70.00||
+8|Credentials|11482|||80.00||
+9|Competencies|11104|||90.00||
+10|Learning Resources|11123|||100.00||
+11|Facilities|11571|||110.00||
+12|Implementation Variables|11566|||120.00||
+13|Authentication and Authorization|11440|||130.00||
+14|Course Table|Course|||1.00||
+15|LearningResource Table|LearningResource|||2.00||
+16|AssessmentItem Table|AssessmentItem|||3.00||
+17|RubricCriterion Table|RubricCriterion|||4.00||

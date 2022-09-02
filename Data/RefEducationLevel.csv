@@ -1,0 +1,122 @@
+1|No school completed |01043|No school completed is the extent of formal instruction a person has received.||1|.00||
+2|Preschool |00788|Preschool is the extent of formal instruction a person has received.||1|1.00||
+3|Kindergarten |00805|Kindergarten is the extent of formal instruction a person has received.||1|2.00||
+4|First grade |00790|First grade is the extent of formal instruction a person has received.||1|3.00||
+5|Second grade |00791|Second grade is the extent of formal instruction a person has received.||1|4.00||
+6|Third grade |00792|Third grade is the extent of formal instruction a person has received.||1|5.00||
+7|Fourth grade |00793|Fourth grade is the extent of formal instruction a person has received.||1|6.00||
+8|Fifth grade |00794|Fifth grade is the extent of formal instruction a person has received.||1|7.00||
+9|Sixth grade |00795|Sixth grade is the extent of formal instruction a person has received.||1|8.00||
+10|Seventh grade |00796|Seventh grade is the extent of formal instruction a person has received.||1|9.00||
+11|Eighth grade |00798|Eighth grade is the extent of formal instruction a person has received.||1|10.00||
+12|Ninth grade |00799|Ninth grade is the extent of formal instruction a person has received.||1|11.00||
+13|Tenth grade |00800|Tenth grade is the extent of formal instruction a person has received.||1|12.00||
+14|Eleventh Grade |00801|Eleventh Grade is the extent of formal instruction a person has received.||1|13.00||
+15|12th grade, no diploma |01809|12th grade, no diploma is the extent of formal instruction a person has received.||1|14.00||
+16|High school diploma |01044|High school diploma is the extent of formal instruction a person has received.||1|15.00||
+17|High school completers (e.g., certificate of attendance) |02408|High school completers (e.g., certificate of attendance) is the extent of formal instruction a person has received.||1|16.00||
+18|High school equivalency (e.g., GED) |02409|High school equivalency (e.g., GED) is the extent of formal instruction a person has received.||1|17.00||
+19|Grade 13|00803|Grade 13 is the extent of formal instruction a person has received.||1|18.00||
+20|Career and Technical Education certificate|00819|Career and Technical Education certificate is the extent of formal instruction a person has received.||1|18.00||
+21|Some college but no degree |01049|Some college but no degree is the extent of formal instruction a person has received.||1|19.00||
+22|Formal award, certificate or diploma (less than one year) |01047|Formal award, certificate or diploma (less than one year) is the extent of formal instruction a person has received.||1|20.00||
+23|Formal award, certificate or diploma (more than or equal to one year) |01048|Formal award, certificate or diploma (more than or equal to one year) is the extent of formal instruction a person has received.||1|21.00||
+24|Associate's degree (two years or more) |01050|Associate's degree (two years or more) is the extent of formal instruction a person has received.||1|22.00||
+25|Adult education certification, endorsement, or degree|73063|Adult education certification, endorsement, or degree is the extent of formal instruction a person has received.||1|22.00||
+26|Bachelor's (Baccalaureate) degree |01051|Bachelor's (Baccalaureate) degree is the extent of formal instruction a person has received.||1|24.00||
+27|Master's degree (e.g., M.A., M.S., M. Eng., M.Ed., M.S.W., M.B.A., M.L.S.) |01054|Master's degree (e.g., M.A., M.S., M. Eng., M.Ed., M.S.W., M.B.A., M.L.S.) is the extent of formal instruction a person has received.||1|25.00||
+28|Specialist's degree (e.g., Ed.S.) |01055|Specialist's degree (e.g., Ed.S.) is the extent of formal instruction a person has received.||1|26.00||
+29|Post-master's certificate|73081|Post-master's certificate is the extent of formal instruction a person has received.||1|26.00||
+30|Graduate certificate |01052|Graduate certificate is the extent of formal instruction a person has received.||1|27.00||
+31|Doctoral (Doctor's) degree |01057|Doctoral (Doctor's) degree is the extent of formal instruction a person has received.||1|28.00||
+32|First-professional degree |01053|First-professional degree is the extent of formal instruction a person has received.||1|29.00||
+33|Post-professional degree |01056|Post-professional degree is the extent of formal instruction a person has received.||1|30.00||
+34|Doctor's degree-research/scholarship|73082|Doctor's degree-research/scholarship is the extent of formal instruction a person has received.||1|31.00||
+35|Doctor's degree-professional practice|73083|Doctor's degree-professional practice is the extent of formal instruction a person has received.||1|31.00||
+36|Doctor's degree-other|73084|Doctor's degree-other is the extent of formal instruction a person has received.||1|31.00||
+37|Doctor's degree-research/scholarship|73085|Doctor's degree-research/scholarship is the extent of formal instruction a person has received.||1|31.00||
+38|Other|09999|The extent of formal instruction a person has received is in a category not yet defined in CEDS.||1|32.00||
+39|No school completed |01043|No school completed is the extent of formal instruction a person has received.||2|.00||
+40|Preschool |00788|Preschool is the extent of formal instruction a person has received.||2|1.00||
+41|Kindergarten |00805|Kindergarten is the extent of formal instruction a person has received.||2|2.00||
+42|First grade |00790|First grade is the extent of formal instruction a person has received.||2|3.00||
+43|Second grade |00791|Second grade is the extent of formal instruction a person has received.||2|4.00||
+44|Third grade |00792|Third grade is the extent of formal instruction a person has received.||2|5.00||
+45|Fourth grade |00793|Fourth grade is the extent of formal instruction a person has received.||2|6.00||
+46|Fifth grade |00794|Fifth grade is the extent of formal instruction a person has received.||2|7.00||
+47|Sixth grade |00795|Sixth grade is the extent of formal instruction a person has received.||2|8.00||
+48|Seventh grade |00796|Seventh grade is the extent of formal instruction a person has received.||2|9.00||
+49|Eighth grade |00798|Eighth grade is the extent of formal instruction a person has received.||2|10.00||
+50|Ninth grade |00799|Ninth grade is the extent of formal instruction a person has received.||2|11.00||
+51|Tenth grade |00800|Tenth grade is the extent of formal instruction a person has received.||2|12.00||
+52|Eleventh Grade |00801|Eleventh Grade is the extent of formal instruction a person has received.||2|13.00||
+53|12th grade, no diploma |01809|12th grade, no diploma is the extent of formal instruction a person has received.||2|14.00||
+54|High school diploma |01044|High school diploma is the extent of formal instruction a person has received.||2|15.00||
+55|High school completers (e.g., certificate of attendance) |02408|High school completers (e.g., certificate of attendance) is the extent of formal instruction a person has received.||2|16.00||
+56|High school equivalency (e.g., GED) |02409|High school equivalency (e.g., GED) is the extent of formal instruction a person has received.||2|17.00||
+57|Grade 13|00803|Grade 13 is the extent of formal instruction a person has received.||2|18.00||
+58|Career and Technical Education certificate|00819|Career and Technical Education certificate is the extent of formal instruction a person has received.||2|18.00||
+59|Some college but no degree |01049|Some college but no degree is the extent of formal instruction a person has received.||2|19.00||
+60|Formal award, certificate or diploma (less than one year) |01047|Formal award, certificate or diploma (less than one year) is the extent of formal instruction a person has received.||2|20.00||
+61|Formal award, certificate or diploma (more than or equal to one year) |01048|Formal award, certificate or diploma (more than or equal to one year) is the extent of formal instruction a person has received.||2|21.00||
+62|Associate's degree (two years or more) |01050|Associate's degree (two years or more) is the extent of formal instruction a person has received.||2|22.00||
+63|Adult education certification, endorsement, or degree|73063|Adult education certification, endorsement, or degree is the extent of formal instruction a person has received.||2|22.00||
+64|Bachelor's (Baccalaureate) degree |01051|Bachelor's (Baccalaureate) degree is the extent of formal instruction a person has received.||2|24.00||
+65|Master's degree (e.g., M.A., M.S., M. Eng., M.Ed., M.S.W., M.B.A., M.L.S.) |01054|Master's degree (e.g., M.A., M.S., M. Eng., M.Ed., M.S.W., M.B.A., M.L.S.) is the extent of formal instruction a person has received.||2|25.00||
+66|Specialist's degree (e.g., Ed.S.) |01055|Specialist's degree (e.g., Ed.S.) is the extent of formal instruction a person has received.||2|26.00||
+67|Post-master's certificate|73081|Post-master's certificate is the extent of formal instruction a person has received.||2|26.00||
+68|Graduate certificate |01052|Graduate certificate is the extent of formal instruction a person has received.||2|27.00||
+69|Doctoral (Doctor's) degree |01057|Doctoral (Doctor's) degree is the extent of formal instruction a person has received.||2|28.00||
+70|First-professional degree |01053|First-professional degree is the extent of formal instruction a person has received.||2|29.00||
+71|Post-professional degree |01056|Post-professional degree is the extent of formal instruction a person has received.||2|30.00||
+72|Doctor's degree-research/scholarship|73082|Doctor's degree-research/scholarship is the extent of formal instruction a person has received.||2|31.00||
+73|Doctor's degree-professional practice|73083|Doctor's degree-professional practice is the extent of formal instruction a person has received.||2|31.00||
+74|Doctor's degree-other|73084|Doctor's degree-other is the extent of formal instruction a person has received.||2|31.00||
+75|Doctor's degree-research/scholarship|73085|Doctor's degree-research/scholarship is the extent of formal instruction a person has received.||2|31.00||
+76|Other|09999|The extent of formal instruction a person has received is in a category not yet defined in CEDS.||2|32.00||
+77|Less than high school|01|||3|.00||
+78|High school diploma or equivalent|02|||3|2.00||
+79|Some college but no formal award|03|||3|4.00||
+80|Certificate, less than an Associate's degree|04|||3|6.00||
+81|Associate's degree|05|||3|8.00||
+82|Baccalaureate degree|06|||3|10.00||
+83|Master's degree|07|||3|12.00||
+84|Doctoral/Professional degree|08|||3|14.00||
+85|Unknown|09|||3|16.00||
+86|Less than high school|01|||4|.00||
+87|High school diploma or equivalent|02|||4|2.00||
+88|Some college but no formal award|03|||4|4.00||
+89|Certificate, less than an Associate's degree|04|||4|6.00||
+90|Associate's degree|05|||4|8.00||
+91|Baccalaureate degree|06|||4|10.00||
+92|Master's degree|07|||4|12.00||
+93|Doctoral/Professional degree|08|||4|14.00||
+94|Unknown|09|||4|16.00||
+95|Infant/toddler|IT|||5|1.00||
+96|Preschool|PR|||5|2.00||
+97|Prekindergarten|PK|||5|3.00||
+98|Transitional Kindergarten|TK|||5|4.00||
+99|Kindergarten|KG|||5|5.00||
+100|First grade|01|||5|6.00||
+101|Second grade|02|||5|7.00||
+102|Third grade|03|||5|8.00||
+103|Fourth grade|04|||5|9.00||
+104|Fifth grade|05|||5|10.00||
+105|Sixth grade|06|||5|11.00||
+106|Seventh grade|07|||5|12.00||
+107|Eighth grade|08|||5|13.00||
+108|Ninth grade|09|||5|14.00||
+109|Tenth grade|10|||5|15.00||
+110|Eleventh grade|11|||5|16.00||
+111|Twelfth grade|12|||5|17.00||
+112|Grade 13|13|||5|18.00||
+113|Associate's degree|AS|||5|19.00||
+114|Bachelor's degree|BA|||5|21.00||
+115|Post-baccalaureate certificate|PB|||5|22.00||
+116|Master's degree|MD|||5|23.00||
+117|Post-master's certificate|PM|||5|24.00||
+118|Doctoral degree|DO|||5|27.00||
+119|Post-doctoral certificate|PD|||5|29.00||
+120|Adult Education|AE|||5|31.00||
+121|Professional or technical credential|PT|||5|33.00||
+122|Other|OT|||5|35.00||

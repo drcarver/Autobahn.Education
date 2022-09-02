@@ -1,0 +1,13 @@
+1|Home|02192|Home is the place in which a child's service plan meeting was held.||.00||
+2|Hospital|00754|Hospital is the place in which a child's service plan meeting was held.||2.00||
+3|Outpatient hospital|06008|Outpatient hospital is the place in which a child's service plan meeting was held.||4.00||
+4|Ambulatory care center|06009|Ambulatory care center is the place in which a child's service plan meeting was held.||6.00||
+5|Primary care health provider office|06010|Primary care health provider office is the place in which a child's service plan meeting was held.||8.00||
+6|Child care|01535|Child care is the place in which a child's service plan meeting was held.||10.00||
+7|Early intervention classroom/center|00127|Early intervention classroom/center is the place in which a child's service plan meeting was held.||12.00||
+8|Local education agency|00066|Local education agency is the place in which a child's service plan meeting was held.||14.00||
+9|Public health facility|06011|Public health facility is the place in which a child's service plan meeting was held.||16.00||
+10|Social service agency|06012|Social service agency is the place in which a child's service plan meeting was held.||18.00||
+11|Other health care provider location|06013|Other health care provider location is the place in which a child's service plan meeting was held.||20.00||
+12|Community facility|00752|Community facility is the place in which a child's service plan meeting was held.||22.00||
+13|Other|09999|The place in which a child's service plan meeting was held is in a category not yet defined in CEDS.||24.00||

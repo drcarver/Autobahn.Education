@@ -1,0 +1,13 @@
+1|No disability or impairment known or reported|00|No disability or impairment is known or reported for the person.||2.00||
+2|Blindness or Visual Impairment|01|A person's disability or impairment  is categorized as Blindness or Visual Impairment.||4.00||
+3|Cerebral Palsy|02|A person's disability or impairment  is categorized as Cerebral Palsy.||6.00||
+4|Chronic Illness|03|A person's disability or impairment  is categorized as Chronic Illness.||8.00||
+5|Deafness or Hearing Impairment|04|A person's disability or impairment  is categorized as Deafness or Hearing Impairment.||10.00||
+6|Drug or Alcohol Addiction|05|A person's disability or impairment  is categorized as Drug or Alcohol Addiction.||12.00||
+7|Emotionally/Psychologically Disabled: e.g., schizophrenia or depression|06|A person's disability or impairment  is categorized as Emotionally/Psychologically Disabled: e.g., schizophrenia or depression.||14.00||
+8|Epilepsy or Seizure Disorders|07|A person's disability or impairment  is categorized as Epilepsy or Seizure Disorders.||16.00||
+9|Intellectual Disability|08|A person's disability or impairment  is categorized as Intellectual Disability.||18.00||
+10|Orthopedic Impairment|09|A person's disability or impairment  is categorized as Orthopedic Impairment.||20.00||
+11|Specific learning disability|10|A person's disability or impairment  is categorized as Specific learning disability.||22.00||
+12|Speech or Language impairment|11|A person's disability or impairment  is categorized as Speech or Language impairment.||24.00||
+13|Other type of impairment|99|A person's disability or impairment  is categorized as Other type of impairment.||26.00||

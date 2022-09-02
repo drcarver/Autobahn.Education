@@ -1,0 +1,10 @@
+1|Business|00997|Business is the type of location at which instruction or service takes place.||1.00||
+2|Community facility|00752|Community facility is the type of location at which instruction or service takes place.||2.00||
+3|Home of student|00753|Home of student is the type of location at which instruction or service takes place.||3.00||
+4|Hospital|00754|Hospital is the type of location at which instruction or service takes place.||4.00||
+5|Library/media center|03018|Library/media center is the type of location at which instruction or service takes place.||5.00||
+6|Mobile|03506|Mobile is the type of location at which instruction or service takes place.||6.00||
+7|Other|09999|The type of location at which instruction or service takes place is in a category not yet defined in CEDS.||7.00||
+8|Other K-12 educational institution|00341|Other K-12 educational institution is the type of location at which instruction or service takes place.||8.00||
+9|Postsecondary facility|00342|Postsecondary facility is the type of location at which instruction or service takes place.||9.00||
+10|School|00675|School is the type of location at which instruction or service takes place.||10.00||

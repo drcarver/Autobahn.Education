@@ -1,0 +1,12 @@
+1|Adult|00013|Adult is an education level that the education institution serves.||1.00||
+2|All levels|01302|The institution serves all levels.||2.00||
+3|Elementary|01304|Elementary is an education level that the education institution serves.||3.00||
+4|High school|02402|High school is an education level that the education institution serves.||4.00||
+5|Infant/toddler|00787|Infant/toddler is an education level that the education institution serves.||5.00||
+6|Intermediate|02399|Intermediate is an education level that the education institution serves.||6.00||
+7|Junior high school|02602|Junior high school is an education level that the education institution serves.||7.00||
+8|Middle|02400|Middle is an education level that the education institution serves.||8.00||
+9|Pre-kindergarten/early childhood|01981|Pre-kindergarten/early childhood is an education level that the education institution serves.||9.00||
+10|Primary|02397|Primary is an education level that the education institution serves.||10.00||
+11|Secondary|02403|Secondary is an education level that the education institution serves.||11.00||
+12|Joint secondary and postsecondary|73066|Joint secondary and postsecondary is an education level that the education institution serves.||12.00||

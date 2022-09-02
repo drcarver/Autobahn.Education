@@ -1,0 +1,21 @@
+1|Admission|00050|Admission is specified as the reason for which an assessment is designed or delivered.||2.00||
+2|Assessment of student's progress|00051|Assessment of student's progress is specified as the reason for which an assessment is designed or delivered.||4.00||
+3|College Readiness|73055|College Readiness is specified as the reason for which an assessment is designed or delivered.||5.00||
+4|Course credit|00063|Course credit is specified as the reason for which an assessment is designed or delivered.||6.00||
+5|Course requirement|00064|Course requirement is specified as the reason for which an assessment is designed or delivered.||8.00||
+6|Diagnosis|73069|Diagnosis is specified as the reason for which an assessment is designed or delivered.||9.00||
+7|Federal accountability|03459|Federal accountability is specified as the reason for which an assessment is designed or delivered.||10.00||
+8|Inform local or state policy|73068|Inform local or state policy is specified as the reason for which an assessment is designed or delivered.||11.00||
+9|Instructional decision|00055|Instructional decision is specified as the reason for which an assessment is designed or delivered.||12.00||
+10|Local accountability|03457|Local accountability is specified as the reason for which an assessment is designed or delivered.||14.00||
+11|Local graduation requirement|02404|Local graduation requirement is specified as the reason for which an assessment is designed or delivered.||16.00||
+12|Obtain a state- or industry-recognized certificate or license|73042|Obtain a state- or industry-recognized certificate or license is specified as the reason for which an assessment is designed or delivered.||18.00||
+13|Obtain postsecondary credit for the course|73043|Obtain postsecondary credit for the course is specified as the reason for which an assessment is designed or delivered.||20.00||
+14|Program eligibility|73067|Program eligibility is specified as the reason for which an assessment is designed or delivered.||21.00||
+15|Program evaluation|00057|Program evaluation is specified as the reason for which an assessment is designed or delivered.||22.00||
+16|Program placement|00058|Program placement is specified as the reason for which an assessment is designed or delivered.||24.00||
+17|Promotion to or retention in a grade or program|00062|Promotion to or retention in a grade or program is specified as the reason for which an assessment is designed or delivered.||26.00||
+18|Screening|00061|Screening is specified as the reason for which an assessment is designed or delivered.||28.00||
+19|State accountability|03458|State accountability is specified as the reason for which an assessment is designed or delivered.||30.00||
+20|Other|09999|Other is specified as the reason for which an assessment is designed or delivered.||30.00||
+21|State graduation requirement|00054|State graduation requirement is specified as the reason for which an assessment is designed or delivered.||32.00||

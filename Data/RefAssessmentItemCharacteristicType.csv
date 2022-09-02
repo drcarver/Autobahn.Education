@@ -1,0 +1,17 @@
+1|Mean Square Fit|MeanSquareFit|Mean Square Fit is specified as a type of psychometric measure provided for assessment item.||10.00||
+2|Weighted Mean Square Fit|WeightedMeanSquareFit|Weighted Mean Square Fit is specified as a type of psychometric measure provided for assessment item.||11.00||
+3|Revised Mean Square Fit|RevisedMeanSquareFit|Revised Mean Square Fit is specified as a type of psychometric measure provided for assessment item.||12.00||
+4|Revised Point Biserial Measure|RevisedPointBiserial|Revised Point Biserial Measure is specified as a type of psychometric measure provided for assessment item.||13.00||
+5|Rasch Item Score|RaschItemScore|Rasch Item Score is specified as a type of psychometric measure provided for assessment item.||14.00||
+6|Response Correlation|ResponseCorrelation|Response Correlation is specified as a type of psychometric measure provided for assessment item.||15.00||
+7|Response Correlation Squared|ResponseCorrelationSquared|Response Correlation Squared is specified as a type of psychometric measure provided for assessment item.||16.00||
+8|Z CHI Square|ZCHISquare|Z CHI Square is specified as a type of psychometric measure provided for assessment item.||17.00||
+9|Pval|Pval|Pval is specified as a type of psychometric measure provided for assessment item.||18.00||
+10|Point Biserial|PointBiserial|Point Biserial is specified as a type of psychometric measure provided for assessment item.||19.00||
+11|Biserial|Biserial|Biserial is specified as a type of psychometric measure provided for assessment item.||20.00||
+12|Discrimination Index|DiscriminationIndex|Discrimination Index is specified as a type of psychometric measure provided for assessment item.||21.00||
+13|Reliability Coefficient|ReliabilityCoefficient|Reliability Coefficient is specified as a type of psychometric measure provided for assessment item.||22.00||
+14|Coefficient Alpha|CoefficientAlpha|Coefficient Alpha is specified as a type of psychometric measure provided for assessment item.||23.00||
+15|Item Test Correlation|ItemTestCorrelation|Item Test Correlation is specified as a type of psychometric measure provided for assessment item.||24.00||
+16|Item Variance|ItemVariance|Item Variance is specified as a type of psychometric measure provided for assessment item.||25.00||
+17|Scale Value|ScaleValue|Scale Value is specified as a type of psychometric measure provided for assessment item.||26.00||

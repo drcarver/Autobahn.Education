@@ -1,0 +1,28 @@
+1|Infant|IN|Infant is the age group or education level to which the professional development activity's content pertains.||1.00||
+2|Toddler|TO|Toddler is the age group or education level to which the professional development activity's content pertains.||3.00||
+3|Preschool|PR|Preschool is the age group or education level to which the professional development activity's content pertains.||5.00||
+4|Prekindergarten|PK|Prekindergarten is the age group or education level to which the professional development activity's content pertains.||7.00||
+5|Transitional Kindergarten|TK|Transitional Kindergarten is the age group or education level to which the professional development activity's content pertains.||9.00||
+6|Kindergarten|KG|Kindergarten is the age group or education level to which the professional development activity's content pertains.||11.00||
+7|First grade|01|First grade is the age group or education level to which the professional development activity's content pertains.||13.00||
+8|Second grade|02|Second grade is the age group or education level to which the professional development activity's content pertains.||15.00||
+9|Third grade|03|Third grade is the age group or education level to which the professional development activity's content pertains.||17.00||
+10|Fourth grade|04|Fourth grade is the age group or education level to which the professional development activity's content pertains.||19.00||
+11|Fifth grade|05|Fifth grade is the age group or education level to which the professional development activity's content pertains.||21.00||
+12|Sixth grade|06|Sixth grade is the age group or education level to which the professional development activity's content pertains.||23.00||
+13|Seventh grade|07|Seventh grade is the age group or education level to which the professional development activity's content pertains.||25.00||
+14|Eighth grade|08|Eighth grade is the age group or education level to which the professional development activity's content pertains.||27.00||
+15|Ninth grade|09|Ninth grade is the age group or education level to which the professional development activity's content pertains.||29.00||
+16|Tenth grade|10|Tenth grade is the age group or education level to which the professional development activity's content pertains.||31.00||
+17|Eleventh grade|11|Eleventh grade is the age group or education level to which the professional development activity's content pertains.||33.00||
+18|Twelfth grade|12|Twelfth grade is the age group or education level to which the professional development activity's content pertains.||35.00||
+19|Grade 13|13|Grade 13 is the age group or education level to which the professional development activity's content pertains.||37.00||
+20|Associate's degree|AS|Associate's degree is the age group or education level to which the professional development activity's content pertains.||39.00||
+21|Bachelor's degree|BA|Bachelor's degree is the age group or education level to which the professional development activity's content pertains.||41.00||
+22|Post-baccalaureate certificate|PB|Post-baccalaureate certificate is the age group or education level to which the professional development activity's content pertains.||43.00||
+23|Master's degree|MD|Master's degree is the age group or education level to which the professional development activity's content pertains.||45.00||
+24|Post-master's certificate|PM|Post-master's certificate is the age group or education level to which the professional development activity's content pertains.||47.00||
+25|Doctoral degree|DO|Doctoral degree is the age group or education level to which the professional development activity's content pertains.||49.00||
+26|Post-doctoral certificate|PD|Post-doctoral certificate is the age group or education level to which the professional development activity's content pertains.||51.00||
+27|Adult education|AE|Adult education is the age group or education level to which the professional development activity's content pertains.||53.00||
+28|Other|OT|The age group or education level to which the professional development activity's content pertains is not yet defined in CEDS.||55.00||

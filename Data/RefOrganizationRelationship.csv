@@ -1,0 +1,3 @@
+1|Authorizing Body|AuthorizingBody|The primary entity with legal authority to create or close the organization.||1.00||
+2|Operating Body|OperatingBody|The entity responsible for operating the organization.||2.00||
+3|Secondary Authorizing Body|SecondaryAuthorizingBody|The secondary entity with legal authority to create or close the organization.||3.00||

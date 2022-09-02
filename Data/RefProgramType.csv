@@ -1,0 +1,57 @@
+1|Adult Basic Education|73056|Adult Basic Education||.00||
+2|Adult English as a Second Language|73058|Adult English as a Second Language||2.00||
+3|Adult Secondary Education|73057|Adult Secondary Education||4.00||
+4|Alternative Education|04961|Alternative Education||10.00||
+5|Athletics|04932|Athletics||12.00||
+6|Bilingual education program|04923|Bilingual education program||13.00||
+7|Career and Technical Education|04906|Career and Technical Education||14.00||
+8|Cocurricular programs|04931|Cocurricular programs||16.00||
+9|College preparatory|04958|College preparatory||18.00||
+10|Community service program|04945|Community service program||20.00||
+11|Community/junior college education program|04944|Community/junior college education program||22.00||
+12|Compensatory services for disadvantaged students|04922|Compensatory services for disadvantaged students||24.00||
+13|Continuing Education|73059|Continuing Education||25.00||
+14|Counseling services|04956|Counseling services||26.00||
+15|Early Head Start|14609|Early Head Start||27.00||
+16|English as a second language (ESL) program|04928|English as a second language (ESL) program||28.00||
+17|Even Start|04919|Even Start||30.00||
+18|Extended day/child care services|04955|Extended day/child care services||32.00||
+19|Foster Care|75000|Foster Care||33.00||
+20|Gifted and talented program|04930|Gifted and talented program||34.00||
+21|Head start|04918|Head start||36.00||
+22|Health Services Program|04963|Health Services Program||38.00||
+23|Immigrant education|04957|Immigrant education||40.00||
+24|Indian education|04921|Indian education||42.00||
+25|International Baccalaureate|04959|International Baccalaureate||44.00||
+26|Library/Media Services Program|04962|Library/Media Services Program||46.00||
+27|Magnet/Special Program Emphasis|04960|Magnet/Special Program Emphasis||48.00||
+28|Migrant education|04920|Migrant education||50.00||
+29|Regular education|04887|Regular education||52.00||
+30|Remedial education|04964|Remedial education||54.00||
+31|Section 504 Placement|04967|Section 504 Placement||56.00||
+32|Service learning|04966|Service learning||58.00||
+33|Special Education Services|04888|Special Education Services||60.00||
+34|Student retention/ Dropout Prevention|04954|Student retention/ Dropout Prevention||62.00||
+35|Substance abuse education/prevention|04953|Substance abuse education/prevention||64.00||
+36|Targeted intervention program|73204|Targeted intervention program||65.00||
+37|Teacher professional development / Mentoring|04968|Teacher professional development / Mentoring||66.00||
+38|Technical preparatory|04917|Technical preparatory||68.00||
+39|Title I|75001|Title I||69.00||
+40|Work-based Learning Opportunities|73090|Work-based Learning Opportunities||70.00||
+41|Autism program|75014|A program specifically designed for students with the IDEA Disability Type autism.||71.00||
+42|Other|09999|The program type is in a category not yet defined in CEDS.||72.00||
+43|Early childhood special education tier one program|75015|A program specifically designed for early childhood special education students that provides services to special education students with an intensity defined by the state or other authoritative organization.||72.00||
+44|Early childhood special education tier two program|75016|A program specifically designed for early childhood special education students that provides services to special education students with an intensity, as defined by the state or other authoritative organization, greater than the early childhood special education tier one program.||73.00||
+45|Early College|75002|A program of study in which students participate in a comprehensive plan that integrates their high school course of study and an intentionally designed authentic postsecondary experience leading to their regular high school diploma, an official college transcript, and transferable college credit towards a recognized postsecondary degree or credential.||74.00||
+46|Emotional disturbance program|75006|A program specifically designed for students with the IDEA Disability Type emotional disturbance.||75.00||
+47|Hearing impairment program|75008|A program specifically designed for students with the IDEA Disability Type hearing impairment.||76.00||
+48|K12 Resource Program|75017|A program designed to provide additional resources to special education students.||77.00||
+49|Mild cognitive disability program|75003|A program specifically designed for students who have been determined to have a mild cognitive disability.||78.00||
+50|Moderate cognitive disability program|75004|A program specifically designed for students who have been determined to have a moderate cognitive disability.||79.00||
+51|Multiple disabilities program|75012|A program specifically designed for students with the IDEA Disability type   multiple disabilities.||80.00||
+52|Orthopedic impairment|75011|A program specifically designed for students with the IDEA Disability Type orthopedic impairments.||81.00||
+53|Other health impairment|75010|A program specifically designed for students with the IDEA Disability Type other health impairments.||82.00||
+54|Significant cognitive disability program|75005|A program specifically designed for students who have been determined to have a significant cognitive disability.||83.00||
+55|Specific learning disability program|75007|A program specifically designed for students with the IDEA Disability Type specific learning disability||84.00||
+56|Speech or language impairment program|75013|A program specifically designed for students with the IDEA Disability Type speech or language impairment.||85.00||
+57|Visual impairment program|75009|A program specifically designed for students with the IDEA Disability Type visual health impairment.||86.00||

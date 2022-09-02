@@ -1,0 +1,4 @@
+1|LEA only|LEAOnly|This course has an end of course examination required by the LEA only.||1.00||
+2|SEA only|SEAOnly|This course has an end of course examination required by the SEA only.||3.00||
+3|LEA and SEA|Both|This course has an end of course examination required by the LEA and SEA.||5.00||
+4|Neither LEA or SEA|Neither|This course has an end of course examination required by neither the LEA or SEA.||7.00||

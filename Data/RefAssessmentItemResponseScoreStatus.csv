@@ -1,0 +1,4 @@
+1| Not Scored|NotScored|The assessment item has not yet been scored.||1.00||
+2|Scored|Scored| The assessment item has been scored.||3.00||
+3|Scoring error|ScoringError| An attempt to score the assessment item resulted in a scoring error.||5.00||
+4|Waiting For Machine Score|WaitingForMachineScore|The assessment item has not yet been scored and is waiting to be machine scored.||7.00||

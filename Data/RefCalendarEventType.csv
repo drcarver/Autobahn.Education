@@ -1,0 +1,7 @@
+1|Emergency day|EmergencyDay|Emergency day is specified as the  type of scheduled or unscheduled calendar event.||1.00||
+2|Holiday|Holiday|Holiday is specified as the  type of scheduled or unscheduled calendar event.||2.00||
+3|Instructional day|InstructionalDay|Instructional day is specified as the type of scheduled or unscheduled calendar event.||3.00||
+4|Other|Other|Other is specified as the  type of scheduled or unscheduled calendar event.||4.00||
+5|Strike|Strike|Strike is specified as the  type of scheduled or unscheduled calendar event.||5.00||
+6|Student late arrival/early dismissal|LateArrivalEarlyDismissal|Student late arrival/early dismissal is specified as the  type of scheduled or unscheduled calendar event.||6.00||
+7|Teacher only day|TeacherOnlyDay|Teacher only day is specified as the  type of scheduled or unscheduled calendar event.||7.00||

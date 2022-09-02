@@ -1,0 +1,12 @@
+1|Deceased|1003|The participant is deceased.||1.00||
+2|Incarceration in a correctional institution or resident of 24-hour support facility|1000|The participant exits the program because he or she has become incarcerated in a correctional institution or has become a resident of an institution or facility providing 24-hour support such as a hospital or treatment center during the course of receiving services as a participant.||2.00||
+3|Medical treatment|1001|The participant exits the program because of medical treatment and that treatment is expected to last longer than 90 days and precludes entry into unsubsidized employment or continued participation in the program.||3.00||
+4|Moved out of state|1006|The participant moved out of state.||4.00||
+5|National guard or other reserve active duty|1002|The participant exits the program because the participant is a member of the National Guard or other reserve military unit of the armed forces and is called to active duty for at least 90 days.||5.00||
+6|Permanently incapacitated|1004|The participant is permanently incapacitated.||6.00||
+7|Program completion with credential or certification|1010|The participant completed the program with one or more credentials or certifications.||7.00||
+8|Program completion without credential or certification|1007|The participant completed the program without credentials or certifications.||8.00||
+9|Program discontinued|1008|The participant exited the program because the program was discontinued.||9.00||
+10|Unknown|1009|It is unknown why the participant exited the program.||10.00||
+11|Voluntary exit|1005|The participant voluntarily exited the program without completing.||11.00||
+12|Other|1999|The reason why the person is no longer being served in the adult education program is not yet defined in CEDS.||99.00||
