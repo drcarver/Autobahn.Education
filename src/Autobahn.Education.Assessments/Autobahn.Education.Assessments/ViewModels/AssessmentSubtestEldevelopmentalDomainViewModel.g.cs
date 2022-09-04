@@ -95,9 +95,9 @@ public partial class AssessmentSubtestEldevelopmentalDomainViewModel : Observabl
 
     #region "IAssessmentSubtestEldevelopmentalDomain Properties"
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentSubtest"/> model
+    /// Reference to an optional instance of the <see cref="IAssessmentSubTest"/> model
     /// </summary>
-    public Guid AssessmentSubtestId { get; set; }
+    public Guid AssessmentSubTestId { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefAssessmentEldevelopmentalDomain"/> model
@@ -113,7 +113,7 @@ public partial class AssessmentSubtestEldevelopmentalDomainViewModel : Observabl
     {
         IsBusy = true;
         Id = model.Id;
-        AssessmentSubtestId = model.AssessmentSubtestId; // 
+        AssessmentSubTestId = model.AssessmentSubTestId; // 
         RefAssessmentEldevelopmentalDomainId = model.RefAssessmentEldevelopmentalDomainId; // 
         IsChanged = false;
         IsNew = false;

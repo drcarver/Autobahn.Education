@@ -235,18 +235,6 @@ public partial class AssessmentItemResponseViewModel : ObservableValidator, IAss
     public Boolean? HintIncludedAnswer { get => hintIncludedAnswer; set => SetProperty(ref hintIncludedAnswer, value, false); }
 
     /// <summary>
-    /// Assessment Item Response Status
-    /// <para>
-    /// The status of the response for a given item.
-    /// </para>
-    /// <para>
-    /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19396">Assessment Item Response Status</a>
-    /// </para>
-    /// </summary>
-    [DisplayName("Assessment Item Response Status")]
-    public Guid? RefAssessItemResponseStatusId { get; set; }
-
-    /// <summary>
     /// Assessment Item Response Score Status
     /// <para>
     /// The status of scoring a person's response to an assessment item.
@@ -257,6 +245,11 @@ public partial class AssessmentItemResponseViewModel : ObservableValidator, IAss
     /// </summary>
     [DisplayName("Assessment Item Response Score Status")]
     public Guid? RefAssessmentItemResponseScoreStatusId { get; set; }
+
+    /// <summary>
+    /// Reference to an optional instance of the <see cref="RefAssessmentItemResponseStatus"/> model
+    /// </summary>
+    public Guid? RefAssessmentItemResponseStatusId { get; set; }
 
     /// <summary>
     /// Proficiency Status
@@ -369,8 +362,8 @@ public partial class AssessmentItemResponseViewModel : ObservableValidator, IAss
         FirstAttemptDuration = model.FirstAttemptDuration; // Assessment Item Response First Attempt Duration
         HintCount = model.HintCount; // Assessment Item Response Hint Count
         HintIncludedAnswer = model.HintIncludedAnswer; // Assessment Item Response Hint Included Answer
-        RefAssessItemResponseStatusId = model.RefAssessItemResponseStatusId; // Assessment Item Response Status
         RefAssessmentItemResponseScoreStatusId = model.RefAssessmentItemResponseScoreStatusId; // Assessment Item Response Score Status
+        RefAssessmentItemResponseStatusId = model.RefAssessmentItemResponseStatusId; // 
         RefProficiencyStatusId = model.RefProficiencyStatusId; // Proficiency Status
         ResultXml = model.ResultXml; // 
         ScaffoldingItemFlag = model.ScaffoldingItemFlag; // Assessment Item Response Scaffolding Item Flag

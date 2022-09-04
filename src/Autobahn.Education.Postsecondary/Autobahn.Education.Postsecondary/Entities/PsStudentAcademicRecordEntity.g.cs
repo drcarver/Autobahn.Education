@@ -190,7 +190,6 @@ public partial class PsStudentAcademicRecordEntity : EntityBase, IPsStudentAcade
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19780">Professional or Technical Credential Conferred</a>
     /// </para>
     /// </summary>
-    [Obsolete("The RefProfessionalTechCredentialType property is obsolete and will be removed in a later version")]
     [ForeignKey("RefProfessionalTechCredentialType")]
     [Comment("An indicator of the category of credential conferred by a state occupational licensing entity or industry organization for competency in a specific area measured by a set of pre-established standards.")]
     public Guid? RefProfessionalTechCredentialTypeId { get; set; }
@@ -207,7 +206,7 @@ public partial class PsStudentAcademicRecordEntity : EntityBase, IPsStudentAcade
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefAcademicTermDesignatorEntity RefAcademicTermDesignatorEntity { get; set; }
+    public virtual RefAcademicTermDesignatorEntity? RefAcademicTermDesignatorEntity { get; set; }
 
     /// <summary>
     /// Codes identifying the set of credit hours taken in other programs or degrees that were applied to the individual's degree.
@@ -218,7 +217,7 @@ public partial class PsStudentAcademicRecordEntity : EntityBase, IPsStudentAcade
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCreditHoursAppliedOtherProgramEntity RefCreditHoursAppliedOtherProgramEntity { get; set; }
+    public virtual RefCreditHoursAppliedOtherProgramEntity? RefCreditHoursAppliedOtherProgramEntity { get; set; }
 
     #endregion
 }

@@ -56,7 +56,6 @@ public partial class K12courseEntity : EntityBase, IK12course
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefCourseGpaapplicability"/> model
     /// </summary>
-    [Obsolete("The RefCourseGpaapplicability property is obsolete and will be removed in a later version")]
     [ForeignKey("RefCourseGpaapplicability")]
     public Guid? RefCourseGpaapplicabilityId { get; set; }
 
@@ -127,7 +126,7 @@ public partial class K12courseEntity : EntityBase, IK12course
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefCreditTypeEarnedEntity RefCreditTypeEarnedEntity { get; set; }
+    public virtual RefCreditTypeEarnedEntity? RefCreditTypeEarnedEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefAdditionalCreditType"/> implementation
@@ -135,7 +134,7 @@ public partial class K12courseEntity : EntityBase, IK12course
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefAdditionalCreditTypeEntity RefAdditionalCreditTypeEntity { get; set; }
+    public virtual RefAdditionalCreditTypeEntity? RefAdditionalCreditTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefCurriculumFrameworkType"/> implementation
@@ -143,7 +142,7 @@ public partial class K12courseEntity : EntityBase, IK12course
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefCurriculumFrameworkTypeEntity RefCurriculumFrameworkTypeEntity { get; set; }
+    public virtual RefCurriculumFrameworkTypeEntity? RefCurriculumFrameworkTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefScedcourseLevel"/> implementation
@@ -151,7 +150,7 @@ public partial class K12courseEntity : EntityBase, IK12course
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefScedcourseLevelEntity RefScedcourseLevelEntity { get; set; }
+    public virtual RefScedcourseLevelEntity? RefScedcourseLevelEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefScedcourseSubjectArea"/> implementation
@@ -159,7 +158,7 @@ public partial class K12courseEntity : EntityBase, IK12course
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefScedcourseSubjectAreaEntity RefScedcourseSubjectAreaEntity { get; set; }
+    public virtual RefScedcourseSubjectAreaEntity? RefScedcourseSubjectAreaEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefCareerCluster"/> implementation
@@ -167,7 +166,7 @@ public partial class K12courseEntity : EntityBase, IK12course
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefCareerClusterEntity RefCareerClusterEntity { get; set; }
+    public virtual RefCareerClusterEntity? RefCareerClusterEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefBlendedLearningModelType"/> implementation
@@ -175,7 +174,7 @@ public partial class K12courseEntity : EntityBase, IK12course
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefBlendedLearningModelTypeEntity RefBlendedLearningModelTypeEntity { get; set; }
+    public virtual RefBlendedLearningModelTypeEntity? RefBlendedLearningModelTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefCourseInteractionMode"/> implementation
@@ -183,7 +182,7 @@ public partial class K12courseEntity : EntityBase, IK12course
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefCourseInteractionModeEntity RefCourseInteractionModeEntity { get; set; }
+    public virtual RefCourseInteractionModeEntity? RefCourseInteractionModeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefK12endOfCourseRequirement"/> implementation
@@ -191,7 +190,7 @@ public partial class K12courseEntity : EntityBase, IK12course
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefK12endOfCourseRequirementEntity RefK12endOfCourseRequirementEntity { get; set; }
+    public virtual RefK12endOfCourseRequirementEntity? RefK12endOfCourseRequirementEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefWorkbasedLearningOpportunityType"/> implementation
@@ -199,7 +198,7 @@ public partial class K12courseEntity : EntityBase, IK12course
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefWorkbasedLearningOpportunityTypeEntity RefWorkbasedLearningOpportunityTypeEntity { get; set; }
+    public virtual RefWorkbasedLearningOpportunityTypeEntity? RefWorkbasedLearningOpportunityTypeEntity { get; set; }
 
     #endregion
 }

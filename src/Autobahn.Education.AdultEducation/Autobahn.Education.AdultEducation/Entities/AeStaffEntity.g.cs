@@ -67,7 +67,7 @@ public partial class AeStaffEntity : EntityBase, IAeStaff
     /// This entity is in the AdultEducation domain
     /// </remarks>
     /// </summary>
-    public virtual RefAeStaffClassificationEntity RefAeStaffClassificationEntity { get; set; }
+    public virtual RefAeStaffClassificationEntity? RefAeStaffClassificationEntity { get; set; }
 
     /// <summary>
     /// The condition under which a person has agreed to serve as an employee.
@@ -78,7 +78,7 @@ public partial class AeStaffEntity : EntityBase, IAeStaff
     /// This entity is in the AdultEducation domain
     /// </remarks>
     /// </summary>
-    public virtual RefAeStaffEmploymentStatusEntity RefAeStaffEmploymentStatusEntity { get; set; }
+    public virtual RefAeStaffEmploymentStatusEntity? RefAeStaffEmploymentStatusEntity { get; set; }
 
     #endregion
 }

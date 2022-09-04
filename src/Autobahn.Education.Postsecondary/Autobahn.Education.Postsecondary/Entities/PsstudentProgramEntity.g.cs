@@ -56,7 +56,7 @@ public partial class PsstudentProgramEntity : EntityBase, IPsstudentProgram
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCipUseEntity RefCipUseEntity { get; set; }
+    public virtual RefCipUseEntity? RefCipUseEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IPsProgram"/> implementation
@@ -64,7 +64,7 @@ public partial class PsstudentProgramEntity : EntityBase, IPsstudentProgram
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual PsProgramEntity PsProgramEntity { get; set; }
+    public virtual PsProgramEntity? PsProgramEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefWorkbasedLearningOpportunityType"/> implementation
@@ -72,7 +72,7 @@ public partial class PsstudentProgramEntity : EntityBase, IPsstudentProgram
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefWorkbasedLearningOpportunityTypeEntity RefWorkbasedLearningOpportunityTypeEntity { get; set; }
+    public virtual RefWorkbasedLearningOpportunityTypeEntity? RefWorkbasedLearningOpportunityTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefTransferOutIndicator"/> implementation
@@ -80,7 +80,7 @@ public partial class PsstudentProgramEntity : EntityBase, IPsstudentProgram
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefTransferOutIndicatorEntity RefTransferOutIndicatorEntity { get; set; }
+    public virtual RefTransferOutIndicatorEntity? RefTransferOutIndicatorEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefCareerCluster"/> implementation
@@ -88,7 +88,7 @@ public partial class PsstudentProgramEntity : EntityBase, IPsstudentProgram
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCareerClusterEntity RefCareerClusterEntity { get; set; }
+    public virtual RefCareerClusterEntity? RefCareerClusterEntity { get; set; }
 
     #endregion
 }

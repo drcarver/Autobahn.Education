@@ -41,7 +41,6 @@ public partial class AssessmentFormSectionEntity : EntityBase, IAssessmentFormSe
     /// <summary>
     /// Reference to an optional instance of the <see cref="IChildOfFormSection"/> model
     /// </summary>
-    [Obsolete("The ChildOfFormSection property is obsolete and will be removed in a later version")]
     [ForeignKey("ChildOfFormSection")]
     public Guid? ChildOfFormSectionId { get; set; }
 
@@ -90,7 +89,6 @@ public partial class AssessmentFormSectionEntity : EntityBase, IAssessmentFormSe
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20141">Identification System for Assessment Form Section</a>
     /// </para>
     /// </summary>
-    [Obsolete("The RefAssessmentFormSectionentificationSystem property is obsolete and will be removed in a later version")]
     [ForeignKey("RefAssessmentFormSectionentificationSystem")]
     [Comment("A coding scheme that is used for identification of an Assessment Form Section.")]
     public Guid? RefAssessmentFormSectionIdentificationSystemId { get; set; }
@@ -154,7 +152,7 @@ public partial class AssessmentFormSectionEntity : EntityBase, IAssessmentFormSe
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual LearningResourceEntity LearningResourceEntity { get; set; }
+    public virtual LearningResourceEntity? LearningResourceEntity { get; set; }
 
     #endregion
 }

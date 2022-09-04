@@ -20,7 +20,6 @@ public partial class K12schoolImprovementEntity : EntityBase, IK12schoolImprovem
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefSchoolImprovementFunds"/> model
     /// </summary>
-    [Obsolete("The RefSchoolImprovementFunds property is obsolete and will be removed in a later version")]
     [ForeignKey("RefSchoolImprovementFunds")]
     public Guid? RefSchoolImprovementFundsId { get; set; }
 
@@ -55,7 +54,7 @@ public partial class K12schoolImprovementEntity : EntityBase, IK12schoolImprovem
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefSchoolImprovementStatusEntity RefSchoolImprovementStatusEntity { get; set; }
+    public virtual RefSchoolImprovementStatusEntity? RefSchoolImprovementStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefSigInterventionType"/> implementation
@@ -63,7 +62,7 @@ public partial class K12schoolImprovementEntity : EntityBase, IK12schoolImprovem
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefSigInterventionTypeEntity RefSigInterventionTypeEntity { get; set; }
+    public virtual RefSigInterventionTypeEntity? RefSigInterventionTypeEntity { get; set; }
 
     #endregion
 }

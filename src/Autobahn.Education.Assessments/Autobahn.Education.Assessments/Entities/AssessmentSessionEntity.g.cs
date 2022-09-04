@@ -55,7 +55,6 @@ public partial class AssessmentSessionEntity : EntityBase, IAssessmentSession
     /// <summary>
     /// Reference to an optional instance of the <see cref="ILeaOrganization"/> model
     /// </summary>
-    [Obsolete("The LeaOrganization property is obsolete and will be removed in a later version")]
     [ForeignKey("LeaOrganization")]
     public Guid? LeaOrganizationId { get; set; }
 
@@ -132,7 +131,6 @@ public partial class AssessmentSessionEntity : EntityBase, IAssessmentSession
     /// <summary>
     /// Reference to an optional instance of the <see cref="ISchoolOrganization"/> model
     /// </summary>
-    [Obsolete("The SchoolOrganization property is obsolete and will be removed in a later version")]
     [ForeignKey("SchoolOrganization")]
     public Guid? SchoolOrganizationId { get; set; }
 
@@ -173,7 +171,7 @@ public partial class AssessmentSessionEntity : EntityBase, IAssessmentSession
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual AssessmentAdministrationEntity AssessmentAdministrationEntity { get; set; }
+    public virtual AssessmentAdministrationEntity? AssessmentAdministrationEntity { get; set; }
 
     /// <summary>
     /// The type of session that is scheduled.
@@ -184,7 +182,7 @@ public partial class AssessmentSessionEntity : EntityBase, IAssessmentSession
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentSessionTypeEntity RefAssessmentSessionTypeEntity { get; set; }
+    public virtual RefAssessmentSessionTypeEntity? RefAssessmentSessionTypeEntity { get; set; }
 
     /// <summary>
     /// An unusual event occurred during the administration of the assessment. This could include fire alarm, student became ill, etc.
@@ -195,7 +193,7 @@ public partial class AssessmentSessionEntity : EntityBase, IAssessmentSession
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentSessionSpecialCircumstanceTypeEntity RefAssessmentSessionSpecialCircumstanceTypeEntity { get; set; }
+    public virtual RefAssessmentSessionSpecialCircumstanceTypeEntity? RefAssessmentSessionSpecialCircumstanceTypeEntity { get; set; }
 
     #endregion
 }

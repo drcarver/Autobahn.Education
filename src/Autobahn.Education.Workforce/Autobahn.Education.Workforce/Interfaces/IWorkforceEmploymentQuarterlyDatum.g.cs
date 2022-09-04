@@ -33,10 +33,5 @@ public partial interface IWorkforceEmploymentQuarterlyDatum
     /// </summary>
     Guid? RefEmployedWhileEnrolledId { get; set; }
 
-    /// <summary>
-    /// Reference to an optional instance of the <see cref="IWorkforceEmploymentQuarterlyData"/> model
-    /// </summary>
-    Guid WorkforceEmploymentQuarterlyDataId { get; set; }
-
     #endregion
 }

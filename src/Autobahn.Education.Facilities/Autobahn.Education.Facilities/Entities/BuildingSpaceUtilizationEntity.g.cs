@@ -111,7 +111,7 @@ public partial class BuildingSpaceUtilizationEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingCommunityUseSpaceTypeEntity RefBuildingCommunityUseSpaceTypeEntity { get; set; }
+    public virtual RefBuildingCommunityUseSpaceTypeEntity? RefBuildingCommunityUseSpaceTypeEntity { get; set; }
 
     /// <summary>
     /// A designation as to whether the space is considered an instructional space under state or local guidelines.
@@ -122,7 +122,7 @@ public partial class BuildingSpaceUtilizationEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingInstructionalSpaceFactorTypeEntity RefBuildingInstructionalSpaceFactorTypeEntity { get; set; }
+    public virtual RefBuildingInstructionalSpaceFactorTypeEntity? RefBuildingInstructionalSpaceFactorTypeEntity { get; set; }
 
     #endregion
 }

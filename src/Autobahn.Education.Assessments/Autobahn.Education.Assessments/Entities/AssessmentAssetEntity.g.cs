@@ -134,7 +134,6 @@ public partial class AssessmentAssetEntity : EntityBase, IAssessmentAsset
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20073">Assessment Language</a>
     /// </para>
     /// </summary>
-    [Obsolete("The RefAssessmentLanguage property is obsolete and will be removed in a later version")]
     [ForeignKey("RefAssessmentLanguage")]
     [Comment("The language in which the assessment form is designed to be delivered.")]
     public Guid? RefAssessmentLanguageId { get; set; }
@@ -165,7 +164,7 @@ public partial class AssessmentAssetEntity : EntityBase, IAssessmentAsset
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentAssetTypeEntity RefAssessmentAssetTypeEntity { get; set; }
+    public virtual RefAssessmentAssetTypeEntity? RefAssessmentAssetTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="ILearningResource"/> implementation
@@ -173,7 +172,7 @@ public partial class AssessmentAssetEntity : EntityBase, IAssessmentAsset
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual LearningResourceEntity LearningResourceEntity { get; set; }
+    public virtual LearningResourceEntity? LearningResourceEntity { get; set; }
 
     #endregion
 }

@@ -76,7 +76,6 @@ public partial class AssessmentPersonalNeedsProfileContentEntity : EntityBase, I
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20043">Assessment Need Keyword Translation Language Type</a>
     /// </para>
     /// </summary>
-    [Obsolete("The RefKeywordTranslationsLanguage property is obsolete and will be removed in a later version")]
     [ForeignKey("RefKeywordTranslationsLanguage")]
     [Comment("Defines as part of an Assessment Personal Needs Profile the default language for the keyword translation.")]
     public Guid? RefKeywordTranslationsLanguageId { get; set; }
@@ -105,7 +104,7 @@ public partial class AssessmentPersonalNeedsProfileContentEntity : EntityBase, I
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedHazardTypeEntity RefAssessmentNeedHazardTypeEntity { get; set; }
+    public virtual RefAssessmentNeedHazardTypeEntity? RefAssessmentNeedHazardTypeEntity { get; set; }
 
     /// <summary>
     /// Defines as part of an Assessment Personal Needs Profile the electronic tool associated with a resource.
@@ -116,7 +115,7 @@ public partial class AssessmentPersonalNeedsProfileContentEntity : EntityBase, I
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedSupportToolEntity RefAssessmentNeedSupportToolEntity { get; set; }
+    public virtual RefAssessmentNeedSupportToolEntity? RefAssessmentNeedSupportToolEntity { get; set; }
 
     #endregion
 }

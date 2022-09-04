@@ -90,7 +90,7 @@ public partial class FacilityEnergyEntity : EntityBase, IFacilityEnergy
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingEnergySourceTypeEntity RefBuildingEnergySourceTypeEntity { get; set; }
+    public virtual RefBuildingEnergySourceTypeEntity? RefBuildingEnergySourceTypeEntity { get; set; }
 
     /// <summary>
     /// An indication of how utilities are supplied to a site or a building by a company or provider.
@@ -101,7 +101,7 @@ public partial class FacilityEnergyEntity : EntityBase, IFacilityEnergy
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityUtilityProviderTypeEntity RefFacilityUtilityProviderTypeEntity { get; set; }
+    public virtual RefFacilityUtilityProviderTypeEntity? RefFacilityUtilityProviderTypeEntity { get; set; }
 
     /// <summary>
     /// The type of utility used in the operation of a facility.
@@ -112,7 +112,7 @@ public partial class FacilityEnergyEntity : EntityBase, IFacilityEnergy
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityUtilityTypeEntity RefFacilityUtilityTypeEntity { get; set; }
+    public virtual RefFacilityUtilityTypeEntity? RefFacilityUtilityTypeEntity { get; set; }
 
     #endregion
 }

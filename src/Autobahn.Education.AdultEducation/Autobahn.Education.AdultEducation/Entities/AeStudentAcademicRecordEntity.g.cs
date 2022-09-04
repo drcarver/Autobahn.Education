@@ -69,7 +69,7 @@ public partial class AeStudentAcademicRecordEntity : EntityBase, IAeStudentAcade
     /// This entity is in the AdultEducation domain
     /// </remarks>
     /// </summary>
-    public virtual RefHighSchoolDiplomaTypeEntity RefHighSchoolDiplomaTypeEntity { get; set; }
+    public virtual RefHighSchoolDiplomaTypeEntity? RefHighSchoolDiplomaTypeEntity { get; set; }
 
     /// <summary>
     /// An indicator of the category of credential conferred by a state occupational licensing entity or industry organization for competency in a specific area measured by a set of pre-established standards.
@@ -80,7 +80,7 @@ public partial class AeStudentAcademicRecordEntity : EntityBase, IAeStudentAcade
     /// This entity is in the AdultEducation domain
     /// </remarks>
     /// </summary>
-    public virtual RefProfessionalTechnicalCredentialTypeEntity RefProfessionalTechnicalCredentialTypeEntity { get; set; }
+    public virtual RefProfessionalTechnicalCredentialTypeEntity? RefProfessionalTechnicalCredentialTypeEntity { get; set; }
 
     #endregion
 }

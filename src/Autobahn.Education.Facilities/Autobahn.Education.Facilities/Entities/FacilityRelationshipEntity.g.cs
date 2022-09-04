@@ -21,7 +21,6 @@ public partial class FacilityRelationshipEntity : EntityBase, IFacilityRelations
     /// Reference to an optional instance of the <see cref="IParentFacility"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The ParentFacility property is obsolete and will be removed in a later version")]
     [ForeignKey("ParentFacility")]
     public Guid ParentFacilityId { get; set; }
 

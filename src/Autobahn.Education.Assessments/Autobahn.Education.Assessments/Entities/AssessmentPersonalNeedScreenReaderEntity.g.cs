@@ -99,7 +99,7 @@ public partial class AssessmentPersonalNeedScreenReaderEntity : EntityBase, IAss
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedUsageTypeEntity RefAssessmentNeedUsageTypeEntity { get; set; }
+    public virtual RefAssessmentNeedUsageTypeEntity? RefAssessmentNeedUsageTypeEntity { get; set; }
 
     /// <summary>
     /// Defines as part of an Assessment Personal Needs Profile the characteristics of presentation for a hyperlink when using a screen reader.
@@ -110,7 +110,7 @@ public partial class AssessmentPersonalNeedScreenReaderEntity : EntityBase, IAss
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedLinkIndicationTypeEntity RefAssessmentNeedLinkIndicationTypeEntity { get; set; }
+    public virtual RefAssessmentNeedLinkIndicationTypeEntity? RefAssessmentNeedLinkIndicationTypeEntity { get; set; }
 
     #endregion
 }

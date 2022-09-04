@@ -31,7 +31,7 @@ public partial class K12charterSchoolManagementOrganizationEntity : EntityBase, 
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefCharterSchoolManagementOrganizationTypeEntity RefCharterSchoolManagementOrganizationTypeEntity { get; set; }
+    public virtual RefCharterSchoolManagementOrganizationTypeEntity? RefCharterSchoolManagementOrganizationTypeEntity { get; set; }
 
     #endregion
 }

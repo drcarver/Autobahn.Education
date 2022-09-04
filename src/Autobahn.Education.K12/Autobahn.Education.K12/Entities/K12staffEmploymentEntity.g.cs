@@ -54,7 +54,7 @@ public partial class K12staffEmploymentEntity : EntityBase, IK12staffEmployment
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefK12staffClassificationEntity RefK12staffClassificationEntity { get; set; }
+    public virtual RefK12staffClassificationEntity? RefK12staffClassificationEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefEmploymentStatus"/> implementation
@@ -62,7 +62,7 @@ public partial class K12staffEmploymentEntity : EntityBase, IK12staffEmployment
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefEmploymentStatusEntity RefEmploymentStatusEntity { get; set; }
+    public virtual RefEmploymentStatusEntity? RefEmploymentStatusEntity { get; set; }
 
     #endregion
 }

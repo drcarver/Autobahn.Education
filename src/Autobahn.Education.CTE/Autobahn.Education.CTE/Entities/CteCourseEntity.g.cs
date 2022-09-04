@@ -108,7 +108,6 @@ public partial class CteCourseEntity : EntityBase, ICteCourse
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefCourseGpaapplicability"/> model
     /// </summary>
-    [Obsolete("The RefCourseGpaapplicability property is obsolete and will be removed in a later version")]
     [ForeignKey("RefCourseGpaapplicability")]
     public Guid? RefCourseGpaapplicabilityId { get; set; }
 
@@ -174,7 +173,7 @@ public partial class CteCourseEntity : EntityBase, ICteCourse
     /// This entity is in the CTE domain
     /// </remarks>
     /// </summary>
-    public virtual RefAdditionalCreditTypeEntity RefAdditionalCreditTypeEntity { get; set; }
+    public virtual RefAdditionalCreditTypeEntity? RefAdditionalCreditTypeEntity { get; set; }
 
     /// <summary>
     /// The type of credits or units of value awarded for the completion of a course.
@@ -185,7 +184,7 @@ public partial class CteCourseEntity : EntityBase, ICteCourse
     /// This entity is in the CTE domain
     /// </remarks>
     /// </summary>
-    public virtual RefCreditTypeEarnedEntity RefCreditTypeEarnedEntity { get; set; }
+    public virtual RefCreditTypeEarnedEntity? RefCreditTypeEarnedEntity { get; set; }
 
     /// <summary>
     /// An indication of the standard curriculum used for this course.
@@ -196,7 +195,7 @@ public partial class CteCourseEntity : EntityBase, ICteCourse
     /// This entity is in the CTE domain
     /// </remarks>
     /// </summary>
-    public virtual RefCurriculumFrameworkTypeEntity RefCurriculumFrameworkTypeEntity { get; set; }
+    public virtual RefCurriculumFrameworkTypeEntity? RefCurriculumFrameworkTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefScedcourseLevel"/> implementation
@@ -204,7 +203,7 @@ public partial class CteCourseEntity : EntityBase, ICteCourse
     /// This entity is in the CTE domain
     /// </remarks>
     /// </summary>
-    public virtual RefScedcourseLevelEntity RefScedcourseLevelEntity { get; set; }
+    public virtual RefScedcourseLevelEntity? RefScedcourseLevelEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefScedcourseSubjectArea"/> implementation
@@ -212,7 +211,7 @@ public partial class CteCourseEntity : EntityBase, ICteCourse
     /// This entity is in the CTE domain
     /// </remarks>
     /// </summary>
-    public virtual RefScedcourseSubjectAreaEntity RefScedcourseSubjectAreaEntity { get; set; }
+    public virtual RefScedcourseSubjectAreaEntity? RefScedcourseSubjectAreaEntity { get; set; }
 
     /// <summary>
     /// The career cluster that defines the industry or occupational focus which may be associated with a career pathways program, plan of study, or course.
@@ -223,7 +222,7 @@ public partial class CteCourseEntity : EntityBase, ICteCourse
     /// This entity is in the CTE domain
     /// </remarks>
     /// </summary>
-    public virtual RefCareerClusterEntity RefCareerClusterEntity { get; set; }
+    public virtual RefCareerClusterEntity? RefCareerClusterEntity { get; set; }
 
     #endregion
 }

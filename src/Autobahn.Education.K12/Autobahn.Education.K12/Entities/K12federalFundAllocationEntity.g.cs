@@ -70,7 +70,7 @@ public partial class K12federalFundAllocationEntity : EntityBase, IK12federalFun
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefFederalProgramFundingAllocationTypeEntity RefFederalProgramFundingAllocationTypeEntity { get; set; }
+    public virtual RefFederalProgramFundingAllocationTypeEntity? RefFederalProgramFundingAllocationTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefLeaFundsTransferType"/> implementation
@@ -78,7 +78,7 @@ public partial class K12federalFundAllocationEntity : EntityBase, IK12federalFun
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefLeaFundsTransferTypeEntity RefLeaFundsTransferTypeEntity { get; set; }
+    public virtual RefLeaFundsTransferTypeEntity? RefLeaFundsTransferTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefReapAlternativeFundingStatus"/> implementation
@@ -86,7 +86,7 @@ public partial class K12federalFundAllocationEntity : EntityBase, IK12federalFun
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefReapAlternativeFundingStatusEntity RefReapAlternativeFundingStatusEntity { get; set; }
+    public virtual RefReapAlternativeFundingStatusEntity? RefReapAlternativeFundingStatusEntity { get; set; }
 
     #endregion
 }

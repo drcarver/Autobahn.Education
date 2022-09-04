@@ -79,7 +79,7 @@ public partial class EarlyChildhoodProgramTypeOfferedEntity : EntityBase, IEarly
     /// This entity is in the EarlyLearning domain
     /// </remarks>
     /// </summary>
-    public virtual RefCommunityBasedTypeEntity RefCommunityBasedTypeEntity { get; set; }
+    public virtual RefCommunityBasedTypeEntity? RefCommunityBasedTypeEntity { get; set; }
 
     #endregion
 }

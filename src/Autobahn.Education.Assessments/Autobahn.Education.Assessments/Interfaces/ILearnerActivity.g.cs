@@ -144,15 +144,9 @@ public partial interface ILearnerActivity
     Guid? RefLearnerActivityAddToGradeBookFlagId { get; set; }
 
     /// <summary>
-    /// Learner Activity Maximum Time Allowed Unit
-    /// <para>
-    /// The unit of time of the�Maximum Time Allowed�value.
-    /// </para>
-    /// <para>
-    /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19946">Learner Activity Maximum Time Allowed Unit</a>
-    /// </para>
+    /// Reference to an optional instance of the <see cref="RefLearnerActivityMaximumTimeAllowedUnit"/> model
     /// </summary>
-    Guid? RefLearnerActivityMaximumTimeAllowedUnitsId { get; set; }
+    Guid? RefLearnerActivityMaximumTimeAllowedUnitId { get; set; }
 
     /// <summary>
     /// Learner Activity Type

@@ -70,15 +70,9 @@ public partial class AssessmentNeedBrailleModel : AutobahnBaseModel, IAssessment
     public Guid? RefAssessmentNeedBrailleStatusCellTypeId { get; set; }
 
     /// <summary>
-    /// Assessment Need Number of Braille Dots Type
-    /// <para>
-    /// Defines as part of an Assessment Personal Needs Profile the number of dots in a Braille cell.
-    /// </para>
-    /// <para>
-    /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20036">Assessment Need Number of Braille Dots Type</a>
-    /// </para>
+    /// Reference to an optional instance of the <see cref="RefAssessmentNeedNumberOfBrailleDot"/> model
     /// </summary>
-    public Guid? RefAssessmentNeedNumberOfBrailleDotsId { get; set; }
+    public Guid? RefAssessmentNeedNumberOfBrailleDotId { get; set; }
 
     /// <summary>
     /// Assessment Need Usage Type

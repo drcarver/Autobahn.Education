@@ -21,7 +21,6 @@ public partial class K12leaPreKeligibilityEntity : EntityBase, IK12leaPreKeligib
     /// Reference to an optional instance of the <see cref="IK12leapreKeligibility"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The K12leapreKeligibility property is obsolete and will be removed in a later version")]
     [ForeignKey("K12leapreKeligibility")]
     public Guid K12leapreKeligibilityId { get; set; }
 

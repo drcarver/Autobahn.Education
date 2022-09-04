@@ -103,7 +103,7 @@ public partial class FacilityDesignEntity : EntityBase, IFacilityDesign
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingDesignTypeEntity RefBuildingDesignTypeEntity { get; set; }
+    public virtual RefBuildingDesignTypeEntity? RefBuildingDesignTypeEntity { get; set; }
 
     /// <summary>
     /// The primary groupings that rating organizations use to evaluate environmental sustainability and energy use.
@@ -114,7 +114,7 @@ public partial class FacilityDesignEntity : EntityBase, IFacilityDesign
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingEnvOrEnergyPerformanceRatingCatEntity RefBuildingEnvOrEnergyPerformanceRatingCatEntity { get; set; }
+    public virtual RefBuildingEnvOrEnergyPerformanceRatingCatEntity? RefBuildingEnvOrEnergyPerformanceRatingCatEntity { get; set; }
 
     #endregion
 }

@@ -75,7 +75,7 @@ public partial class FacilityLeaseEntity : EntityBase, IFacilityLease
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityLeaseAmountCategoryEntity RefFacilityLeaseAmountCategoryEntity { get; set; }
+    public virtual RefFacilityLeaseAmountCategoryEntity? RefFacilityLeaseAmountCategoryEntity { get; set; }
 
     /// <summary>
     /// The type of agreement that allows the use and possession of a school, building, or other facility from a third party in return for a regularly scheduled installment payment over an agreed-upon period.
@@ -86,7 +86,7 @@ public partial class FacilityLeaseEntity : EntityBase, IFacilityLease
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityLeaseTypeEntity RefFacilityLeaseTypeEntity { get; set; }
+    public virtual RefFacilityLeaseTypeEntity? RefFacilityLeaseTypeEntity { get; set; }
 
     #endregion
 }

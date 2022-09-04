@@ -50,7 +50,7 @@ public partial class CredentialDefAgentEntity : EntityBase, ICredentialDefAgent
     /// This entity is in the Credentials domain
     /// </remarks>
     /// </summary>
-    public virtual RefCtdlorganizationTypeEntity RefCtdlorganizationTypeEntity { get; set; }
+    public virtual RefCtdlorganizationTypeEntity? RefCtdlorganizationTypeEntity { get; set; }
 
     /// <summary>
     /// The role that an organization or person has in relation to this Credential Definition based on terms defined by Credential Engine.
@@ -61,7 +61,7 @@ public partial class CredentialDefAgentEntity : EntityBase, ICredentialDefAgent
     /// This entity is in the Credentials domain
     /// </remarks>
     /// </summary>
-    public virtual RefCredentialDefAgentRoleTypeEntity RefCredentialDefAgentRoleTypeEntity { get; set; }
+    public virtual RefCredentialDefAgentRoleTypeEntity? RefCredentialDefAgentRoleTypeEntity { get; set; }
 
     #endregion
 }

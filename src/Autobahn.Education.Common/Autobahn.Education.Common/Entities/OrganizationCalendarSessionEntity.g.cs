@@ -212,7 +212,7 @@ public partial class OrganizationCalendarSessionEntity : EntityBase, IOrganizati
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefSessionTypeEntity RefSessionTypeEntity { get; set; }
+    public virtual RefSessionTypeEntity? RefSessionTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IOrganizationCalendar"/> implementation
@@ -220,7 +220,7 @@ public partial class OrganizationCalendarSessionEntity : EntityBase, IOrganizati
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual OrganizationCalendarEntity OrganizationCalendarEntity { get; set; }
+    public virtual OrganizationCalendarEntity? OrganizationCalendarEntity { get; set; }
 
     /// <summary>
     /// The academic term for which the data apply.
@@ -231,7 +231,7 @@ public partial class OrganizationCalendarSessionEntity : EntityBase, IOrganizati
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefAcademicTermDesignatorEntity RefAcademicTermDesignatorEntity { get; set; }
+    public virtual RefAcademicTermDesignatorEntity? RefAcademicTermDesignatorEntity { get; set; }
 
     #endregion
 }

@@ -171,7 +171,7 @@ public partial class ProgramParticipationCteEntity : EntityBase, IProgramPartici
     /// This entity is in the CTE domain
     /// </remarks>
     /// </summary>
-    public virtual RefNonTraditionalGenderStatusEntity RefNonTraditionalGenderStatusEntity { get; set; }
+    public virtual RefNonTraditionalGenderStatusEntity? RefNonTraditionalGenderStatusEntity { get; set; }
 
     /// <summary>
     /// The type of work-based learning opportunity a student participated in.
@@ -182,7 +182,7 @@ public partial class ProgramParticipationCteEntity : EntityBase, IProgramPartici
     /// This entity is in the CTE domain
     /// </remarks>
     /// </summary>
-    public virtual RefWorkbasedLearningOpportunityTypeEntity RefWorkbasedLearningOpportunityTypeEntity { get; set; }
+    public virtual RefWorkbasedLearningOpportunityTypeEntity? RefWorkbasedLearningOpportunityTypeEntity { get; set; }
 
     #endregion
 }

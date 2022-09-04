@@ -21,7 +21,6 @@ public partial class CredentialCriteriaCourseEntity : EntityBase, ICredentialCri
     /// Reference to an optional instance of the <see cref="ICredentialDefCriteria"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The CredentialDefCriteria property is obsolete and will be removed in a later version")]
     [ForeignKey("CredentialDefCriteria")]
     public Guid CredentialDefCriteriaId { get; set; }
 

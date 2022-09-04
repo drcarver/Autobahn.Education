@@ -119,7 +119,7 @@ public partial class LearnerActionEntity : EntityBase, ILearnerAction
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual AssessmentItemResponseEntity AssessmentItemResponseEntity { get; set; }
+    public virtual AssessmentItemResponseEntity? AssessmentItemResponseEntity { get; set; }
 
     /// <summary>
     /// The type of action taken by the learner.
@@ -130,7 +130,7 @@ public partial class LearnerActionEntity : EntityBase, ILearnerAction
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefLearnerActionTypeEntity RefLearnerActionTypeEntity { get; set; }
+    public virtual RefLearnerActionTypeEntity? RefLearnerActionTypeEntity { get; set; }
 
     #endregion
 }

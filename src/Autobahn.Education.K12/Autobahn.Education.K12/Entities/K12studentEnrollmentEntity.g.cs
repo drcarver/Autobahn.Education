@@ -44,7 +44,6 @@ public partial class K12studentEnrollmentEntity : EntityBase, IK12studentEnrollm
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefEntryGradeLevel"/> model
     /// </summary>
-    [Obsolete("The RefEntryGradeLevel property is obsolete and will be removed in a later version")]
     [ForeignKey("RefEntryGradeLevel")]
     public Guid? RefEntryGradeLevelId { get; set; }
 
@@ -53,7 +52,6 @@ public partial class K12studentEnrollmentEntity : EntityBase, IK12studentEnrollm
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefExitGradeLevel"/> model
     /// </summary>
-    [Obsolete("The RefExitGradeLevel property is obsolete and will be removed in a later version")]
     [ForeignKey("RefExitGradeLevel")]
     public Guid? RefExitGradeLevelId { get; set; }
 
@@ -104,7 +102,7 @@ public partial class K12studentEnrollmentEntity : EntityBase, IK12studentEnrollm
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefEnrollmentStatusEntity RefEnrollmentStatusEntity { get; set; }
+    public virtual RefEnrollmentStatusEntity? RefEnrollmentStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefExitOrWithdrawalStatus"/> implementation
@@ -112,7 +110,7 @@ public partial class K12studentEnrollmentEntity : EntityBase, IK12studentEnrollm
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefExitOrWithdrawalStatusEntity RefExitOrWithdrawalStatusEntity { get; set; }
+    public virtual RefExitOrWithdrawalStatusEntity? RefExitOrWithdrawalStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefExitOrWithdrawalType"/> implementation
@@ -120,7 +118,7 @@ public partial class K12studentEnrollmentEntity : EntityBase, IK12studentEnrollm
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefExitOrWithdrawalTypeEntity RefExitOrWithdrawalTypeEntity { get; set; }
+    public virtual RefExitOrWithdrawalTypeEntity? RefExitOrWithdrawalTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefEndOfTermStatus"/> implementation
@@ -128,7 +126,7 @@ public partial class K12studentEnrollmentEntity : EntityBase, IK12studentEnrollm
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefEndOfTermStatusEntity RefEndOfTermStatusEntity { get; set; }
+    public virtual RefEndOfTermStatusEntity? RefEndOfTermStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefPromotionReason"/> implementation
@@ -136,7 +134,7 @@ public partial class K12studentEnrollmentEntity : EntityBase, IK12studentEnrollm
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefPromotionReasonEntity RefPromotionReasonEntity { get; set; }
+    public virtual RefPromotionReasonEntity? RefPromotionReasonEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefNonPromotionReason"/> implementation
@@ -144,7 +142,7 @@ public partial class K12studentEnrollmentEntity : EntityBase, IK12studentEnrollm
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefNonPromotionReasonEntity RefNonPromotionReasonEntity { get; set; }
+    public virtual RefNonPromotionReasonEntity? RefNonPromotionReasonEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefFoodServiceEligibility"/> implementation
@@ -152,7 +150,7 @@ public partial class K12studentEnrollmentEntity : EntityBase, IK12studentEnrollm
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefFoodServiceEligibilityEntity RefFoodServiceEligibilityEntity { get; set; }
+    public virtual RefFoodServiceEligibilityEntity? RefFoodServiceEligibilityEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefDirectoryInformationBlockStatus"/> implementation
@@ -160,7 +158,7 @@ public partial class K12studentEnrollmentEntity : EntityBase, IK12studentEnrollm
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefDirectoryInformationBlockStatusEntity RefDirectoryInformationBlockStatusEntity { get; set; }
+    public virtual RefDirectoryInformationBlockStatusEntity? RefDirectoryInformationBlockStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefStudentEnrollmentAccessType"/> implementation
@@ -168,7 +166,7 @@ public partial class K12studentEnrollmentEntity : EntityBase, IK12studentEnrollm
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefStudentEnrollmentAccessTypeEntity RefStudentEnrollmentAccessTypeEntity { get; set; }
+    public virtual RefStudentEnrollmentAccessTypeEntity? RefStudentEnrollmentAccessTypeEntity { get; set; }
 
     #endregion
 }

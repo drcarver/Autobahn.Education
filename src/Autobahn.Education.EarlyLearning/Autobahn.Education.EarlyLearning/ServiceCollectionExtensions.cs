@@ -14,8 +14,38 @@ public static partial class ServiceCollectionExtensions
     public static IServiceCollection AddEarlyLearningServices(this IServiceCollection serviceCollection)
     {
         // First the known view models
+        serviceCollection.AddTransient<ICourseSectionLevel, CourseSectionLevelViewModel>();
         serviceCollection.AddTransient<IEarlyChildhoodCredential, EarlyChildhoodCredentialViewModel>();
         serviceCollection.AddTransient<IEarlyChildhoodProgramTypeOffered, EarlyChildhoodProgramTypeOfferedViewModel>();
+        serviceCollection.AddTransient<IElchildDemographic, ElchildDemographicViewModel>();
+        serviceCollection.AddTransient<IElchildDevelopmentalAssessment, ElchildDevelopmentalAssessmentViewModel>();
+        serviceCollection.AddTransient<IElchildHealth, ElchildHealthViewModel>();
+        serviceCollection.AddTransient<IElchildIndividualizedProgram, ElchildIndividualizedProgramViewModel>();
+        serviceCollection.AddTransient<IElchildOutcomeSummary, ElchildOutcomeSummaryViewModel>();
+        serviceCollection.AddTransient<IElchildProgramEligibility, ElchildProgramEligibilityViewModel>();
+        serviceCollection.AddTransient<IElchildService, ElchildServiceViewModel>();
+        serviceCollection.AddTransient<IElchildServicesApplication, ElchildServicesApplicationViewModel>();
+        serviceCollection.AddTransient<IElchildTransitionPlan, ElchildTransitionPlanViewModel>();
+        serviceCollection.AddTransient<IElclassSection, ElclassSectionViewModel>();
+        serviceCollection.AddTransient<IElclassSectionService, ElclassSectionServiceViewModel>();
+        serviceCollection.AddTransient<IElenrollment, ElenrollmentViewModel>();
+        serviceCollection.AddTransient<IElenrollmentOtherFunding, ElenrollmentOtherFundingViewModel>();
+        serviceCollection.AddTransient<IElfacilityLicensing, ElfacilityLicensingViewModel>();
+        serviceCollection.AddTransient<IEligibilityEvaluation, EligibilityEvaluationViewModel>();
+        serviceCollection.AddTransient<IElorganization, ElorganizationViewModel>();
+        serviceCollection.AddTransient<IElorganizationAvailability, ElorganizationAvailabilityViewModel>();
+        serviceCollection.AddTransient<IElorganizationFund, ElorganizationFundViewModel>();
+        serviceCollection.AddTransient<IElorganizationMonitoring, ElorganizationMonitoringViewModel>();
+        serviceCollection.AddTransient<IElprogramLicensing, ElprogramLicensingViewModel>();
+        serviceCollection.AddTransient<IElqualityInitiative, ElqualityInitiativeViewModel>();
+        serviceCollection.AddTransient<IElqualityRatingImprovement, ElqualityRatingImprovementViewModel>();
+        serviceCollection.AddTransient<IElservicePartner, ElservicePartnerViewModel>();
+        serviceCollection.AddTransient<IElstaff, ElstaffViewModel>();
+        serviceCollection.AddTransient<IElstaffAssignment, ElstaffAssignmentViewModel>();
+        serviceCollection.AddTransient<IElstaffEducation, ElstaffEducationViewModel>();
+        serviceCollection.AddTransient<IElstaffEmployment, ElstaffEmploymentViewModel>();
+        serviceCollection.AddTransient<IIeppresentLevel, IeppresentLevelViewModel>();
+        serviceCollection.AddTransient<IPdactivityEducationLevel, PdactivityEducationLevelViewModel>();
 
         return serviceCollection;
     }

@@ -33,14 +33,6 @@ public partial class WorkforceEmploymentQuarterlyDatumEntity : EntityBase, IWork
     [ForeignKey("RefEmployedWhileEnrolled")]
     public Guid? RefEmployedWhileEnrolledId { get; set; }
 
-    /// <summary>
-    /// Reference to an optional instance of the <see cref="IWorkforceEmploymentQuarterlyData"/> model
-    /// </summary>
-    [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The WorkforceEmploymentQuarterlyData property is obsolete and will be removed in a later version")]
-    [ForeignKey("WorkforceEmploymentQuarterlyData")]
-    public Guid WorkforceEmploymentQuarterlyDataId { get; set; }
-
     #endregion
 
     #region "Virtual Properties for foreign keys"
@@ -50,7 +42,7 @@ public partial class WorkforceEmploymentQuarterlyDatumEntity : EntityBase, IWork
     /// This entity is in the Workforce domain
     /// </remarks>
     /// </summary>
-    public virtual RefEmployedWhileEnrolledEntity RefEmployedWhileEnrolledEntity { get; set; }
+    public virtual RefEmployedWhileEnrolledEntity? RefEmployedWhileEnrolledEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefEmployedAfterExit"/> implementation
@@ -58,7 +50,7 @@ public partial class WorkforceEmploymentQuarterlyDatumEntity : EntityBase, IWork
     /// This entity is in the Workforce domain
     /// </remarks>
     /// </summary>
-    public virtual RefEmployedAfterExitEntity RefEmployedAfterExitEntity { get; set; }
+    public virtual RefEmployedAfterExitEntity? RefEmployedAfterExitEntity { get; set; }
 
     #endregion
 }

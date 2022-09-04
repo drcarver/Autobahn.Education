@@ -243,7 +243,7 @@ public partial class FacilityEntity : EntityBase, IFacility
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingUseTypeEntity RefBuildingUseTypeEntity { get; set; }
+    public virtual RefBuildingUseTypeEntity? RefBuildingUseTypeEntity { get; set; }
 
     /// <summary>
     /// An indication of whether or not a building is eligible to be or has been declared a landmark or historic building.
@@ -254,7 +254,7 @@ public partial class FacilityEntity : EntityBase, IFacility
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingHistoricStatusEntity RefBuildingHistoricStatusEntity { get; set; }
+    public virtual RefBuildingHistoricStatusEntity? RefBuildingHistoricStatusEntity { get; set; }
 
     /// <summary>
     /// The primary use type of the building in which a school is located.
@@ -265,7 +265,7 @@ public partial class FacilityEntity : EntityBase, IFacility
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingPrimaryUseTypeEntity RefBuildingPrimaryUseTypeEntity { get; set; }
+    public virtual RefBuildingPrimaryUseTypeEntity? RefBuildingPrimaryUseTypeEntity { get; set; }
 
     /// <summary>
     /// The generalized use or control of a campus, independent of program type.
@@ -276,7 +276,7 @@ public partial class FacilityEntity : EntityBase, IFacility
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefCampusStatusEntity RefCampusStatusEntity { get; set; }
+    public virtual RefCampusStatusEntity? RefCampusStatusEntity { get; set; }
 
     /// <summary>
     /// The primary purpose for which a campus is designed and/or used.
@@ -287,7 +287,7 @@ public partial class FacilityEntity : EntityBase, IFacility
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefCampusTypeEntity RefCampusTypeEntity { get; set; }
+    public virtual RefCampusTypeEntity? RefCampusTypeEntity { get; set; }
 
     #endregion
 }

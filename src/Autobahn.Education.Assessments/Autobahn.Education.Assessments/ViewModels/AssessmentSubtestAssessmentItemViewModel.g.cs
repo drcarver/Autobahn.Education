@@ -109,9 +109,9 @@ public partial class AssessmentSubtestAssessmentItemViewModel : ObservableValida
     public Guid AssessmentItemId { get; set; }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentSubtest"/> model
+    /// Reference to an optional instance of the <see cref="IAssessmentSubTest"/> model
     /// </summary>
-    public Guid AssessmentSubtestId { get; set; }
+    public Guid AssessmentSubTestId { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IAssessmentSubtestItem"/> model
@@ -134,7 +134,7 @@ public partial class AssessmentSubtestAssessmentItemViewModel : ObservableValida
         IsBusy = true;
         Id = model.Id;
         AssessmentItemId = model.AssessmentItemId; // 
-        AssessmentSubtestId = model.AssessmentSubtestId; // 
+        AssessmentSubTestId = model.AssessmentSubTestId; // 
         AssessmentSubtestItemId = model.AssessmentSubtestItemId; // 
         ItemWeightCorrect = model.ItemWeightCorrect; // 
         ItemWeightIncorrect = model.ItemWeightIncorrect; // 

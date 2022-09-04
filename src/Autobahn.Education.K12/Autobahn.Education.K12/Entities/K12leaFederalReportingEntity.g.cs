@@ -68,7 +68,7 @@ public partial class K12leaFederalReportingEntity : EntityBase, IK12leaFederalRe
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefBarrierToEducatingHomelessEntity RefBarrierToEducatingHomelessEntity { get; set; }
+    public virtual RefBarrierToEducatingHomelessEntity? RefBarrierToEducatingHomelessEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefIntegratedTechnologyStatus"/> implementation
@@ -76,7 +76,7 @@ public partial class K12leaFederalReportingEntity : EntityBase, IK12leaFederalRe
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefIntegratedTechnologyStatusEntity RefIntegratedTechnologyStatusEntity { get; set; }
+    public virtual RefIntegratedTechnologyStatusEntity? RefIntegratedTechnologyStatusEntity { get; set; }
 
     #endregion
 }

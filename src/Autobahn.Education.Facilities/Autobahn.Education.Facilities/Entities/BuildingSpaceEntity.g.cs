@@ -298,7 +298,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefSpaceUseTypeEntity RefSpaceUseTypeEntity { get; set; }
+    public virtual RefSpaceUseTypeEntity? RefSpaceUseTypeEntity { get; set; }
 
     /// <summary>
     /// The space designed primarily for conducting administrative and business functions.
@@ -309,7 +309,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingAdministrativeSpaceTypeEntity RefBuildingAdministrativeSpaceTypeEntity { get; set; }
+    public virtual RefBuildingAdministrativeSpaceTypeEntity? RefBuildingAdministrativeSpaceTypeEntity { get; set; }
 
     /// <summary>
     /// The space designed to support the teaching and learning of 2 dimensional or 3 dimensional visual arts.
@@ -320,7 +320,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingArtSpecialtySpaceTypeEntity RefBuildingArtSpecialtySpaceTypeEntity { get; set; }
+    public virtual RefBuildingArtSpecialtySpaceTypeEntity? RefBuildingArtSpecialtySpaceTypeEntity { get; set; }
 
     /// <summary>
     /// An area designed primarily for theater productions, assemblies, and other large gatherings.
@@ -331,7 +331,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingAssemblySpaceTypeEntity RefBuildingAssemblySpaceTypeEntity { get; set; }
+    public virtual RefBuildingAssemblySpaceTypeEntity? RefBuildingAssemblySpaceTypeEntity { get; set; }
 
     /// <summary>
     /// A classroom designed for instruction of a particular age group, but not a specific subject.
@@ -342,7 +342,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingBasicClassroomDesignTypeEntity RefBuildingBasicClassroomDesignTypeEntity { get; set; }
+    public virtual RefBuildingBasicClassroomDesignTypeEntity? RefBuildingBasicClassroomDesignTypeEntity { get; set; }
 
     /// <summary>
     /// The classroom, laboratory, or shop specially located, designed, furnished, and equipped to support instruction of technical and technology related curriculum, usually tied to particular industry, for example, bio-tech, construction, or agriculture.
@@ -353,7 +353,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingCareerTechEducationSpaceTypeEntity RefBuildingCareerTechEducationSpaceTypeEntity { get; set; }
+    public virtual RefBuildingCareerTechEducationSpaceTypeEntity? RefBuildingCareerTechEducationSpaceTypeEntity { get; set; }
 
     /// <summary>
     /// A space designed to enable people to move within the building.
@@ -364,7 +364,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingCirculationSpaceTypeEntity RefBuildingCirculationSpaceTypeEntity { get; set; }
+    public virtual RefBuildingCirculationSpaceTypeEntity? RefBuildingCirculationSpaceTypeEntity { get; set; }
 
     /// <summary>
     /// The space located, designed, furnished and equipped to support meal programs.
@@ -375,7 +375,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingFoodServiceSpaceTypeEntity RefBuildingFoodServiceSpaceTypeEntity { get; set; }
+    public virtual RefBuildingFoodServiceSpaceTypeEntity? RefBuildingFoodServiceSpaceTypeEntity { get; set; }
 
     /// <summary>
     /// The type of kitchen housed in the facility as defined by whether it prepares food to be served onsite and/or at additional locations.
@@ -386,7 +386,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingFullServiceKitchenTypeEntity RefBuildingFullServiceKitchenTypeEntity { get; set; }
+    public virtual RefBuildingFullServiceKitchenTypeEntity? RefBuildingFullServiceKitchenTypeEntity { get; set; }
 
     /// <summary>
     /// The indoor space designed, located, furnished, and equipped for instruction and support of a physical education curriculum and athletic program.
@@ -397,7 +397,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingIndoorAthleticOrPhysEdSpaceTypeEntity RefBuildingIndoorAthleticOrPhysEdSpaceTypeEntity { get; set; }
+    public virtual RefBuildingIndoorAthleticOrPhysEdSpaceTypeEntity? RefBuildingIndoorAthleticOrPhysEdSpaceTypeEntity { get; set; }
 
     /// <summary>
     /// The primary and auxiliary space designed to provide and support student and staff access to books, periodicals, software, videos, and the Internet.
@@ -408,7 +408,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingLibMediaCenterSpecialtySpaceTypeEntity RefBuildingLibMediaCenterSpecialtySpaceTypeEntity { get; set; }
+    public virtual RefBuildingLibMediaCenterSpecialtySpaceTypeEntity? RefBuildingLibMediaCenterSpecialtySpaceTypeEntity { get; set; }
 
     /// <summary>
     /// The area designed primarily for conducting activities concerned with maintaining the grounds, buildings, and equipment.
@@ -419,7 +419,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingOperationsOrMaintSpaceTypeEntity RefBuildingOperationsOrMaintSpaceTypeEntity { get; set; }
+    public virtual RefBuildingOperationsOrMaintSpaceTypeEntity? RefBuildingOperationsOrMaintSpaceTypeEntity { get; set; }
 
     /// <summary>
     /// The outdoor space designed, located, furnished, and equipped for instruction and support of a physical education curriculum and athletic program.
@@ -430,7 +430,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingOutdoorAthleticOrPhysEdSpaceTypeEntity RefBuildingOutdoorAthleticOrPhysEdSpaceTypeEntity { get; set; }
+    public virtual RefBuildingOutdoorAthleticOrPhysEdSpaceTypeEntity? RefBuildingOutdoorAthleticOrPhysEdSpaceTypeEntity { get; set; }
 
     /// <summary>
     /// The outdoor space located, designed, furnished, and equipped primarily for recreation, play and outdoor environmental education.
@@ -441,7 +441,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingOutdoorOrNonathleticSpaceTypeEntity RefBuildingOutdoorOrNonathleticSpaceTypeEntity { get; set; }
+    public virtual RefBuildingOutdoorOrNonathleticSpaceTypeEntity? RefBuildingOutdoorOrNonathleticSpaceTypeEntity { get; set; }
 
     /// <summary>
     /// The space designed, located, furnished, and equipped for instruction and support of music and drama curricula and productions.
@@ -452,7 +452,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingPerformingArtsSpecialtySpaceTypeEntity RefBuildingPerformingArtsSpecialtySpaceTypeEntity { get; set; }
+    public virtual RefBuildingPerformingArtsSpecialtySpaceTypeEntity? RefBuildingPerformingArtsSpecialtySpaceTypeEntity { get; set; }
 
     /// <summary>
     /// The space designed, located, furnished, and equipped for instruction and experimentation in science.
@@ -463,7 +463,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingScienceSpecialtySpaceTypeEntity RefBuildingScienceSpecialtySpaceTypeEntity { get; set; }
+    public virtual RefBuildingScienceSpecialtySpaceTypeEntity? RefBuildingScienceSpecialtySpaceTypeEntity { get; set; }
 
     /// <summary>
     /// The primary design or purpose of a space, as determined by its physical layout and built-in systems and equipment, regardless of its current use.
@@ -474,7 +474,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingSpaceDesignTypeEntity RefBuildingSpaceDesignTypeEntity { get; set; }
+    public virtual RefBuildingSpaceDesignTypeEntity? RefBuildingSpaceDesignTypeEntity { get; set; }
 
     /// <summary>
     /// The space designed, located, furnished, and equipped to support instruction of children with special physical, emotional, and/or educational needs.
@@ -485,7 +485,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingSpecEdSpecialtySpaceTypeEntity RefBuildingSpecEdSpecialtySpaceTypeEntity { get; set; }
+    public virtual RefBuildingSpecEdSpecialtySpaceTypeEntity? RefBuildingSpecEdSpecialtySpaceTypeEntity { get; set; }
 
     /// <summary>
     /// The space designed to provide student support services such as administrative, technical (e.g., guidance and health), and logistical support to facilitate and enhance instruction.
@@ -496,7 +496,7 @@ public partial class BuildingSpaceEntity : EntityBase, IBuildingSpace
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingStudentSupportSpaceTypeEntity RefBuildingStudentSupportSpaceTypeEntity { get; set; }
+    public virtual RefBuildingStudentSupportSpaceTypeEntity? RefBuildingStudentSupportSpaceTypeEntity { get; set; }
 
     #endregion
 }

@@ -49,19 +49,9 @@ public partial class AssessmentItemApipDescriptionModel : AutobahnBaseModel, IAs
     public Boolean? ReducedAnswersAssignedSupportIndicator { get; set; }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="RefHazardType"/> model
-    /// </summary>
-    public Guid? RefHazardTypeId { get; set; }
-
-    /// <summary>
     /// Reference to an optional instance of the <see cref="RefKeywordTranslationLanguage"/> model
     /// </summary>
     public Guid? RefKeywordTranslationLanguageId { get; set; }
-
-    /// <summary>
-    /// Reference to an optional instance of the <see cref="RefSupportToolType"/> model
-    /// </summary>
-    public Guid? RefSupportToolTypeId { get; set; }
 
     public Boolean? ScaffoldingActivateByDefaultIndicator { get; set; }
 

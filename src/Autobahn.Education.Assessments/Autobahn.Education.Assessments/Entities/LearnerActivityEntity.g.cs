@@ -19,7 +19,6 @@ public partial class LearnerActivityEntity : EntityBase, ILearnerActivity
     /// <summary>
     /// Reference to an optional instance of the <see cref="IAssignedByPerson"/> model
     /// </summary>
-    [Obsolete("The AssignedByPerson property is obsolete and will be removed in a later version")]
     [ForeignKey("AssignedByPerson")]
     public Guid? AssignedByPersonId { get; set; }
 
@@ -68,7 +67,6 @@ public partial class LearnerActivityEntity : EntityBase, ILearnerActivity
     /// <summary>
     /// Reference to an optional instance of the <see cref="ILeaOrganization"/> model
     /// </summary>
-    [Obsolete("The LeaOrganization property is obsolete and will be removed in a later version")]
     [ForeignKey("LeaOrganization")]
     public Guid? LeaOrganizationId { get; set; }
 
@@ -162,18 +160,10 @@ public partial class LearnerActivityEntity : EntityBase, ILearnerActivity
     public Guid? RefLearnerActivityAddToGradeBookFlagId { get; set; }
 
     /// <summary>
-    /// Learner Activity Maximum Time Allowed Unit
-    /// <para>
-    /// The unit of time of the�Maximum Time Allowed�value.
-    /// </para>
-    /// <para>
-    /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19946">Learner Activity Maximum Time Allowed Unit</a>
-    /// </para>
+    /// Reference to an optional instance of the <see cref="RefLearnerActivityMaximumTimeAllowedUnit"/> model
     /// </summary>
-    [Obsolete("The RefLearnerActivityMaximumTimeAllowedUnits property is obsolete and will be removed in a later version")]
-    [ForeignKey("RefLearnerActivityMaximumTimeAllowedUnits")]
-    [Comment("The unit of time of the�Maximum Time Allowed�value.")]
-    public Guid? RefLearnerActivityMaximumTimeAllowedUnitsId { get; set; }
+    [ForeignKey("RefLearnerActivityMaximumTimeAllowedUnit")]
+    public Guid? RefLearnerActivityMaximumTimeAllowedUnitId { get; set; }
 
     /// <summary>
     /// Learner Activity Type
@@ -217,7 +207,6 @@ public partial class LearnerActivityEntity : EntityBase, ILearnerActivity
     /// <summary>
     /// Reference to an optional instance of the <see cref="ISchoolOrganization"/> model
     /// </summary>
-    [Obsolete("The SchoolOrganization property is obsolete and will be removed in a later version")]
     [ForeignKey("SchoolOrganization")]
     public Guid? SchoolOrganizationId { get; set; }
 
@@ -256,7 +245,7 @@ public partial class LearnerActivityEntity : EntityBase, ILearnerActivity
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual AssessmentRegistrationEntity AssessmentRegistrationEntity { get; set; }
+    public virtual AssessmentRegistrationEntity? AssessmentRegistrationEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="ICourseSection"/> implementation
@@ -264,7 +253,7 @@ public partial class LearnerActivityEntity : EntityBase, ILearnerActivity
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual CourseSectionEntity CourseSectionEntity { get; set; }
+    public virtual CourseSectionEntity? CourseSectionEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IOrganizationCalendarSession"/> implementation
@@ -272,7 +261,7 @@ public partial class LearnerActivityEntity : EntityBase, ILearnerActivity
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual OrganizationCalendarSessionEntity OrganizationCalendarSessionEntity { get; set; }
+    public virtual OrganizationCalendarSessionEntity? OrganizationCalendarSessionEntity { get; set; }
 
     /// <summary>
     /// The type of work assigned to the learner.
@@ -283,7 +272,15 @@ public partial class LearnerActivityEntity : EntityBase, ILearnerActivity
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefLearnerActivityTypeEntity RefLearnerActivityTypeEntity { get; set; }
+    public virtual RefLearnerActivityTypeEntity? RefLearnerActivityTypeEntity { get; set; }
+
+    /// <summary>
+    /// Reference to an optional instance of the <see cref="IRefLearnerActivityMaximumTimeAllowedUnit"/> implementation
+    /// <remarks>
+    /// This entity is in the Assessments domain
+    /// </remarks>
+    /// </summary>
+    public virtual RefLearnerActivityMaximumTimeAllowedUnitEntity? RefLearnerActivityMaximumTimeAllowedUnitEntity { get; set; }
 
     /// <summary>
     /// Identifies the assignment as one that is graded.
@@ -294,7 +291,7 @@ public partial class LearnerActivityEntity : EntityBase, ILearnerActivity
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefLearnerActivityAddToGradeBookFlagEntity RefLearnerActivityAddToGradeBookFlagEntity { get; set; }
+    public virtual RefLearnerActivityAddToGradeBookFlagEntity? RefLearnerActivityAddToGradeBookFlagEntity { get; set; }
 
     /// <summary>
     /// The default language used for the assignment.
@@ -305,7 +302,7 @@ public partial class LearnerActivityEntity : EntityBase, ILearnerActivity
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefLanguageEntity RefLanguageEntity { get; set; }
+    public virtual RefLanguageEntity? RefLanguageEntity { get; set; }
 
     #endregion
 }

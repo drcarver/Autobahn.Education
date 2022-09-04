@@ -38,7 +38,7 @@ public partial class K12studentLiteracyAssessmentEntity : EntityBase, IK12studen
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefLiteracyAssessmentEntity RefLiteracyAssessmentEntity { get; set; }
+    public virtual RefLiteracyAssessmentEntity? RefLiteracyAssessmentEntity { get; set; }
 
     #endregion
 }

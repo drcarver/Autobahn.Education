@@ -10,6 +10,9 @@
 10|LearningResources|Learning Resources|Information about materials that support teaching and learning.|27d1aa01-f176-4c6d-bbfb-7a4aa6b2ec25
 11|Facilities|Facilities|The CEDS domain that includes entities and elements related to a building or buildings located on a single site.|cbfa689a-e494-4ced-a86a-fb91e6318290
 12|Implementation|Implementation|Information used for implementing data systems and processes|35314347-dd3f-43ab-ae6c-99c08d7fdcaf
-13|Authorization|Authentication and Authorization|Information used by an application or service that authenticates the identity of a person or authorizes a person’s access to information or services.|c3f2eba2-9b12-4e33-87da-034590d0ff97
 0|Common|Common Models|Common models used in multiple domains.|6D255E48-2117-43D5-9611-CFC8C9BAABEC
+13|Person|Person Models|Models that describe a person.|C06485BF-997A-4E25-902E-49484F18E73A
+14|Organization|Organization Models|Organization models that describe a company or organization.|08E66161-BB8D-4846-AC0C-8AB6B0B478DE
+15|Role|Role Models|Role models that describe a role a person has to a organization or item.|D5418FBB-6D0A-46C0-81F6-5D0B817F43B3
+16|Invalid|Unknown Models|Unknown models not used in any domains.|202BE1CC-818E-45B6-AD2F-F7E829DA152F
 

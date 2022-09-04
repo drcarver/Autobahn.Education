@@ -93,7 +93,7 @@ public partial class PsStudentAcademicAwardEntity : EntityBase, IPsStudentAcadem
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefAcademicAwardLevelEntity RefAcademicAwardLevelEntity { get; set; }
+    public virtual RefAcademicAwardLevelEntity? RefAcademicAwardLevelEntity { get; set; }
 
     /// <summary>
     /// Prerequisite conditions for earning an academic award.
@@ -104,7 +104,7 @@ public partial class PsStudentAcademicAwardEntity : EntityBase, IPsStudentAcadem
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefAcademicAwardPrerequisiteTypeEntity RefAcademicAwardPrerequisiteTypeEntity { get; set; }
+    public virtual RefAcademicAwardPrerequisiteTypeEntity? RefAcademicAwardPrerequisiteTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefPescawardLevelType"/> implementation
@@ -112,7 +112,7 @@ public partial class PsStudentAcademicAwardEntity : EntityBase, IPsStudentAcadem
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefPescawardLevelTypeEntity RefPescawardLevelTypeEntity { get; set; }
+    public virtual RefPescawardLevelTypeEntity? RefPescawardLevelTypeEntity { get; set; }
 
     #endregion
 }

@@ -14,16 +14,23 @@ public static partial class ServiceCollectionExtensions
     public static IServiceCollection AddAssessmentsServices(this IServiceCollection serviceCollection)
     {
         // First the known view models
+        serviceCollection.AddTransient<IApipInteraction, ApipInteractionViewModel>();
+        serviceCollection.AddTransient<IAssessment, AssessmentViewModel>();
+        serviceCollection.AddTransient<IAssessmentAccommodation, AssessmentAccommodationViewModel>();
+        serviceCollection.AddTransient<IAssessmentAdministration, AssessmentAdministrationViewModel>();
         serviceCollection.AddTransient<IAssessmentAdministrationOrganization, AssessmentAdministrationOrganizationViewModel>();
         serviceCollection.AddTransient<IAssessmentAssessmentAdministration, AssessmentAssessmentAdministrationViewModel>();
         serviceCollection.AddTransient<IAssessmentAsset, AssessmentAssetViewModel>();
         serviceCollection.AddTransient<IAssessmentEldevelopmentalDomain, AssessmentEldevelopmentalDomainViewModel>();
+        serviceCollection.AddTransient<IAssessmentForm, AssessmentFormViewModel>();
         serviceCollection.AddTransient<IAssessmentFormAssessmentAsset, AssessmentFormAssessmentAssetViewModel>();
         serviceCollection.AddTransient<IAssessmentFormAssessmentFormSection, AssessmentFormAssessmentFormSectionViewModel>();
-        serviceCollection.AddTransient<IAssessmentFormAssessmentFormSectionItem, AssessmentFormAssessmentFormSectionItemViewModel>();
         serviceCollection.AddTransient<IAssessmentFormSection, AssessmentFormSectionViewModel>();
         serviceCollection.AddTransient<IAssessmentFormSectionAssessmentAsset, AssessmentFormSectionAssessmentAssetViewModel>();
         serviceCollection.AddTransient<IAssessmentFormSectionAssessmentItem, AssessmentFormSectionAssessmentItemViewModel>();
+        serviceCollection.AddTransient<IAssessmentFormSectionItem, AssessmentFormSectionItemViewModel>();
+        serviceCollection.AddTransient<IAssessmentItem, AssessmentItemViewModel>();
+        serviceCollection.AddTransient<IAssessmentItemApip, AssessmentItemApipViewModel>();
         serviceCollection.AddTransient<IAssessmentItemApipDescription, AssessmentItemApipDescriptionViewModel>();
         serviceCollection.AddTransient<IAssessmentItemCharacteristic, AssessmentItemCharacteristicViewModel>();
         serviceCollection.AddTransient<IAssessmentItemPossibleResponse, AssessmentItemPossibleResponseViewModel>();
@@ -46,21 +53,28 @@ public static partial class ServiceCollectionExtensions
         serviceCollection.AddTransient<IAssessmentPersonalNeedsProfileControl, AssessmentPersonalNeedsProfileControlViewModel>();
         serviceCollection.AddTransient<IAssessmentPersonalNeedsProfileDisplay, AssessmentPersonalNeedsProfileDisplayViewModel>();
         serviceCollection.AddTransient<IAssessmentPersonalNeedsProfileScreenEnhancement, AssessmentPersonalNeedsProfileScreenEnhancementViewModel>();
+        serviceCollection.AddTransient<IAssessmentRegistration, AssessmentRegistrationViewModel>();
         serviceCollection.AddTransient<IAssessmentRegistrationAccommodation, AssessmentRegistrationAccommodationViewModel>();
+        serviceCollection.AddTransient<IAssessmentResult, AssessmentResultViewModel>();
         serviceCollection.AddTransient<IAssessmentResultPerformanceLevel, AssessmentResultPerformanceLevelViewModel>();
         serviceCollection.AddTransient<IAssessmentResultRubricCriterionResult, AssessmentResultRubricCriterionResultViewModel>();
         serviceCollection.AddTransient<IAssessmentSession, AssessmentSessionViewModel>();
         serviceCollection.AddTransient<IAssessmentSessionStaffRole, AssessmentSessionStaffRoleViewModel>();
+        serviceCollection.AddTransient<IAssessmentSubTest, AssessmentSubTestViewModel>();
         serviceCollection.AddTransient<IAssessmentSubtestAssessmentItem, AssessmentSubtestAssessmentItemViewModel>();
         serviceCollection.AddTransient<IAssessmentSubtestCompetencyDefinition, AssessmentSubtestCompetencyDefinitionViewModel>();
         serviceCollection.AddTransient<IAssessmentSubtestEldevelopmentalDomain, AssessmentSubtestEldevelopmentalDomainViewModel>();
         serviceCollection.AddTransient<IAssessmentSubtestItem, AssessmentSubtestItemViewModel>();
         serviceCollection.AddTransient<IAssessmentSubtestLevelsForWhichDesigned, AssessmentSubtestLevelsForWhichDesignedViewModel>();
+        serviceCollection.AddTransient<IGoal, GoalViewModel>();
         serviceCollection.AddTransient<IGoalMeasurement, GoalMeasurementViewModel>();
         serviceCollection.AddTransient<IGoalMeasurementCriterion, GoalMeasurementCriterionViewModel>();
+        serviceCollection.AddTransient<IGoalPerformance, GoalPerformanceViewModel>();
         serviceCollection.AddTransient<ILearnerAction, LearnerActionViewModel>();
         serviceCollection.AddTransient<ILearnerActivity, LearnerActivityViewModel>();
-        serviceCollection.AddTransient<ILearnerActivityLearningResource, LearnerActivityLearningResourceViewModel>();
+        serviceCollection.AddTransient<IPersonAssessmentPersonalNeedsProfile, PersonAssessmentPersonalNeedsProfileViewModel>();
+        serviceCollection.AddTransient<IRubric, RubricViewModel>();
+        serviceCollection.AddTransient<IRubricCriterion, RubricCriterionViewModel>();
         serviceCollection.AddTransient<IRubricCriterionLevel, RubricCriterionLevelViewModel>();
 
         return serviceCollection;

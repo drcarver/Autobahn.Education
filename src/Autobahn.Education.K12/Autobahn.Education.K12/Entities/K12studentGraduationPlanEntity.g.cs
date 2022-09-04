@@ -29,7 +29,6 @@ public partial class K12studentGraduationPlanEntity : EntityBase, IK12studentGra
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefGradeLevelWhenCourseTaken"/> model
     /// </summary>
-    [Obsolete("The RefGradeLevelWhenCourseTaken property is obsolete and will be removed in a later version")]
     [ForeignKey("RefGradeLevelWhenCourseTaken")]
     public Guid? RefGradeLevelWhenCourseTakenId { get; set; }
 
@@ -56,7 +55,7 @@ public partial class K12studentGraduationPlanEntity : EntityBase, IK12studentGra
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefScedcourseSubjectAreaEntity RefScedcourseSubjectAreaEntity { get; set; }
+    public virtual RefScedcourseSubjectAreaEntity? RefScedcourseSubjectAreaEntity { get; set; }
 
     #endregion
 }

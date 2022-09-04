@@ -85,7 +85,6 @@ public partial class PsPriceOfAttendanceEntity : EntityBase, IPsPriceOfAttendanc
     /// Reference to an optional instance of the <see cref="IPspriceOfAttendance"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The PspriceOfAttendance property is obsolete and will be removed in a later version")]
     [ForeignKey("PspriceOfAttendance")]
     public Guid PspriceOfAttendanceId { get; set; }
 
@@ -172,7 +171,7 @@ public partial class PsPriceOfAttendanceEntity : EntityBase, IPsPriceOfAttendanc
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefTuitionUnitEntity RefTuitionUnitEntity { get; set; }
+    public virtual RefTuitionUnitEntity? RefTuitionUnitEntity { get; set; }
 
     #endregion
 }

@@ -40,11 +40,13 @@ public static partial class ServiceCollectionExtensions
         serviceCollection.AddTransient<IK12sea, K12seaViewModel>();
         serviceCollection.AddTransient<IK12seaAlternateFundUse, K12seaAlternateFundUseViewModel>();
         serviceCollection.AddTransient<IK12seaFederalFund, K12seaFederalFundViewModel>();
+        serviceCollection.AddTransient<IK12staffAssignment, K12staffAssignmentViewModel>();
         serviceCollection.AddTransient<IK12staffEmployment, K12staffEmploymentViewModel>();
         serviceCollection.AddTransient<IK12studentAcademicHonor, K12studentAcademicHonorViewModel>();
         serviceCollection.AddTransient<IK12studentAcademicRecord, K12studentAcademicRecordViewModel>();
         serviceCollection.AddTransient<IK12studentActivity, K12studentActivityViewModel>();
         serviceCollection.AddTransient<IK12studentCohort, K12studentCohortViewModel>();
+        serviceCollection.AddTransient<IK12studentCourseSection, K12studentCourseSectionViewModel>();
         serviceCollection.AddTransient<IK12studentCourseSectionMark, K12studentCourseSectionMarkViewModel>();
         serviceCollection.AddTransient<IK12studentDiscipline, K12studentDisciplineViewModel>();
         serviceCollection.AddTransient<IK12studentEmployment, K12studentEmploymentViewModel>();

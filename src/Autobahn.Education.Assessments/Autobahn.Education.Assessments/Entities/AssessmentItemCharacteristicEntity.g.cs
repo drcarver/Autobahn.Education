@@ -78,7 +78,7 @@ public partial class AssessmentItemCharacteristicEntity : EntityBase, IAssessmen
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentItemCharacteristicTypeEntity RefAssessmentItemCharacteristicTypeEntity { get; set; }
+    public virtual RefAssessmentItemCharacteristicTypeEntity? RefAssessmentItemCharacteristicTypeEntity { get; set; }
 
     #endregion
 }

@@ -16,7 +16,10 @@ public static partial class ServiceCollectionExtensions
         // First the known view models
         serviceCollection.AddTransient<ICompetencyDefAssociation, CompetencyDefAssociationViewModel>();
         serviceCollection.AddTransient<ICompetencyDefEducationLevel, CompetencyDefEducationLevelViewModel>();
+        serviceCollection.AddTransient<ICompetencyDefinition, CompetencyDefinitionViewModel>();
         serviceCollection.AddTransient<ICompetencyDefinitionCompetencySet, CompetencyDefinitionCompetencySetViewModel>();
+        serviceCollection.AddTransient<ICompetencyFramework, CompetencyFrameworkViewModel>();
+        serviceCollection.AddTransient<ICompetencySet, CompetencySetViewModel>();
         serviceCollection.AddTransient<ICompetencySetRubric, CompetencySetRubricViewModel>();
         serviceCollection.AddTransient<ICompetencySetRubricCriterion, CompetencySetRubricCriterionViewModel>();
 

@@ -20,7 +20,6 @@ public partial class CredentialDefCriterionEntity : EntityBase, ICredentialDefCr
     /// Reference to an optional instance of the <see cref="ICredentialDefCriteria"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The CredentialDefCriteria property is obsolete and will be removed in a later version")]
     [ForeignKey("CredentialDefCriteria")]
     public Guid CredentialDefCriteriaId { get; set; }
 
@@ -76,7 +75,7 @@ public partial class CredentialDefCriterionEntity : EntityBase, ICredentialDefCr
     /// This entity is in the Credentials domain
     /// </remarks>
     /// </summary>
-    public virtual CompetencySetEntity CompetencySetEntity { get; set; }
+    public virtual CompetencySetEntity? CompetencySetEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefCredentialDefAssessMethodType"/> implementation
@@ -84,7 +83,7 @@ public partial class CredentialDefCriterionEntity : EntityBase, ICredentialDefCr
     /// This entity is in the Credentials domain
     /// </remarks>
     /// </summary>
-    public virtual RefCredentialDefAssessMethodTypeEntity RefCredentialDefAssessMethodTypeEntity { get; set; }
+    public virtual RefCredentialDefAssessMethodTypeEntity? RefCredentialDefAssessMethodTypeEntity { get; set; }
 
     #endregion
 }

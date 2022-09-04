@@ -3,8 +3,6 @@
 //* FileName:   RefSexEntity.cs
 //***************************************************************************
 
-using System.ComponentModel.DataAnnotations.Schema;
-
 /// <summary>
 /// Sex
 /// <para>

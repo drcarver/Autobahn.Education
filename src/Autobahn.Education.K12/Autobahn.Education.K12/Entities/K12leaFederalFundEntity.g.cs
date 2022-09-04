@@ -20,7 +20,6 @@ public partial class K12leaFederalFundEntity : EntityBase, IK12leaFederalFund
     /// Reference to an optional instance of the <see cref="IK12leaFederalFunds"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The K12leaFederalFunds property is obsolete and will be removed in a later version")]
     [ForeignKey("K12leaFederalFunds")]
     public Guid K12leaFederalFundsId { get; set; }
 
@@ -62,7 +61,7 @@ public partial class K12leaFederalFundEntity : EntityBase, IK12leaFederalFund
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefRlisProgramUseEntity RefRlisProgramUseEntity { get; set; }
+    public virtual RefRlisProgramUseEntity? RefRlisProgramUseEntity { get; set; }
 
     #endregion
 }

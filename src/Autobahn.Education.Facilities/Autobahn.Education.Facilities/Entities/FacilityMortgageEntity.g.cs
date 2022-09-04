@@ -87,7 +87,7 @@ public partial class FacilityMortgageEntity : EntityBase, IFacilityMortgage
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityMortgageInterestTypeEntity RefFacilityMortgageInterestTypeEntity { get; set; }
+    public virtual RefFacilityMortgageInterestTypeEntity? RefFacilityMortgageInterestTypeEntity { get; set; }
 
     /// <summary>
     /// The status of a mortgage as it relates to priority of payment.
@@ -98,7 +98,7 @@ public partial class FacilityMortgageEntity : EntityBase, IFacilityMortgage
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityMortgageTypeEntity RefFacilityMortgageTypeEntity { get; set; }
+    public virtual RefFacilityMortgageTypeEntity? RefFacilityMortgageTypeEntity { get; set; }
 
     #endregion
 }

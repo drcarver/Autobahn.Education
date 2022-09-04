@@ -128,7 +128,7 @@ public partial class FacilityHazardEntity : EntityBase, IFacilityHazard
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityHazardousMaterialsOrCondTypeEntity RefFacilityHazardousMaterialsOrCondTypeEntity { get; set; }
+    public virtual RefFacilityHazardousMaterialsOrCondTypeEntity? RefFacilityHazardousMaterialsOrCondTypeEntity { get; set; }
 
     /// <summary>
     /// Type of natural hazard that can affect the health, safety and operation of school facilities and their occupants.
@@ -139,7 +139,7 @@ public partial class FacilityHazardEntity : EntityBase, IFacilityHazard
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityNaturallyOccurringHazardTypeEntity RefFacilityNaturallyOccurringHazardTypeEntity { get; set; }
+    public virtual RefFacilityNaturallyOccurringHazardTypeEntity? RefFacilityNaturallyOccurringHazardTypeEntity { get; set; }
 
     #endregion
 }

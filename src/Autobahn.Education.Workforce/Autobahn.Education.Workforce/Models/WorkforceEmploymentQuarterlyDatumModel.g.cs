@@ -28,10 +28,5 @@ public partial class WorkforceEmploymentQuarterlyDatumModel : AutobahnBaseModel,
     /// </summary>
     public Guid? RefEmployedWhileEnrolledId { get; set; }
 
-    /// <summary>
-    /// Reference to an optional instance of the <see cref="IWorkforceEmploymentQuarterlyData"/> model
-    /// </summary>
-    public Guid WorkforceEmploymentQuarterlyDataId { get; set; }
-
     #endregion
 }

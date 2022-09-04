@@ -47,7 +47,7 @@ public partial class K12organizationStudentResponsibilityEntity : EntityBase, IK
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefStudentSchoolAffiliationStateDefinedStatusEntity RefStudentSchoolAffiliationStateDefinedStatusEntity { get; set; }
+    public virtual RefStudentSchoolAffiliationStateDefinedStatusEntity? RefStudentSchoolAffiliationStateDefinedStatusEntity { get; set; }
 
     #endregion
 }

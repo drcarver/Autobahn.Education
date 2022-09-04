@@ -3,9 +3,6 @@
 //* FileName:   RoleEntity.cs
 //***************************************************************************
 
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
 /// <summary>
 /// The Role Entity
 /// </summary>

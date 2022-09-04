@@ -34,7 +34,7 @@ public partial class K12studentSessionEntity : EntityBase, IK12studentSession
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual OrganizationCalendarSessionEntity OrganizationCalendarSessionEntity { get; set; }
+    public virtual OrganizationCalendarSessionEntity? OrganizationCalendarSessionEntity { get; set; }
 
     #endregion
 }

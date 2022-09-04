@@ -197,7 +197,7 @@ public partial class AssessmentItemResponseTheoryEntity : EntityBase, IAssessmen
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefItemResponseTheoryDifficultyCategoryEntity RefItemResponseTheoryDifficultyCategoryEntity { get; set; }
+    public virtual RefItemResponseTheoryDifficultyCategoryEntity? RefItemResponseTheoryDifficultyCategoryEntity { get; set; }
 
     /// <summary>
     /// The algorithm used to derive the Assessment Item Kappa Value
@@ -208,7 +208,7 @@ public partial class AssessmentItemResponseTheoryEntity : EntityBase, IAssessmen
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefItemResponseTheoryKappaAlgorithmEntity RefItemResponseTheoryKappaAlgorithmEntity { get; set; }
+    public virtual RefItemResponseTheoryKappaAlgorithmEntity? RefItemResponseTheoryKappaAlgorithmEntity { get; set; }
 
     #endregion
 }

@@ -338,11 +338,6 @@ public partial class PsStudentEnrollmentViewModel : ObservableValidator, IPsStud
     public Boolean? PostsecondaryEnteringStudentInd { get => postsecondaryEnteringStudentInd; set => SetProperty(ref postsecondaryEnteringStudentInd, value, false); }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IPsstudentEnrollment"/> model
-    /// </summary>
-    public Guid PsstudentEnrollmentId { get; set; }
-
-    /// <summary>
     /// Developmental Education Referral Status
     /// <para>
     /// The status of a student's referral to or placement into  developmental education.
@@ -531,7 +526,6 @@ public partial class PsStudentEnrollmentViewModel : ObservableValidator, IPsStud
         OralDefenseDate = model.OralDefenseDate; // Oral Defense Date
         OrganizationPersonRoleId = model.OrganizationPersonRoleId; // 
         PostsecondaryEnteringStudentInd = model.PostsecondaryEnteringStudentInd; // Postsecondary Entering Student Indicator
-        PsstudentEnrollmentId = model.PsstudentEnrollmentId; // 
         RefDevelopmentalEducationReferralStatusId = model.RefDevelopmentalEducationReferralStatusId; // Developmental Education Referral Status
         RefDevelopmentalEducationTypeId = model.RefDevelopmentalEducationTypeId; // Developmental Education Type
         RefDistanceEducationCourseEnrollmentId = model.RefDistanceEducationCourseEnrollmentId; // Distance Education Course Enrollment

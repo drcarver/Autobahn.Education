@@ -15,9 +15,9 @@ public partial class AssessmentSubtestAssessmentItemModel : AutobahnBaseModel, I
     public Guid AssessmentItemId { get; set; }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentSubtest"/> model
+    /// Reference to an optional instance of the <see cref="IAssessmentSubTest"/> model
     /// </summary>
-    public Guid AssessmentSubtestId { get; set; }
+    public Guid AssessmentSubTestId { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IAssessmentSubtestItem"/> model

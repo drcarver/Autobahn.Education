@@ -54,7 +54,7 @@ public partial class AssessmentSessionStaffRoleEntity : EntityBase, IAssessmentS
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentSessionStaffRoleTypeEntity RefAssessmentSessionStaffRoleTypeEntity { get; set; }
+    public virtual RefAssessmentSessionStaffRoleTypeEntity? RefAssessmentSessionStaffRoleTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IAssessmentSession"/> implementation
@@ -62,7 +62,7 @@ public partial class AssessmentSessionStaffRoleEntity : EntityBase, IAssessmentS
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual AssessmentSessionEntity AssessmentSessionEntity { get; set; }
+    public virtual AssessmentSessionEntity? AssessmentSessionEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IAssessmentParticipantSession"/> implementation
@@ -70,7 +70,7 @@ public partial class AssessmentSessionStaffRoleEntity : EntityBase, IAssessmentS
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual AssessmentParticipantSessionEntity AssessmentParticipantSessionEntity { get; set; }
+    public virtual AssessmentParticipantSessionEntity? AssessmentParticipantSessionEntity { get; set; }
 
     #endregion
 }

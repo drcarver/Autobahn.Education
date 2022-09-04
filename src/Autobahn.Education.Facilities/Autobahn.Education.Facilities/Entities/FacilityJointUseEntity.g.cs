@@ -76,7 +76,7 @@ public partial class FacilityJointUseEntity : EntityBase, IFacilityJointUse
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingJointUseRationaleTypeEntity RefBuildingJointUseRationaleTypeEntity { get; set; }
+    public virtual RefBuildingJointUseRationaleTypeEntity? RefBuildingJointUseRationaleTypeEntity { get; set; }
 
     /// <summary>
     /// The types of users sharing school district controlled, owned, or utilized facilities.
@@ -87,7 +87,7 @@ public partial class FacilityJointUseEntity : EntityBase, IFacilityJointUse
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingJointUserTypeEntity RefBuildingJointUserTypeEntity { get; set; }
+    public virtual RefBuildingJointUserTypeEntity? RefBuildingJointUserTypeEntity { get; set; }
 
     /// <summary>
     /// The type of designation of non school district users by the amount of time they have access to public school for joint use.
@@ -98,7 +98,7 @@ public partial class FacilityJointUseEntity : EntityBase, IFacilityJointUse
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingJointUseSchedulingTypeEntity RefBuildingJointUseSchedulingTypeEntity { get; set; }
+    public virtual RefBuildingJointUseSchedulingTypeEntity? RefBuildingJointUseSchedulingTypeEntity { get; set; }
 
     #endregion
 }

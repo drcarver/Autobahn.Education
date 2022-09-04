@@ -103,7 +103,7 @@ public partial class FacilityMandateEntity : EntityBase, IFacilityMandate
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilitiesMandateAuthorityTypeEntity RefFacilitiesMandateAuthorityTypeEntity { get; set; }
+    public virtual RefFacilitiesMandateAuthorityTypeEntity? RefFacilitiesMandateAuthorityTypeEntity { get; set; }
 
     /// <summary>
     /// The particular federal law, regulation, or standard that pertains to a school facility.
@@ -114,7 +114,7 @@ public partial class FacilityMandateEntity : EntityBase, IFacilityMandate
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityApplicableFederalMandateTypeEntity RefFacilityApplicableFederalMandateTypeEntity { get; set; }
+    public virtual RefFacilityApplicableFederalMandateTypeEntity? RefFacilityApplicableFederalMandateTypeEntity { get; set; }
 
     /// <summary>
     /// The area of interest controlled by a federal law, regulation, or standard that pertains to a school facility.
@@ -125,7 +125,7 @@ public partial class FacilityMandateEntity : EntityBase, IFacilityMandate
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityFederalMandateInterestTypeEntity RefFacilityFederalMandateInterestTypeEntity { get; set; }
+    public virtual RefFacilityFederalMandateInterestTypeEntity? RefFacilityFederalMandateInterestTypeEntity { get; set; }
 
     /// <summary>
     /// The area of interest controlled by a law, rule, regulation, or standard of state and local governments that pertains to public school facilities.
@@ -136,7 +136,7 @@ public partial class FacilityMandateEntity : EntityBase, IFacilityMandate
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityStateOrLocalMandateInterestTypeEntity RefFacilityStateOrLocalMandateInterestTypeEntity { get; set; }
+    public virtual RefFacilityStateOrLocalMandateInterestTypeEntity? RefFacilityStateOrLocalMandateInterestTypeEntity { get; set; }
 
     #endregion
 }

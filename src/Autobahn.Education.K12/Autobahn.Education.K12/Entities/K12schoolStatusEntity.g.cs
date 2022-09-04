@@ -130,7 +130,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefMagnetSpecialProgramEntity RefMagnetSpecialProgramEntity { get; set; }
+    public virtual RefMagnetSpecialProgramEntity? RefMagnetSpecialProgramEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefAlternativeSchoolFocus"/> implementation
@@ -138,7 +138,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefAlternativeSchoolFocusEntity RefAlternativeSchoolFocusEntity { get; set; }
+    public virtual RefAlternativeSchoolFocusEntity? RefAlternativeSchoolFocusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefInternetAccess"/> implementation
@@ -146,7 +146,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefInternetAccessEntity RefInternetAccessEntity { get; set; }
+    public virtual RefInternetAccessEntity? RefInternetAccessEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefRestructuringAction"/> implementation
@@ -154,7 +154,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefRestructuringActionEntity RefRestructuringActionEntity { get; set; }
+    public virtual RefRestructuringActionEntity? RefRestructuringActionEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefTitleIschoolStatus"/> implementation
@@ -162,7 +162,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefTitleIschoolStatusEntity RefTitleIschoolStatusEntity { get; set; }
+    public virtual RefTitleIschoolStatusEntity? RefTitleIschoolStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefNslpstatus"/> implementation
@@ -170,7 +170,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefNslpstatusEntity RefNslpstatusEntity { get; set; }
+    public virtual RefNslpstatusEntity? RefNslpstatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefSchoolDangerousStatus"/> implementation
@@ -178,7 +178,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefSchoolDangerousStatusEntity RefSchoolDangerousStatusEntity { get; set; }
+    public virtual RefSchoolDangerousStatusEntity? RefSchoolDangerousStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefSchoolImprovementStatus"/> implementation
@@ -186,7 +186,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefSchoolImprovementStatusEntity RefSchoolImprovementStatusEntity { get; set; }
+    public virtual RefSchoolImprovementStatusEntity? RefSchoolImprovementStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefProgressAchievingEnglishLanguageProficiencyIndicatorStatus"/> implementation
@@ -194,7 +194,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefProgressAchievingEnglishLanguageProficiencyIndicatorStatusEntity RefProgressAchievingEnglishLanguageProficiencyIndicatorStatusEntity { get; set; }
+    public virtual RefProgressAchievingEnglishLanguageProficiencyIndicatorStatusEntity? RefProgressAchievingEnglishLanguageProficiencyIndicatorStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefComprehensiveAndTargetedSupport"/> implementation
@@ -202,7 +202,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefComprehensiveAndTargetedSupportEntity RefComprehensiveAndTargetedSupportEntity { get; set; }
+    public virtual RefComprehensiveAndTargetedSupportEntity? RefComprehensiveAndTargetedSupportEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefComprehensiveSupport"/> implementation
@@ -210,7 +210,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefComprehensiveSupportEntity RefComprehensiveSupportEntity { get; set; }
+    public virtual RefComprehensiveSupportEntity? RefComprehensiveSupportEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefTargetedSupport"/> implementation
@@ -218,7 +218,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefTargetedSupportEntity RefTargetedSupportEntity { get; set; }
+    public virtual RefTargetedSupportEntity? RefTargetedSupportEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefNationalSchoolLunchProgramStatus"/> implementation
@@ -226,7 +226,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefNationalSchoolLunchProgramStatusEntity RefNationalSchoolLunchProgramStatusEntity { get; set; }
+    public virtual RefNationalSchoolLunchProgramStatusEntity? RefNationalSchoolLunchProgramStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefVirtualSchoolStatus"/> implementation
@@ -234,7 +234,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefVirtualSchoolStatusEntity RefVirtualSchoolStatusEntity { get; set; }
+    public virtual RefVirtualSchoolStatusEntity? RefVirtualSchoolStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefBlendedLearningModelType"/> implementation
@@ -242,7 +242,7 @@ public partial class K12schoolStatusEntity : EntityBase, IK12schoolStatus
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefBlendedLearningModelTypeEntity RefBlendedLearningModelTypeEntity { get; set; }
+    public virtual RefBlendedLearningModelTypeEntity? RefBlendedLearningModelTypeEntity { get; set; }
 
     #endregion
 }

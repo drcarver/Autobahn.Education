@@ -14,7 +14,6 @@ public partial class K12seaAlternateFundUseEntity : EntityBase, IK12seaAlternate
     /// Reference to an optional instance of the <see cref="IK12seaFederalFunds"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The K12seaFederalFunds property is obsolete and will be removed in a later version")]
     [ForeignKey("K12seaFederalFunds")]
     public Guid K12seaFederalFundsId { get; set; }
 
@@ -22,7 +21,6 @@ public partial class K12seaAlternateFundUseEntity : EntityBase, IK12seaAlternate
     /// Reference to an optional instance of the <see cref="RefAlternateFundUses"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The RefAlternateFundUses property is obsolete and will be removed in a later version")]
     [ForeignKey("RefAlternateFundUses")]
     public Guid RefAlternateFundUsesId { get; set; }
 

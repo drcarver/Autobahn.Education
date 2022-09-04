@@ -205,7 +205,7 @@ public partial class AssessmentParticipantSessionEntity : EntityBase, IAssessmen
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentPlatformTypeEntity RefAssessmentPlatformTypeEntity { get; set; }
+    public virtual RefAssessmentPlatformTypeEntity? RefAssessmentPlatformTypeEntity { get; set; }
 
     /// <summary>
     /// An unusual event occurred during the administration of the assessment. This could include fire alarm, student became ill, etc.
@@ -216,7 +216,7 @@ public partial class AssessmentParticipantSessionEntity : EntityBase, IAssessmen
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentSessionSpecialCircumstanceTypeEntity RefAssessmentSessionSpecialCircumstanceTypeEntity { get; set; }
+    public virtual RefAssessmentSessionSpecialCircumstanceTypeEntity? RefAssessmentSessionSpecialCircumstanceTypeEntity { get; set; }
 
     /// <summary>
     ///  The description of the place where an assessment is administered.
@@ -227,7 +227,7 @@ public partial class AssessmentParticipantSessionEntity : EntityBase, IAssessmen
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual LocationEntity LocationEntity { get; set; }
+    public virtual LocationEntity? LocationEntity { get; set; }
 
     /// <summary>
     /// The language that the assessment is administered.
@@ -238,7 +238,7 @@ public partial class AssessmentParticipantSessionEntity : EntityBase, IAssessmen
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefLanguageEntity RefLanguageEntity { get; set; }
+    public virtual RefLanguageEntity? RefLanguageEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IAssessmentFormSection"/> implementation
@@ -246,7 +246,7 @@ public partial class AssessmentParticipantSessionEntity : EntityBase, IAssessmen
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual AssessmentFormSectionEntity AssessmentFormSectionEntity { get; set; }
+    public virtual AssessmentFormSectionEntity? AssessmentFormSectionEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IAssessmentSession"/> implementation
@@ -262,7 +262,7 @@ public partial class AssessmentParticipantSessionEntity : EntityBase, IAssessmen
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual AssessmentRegistrationEntity AssessmentRegistrationEntity { get; set; }
+    public virtual AssessmentRegistrationEntity? AssessmentRegistrationEntity { get; set; }
 
     #endregion
 }

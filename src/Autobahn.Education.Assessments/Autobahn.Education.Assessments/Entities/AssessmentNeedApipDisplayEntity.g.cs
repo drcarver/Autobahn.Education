@@ -126,7 +126,7 @@ public partial class AssessmentNeedApipDisplayEntity : EntityBase, IAssessmentNe
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedMaskingTypeEntity RefAssessmentNeedMaskingTypeEntity { get; set; }
+    public virtual RefAssessmentNeedMaskingTypeEntity? RefAssessmentNeedMaskingTypeEntity { get; set; }
 
     #endregion
 }

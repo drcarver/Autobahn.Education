@@ -107,7 +107,7 @@ public partial class OrganizationAccreditationEntity : EntityBase, IOrganization
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefAccreditationAgencyEntity RefAccreditationAgencyEntity { get; set; }
+    public virtual RefAccreditationAgencyEntity? RefAccreditationAgencyEntity { get; set; }
 
     /// <summary>
     /// An indication of the accreditation status of a higher education institution.
@@ -118,7 +118,7 @@ public partial class OrganizationAccreditationEntity : EntityBase, IOrganization
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefHigherEducationInstitutionAccreditationStatusEntity RefHigherEducationInstitutionAccreditationStatusEntity { get; set; }
+    public virtual RefHigherEducationInstitutionAccreditationStatusEntity? RefHigherEducationInstitutionAccreditationStatusEntity { get; set; }
 
     #endregion
 }

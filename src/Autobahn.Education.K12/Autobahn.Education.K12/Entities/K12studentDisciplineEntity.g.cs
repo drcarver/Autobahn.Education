@@ -50,7 +50,6 @@ public partial class K12studentDisciplineEntity : EntityBase, IK12studentDiscipl
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefDisciplineMethodFirearms"/> model
     /// </summary>
-    [Obsolete("The RefDisciplineMethodFirearms property is obsolete and will be removed in a later version")]
     [ForeignKey("RefDisciplineMethodFirearms")]
     public Guid? RefDisciplineMethodFirearmsId { get; set; }
 
@@ -69,21 +68,18 @@ public partial class K12studentDisciplineEntity : EntityBase, IK12studentDiscipl
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefeadisciplineMethodFirearm"/> model
     /// </summary>
-    [Obsolete("The RefeadisciplineMethodFirearm property is obsolete and will be removed in a later version")]
     [ForeignKey("RefeadisciplineMethodFirearm")]
     public Guid? RefIdeadisciplineMethodFirearmId { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefeaInterimRemoval"/> model
     /// </summary>
-    [Obsolete("The RefeaInterimRemoval property is obsolete and will be removed in a later version")]
     [ForeignKey("RefeaInterimRemoval")]
     public Guid? RefIdeaInterimRemovalId { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefeaInterimRemovalReason"/> model
     /// </summary>
-    [Obsolete("The RefeaInterimRemovalReason property is obsolete and will be removed in a later version")]
     [ForeignKey("RefeaInterimRemovalReason")]
     public Guid? RefIdeaInterimRemovalReasonId { get; set; }
 
@@ -100,7 +96,7 @@ public partial class K12studentDisciplineEntity : EntityBase, IK12studentDiscipl
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefDisciplineReasonEntity RefDisciplineReasonEntity { get; set; }
+    public virtual RefDisciplineReasonEntity? RefDisciplineReasonEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefDisciplinaryActionTaken"/> implementation
@@ -108,7 +104,7 @@ public partial class K12studentDisciplineEntity : EntityBase, IK12studentDiscipl
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefDisciplinaryActionTakenEntity RefDisciplinaryActionTakenEntity { get; set; }
+    public virtual RefDisciplinaryActionTakenEntity? RefDisciplinaryActionTakenEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefDisciplineLengthDifferenceReason"/> implementation
@@ -116,7 +112,7 @@ public partial class K12studentDisciplineEntity : EntityBase, IK12studentDiscipl
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefDisciplineLengthDifferenceReasonEntity RefDisciplineLengthDifferenceReasonEntity { get; set; }
+    public virtual RefDisciplineLengthDifferenceReasonEntity? RefDisciplineLengthDifferenceReasonEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IIncident"/> implementation
@@ -124,7 +120,7 @@ public partial class K12studentDisciplineEntity : EntityBase, IK12studentDiscipl
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual IncidentEntity IncidentEntity { get; set; }
+    public virtual IncidentEntity? IncidentEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefDisciplineMethodOfCwd"/> implementation
@@ -132,7 +128,7 @@ public partial class K12studentDisciplineEntity : EntityBase, IK12studentDiscipl
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefDisciplineMethodOfCwdEntity RefDisciplineMethodOfCwdEntity { get; set; }
+    public virtual RefDisciplineMethodOfCwdEntity? RefDisciplineMethodOfCwdEntity { get; set; }
 
     #endregion
 }

@@ -26,9 +26,9 @@ public partial interface IAssessmentPersonalNeedLanguageLearner
     Boolean? ActivateByDefault { get; set; }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentNeedsProfileContent"/> model
+    /// Reference to an optional instance of the <see cref="IAssessmentPersonalNeedsProfileContent"/> model
     /// </summary>
-    Guid AssessmentNeedsProfileContentId { get; set; }
+    Guid AssessmentPersonalNeedsProfileContentId { get; set; }
 
     /// <summary>
     /// Assessment Personal Needs Profile Assigned Support
@@ -42,15 +42,9 @@ public partial interface IAssessmentPersonalNeedLanguageLearner
     Boolean? AssignedSupport { get; set; }
 
     /// <summary>
-    /// Assessment Need Language Type
-    /// <para>
-    /// Defines as part of an Assessment Personal Needs Profile a preference for the language of the user interface.
-    /// </para>
-    /// <para>
-    /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20025">Assessment Need Language Type</a>
-    /// </para>
+    /// Reference to an optional instance of the <see cref="RefAssessmentNeedLanguageLearnerType"/> model
     /// </summary>
-    Guid RefAssessmentNeedsProfileContentLanguageLearnerTypeId { get; set; }
+    Guid RefAssessmentNeedLanguageLearnerTypeId { get; set; }
 
     #endregion
 }

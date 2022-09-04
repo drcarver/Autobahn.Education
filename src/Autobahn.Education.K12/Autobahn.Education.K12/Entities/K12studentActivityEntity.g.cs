@@ -34,7 +34,7 @@ public partial class K12studentActivityEntity : EntityBase, IK12studentActivity
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefActivityTimeMeasurementTypeEntity RefActivityTimeMeasurementTypeEntity { get; set; }
+    public virtual RefActivityTimeMeasurementTypeEntity? RefActivityTimeMeasurementTypeEntity { get; set; }
 
     #endregion
 }

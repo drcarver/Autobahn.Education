@@ -103,7 +103,6 @@ public partial class PsProgramEntity : EntityBase, IPsProgram
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19198">Normal Length of Time for Completion Units</a>
     /// </para>
     /// </summary>
-    [Obsolete("The RefTimeForCompletionUnits property is obsolete and will be removed in a later version")]
     [ForeignKey("RefTimeForCompletionUnits")]
     [Comment("The unit of measurement for length of time for completion.")]
     public Guid? RefTimeForCompletionUnitsId { get; set; }
@@ -120,7 +119,7 @@ public partial class PsProgramEntity : EntityBase, IPsProgram
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCipVersionEntity RefCipVersionEntity { get; set; }
+    public virtual RefCipVersionEntity? RefCipVersionEntity { get; set; }
 
     /// <summary>
     /// A six-digit code in the form xx.xxxx that identifies instructional program specialties within educational institutions.
@@ -131,7 +130,7 @@ public partial class PsProgramEntity : EntityBase, IPsProgram
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCipCodeEntity RefCipCodeEntity { get; set; }
+    public virtual RefCipCodeEntity? RefCipCodeEntity { get; set; }
 
     /// <summary>
     /// The type of hours (credit or contact) by which the normal length of a program of study is measured.
@@ -142,7 +141,7 @@ public partial class PsProgramEntity : EntityBase, IPsProgram
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefProgramLengthHoursTypeEntity RefProgramLengthHoursTypeEntity { get; set; }
+    public virtual RefProgramLengthHoursTypeEntity? RefProgramLengthHoursTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefPsprogramLevel"/> implementation
@@ -150,7 +149,7 @@ public partial class PsProgramEntity : EntityBase, IPsProgram
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefPsprogramLevelEntity RefPsprogramLevelEntity { get; set; }
+    public virtual RefPsprogramLevelEntity? RefPsprogramLevelEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefDqpcategoriesOfLearning"/> implementation
@@ -158,7 +157,7 @@ public partial class PsProgramEntity : EntityBase, IPsProgram
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefDqpcategoriesOfLearningEntity RefDqpcategoriesOfLearningEntity { get; set; }
+    public virtual RefDqpcategoriesOfLearningEntity? RefDqpcategoriesOfLearningEntity { get; set; }
 
     #endregion
 }

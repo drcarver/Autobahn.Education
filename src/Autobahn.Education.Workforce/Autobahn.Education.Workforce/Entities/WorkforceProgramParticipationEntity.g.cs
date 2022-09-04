@@ -77,7 +77,7 @@ public partial class WorkforceProgramParticipationEntity : EntityBase, IWorkforc
     /// This entity is in the Workforce domain
     /// </remarks>
     /// </summary>
-    public virtual RefWfProgramParticipationEntity RefWfProgramParticipationEntity { get; set; }
+    public virtual RefWfProgramParticipationEntity? RefWfProgramParticipationEntity { get; set; }
 
     /// <summary>
     /// An indicator of the category of credential conferred by a state occupational licensing entity or industry organization for competency in a specific area measured by a set of pre-established standards.
@@ -88,7 +88,7 @@ public partial class WorkforceProgramParticipationEntity : EntityBase, IWorkforc
     /// This entity is in the Workforce domain
     /// </remarks>
     /// </summary>
-    public virtual RefProfessionalTechnicalCredentialTypeEntity RefProfessionalTechnicalCredentialTypeEntity { get; set; }
+    public virtual RefProfessionalTechnicalCredentialTypeEntity? RefProfessionalTechnicalCredentialTypeEntity { get; set; }
 
     #endregion
 }

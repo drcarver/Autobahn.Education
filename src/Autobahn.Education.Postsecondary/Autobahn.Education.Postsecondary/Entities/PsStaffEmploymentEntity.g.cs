@@ -201,7 +201,7 @@ public partial class PsStaffEmploymentEntity : EntityBase, IPsStaffEmployment
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefFullTimeStatusEntity RefFullTimeStatusEntity { get; set; }
+    public virtual RefFullTimeStatusEntity? RefFullTimeStatusEntity { get; set; }
 
     /// <summary>
     /// The type of employment contract used by an institution.
@@ -212,7 +212,7 @@ public partial class PsStaffEmploymentEntity : EntityBase, IPsStaffEmployment
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefEmploymentContractTypeEntity RefEmploymentContractTypeEntity { get; set; }
+    public virtual RefEmploymentContractTypeEntity? RefEmploymentContractTypeEntity { get; set; }
 
     /// <summary>
     /// The Integrated Postsecondary Education Data System (IPEDS) occupational categories used to report employees.
@@ -223,7 +223,7 @@ public partial class PsStaffEmploymentEntity : EntityBase, IPsStaffEmployment
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefIpedsOccupationalCategoryEntity RefIpedsOccupationalCategoryEntity { get; set; }
+    public virtual RefIpedsOccupationalCategoryEntity? RefIpedsOccupationalCategoryEntity { get; set; }
 
     /// <summary>
     /// The contracted teaching period for faculty.
@@ -234,7 +234,7 @@ public partial class PsStaffEmploymentEntity : EntityBase, IPsStaffEmployment
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefInstructionalStaffContractLengthEntity RefInstructionalStaffContractLengthEntity { get; set; }
+    public virtual RefInstructionalStaffContractLengthEntity? RefInstructionalStaffContractLengthEntity { get; set; }
 
     /// <summary>
     /// An indicator of the type of faculty status a person has if, by institutional definition, a staff member has faculty status.
@@ -245,7 +245,7 @@ public partial class PsStaffEmploymentEntity : EntityBase, IPsStaffEmployment
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefInstructionalStaffFacultyTenureEntity RefInstructionalStaffFacultyTenureEntity { get; set; }
+    public virtual RefInstructionalStaffFacultyTenureEntity? RefInstructionalStaffFacultyTenureEntity { get; set; }
 
     /// <summary>
     /// The academic rank of staff whose primary responsibility is instruction, research, and/or public service.  Institutions without standard academic ranks should code staff whose primary responsibility is instruction, research, and/or public service as "No Academic Rank."
@@ -256,7 +256,7 @@ public partial class PsStaffEmploymentEntity : EntityBase, IPsStaffEmployment
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefAcademicRankEntity RefAcademicRankEntity { get; set; }
+    public virtual RefAcademicRankEntity? RefAcademicRankEntity { get; set; }
 
     /// <summary>
     /// A designation of the type(s) of instruction being delivered by staff whose primary responsibility is instruction.  Instruction that is for "credit" can be applied toward the requirements for a postsecondary degree, diploma, certificate or other formal award.
@@ -267,7 +267,7 @@ public partial class PsStaffEmploymentEntity : EntityBase, IPsStaffEmployment
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefInstructionCreditTypeEntity RefInstructionCreditTypeEntity { get; set; }
+    public virtual RefInstructionCreditTypeEntity? RefInstructionCreditTypeEntity { get; set; }
 
     /// <summary>
     /// The Integrated Postsecondary Education Data System (IPEDS) occupational categories used to report graduate assistants.
@@ -278,7 +278,7 @@ public partial class PsStaffEmploymentEntity : EntityBase, IPsStaffEmployment
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefGraduateAssistantIpedsCategoryEntity RefGraduateAssistantIpedsCategoryEntity { get; set; }
+    public virtual RefGraduateAssistantIpedsCategoryEntity? RefGraduateAssistantIpedsCategoryEntity { get; set; }
 
     #endregion
 }

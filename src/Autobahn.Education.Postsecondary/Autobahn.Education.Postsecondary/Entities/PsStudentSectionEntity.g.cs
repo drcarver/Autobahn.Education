@@ -131,7 +131,7 @@ public partial class PsStudentSectionEntity : EntityBase, IPsStudentSection
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCourseRepeatCodeEntity RefCourseRepeatCodeEntity { get; set; }
+    public virtual RefCourseRepeatCodeEntity? RefCourseRepeatCodeEntity { get; set; }
 
     /// <summary>
     /// Additional information regarding the context of the given grade.
@@ -142,7 +142,7 @@ public partial class PsStudentSectionEntity : EntityBase, IPsStudentSection
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCourseAcademicGradeStatusCodeEntity RefCourseAcademicGradeStatusCodeEntity { get; set; }
+    public virtual RefCourseAcademicGradeStatusCodeEntity? RefCourseAcademicGradeStatusCodeEntity { get; set; }
 
     #endregion
 }

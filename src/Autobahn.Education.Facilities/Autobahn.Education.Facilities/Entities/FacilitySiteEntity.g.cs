@@ -89,7 +89,7 @@ public partial class FacilitySiteEntity : EntityBase, IFacilitySite
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingSiteUseRestrictionsTypeEntity RefBuildingSiteUseRestrictionsTypeEntity { get; set; }
+    public virtual RefBuildingSiteUseRestrictionsTypeEntity? RefBuildingSiteUseRestrictionsTypeEntity { get; set; }
 
     /// <summary>
     /// The designated constructed outdoor area on a public school site.
@@ -100,7 +100,7 @@ public partial class FacilitySiteEntity : EntityBase, IFacilitySite
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilitySiteOutdoorAreaTypeEntity RefFacilitySiteOutdoorAreaTypeEntity { get; set; }
+    public virtual RefFacilitySiteOutdoorAreaTypeEntity? RefFacilitySiteOutdoorAreaTypeEntity { get; set; }
 
     #endregion
 }

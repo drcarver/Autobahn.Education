@@ -106,7 +106,7 @@ public partial class PsStudentFinancialAidEntity : EntityBase, IPsStudentFinanci
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefNeedDeterminationMethodEntity RefNeedDeterminationMethodEntity { get; set; }
+    public virtual RefNeedDeterminationMethodEntity? RefNeedDeterminationMethodEntity { get; set; }
 
     /// <summary>
     /// An indication of whether a person is receiving Veteran's benefits.
@@ -117,7 +117,7 @@ public partial class PsStudentFinancialAidEntity : EntityBase, IPsStudentFinanci
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefFinancialAidVeteransBenefitStatusEntity RefFinancialAidVeteransBenefitStatusEntity { get; set; }
+    public virtual RefFinancialAidVeteransBenefitStatusEntity? RefFinancialAidVeteransBenefitStatusEntity { get; set; }
 
     /// <summary>
     /// The type of Veteran's benefits a person is receiving.
@@ -128,7 +128,7 @@ public partial class PsStudentFinancialAidEntity : EntityBase, IPsStudentFinanci
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefFinancialAidVeteransBenefitTypeEntity RefFinancialAidVeteransBenefitTypeEntity { get; set; }
+    public virtual RefFinancialAidVeteransBenefitTypeEntity? RefFinancialAidVeteransBenefitTypeEntity { get; set; }
 
     #endregion
 }

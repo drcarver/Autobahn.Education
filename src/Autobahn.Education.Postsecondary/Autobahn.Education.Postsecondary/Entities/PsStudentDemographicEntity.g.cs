@@ -113,7 +113,6 @@ public partial class PsStudentDemographicEntity : EntityBase, IPsStudentDemograp
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20194">Maternal Guardian Education</a>
     /// </para>
     /// </summary>
-    [Obsolete("The RefMaternalEducationLevel property is obsolete and will be removed in a later version")]
     [ForeignKey("RefMaternalEducationLevel")]
     [Comment("The highest level of education attained by a person's mother or maternal guardian")]
     public Guid? RefMaternalEducationLevelId { get; set; }
@@ -140,7 +139,6 @@ public partial class PsStudentDemographicEntity : EntityBase, IPsStudentDemograp
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20195">Paternal Guardian Education</a>
     /// </para>
     /// </summary>
-    [Obsolete("The RefPaternalEducationLevel property is obsolete and will be removed in a later version")]
     [ForeignKey("RefPaternalEducationLevel")]
     [Comment("The highest level of education attained by a person's father or paternal guardian")]
     public Guid? RefPaternalEducationLevelId { get; set; }
@@ -183,7 +181,7 @@ public partial class PsStudentDemographicEntity : EntityBase, IPsStudentDemograp
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefDependencyStatusEntity RefDependencyStatusEntity { get; set; }
+    public virtual RefDependencyStatusEntity? RefDependencyStatusEntity { get; set; }
 
     /// <summary>
     /// A person's residency status for tuition purposes.
@@ -194,7 +192,7 @@ public partial class PsStudentDemographicEntity : EntityBase, IPsStudentDemograp
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefTuitionResidencyTypeEntity RefTuitionResidencyTypeEntity { get; set; }
+    public virtual RefTuitionResidencyTypeEntity? RefTuitionResidencyTypeEntity { get; set; }
 
     /// <summary>
     /// A person's residency arrangement as defined in the Free Application for Federal Student Aid (FAFSA).
@@ -205,7 +203,7 @@ public partial class PsStudentDemographicEntity : EntityBase, IPsStudentDemograp
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCampusResidencyTypeEntity RefCampusResidencyTypeEntity { get; set; }
+    public virtual RefCampusResidencyTypeEntity? RefCampusResidencyTypeEntity { get; set; }
 
     /// <summary>
     /// The term "individual with limited English proficiency" means a secondary school student, an adult, or an out-of-school youth, who has limited ability in speaking, reading, writing, or understanding the English language AND whose native language is a language other than English; OR who lives in a family or community environment in which a language other than English is the dominant language. 
@@ -216,7 +214,7 @@ public partial class PsStudentDemographicEntity : EntityBase, IPsStudentDemograp
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefPsLepTypeEntity RefPsLepTypeEntity { get; set; }
+    public virtual RefPsLepTypeEntity? RefPsLepTypeEntity { get; set; }
 
     /// <summary>
     /// Those persons who may be removed (deleted) from a cohort (or subcohort). For the Graduation Rates and Fall Enrollment retention rate reporting, persons may be removed from a cohort if they left the institution for one of the following reasons: death or total and permanent disability; service in the armed forces (including those called to active duty); service with a foreign aid service of the federal government, such as the Peace Corps; or service on official church missions.
@@ -227,7 +225,7 @@ public partial class PsStudentDemographicEntity : EntityBase, IPsStudentDemograp
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCohortExclusionEntity RefCohortExclusionEntity { get; set; }
+    public virtual RefCohortExclusionEntity? RefCohortExclusionEntity { get; set; }
 
     /// <summary>
     /// The student's relationship to the dependents who live with the student or receive more than half of the student's support
@@ -238,7 +236,7 @@ public partial class PsStudentDemographicEntity : EntityBase, IPsStudentDemograp
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefNumberOfDependentsTypeEntity RefNumberOfDependentsTypeEntity { get; set; }
+    public virtual RefNumberOfDependentsTypeEntity? RefNumberOfDependentsTypeEntity { get; set; }
 
     #endregion
 }

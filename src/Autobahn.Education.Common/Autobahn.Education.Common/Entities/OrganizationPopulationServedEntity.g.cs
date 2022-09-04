@@ -70,7 +70,7 @@ public partial class OrganizationPopulationServedEntity : EntityBase, IOrganizat
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefPopulationServedEntity RefPopulationServedEntity { get; set; }
+    public virtual RefPopulationServedEntity? RefPopulationServedEntity { get; set; }
 
     #endregion
 }

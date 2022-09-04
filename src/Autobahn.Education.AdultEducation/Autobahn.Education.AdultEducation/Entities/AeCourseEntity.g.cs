@@ -55,7 +55,7 @@ public partial class AeCourseEntity : EntityBase, IAeCourse
     /// This entity is in the AdultEducation domain
     /// </remarks>
     /// </summary>
-    public virtual RefCourseLevelTypeEntity RefCourseLevelTypeEntity { get; set; }
+    public virtual RefCourseLevelTypeEntity? RefCourseLevelTypeEntity { get; set; }
 
     /// <summary>
     /// The career cluster that defines the industry or occupational focus which may be associated with a career pathways program, plan of study, or course.
@@ -66,7 +66,7 @@ public partial class AeCourseEntity : EntityBase, IAeCourse
     /// This entity is in the AdultEducation domain
     /// </remarks>
     /// </summary>
-    public virtual RefCareerClusterEntity RefCareerClusterEntity { get; set; }
+    public virtual RefCareerClusterEntity? RefCareerClusterEntity { get; set; }
 
     #endregion
 }

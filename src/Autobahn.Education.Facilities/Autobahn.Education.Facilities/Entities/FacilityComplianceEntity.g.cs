@@ -149,7 +149,7 @@ public partial class FacilityComplianceEntity : EntityBase, IFacilityCompliance
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual FacilityMandateEntity FacilityMandateEntity { get; set; }
+    public virtual FacilityMandateEntity? FacilityMandateEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IBuildingSystemComponent"/> implementation
@@ -157,7 +157,7 @@ public partial class FacilityComplianceEntity : EntityBase, IFacilityCompliance
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual BuildingSystemComponentEntity BuildingSystemComponentEntity { get; set; }
+    public virtual BuildingSystemComponentEntity? BuildingSystemComponentEntity { get; set; }
 
     /// <summary>
     /// An indication of whether the school, building, site, system, component, equipment, vehicle, or fixture conforms to the requirements or standards specified in federal, state, or local standards or codes or other officially required guidelines or regulations.
@@ -168,7 +168,7 @@ public partial class FacilityComplianceEntity : EntityBase, IFacilityCompliance
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityComplianceStatusEntity RefFacilityComplianceStatusEntity { get; set; }
+    public virtual RefFacilityComplianceStatusEntity? RefFacilityComplianceStatusEntity { get; set; }
 
     /// <summary>
     /// The standard for maintenance of a component, system, or building.
@@ -179,7 +179,7 @@ public partial class FacilityComplianceEntity : EntityBase, IFacilityCompliance
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityMaintStandardTypeEntity RefFacilityMaintStandardTypeEntity { get; set; }
+    public virtual RefFacilityMaintStandardTypeEntity? RefFacilityMaintStandardTypeEntity { get; set; }
 
     #endregion
 }

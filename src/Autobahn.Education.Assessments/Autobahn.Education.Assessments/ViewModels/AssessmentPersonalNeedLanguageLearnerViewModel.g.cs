@@ -113,9 +113,9 @@ public partial class AssessmentPersonalNeedLanguageLearnerViewModel : Observable
     public Boolean? ActivateByDefault { get => activateByDefault; set => SetProperty(ref activateByDefault, value, false); }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentNeedsProfileContent"/> model
+    /// Reference to an optional instance of the <see cref="IAssessmentPersonalNeedsProfileContent"/> model
     /// </summary>
-    public Guid AssessmentNeedsProfileContentId { get; set; }
+    public Guid AssessmentPersonalNeedsProfileContentId { get; set; }
 
     /// <summary>
     /// Assessment Personal Needs Profile Assigned Support
@@ -130,17 +130,9 @@ public partial class AssessmentPersonalNeedLanguageLearnerViewModel : Observable
     public Boolean? AssignedSupport { get => assignedSupport; set => SetProperty(ref assignedSupport, value, false); }
 
     /// <summary>
-    /// Assessment Need Language Type
-    /// <para>
-    /// Defines as part of an Assessment Personal Needs Profile a preference for the language of the user interface.
-    /// </para>
-    /// <para>
-    /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20025">Assessment Need Language Type</a>
-    /// </para>
+    /// Reference to an optional instance of the <see cref="RefAssessmentNeedLanguageLearnerType"/> model
     /// </summary>
-    [DisplayName("Assessment Need Language Type")]
-    [Required(ErrorMessage="{0} is required.")]
-    public Guid RefAssessmentNeedsProfileContentLanguageLearnerTypeId { get; set; }
+    public Guid RefAssessmentNeedLanguageLearnerTypeId { get; set; }
 
     #endregion
 
@@ -152,9 +144,9 @@ public partial class AssessmentPersonalNeedLanguageLearnerViewModel : Observable
         IsBusy = true;
         Id = model.Id;
         ActivateByDefault = model.ActivateByDefault; // Assessment Personal Needs Profile Activate by Default
-        AssessmentNeedsProfileContentId = model.AssessmentNeedsProfileContentId; // 
+        AssessmentPersonalNeedsProfileContentId = model.AssessmentPersonalNeedsProfileContentId; // 
         AssignedSupport = model.AssignedSupport; // Assessment Personal Needs Profile Assigned Support
-        RefAssessmentNeedsProfileContentLanguageLearnerTypeId = model.RefAssessmentNeedsProfileContentLanguageLearnerTypeId; // Assessment Need Language Type
+        RefAssessmentNeedLanguageLearnerTypeId = model.RefAssessmentNeedLanguageLearnerTypeId; // 
         IsChanged = false;
         IsNew = false;
         IsBusy = false;

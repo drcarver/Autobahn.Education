@@ -92,7 +92,7 @@ public partial class K12studentAcademicRecordEntity : EntityBase, IK12studentAca
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefGpaWeightedIndicatorEntity RefGpaWeightedIndicatorEntity { get; set; }
+    public virtual RefGpaWeightedIndicatorEntity? RefGpaWeightedIndicatorEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefHighSchoolDiplomaType"/> implementation
@@ -100,7 +100,7 @@ public partial class K12studentAcademicRecordEntity : EntityBase, IK12studentAca
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefHighSchoolDiplomaTypeEntity RefHighSchoolDiplomaTypeEntity { get; set; }
+    public virtual RefHighSchoolDiplomaTypeEntity? RefHighSchoolDiplomaTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefHighSchoolDiplomaDistinctionType"/> implementation
@@ -108,7 +108,7 @@ public partial class K12studentAcademicRecordEntity : EntityBase, IK12studentAca
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefHighSchoolDiplomaDistinctionTypeEntity RefHighSchoolDiplomaDistinctionTypeEntity { get; set; }
+    public virtual RefHighSchoolDiplomaDistinctionTypeEntity? RefHighSchoolDiplomaDistinctionTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefTechnologyLiteracyStatus"/> implementation
@@ -116,7 +116,7 @@ public partial class K12studentAcademicRecordEntity : EntityBase, IK12studentAca
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefTechnologyLiteracyStatusEntity RefTechnologyLiteracyStatusEntity { get; set; }
+    public virtual RefTechnologyLiteracyStatusEntity? RefTechnologyLiteracyStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefPsEnrollmentAction"/> implementation
@@ -124,7 +124,7 @@ public partial class K12studentAcademicRecordEntity : EntityBase, IK12studentAca
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefPsEnrollmentActionEntity RefPsEnrollmentActionEntity { get; set; }
+    public virtual RefPsEnrollmentActionEntity? RefPsEnrollmentActionEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefPreAndPostTestIndicator"/> implementation
@@ -132,7 +132,7 @@ public partial class K12studentAcademicRecordEntity : EntityBase, IK12studentAca
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefPreAndPostTestIndicatorEntity RefPreAndPostTestIndicatorEntity { get; set; }
+    public virtual RefPreAndPostTestIndicatorEntity? RefPreAndPostTestIndicatorEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefProfessionalTechnicalCredentialType"/> implementation
@@ -140,7 +140,7 @@ public partial class K12studentAcademicRecordEntity : EntityBase, IK12studentAca
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefProfessionalTechnicalCredentialTypeEntity RefProfessionalTechnicalCredentialTypeEntity { get; set; }
+    public virtual RefProfessionalTechnicalCredentialTypeEntity? RefProfessionalTechnicalCredentialTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefProgressLevel"/> implementation
@@ -148,7 +148,7 @@ public partial class K12studentAcademicRecordEntity : EntityBase, IK12studentAca
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefProgressLevelEntity RefProgressLevelEntity { get; set; }
+    public virtual RefProgressLevelEntity? RefProgressLevelEntity { get; set; }
 
     #endregion
 }

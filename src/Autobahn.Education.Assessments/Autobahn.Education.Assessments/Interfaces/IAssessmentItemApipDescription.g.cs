@@ -54,19 +54,9 @@ public partial interface IAssessmentItemApipDescription
     Boolean? ReducedAnswersAssignedSupportIndicator { get; set; }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="RefHazardType"/> model
-    /// </summary>
-    Guid? RefHazardTypeId { get; set; }
-
-    /// <summary>
     /// Reference to an optional instance of the <see cref="RefKeywordTranslationLanguage"/> model
     /// </summary>
     Guid? RefKeywordTranslationLanguageId { get; set; }
-
-    /// <summary>
-    /// Reference to an optional instance of the <see cref="RefSupportToolType"/> model
-    /// </summary>
-    Guid? RefSupportToolTypeId { get; set; }
 
     Boolean? ScaffoldingActivateByDefaultIndicator { get; set; }
 

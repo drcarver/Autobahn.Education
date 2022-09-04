@@ -20,9 +20,9 @@ public partial interface IAssessmentSubtestItem
     Guid AssessmentItemId { get; set; }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentSubtest"/> model
+    /// Reference to an optional instance of the <see cref="IAssessmentSubTest"/> model
     /// </summary>
-    Guid AssessmentSubtestId { get; set; }
+    Guid AssessmentSubTestId { get; set; }
 
     Decimal? ItemWeightCorrect { get; set; }
 

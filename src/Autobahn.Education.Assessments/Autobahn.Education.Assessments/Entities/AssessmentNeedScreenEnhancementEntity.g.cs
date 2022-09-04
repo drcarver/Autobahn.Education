@@ -78,7 +78,7 @@ public partial class AssessmentNeedScreenEnhancementEntity : EntityBase, IAssess
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual AssessmentPersonalNeedsProfileScreenEnhancementEntity AssessmentPersonalNeedsProfileScreenEnhancementEntity { get; set; }
+    public virtual AssessmentPersonalNeedsProfileScreenEnhancementEntity? AssessmentPersonalNeedsProfileScreenEnhancementEntity { get; set; }
 
     #endregion
 }

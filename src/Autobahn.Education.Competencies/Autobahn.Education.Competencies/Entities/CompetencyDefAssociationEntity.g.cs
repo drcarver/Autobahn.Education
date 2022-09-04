@@ -20,7 +20,6 @@ public partial class CompetencyDefAssociationEntity : EntityBase, ICompetencyDef
     /// </para>
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The AssociatedEntity property is obsolete and will be removed in a later version")]
     [ForeignKey("AssociatedEntity")]
     [Comment("The unique identifier of an immediate prerequisite Competency Definition, a competency needed prior to learning this one. (Some items may have no prerequisites while others may have one or more prerequisites. This should only be used to represent the immediate predecessors in a competency-based pathway, i.e. not prerequisites of prerequisites.)")]
     public Guid AssociatedEntityId { get; set; }
@@ -159,7 +158,7 @@ public partial class CompetencyDefAssociationEntity : EntityBase, ICompetencyDef
     /// This entity is in the Competencies domain
     /// </remarks>
     /// </summary>
-    public virtual RefCompetencyDefAssociationTypeEntity RefCompetencyDefAssociationTypeEntity { get; set; }
+    public virtual RefCompetencyDefAssociationTypeEntity? RefCompetencyDefAssociationTypeEntity { get; set; }
 
     /// <summary>
     /// The alignment relationship between the resource and a competency definition object.
@@ -170,7 +169,7 @@ public partial class CompetencyDefAssociationEntity : EntityBase, ICompetencyDef
     /// This entity is in the Competencies domain
     /// </remarks>
     /// </summary>
-    public virtual RefLearningResourceCompetencyAlignmentTypeEntity RefLearningResourceCompetencyAlignmentTypeEntity { get; set; }
+    public virtual RefLearningResourceCompetencyAlignmentTypeEntity? RefLearningResourceCompetencyAlignmentTypeEntity { get; set; }
 
     #endregion
 }

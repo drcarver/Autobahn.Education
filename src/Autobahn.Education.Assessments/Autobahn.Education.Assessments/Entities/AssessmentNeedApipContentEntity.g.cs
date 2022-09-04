@@ -38,7 +38,6 @@ public partial class AssessmentNeedApipContentEntity : EntityBase, IAssessmentNe
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20042">Assessment Need Item Translation Display Language Type</a>
     /// </para>
     /// </summary>
-    [Obsolete("The ItemTranslationDisplayLanguageType property is obsolete and will be removed in a later version")]
     [ForeignKey("ItemTranslationDisplayLanguageType")]
     [Comment("Defines as part of an Assessment Personal Needs Profile the default language for the displayed translation.")]
     public Guid? ItemTranslationDisplayLanguageTypeId { get; set; }
@@ -52,7 +51,6 @@ public partial class AssessmentNeedApipContentEntity : EntityBase, IAssessmentNe
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20043">Assessment Need Keyword Translation Language Type</a>
     /// </para>
     /// </summary>
-    [Obsolete("The KeywordTranslationLanguageType property is obsolete and will be removed in a later version")]
     [ForeignKey("KeywordTranslationLanguageType")]
     [Comment("Defines as part of an Assessment Personal Needs Profile the default language for the keyword translation.")]
     public Guid? KeywordTranslationLanguageTypeId { get; set; }
@@ -141,7 +139,7 @@ public partial class AssessmentNeedApipContentEntity : EntityBase, IAssessmentNe
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedSigningTypeEntity RefAssessmentNeedSigningTypeEntity { get; set; }
+    public virtual RefAssessmentNeedSigningTypeEntity? RefAssessmentNeedSigningTypeEntity { get; set; }
 
     /// <summary>
     /// Defines as part of an Assessment Personal Needs Profile the default presentation mode of the associated Alternative Representations accessibility.
@@ -152,7 +150,7 @@ public partial class AssessmentNeedApipContentEntity : EntityBase, IAssessmentNe
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedAlternativeRepresentationTypeEntity RefAssessmentNeedAlternativeRepresentationTypeEntity { get; set; }
+    public virtual RefAssessmentNeedAlternativeRepresentationTypeEntity? RefAssessmentNeedAlternativeRepresentationTypeEntity { get; set; }
 
     /// <summary>
     /// Defines as part of an Assessment Personal Needs Profile the preferred spoken audio form.
@@ -163,7 +161,7 @@ public partial class AssessmentNeedApipContentEntity : EntityBase, IAssessmentNe
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedSpokenSourcePreferenceTypeEntity RefAssessmentNeedSpokenSourcePreferenceTypeEntity { get; set; }
+    public virtual RefAssessmentNeedSpokenSourcePreferenceTypeEntity? RefAssessmentNeedSpokenSourcePreferenceTypeEntity { get; set; }
 
     /// <summary>
     /// Used as part of an Assessment Personal Needs Profile to define the type of material that should be rendered using the read aloud alternative content.
@@ -174,7 +172,7 @@ public partial class AssessmentNeedApipContentEntity : EntityBase, IAssessmentNe
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedUserSpokenPreferenceTypeEntity RefAssessmentNeedUserSpokenPreferenceTypeEntity { get; set; }
+    public virtual RefAssessmentNeedUserSpokenPreferenceTypeEntity? RefAssessmentNeedUserSpokenPreferenceTypeEntity { get; set; }
 
     #endregion
 }

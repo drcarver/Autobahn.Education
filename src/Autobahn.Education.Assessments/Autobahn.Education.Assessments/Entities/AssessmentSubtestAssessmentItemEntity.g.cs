@@ -18,11 +18,11 @@ public partial class AssessmentSubtestAssessmentItemEntity : EntityBase, IAssess
     public Guid AssessmentItemId { get; set; }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentSubtest"/> model
+    /// Reference to an optional instance of the <see cref="IAssessmentSubTest"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [ForeignKey("AssessmentSubtest")]
-    public Guid AssessmentSubtestId { get; set; }
+    [ForeignKey("AssessmentSubTest")]
+    public Guid AssessmentSubTestId { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IAssessmentSubtestItem"/> model
@@ -49,12 +49,12 @@ public partial class AssessmentSubtestAssessmentItemEntity : EntityBase, IAssess
     public virtual AssessmentSubtestItemEntity AssessmentSubtestItemEntity { get; set; }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentSubtest"/> implementation
+    /// Reference to an optional instance of the <see cref="IAssessmentSubTest"/> implementation
     /// <remarks>
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual AssessmentSubtestEntity AssessmentSubtestEntity { get; set; }
+    public virtual AssessmentSubTestEntity AssessmentSubTestEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IAssessmentItem"/> implementation

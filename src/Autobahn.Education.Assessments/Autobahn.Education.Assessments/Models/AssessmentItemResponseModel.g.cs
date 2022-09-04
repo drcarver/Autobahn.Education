@@ -97,17 +97,6 @@ public partial class AssessmentItemResponseModel : AutobahnBaseModel, IAssessmen
     public Boolean? HintIncludedAnswer { get; set; }
 
     /// <summary>
-    /// Assessment Item Response Status
-    /// <para>
-    /// The status of the response for a given item.
-    /// </para>
-    /// <para>
-    /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19396">Assessment Item Response Status</a>
-    /// </para>
-    /// </summary>
-    public Guid? RefAssessItemResponseStatusId { get; set; }
-
-    /// <summary>
     /// Assessment Item Response Score Status
     /// <para>
     /// The status of scoring a person's response to an assessment item.
@@ -117,6 +106,11 @@ public partial class AssessmentItemResponseModel : AutobahnBaseModel, IAssessmen
     /// </para>
     /// </summary>
     public Guid? RefAssessmentItemResponseScoreStatusId { get; set; }
+
+    /// <summary>
+    /// Reference to an optional instance of the <see cref="RefAssessmentItemResponseStatus"/> model
+    /// </summary>
+    public Guid? RefAssessmentItemResponseStatusId { get; set; }
 
     /// <summary>
     /// Proficiency Status

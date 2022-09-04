@@ -56,7 +56,7 @@ public partial class K12leaEntity : EntityBase, IK12lea
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefLeaTypeEntity RefLeaTypeEntity { get; set; }
+    public virtual RefLeaTypeEntity? RefLeaTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefLeaImprovementStatus"/> implementation
@@ -64,7 +64,7 @@ public partial class K12leaEntity : EntityBase, IK12lea
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefLeaImprovementStatusEntity RefLeaImprovementStatusEntity { get; set; }
+    public virtual RefLeaImprovementStatusEntity? RefLeaImprovementStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefPublicSchoolChoiceStatus"/> implementation
@@ -72,7 +72,7 @@ public partial class K12leaEntity : EntityBase, IK12lea
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefPublicSchoolChoiceStatusEntity RefPublicSchoolChoiceStatusEntity { get; set; }
+    public virtual RefPublicSchoolChoiceStatusEntity? RefPublicSchoolChoiceStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefCharterLeaStatus"/> implementation
@@ -80,7 +80,7 @@ public partial class K12leaEntity : EntityBase, IK12lea
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefCharterLeaStatusEntity RefCharterLeaStatusEntity { get; set; }
+    public virtual RefCharterLeaStatusEntity? RefCharterLeaStatusEntity { get; set; }
 
     #endregion
 }

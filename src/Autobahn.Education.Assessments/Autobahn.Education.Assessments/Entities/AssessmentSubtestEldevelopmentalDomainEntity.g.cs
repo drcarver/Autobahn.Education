@@ -11,11 +11,11 @@ public partial class AssessmentSubtestEldevelopmentalDomainEntity : EntityBase, 
 {
     #region "IAssessmentSubtestEldevelopmentalDomain Properties"
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentSubtest"/> model
+    /// Reference to an optional instance of the <see cref="IAssessmentSubTest"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [ForeignKey("AssessmentSubtest")]
-    public Guid AssessmentSubtestId { get; set; }
+    [ForeignKey("AssessmentSubTest")]
+    public Guid AssessmentSubTestId { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefAssessmentEldevelopmentalDomain"/> model
@@ -28,12 +28,12 @@ public partial class AssessmentSubtestEldevelopmentalDomainEntity : EntityBase, 
 
     #region "Virtual Properties for foreign keys"
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentSubtest"/> implementation
+    /// Reference to an optional instance of the <see cref="IAssessmentSubTest"/> implementation
     /// <remarks>
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual AssessmentSubtestEntity AssessmentSubtestEntity { get; set; }
+    public virtual AssessmentSubTestEntity AssessmentSubTestEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefAssessmentEldevelopmentalDomain"/> implementation

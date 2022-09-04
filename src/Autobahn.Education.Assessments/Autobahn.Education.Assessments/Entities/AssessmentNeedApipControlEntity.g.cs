@@ -106,7 +106,7 @@ public partial class AssessmentNeedApipControlEntity : EntityBase, IAssessmentNe
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedIncreasedWhitespacingTypeEntity RefAssessmentNeedIncreasedWhitespacingTypeEntity { get; set; }
+    public virtual RefAssessmentNeedIncreasedWhitespacingTypeEntity? RefAssessmentNeedIncreasedWhitespacingTypeEntity { get; set; }
 
     #endregion
 }

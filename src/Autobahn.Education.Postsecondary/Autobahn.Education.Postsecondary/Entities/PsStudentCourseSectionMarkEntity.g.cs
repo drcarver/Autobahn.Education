@@ -78,7 +78,7 @@ public partial class PsStudentCourseSectionMarkEntity : EntityBase, IPsStudentCo
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCourseAcademicGradeStatusCodeEntity RefCourseAcademicGradeStatusCodeEntity { get; set; }
+    public virtual RefCourseAcademicGradeStatusCodeEntity? RefCourseAcademicGradeStatusCodeEntity { get; set; }
 
     #endregion
 }

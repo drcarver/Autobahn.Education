@@ -212,7 +212,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingAirDistributionSystemTypeEntity RefBuildingAirDistributionSystemTypeEntity { get; set; }
+    public virtual RefBuildingAirDistributionSystemTypeEntity? RefBuildingAirDistributionSystemTypeEntity { get; set; }
 
     /// <summary>
     /// The type of system, interface, and management components for carrying voice, video, and data throughout a building.
@@ -223,7 +223,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingCommMgmtComponentSystemTypeEntity RefBuildingCommMgmtComponentSystemTypeEntity { get; set; }
+    public virtual RefBuildingCommMgmtComponentSystemTypeEntity? RefBuildingCommMgmtComponentSystemTypeEntity { get; set; }
 
     /// <summary>
     /// The type of mechanical systems and building designs used for cooling.
@@ -234,7 +234,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingCoolingGenerationSystemTypeEntity RefBuildingCoolingGenerationSystemTypeEntity { get; set; }
+    public virtual RefBuildingCoolingGenerationSystemTypeEntity? RefBuildingCoolingGenerationSystemTypeEntity { get; set; }
 
     /// <summary>
     /// The components and system required to distribute electricity throughout the building or site.
@@ -245,7 +245,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingElectricalSystemTypeEntity RefBuildingElectricalSystemTypeEntity { get; set; }
+    public virtual RefBuildingElectricalSystemTypeEntity? RefBuildingElectricalSystemTypeEntity { get; set; }
 
     /// <summary>
     /// The type of system that protects the facility against fire.
@@ -256,7 +256,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingFireProtectionSystemTypeEntity RefBuildingFireProtectionSystemTypeEntity { get; set; }
+    public virtual RefBuildingFireProtectionSystemTypeEntity? RefBuildingFireProtectionSystemTypeEntity { get; set; }
 
     /// <summary>
     /// The method by which the heat is distributed and delivered throughout the room(s) or building.
@@ -267,7 +267,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingHeatingGenerationSystemTypeEntity RefBuildingHeatingGenerationSystemTypeEntity { get; set; }
+    public virtual RefBuildingHeatingGenerationSystemTypeEntity? RefBuildingHeatingGenerationSystemTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefBuildingHvacsystemType"/> implementation
@@ -275,7 +275,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingHvacsystemTypeEntity RefBuildingHvacsystemTypeEntity { get; set; }
+    public virtual RefBuildingHvacsystemTypeEntity? RefBuildingHvacsystemTypeEntity { get; set; }
 
     /// <summary>
     /// Mechanical means for moving people and equipment within buildings.
@@ -286,7 +286,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingMechanicalConveyingSystemTypeEntity RefBuildingMechanicalConveyingSystemTypeEntity { get; set; }
+    public virtual RefBuildingMechanicalConveyingSystemTypeEntity? RefBuildingMechanicalConveyingSystemTypeEntity { get; set; }
 
     /// <summary>
     /// The major manufactured systems required to operate a building.
@@ -297,7 +297,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingMechanicalSystemTypeEntity RefBuildingMechanicalSystemTypeEntity { get; set; }
+    public virtual RefBuildingMechanicalSystemTypeEntity? RefBuildingMechanicalSystemTypeEntity { get; set; }
 
     /// <summary>
     /// The component of an on-site system for supplying, eliminating, and treating water.
@@ -308,7 +308,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingPlumbingSystemTypeEntity RefBuildingPlumbingSystemTypeEntity { get; set; }
+    public virtual RefBuildingPlumbingSystemTypeEntity? RefBuildingPlumbingSystemTypeEntity { get; set; }
 
     /// <summary>
     /// The type of system that protects the facility from intrusion.
@@ -319,7 +319,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingSecuritySystemTypeEntity RefBuildingSecuritySystemTypeEntity { get; set; }
+    public virtual RefBuildingSecuritySystemTypeEntity? RefBuildingSecuritySystemTypeEntity { get; set; }
 
     /// <summary>
     /// The type of system that is installed in the building or site.
@@ -330,7 +330,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingSystemTypeEntity RefBuildingSystemTypeEntity { get; set; }
+    public virtual RefBuildingSystemTypeEntity? RefBuildingSystemTypeEntity { get; set; }
 
     /// <summary>
     /// The means through which voice, video, audio, and data information are conveyed.
@@ -341,7 +341,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingTechnologyWiringSystemTypeEntity RefBuildingTechnologyWiringSystemTypeEntity { get; set; }
+    public virtual RefBuildingTechnologyWiringSystemTypeEntity? RefBuildingTechnologyWiringSystemTypeEntity { get; set; }
 
     /// <summary>
     /// The type of system used to convey persons or freight between floors.
@@ -352,7 +352,7 @@ public partial class BuildingSystemCategoryEntity : EntityBase, IBuildingSystemC
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingVerticalTransportationSystemTypeEntity RefBuildingVerticalTransportationSystemTypeEntity { get; set; }
+    public virtual RefBuildingVerticalTransportationSystemTypeEntity? RefBuildingVerticalTransportationSystemTypeEntity { get; set; }
 
     #endregion
 }

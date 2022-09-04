@@ -82,7 +82,7 @@ public partial class PsStudentEmploymentEntity : EntityBase, IPsStudentEmploymen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefEmployedWhileEnrolledEntity RefEmployedWhileEnrolledEntity { get; set; }
+    public virtual RefEmployedWhileEnrolledEntity? RefEmployedWhileEnrolledEntity { get; set; }
 
     /// <summary>
     /// An individual who is a paid employee or works in his or her own business, profession, or farm, as reported through the State Unemployment Insurance Wage Report, FEDES, or WRIS, after exiting secondary, postsecondary, or adult education or workforce programs.
@@ -93,7 +93,7 @@ public partial class PsStudentEmploymentEntity : EntityBase, IPsStudentEmploymen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefEmployedAfterExitEntity RefEmployedAfterExitEntity { get; set; }
+    public virtual RefEmployedAfterExitEntity? RefEmployedAfterExitEntity { get; set; }
 
     /// <summary>
     /// An indication of the individual's employment status while enrolled.
@@ -104,7 +104,7 @@ public partial class PsStudentEmploymentEntity : EntityBase, IPsStudentEmploymen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefEmploymentStatusWhileEnrolledEntity RefEmploymentStatusWhileEnrolledEntity { get; set; }
+    public virtual RefEmploymentStatusWhileEnrolledEntity? RefEmploymentStatusWhileEnrolledEntity { get; set; }
 
     #endregion
 }

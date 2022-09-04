@@ -21,7 +21,6 @@ public partial class K12leaTitleIiiprofessionalDevelopmentEntity : EntityBase, I
     /// Reference to an optional instance of the <see cref="IK12leatitleIiiprofessionalDevelopment"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The K12leatitleIiiprofessionalDevelopment property is obsolete and will be removed in a later version")]
     [ForeignKey("K12leatitleIiiprofessionalDevelopment")]
     public Guid K12leatitleIiiprofessionalDevelopmentId { get; set; }
 

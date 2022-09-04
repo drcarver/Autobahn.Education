@@ -197,7 +197,7 @@ public partial class FacilityDesignConstructionEntity : EntityBase, IFacilityDes
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingEnergyConservationMeasureTypeEntity RefBuildingEnergyConservationMeasureTypeEntity { get; set; }
+    public virtual RefBuildingEnergyConservationMeasureTypeEntity? RefBuildingEnergyConservationMeasureTypeEntity { get; set; }
 
     /// <summary>
     /// Designation of the nature of the construction completion date.
@@ -208,7 +208,7 @@ public partial class FacilityDesignConstructionEntity : EntityBase, IFacilityDes
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityConstructionDateTypeEntity RefFacilityConstructionDateTypeEntity { get; set; }
+    public virtual RefFacilityConstructionDateTypeEntity? RefFacilityConstructionDateTypeEntity { get; set; }
 
     /// <summary>
     /// The primary material used for the construction of a building.
@@ -219,7 +219,7 @@ public partial class FacilityDesignConstructionEntity : EntityBase, IFacilityDes
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityConstructionMaterialTypeEntity RefFacilityConstructionMaterialTypeEntity { get; set; }
+    public virtual RefFacilityConstructionMaterialTypeEntity? RefFacilityConstructionMaterialTypeEntity { get; set; }
 
     /// <summary>
     /// The type of development where two or more entities partner to plan, site, design, and/or build a new school or renovate an existing school to better support the joint use of the building and/or land.
@@ -230,7 +230,7 @@ public partial class FacilityDesignConstructionEntity : EntityBase, IFacilityDes
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityJointDevelopmentTypeEntity RefFacilityJointDevelopmentTypeEntity { get; set; }
+    public virtual RefFacilityJointDevelopmentTypeEntity? RefFacilityJointDevelopmentTypeEntity { get; set; }
 
     /// <summary>
     /// The type of location of the designed and constructed improvements made to a site.
@@ -241,7 +241,7 @@ public partial class FacilityDesignConstructionEntity : EntityBase, IFacilityDes
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilitySiteImprovementLocationTypeEntity RefFacilitySiteImprovementLocationTypeEntity { get; set; }
+    public virtual RefFacilitySiteImprovementLocationTypeEntity? RefFacilitySiteImprovementLocationTypeEntity { get; set; }
 
     /// <summary>
     /// An indication of the district or state requirements or guidelines for the design and construction of school facilities.
@@ -252,7 +252,7 @@ public partial class FacilityDesignConstructionEntity : EntityBase, IFacilityDes
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityStandardTypeEntity RefFacilityStandardTypeEntity { get; set; }
+    public virtual RefFacilityStandardTypeEntity? RefFacilityStandardTypeEntity { get; set; }
 
     #endregion
 }

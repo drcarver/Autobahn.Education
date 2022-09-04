@@ -29,6 +29,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autobahn.Education.Postseco
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autobahn.Education.Workforce", "Autobahn.Education.Workforce\Autobahn.Education.Workforce\Autobahn.Education.Workforce.csproj", "{6860EA05-0C6D-47E2-9706-63865EEADBB0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autobahn.Education.Invalid", "Autobahn.Education.Invalid\Autobahn.Education.Invalid\Autobahn.Education.Invalid.csproj", "{F7A128A0-4757-4647-B07C-F019BA87AC0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autobahn.Core.Organization", "Autobahn.Core.Organization\Autobahn.Core.Organization\Autobahn.Core.Organization.csproj", "{620DA2F3-2BB6-4096-8C4D-B732B2695DC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autobahn.Core.Person", "Autobahn.Core.Person\Autobahn.Core.Person\Autobahn.Core.Person.csproj", "{3266D7A7-9FB6-45CF-B902-1BCD969E6D8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autobahn.Core.Role", "Autobahn.Core.Role\Autobahn.Core.Role\Autobahn.Core.Role.csproj", "{BD6B8C34-5050-4BE4-8C1E-03ED257919A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +95,22 @@ Global
 		{6860EA05-0C6D-47E2-9706-63865EEADBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6860EA05-0C6D-47E2-9706-63865EEADBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6860EA05-0C6D-47E2-9706-63865EEADBB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A128A0-4757-4647-B07C-F019BA87AC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A128A0-4757-4647-B07C-F019BA87AC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A128A0-4757-4647-B07C-F019BA87AC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A128A0-4757-4647-B07C-F019BA87AC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620DA2F3-2BB6-4096-8C4D-B732B2695DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620DA2F3-2BB6-4096-8C4D-B732B2695DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620DA2F3-2BB6-4096-8C4D-B732B2695DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620DA2F3-2BB6-4096-8C4D-B732B2695DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3266D7A7-9FB6-45CF-B902-1BCD969E6D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3266D7A7-9FB6-45CF-B902-1BCD969E6D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3266D7A7-9FB6-45CF-B902-1BCD969E6D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3266D7A7-9FB6-45CF-B902-1BCD969E6D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6B8C34-5050-4BE4-8C1E-03ED257919A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6B8C34-5050-4BE4-8C1E-03ED257919A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6B8C34-5050-4BE4-8C1E-03ED257919A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6B8C34-5050-4BE4-8C1E-03ED257919A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

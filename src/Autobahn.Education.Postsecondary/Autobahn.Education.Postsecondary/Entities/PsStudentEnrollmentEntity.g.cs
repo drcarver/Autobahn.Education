@@ -202,14 +202,6 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     public Boolean? PostsecondaryEnteringStudentInd { get; set; }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IPsstudentEnrollment"/> model
-    /// </summary>
-    [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The PsstudentEnrollment property is obsolete and will be removed in a later version")]
-    [ForeignKey("PsstudentEnrollment")]
-    public Guid PsstudentEnrollmentId { get; set; }
-
-    /// <summary>
     /// Developmental Education Referral Status
     /// <para>
     /// The status of a student's referral to or placement into  developmental education.
@@ -283,7 +275,6 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19169">Instructional Activity Hours Type</a>
     /// </para>
     /// </summary>
-    [Obsolete("The RefInstructionalActivityHours property is obsolete and will be removed in a later version")]
     [ForeignKey("RefInstructionalActivityHours")]
     [Comment("The unit of measure of student instructional activity.")]
     public Guid? RefInstructionalActivityHoursId { get; set; }
@@ -397,7 +388,7 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefPsEnrollmentTypeEntity RefPsEnrollmentTypeEntity { get; set; }
+    public virtual RefPsEnrollmentTypeEntity? RefPsEnrollmentTypeEntity { get; set; }
 
     /// <summary>
     /// An indication of the student's enrollment status for a particular term as defined by the institution
@@ -408,7 +399,7 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefPsEnrollmentStatusEntity RefPsEnrollmentStatusEntity { get; set; }
+    public virtual RefPsEnrollmentStatusEntity? RefPsEnrollmentStatusEntity { get; set; }
 
     /// <summary>
     /// Classification of a person enrolling in credit-granting courses at a postsecondary institution since completing high school (or its equivalent) as either an undergraduate or graduate student.
@@ -419,7 +410,7 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefPsStudentLevelEntity RefPsStudentLevelEntity { get; set; }
+    public virtual RefPsStudentLevelEntity? RefPsStudentLevelEntity { get; set; }
 
     /// <summary>
     /// An indicator of the award level in which the person is currently enrolled.
@@ -430,7 +421,7 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefPsEnrollmentAwardTypeEntity RefPsEnrollmentAwardTypeEntity { get; set; }
+    public virtual RefPsEnrollmentAwardTypeEntity? RefPsEnrollmentAwardTypeEntity { get; set; }
 
     /// <summary>
     /// A person who has successfully completed a transfer-preparatory program as defined by the state or by the institution if no official state definition exists.
@@ -441,7 +432,7 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefTransferReadyEntity RefTransferReadyEntity { get; set; }
+    public virtual RefTransferReadyEntity? RefTransferReadyEntity { get; set; }
 
     /// <summary>
     /// An individual's enrollment in a course or courses in which the instructional content is delivered exclusively via distance education.  Distance education is education that uses one or more technologies to deliver instruction to students who are separated from the instructor and to support regular and substantive interaction between the students and the instructor synchronously or asynchronously.  Technologies used for instruction may include: Internet; one-way and two-way transmissions through open broadcasts, closed circuit, cable, microwave, broadband lines, fiber optics, satellite or wireless communication devices; audio conferencing; and video cassette, DVDs, and CD-ROMs, if the cassette, DVDs, and CD-ROMs are used in a course in conjunction with the technologies listed above.
@@ -452,7 +443,7 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefDistanceEducationCourseEnrollmentEntity RefDistanceEducationCourseEnrollmentEntity { get; set; }
+    public virtual RefDistanceEducationCourseEnrollmentEntity? RefDistanceEducationCourseEnrollmentEntity { get; set; }
 
     /// <summary>
     /// A qualifier identifying the types of exams required of doctoral level individuals.
@@ -463,7 +454,7 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefDoctoralExamsRequiredCodeEntity RefDoctoralExamsRequiredCodeEntity { get; set; }
+    public virtual RefDoctoralExamsRequiredCodeEntity? RefDoctoralExamsRequiredCodeEntity { get; set; }
 
     /// <summary>
     /// The individual's status in completing exams required for graduate or doctoral degree programs.
@@ -474,7 +465,7 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefGraduateOrDoctoralExamResultsStatusEntity RefGraduateOrDoctoralExamResultsStatusEntity { get; set; }
+    public virtual RefGraduateOrDoctoralExamResultsStatusEntity? RefGraduateOrDoctoralExamResultsStatusEntity { get; set; }
 
     /// <summary>
     /// The status of a student's referral to or placement into  developmental education.
@@ -485,7 +476,7 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefDevelopmentalEducationReferralStatusEntity RefDevelopmentalEducationReferralStatusEntity { get; set; }
+    public virtual RefDevelopmentalEducationReferralStatusEntity? RefDevelopmentalEducationReferralStatusEntity { get; set; }
 
     /// <summary>
     /// An indicator of the category of developmental education.
@@ -496,7 +487,7 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefDevelopmentalEducationTypeEntity RefDevelopmentalEducationTypeEntity { get; set; }
+    public virtual RefDevelopmentalEducationTypeEntity? RefDevelopmentalEducationTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefPsexitOrWithdrawalType"/> implementation
@@ -504,7 +495,7 @@ public partial class PsStudentEnrollmentEntity : EntityBase, IPsStudentEnrollmen
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefPsexitOrWithdrawalTypeEntity RefPsexitOrWithdrawalTypeEntity { get; set; }
+    public virtual RefPsexitOrWithdrawalTypeEntity? RefPsexitOrWithdrawalTypeEntity { get; set; }
 
     #endregion
 }

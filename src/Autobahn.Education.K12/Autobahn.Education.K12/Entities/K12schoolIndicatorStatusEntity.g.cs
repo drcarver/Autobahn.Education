@@ -75,7 +75,7 @@ public partial class K12schoolIndicatorStatusEntity : EntityBase, IK12schoolIndi
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefIndicatorStateDefinedStatusEntity RefIndicatorStateDefinedStatusEntity { get; set; }
+    public virtual RefIndicatorStateDefinedStatusEntity? RefIndicatorStateDefinedStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefIndicatorStatusSubgroupType"/> implementation
@@ -83,7 +83,7 @@ public partial class K12schoolIndicatorStatusEntity : EntityBase, IK12schoolIndi
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefIndicatorStatusSubgroupTypeEntity RefIndicatorStatusSubgroupTypeEntity { get; set; }
+    public virtual RefIndicatorStatusSubgroupTypeEntity? RefIndicatorStatusSubgroupTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefIndicatorStatusCustomType"/> implementation
@@ -91,7 +91,7 @@ public partial class K12schoolIndicatorStatusEntity : EntityBase, IK12schoolIndi
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefIndicatorStatusCustomTypeEntity RefIndicatorStatusCustomTypeEntity { get; set; }
+    public virtual RefIndicatorStatusCustomTypeEntity? RefIndicatorStatusCustomTypeEntity { get; set; }
 
     #endregion
 }

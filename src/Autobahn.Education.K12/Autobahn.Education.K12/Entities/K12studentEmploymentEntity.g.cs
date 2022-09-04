@@ -42,7 +42,7 @@ public partial class K12studentEmploymentEntity : EntityBase, IK12studentEmploym
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefEmployedWhileEnrolledEntity RefEmployedWhileEnrolledEntity { get; set; }
+    public virtual RefEmployedWhileEnrolledEntity? RefEmployedWhileEnrolledEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefEmployedAfterExit"/> implementation
@@ -50,7 +50,7 @@ public partial class K12studentEmploymentEntity : EntityBase, IK12studentEmploym
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefEmployedAfterExitEntity RefEmployedAfterExitEntity { get; set; }
+    public virtual RefEmployedAfterExitEntity? RefEmployedAfterExitEntity { get; set; }
 
     #endregion
 }

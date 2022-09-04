@@ -77,7 +77,7 @@ public partial class FacilityManagementPlanEntity : EntityBase, IFacilityManagem
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilitiesPlanTypeEntity RefFacilitiesPlanTypeEntity { get; set; }
+    public virtual RefFacilitiesPlanTypeEntity? RefFacilitiesPlanTypeEntity { get; set; }
 
     /// <summary>
     /// The type of abnormal and urgent circumstances that disrupt the normal operation of the building, threaten the health and safety of the occupants, or require an emergency response.
@@ -88,7 +88,7 @@ public partial class FacilityManagementPlanEntity : EntityBase, IFacilityManagem
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilitiesMgmtEmergencyTypeEntity RefFacilitiesMgmtEmergencyTypeEntity { get; set; }
+    public virtual RefFacilitiesMgmtEmergencyTypeEntity? RefFacilitiesMgmtEmergencyTypeEntity { get; set; }
 
     #endregion
 }

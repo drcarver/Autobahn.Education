@@ -14,7 +14,6 @@ public partial class RefEarlyChildhoodServiceEntity : ReferenceBaseEntity, IRefe
     /// Reference to an optional instance of the <see cref="RefEarlyChildhoodServices"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The RefEarlyChildhoodServices property is obsolete and will be removed in a later version")]
     [ForeignKey("RefEarlyChildhoodServices")]
     public Guid RefEarlyChildhoodServicesId { get; set; }
 

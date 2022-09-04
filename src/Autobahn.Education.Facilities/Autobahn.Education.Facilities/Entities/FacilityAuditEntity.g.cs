@@ -62,7 +62,7 @@ public partial class FacilityAuditEntity : EntityBase, IFacilityAudit
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityAuditTypeEntity RefFacilityAuditTypeEntity { get; set; }
+    public virtual RefFacilityAuditTypeEntity? RefFacilityAuditTypeEntity { get; set; }
 
     #endregion
 }

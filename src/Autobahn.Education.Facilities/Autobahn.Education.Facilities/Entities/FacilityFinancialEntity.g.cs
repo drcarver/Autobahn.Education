@@ -52,7 +52,7 @@ public partial class FacilityFinancialEntity : EntityBase, IFacilityFinancial
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual FacilityLeaseEntity FacilityLeaseEntity { get; set; }
+    public virtual FacilityLeaseEntity? FacilityLeaseEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IFacilityMortgage"/> implementation
@@ -60,7 +60,7 @@ public partial class FacilityFinancialEntity : EntityBase, IFacilityFinancial
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual FacilityMortgageEntity FacilityMortgageEntity { get; set; }
+    public virtual FacilityMortgageEntity? FacilityMortgageEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IFacilityMortgageFee"/> implementation
@@ -68,7 +68,7 @@ public partial class FacilityFinancialEntity : EntityBase, IFacilityFinancial
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual FacilityMortgageFeeEntity FacilityMortgageFeeEntity { get; set; }
+    public virtual FacilityMortgageFeeEntity? FacilityMortgageFeeEntity { get; set; }
 
     #endregion
 }

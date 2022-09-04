@@ -102,13 +102,5 @@ public partial class AssessmentPerformanceLevelEntity : EntityBase, IAssessmentP
     #endregion
 
     #region "Virtual Properties for foreign keys"
-    /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentSubtest"/> implementation
-    /// <remarks>
-    /// This entity is in the Assessments domain
-    /// </remarks>
-    /// </summary>
-    public virtual AssessmentSubtestEntity AssessmentSubtestEntity { get; set; }
-
     #endregion
 }

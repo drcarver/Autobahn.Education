@@ -206,19 +206,9 @@ public partial class AssessmentItemApipDescriptionViewModel : ObservableValidato
     public Boolean? ReducedAnswersAssignedSupportIndicator { get => reducedAnswersAssignedSupportIndicator; set => SetProperty(ref reducedAnswersAssignedSupportIndicator, value, false); }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="RefHazardType"/> model
-    /// </summary>
-    public Guid? RefHazardTypeId { get; set; }
-
-    /// <summary>
     /// Reference to an optional instance of the <see cref="RefKeywordTranslationLanguage"/> model
     /// </summary>
     public Guid? RefKeywordTranslationLanguageId { get; set; }
-
-    /// <summary>
-    /// Reference to an optional instance of the <see cref="RefSupportToolType"/> model
-    /// </summary>
-    public Guid? RefSupportToolTypeId { get; set; }
 
     public Boolean? ScaffoldingActivateByDefaultIndicator { get => scaffoldingActivateByDefaultIndicator; set => SetProperty(ref scaffoldingActivateByDefaultIndicator, value, false); }
 
@@ -261,9 +251,7 @@ public partial class AssessmentItemApipDescriptionViewModel : ObservableValidato
         NonVisualIndicator = model.NonVisualIndicator; // 
         ReducedAnswersActivateByDefaultIndicator = model.ReducedAnswersActivateByDefaultIndicator; // 
         ReducedAnswersAssignedSupportIndicator = model.ReducedAnswersAssignedSupportIndicator; // 
-        RefHazardTypeId = model.RefHazardTypeId; // 
         RefKeywordTranslationLanguageId = model.RefKeywordTranslationLanguageId; // 
-        RefSupportToolTypeId = model.RefSupportToolTypeId; // 
         ScaffoldingActivateByDefaultIndicator = model.ScaffoldingActivateByDefaultIndicator; // 
         ScaffoldingAssignedSupportIndicator = model.ScaffoldingAssignedSupportIndicator; // 
         SignedEnglishIndicator = model.SignedEnglishIndicator; // 

@@ -47,7 +47,6 @@ public partial class PsSectionEntity : EntityBase, IPsSection
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefCourseGpaapplicability"/> model
     /// </summary>
-    [Obsolete("The RefCourseGpaapplicability property is obsolete and will be removed in a later version")]
     [ForeignKey("RefCourseGpaapplicability")]
     public Guid? RefCourseGpaapplicabilityId { get; set; }
 
@@ -136,7 +135,7 @@ public partial class PsSectionEntity : EntityBase, IPsSection
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCipCodeEntity RefCipCodeEntity { get; set; }
+    public virtual RefCipCodeEntity? RefCipCodeEntity { get; set; }
 
     /// <summary>
     /// An indication that the course is or can be counted as an honors course.
@@ -147,7 +146,7 @@ public partial class PsSectionEntity : EntityBase, IPsSection
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCourseHonorsTypeEntity RefCourseHonorsTypeEntity { get; set; }
+    public virtual RefCourseHonorsTypeEntity? RefCourseHonorsTypeEntity { get; set; }
 
     /// <summary>
     /// The primary method of instruction used for the course.
@@ -158,7 +157,7 @@ public partial class PsSectionEntity : EntityBase, IPsSection
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCourseInstructionMethodEntity RefCourseInstructionMethodEntity { get; set; }
+    public virtual RefCourseInstructionMethodEntity? RefCourseInstructionMethodEntity { get; set; }
 
     /// <summary>
     /// The level of work which is reflected in the credits associated with the academic course being described or the level of the typical individual taking the academic course.
@@ -169,7 +168,7 @@ public partial class PsSectionEntity : EntityBase, IPsSection
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCourseLevelTypeEntity RefCourseLevelTypeEntity { get; set; }
+    public virtual RefCourseLevelTypeEntity? RefCourseLevelTypeEntity { get; set; }
 
     /// <summary>
     /// An indicator of the category of developmental education.
@@ -180,7 +179,7 @@ public partial class PsSectionEntity : EntityBase, IPsSection
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefDevelopmentalEducationTypeEntity RefDevelopmentalEducationTypeEntity { get; set; }
+    public virtual RefDevelopmentalEducationTypeEntity? RefDevelopmentalEducationTypeEntity { get; set; }
 
     /// <summary>
     /// The type of work-based learning opportunity a student participated in.
@@ -191,7 +190,7 @@ public partial class PsSectionEntity : EntityBase, IPsSection
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefWorkbasedLearningOpportunityTypeEntity RefWorkbasedLearningOpportunityTypeEntity { get; set; }
+    public virtual RefWorkbasedLearningOpportunityTypeEntity? RefWorkbasedLearningOpportunityTypeEntity { get; set; }
 
     #endregion
 }

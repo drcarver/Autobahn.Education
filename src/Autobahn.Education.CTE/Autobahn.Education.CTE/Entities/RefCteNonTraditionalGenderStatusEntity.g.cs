@@ -23,7 +23,6 @@ public partial class RefCteNonTraditionalGenderStatusEntity : ReferenceBaseEntit
     /// Reference to an optional instance of the <see cref="RefCtenonTraditionalGenderStatus"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The RefCtenonTraditionalGenderStatus property is obsolete and will be removed in a later version")]
     [ForeignKey("RefCtenonTraditionalGenderStatus")]
     public Guid RefCtenonTraditionalGenderStatusId { get; set; }
 

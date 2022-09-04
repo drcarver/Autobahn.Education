@@ -187,11 +187,6 @@ public partial interface IPsStudentEnrollment
     Boolean? PostsecondaryEnteringStudentInd { get; set; }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IPsstudentEnrollment"/> model
-    /// </summary>
-    Guid PsstudentEnrollmentId { get; set; }
-
-    /// <summary>
     /// Developmental Education Referral Status
     /// <para>
     /// The status of a student's referral to or placement into  developmental education.

@@ -40,7 +40,6 @@ public partial class CredentialDefIdentifierEntity : EntityBase, ICredentialDefI
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20720">Credential Definition Identifier System</a>
     /// </para>
     /// </summary>
-    [Obsolete("The RefCredentialentifierSystem property is obsolete and will be removed in a later version")]
     [ForeignKey("RefCredentialentifierSystem")]
     [Comment("A coding scheme that is used for identification and record-keeping purposes by a credentialing organization to refer to a qualification, achievement, personal or organizational quality, or aspect of an identity.")]
     public Guid? RefCredentialIdentifierSystemId { get; set; }

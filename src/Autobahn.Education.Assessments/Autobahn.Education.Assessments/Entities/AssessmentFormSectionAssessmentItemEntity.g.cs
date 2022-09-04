@@ -21,7 +21,6 @@ public partial class AssessmentFormSectionAssessmentItemEntity : EntityBase, IAs
     /// Reference to an optional instance of the <see cref="IAssessmentFormSectionItem"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The AssessmentFormSectionItem property is obsolete and will be removed in a later version")]
     [ForeignKey("AssessmentFormSectionItem")]
     public Guid AssessmentFormSectionItemId { get; set; }
 
@@ -38,6 +37,14 @@ public partial class AssessmentFormSectionAssessmentItemEntity : EntityBase, IAs
     #endregion
 
     #region "Virtual Properties for foreign keys"
+    /// <summary>
+    /// Reference to an optional instance of the <see cref="IAssessmentFormSectionItem"/> implementation
+    /// <remarks>
+    /// This entity is in the Assessments domain
+    /// </remarks>
+    /// </summary>
+    public virtual AssessmentFormSectionItemEntity AssessmentFormSectionItemEntity { get; set; }
+
     /// <summary>
     /// Reference to an optional instance of the <see cref="IAssessmentFormSection"/> implementation
     /// <remarks>

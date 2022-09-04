@@ -46,7 +46,7 @@ public partial class CredentialAwardCreditEntity : EntityBase, ICredentialAwardC
     /// This entity is in the Credentials domain
     /// </remarks>
     /// </summary>
-    public virtual CredentialCriteriaCourseEntity CredentialCriteriaCourseEntity { get; set; }
+    public virtual CredentialCriteriaCourseEntity? CredentialCriteriaCourseEntity { get; set; }
 
     #endregion
 }

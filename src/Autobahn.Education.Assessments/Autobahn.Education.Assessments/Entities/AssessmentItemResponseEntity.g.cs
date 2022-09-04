@@ -113,20 +113,6 @@ public partial class AssessmentItemResponseEntity : EntityBase, IAssessmentItemR
     public Boolean? HintIncludedAnswer { get; set; }
 
     /// <summary>
-    /// Assessment Item Response Status
-    /// <para>
-    /// The status of the response for a given item.
-    /// </para>
-    /// <para>
-    /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19396">Assessment Item Response Status</a>
-    /// </para>
-    /// </summary>
-    [Obsolete("The RefAssessItemResponseStatus property is obsolete and will be removed in a later version")]
-    [ForeignKey("RefAssessItemResponseStatus")]
-    [Comment("The status of the response for a given item.")]
-    public Guid? RefAssessItemResponseStatusId { get; set; }
-
-    /// <summary>
     /// Assessment Item Response Score Status
     /// <para>
     /// The status of scoring a person's response to an assessment item.
@@ -138,6 +124,12 @@ public partial class AssessmentItemResponseEntity : EntityBase, IAssessmentItemR
     [ForeignKey("RefAssessmentItemResponseScoreStatus")]
     [Comment("The status of scoring a person's response to an assessment item.")]
     public Guid? RefAssessmentItemResponseScoreStatusId { get; set; }
+
+    /// <summary>
+    /// Reference to an optional instance of the <see cref="RefAssessmentItemResponseStatus"/> model
+    /// </summary>
+    [ForeignKey("RefAssessmentItemResponseStatus")]
+    public Guid? RefAssessmentItemResponseStatusId { get; set; }
 
     /// <summary>
     /// Proficiency Status
@@ -237,6 +229,14 @@ public partial class AssessmentItemResponseEntity : EntityBase, IAssessmentItemR
 
     #region "Virtual Properties for foreign keys"
     /// <summary>
+    /// Reference to an optional instance of the <see cref="IRefAssessmentItemResponseStatus"/> implementation
+    /// <remarks>
+    /// This entity is in the Assessments domain
+    /// </remarks>
+    /// </summary>
+    public virtual RefAssessmentItemResponseStatusEntity? RefAssessmentItemResponseStatusEntity { get; set; }
+
+    /// <summary>
     /// An indication of whether a student's scores were proficient.
     /// <para>
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19565">Proficiency Status</a>
@@ -245,7 +245,7 @@ public partial class AssessmentItemResponseEntity : EntityBase, IAssessmentItemR
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefProficiencyStatusEntity RefProficiencyStatusEntity { get; set; }
+    public virtual RefProficiencyStatusEntity? RefProficiencyStatusEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IAssessmentItem"/> implementation
@@ -272,7 +272,7 @@ public partial class AssessmentItemResponseEntity : EntityBase, IAssessmentItemR
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentItemResponseScoreStatusEntity RefAssessmentItemResponseScoreStatusEntity { get; set; }
+    public virtual RefAssessmentItemResponseScoreStatusEntity? RefAssessmentItemResponseScoreStatusEntity { get; set; }
 
     #endregion
 }

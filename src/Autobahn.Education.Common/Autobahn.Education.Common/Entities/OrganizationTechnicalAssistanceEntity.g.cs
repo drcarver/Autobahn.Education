@@ -67,7 +67,7 @@ public partial class OrganizationTechnicalAssistanceEntity : EntityBase, IOrgani
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefTechnicalAssistanceTypeEntity RefTechnicalAssistanceTypeEntity { get; set; }
+    public virtual RefTechnicalAssistanceTypeEntity? RefTechnicalAssistanceTypeEntity { get; set; }
 
     /// <summary>
     /// The method of delivery of technical assistance received/provided
@@ -78,7 +78,7 @@ public partial class OrganizationTechnicalAssistanceEntity : EntityBase, IOrgani
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefTechnicalAssistanceDeliveryTypeEntity RefTechnicalAssistanceDeliveryTypeEntity { get; set; }
+    public virtual RefTechnicalAssistanceDeliveryTypeEntity? RefTechnicalAssistanceDeliveryTypeEntity { get; set; }
 
     #endregion
 }

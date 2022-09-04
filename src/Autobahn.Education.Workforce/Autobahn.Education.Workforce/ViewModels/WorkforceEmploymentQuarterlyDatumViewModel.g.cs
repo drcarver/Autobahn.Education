@@ -119,11 +119,6 @@ public partial class WorkforceEmploymentQuarterlyDatumViewModel : ObservableVali
     /// </summary>
     public Guid? RefEmployedWhileEnrolledId { get; set; }
 
-    /// <summary>
-    /// Reference to an optional instance of the <see cref="IWorkforceEmploymentQuarterlyData"/> model
-    /// </summary>
-    public Guid WorkforceEmploymentQuarterlyDataId { get; set; }
-
     #endregion
 
     /// <summary>
@@ -138,7 +133,6 @@ public partial class WorkforceEmploymentQuarterlyDatumViewModel : ObservableVali
         OrganizationPersonRoleId = model.OrganizationPersonRoleId; // 
         RefEmployedAfterExitId = model.RefEmployedAfterExitId; // 
         RefEmployedWhileEnrolledId = model.RefEmployedWhileEnrolledId; // 
-        WorkforceEmploymentQuarterlyDataId = model.WorkforceEmploymentQuarterlyDataId; // 
         IsChanged = false;
         IsNew = false;
         IsBusy = false;

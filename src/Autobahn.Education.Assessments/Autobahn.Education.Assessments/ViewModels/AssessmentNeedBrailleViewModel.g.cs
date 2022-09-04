@@ -166,16 +166,9 @@ public partial class AssessmentNeedBrailleViewModel : ObservableValidator, IAsse
     public Guid? RefAssessmentNeedBrailleStatusCellTypeId { get; set; }
 
     /// <summary>
-    /// Assessment Need Number of Braille Dots Type
-    /// <para>
-    /// Defines as part of an Assessment Personal Needs Profile the number of dots in a Braille cell.
-    /// </para>
-    /// <para>
-    /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20036">Assessment Need Number of Braille Dots Type</a>
-    /// </para>
+    /// Reference to an optional instance of the <see cref="RefAssessmentNeedNumberOfBrailleDot"/> model
     /// </summary>
-    [DisplayName("Assessment Need Number of Braille Dots Type")]
-    public Guid? RefAssessmentNeedNumberOfBrailleDotsId { get; set; }
+    public Guid? RefAssessmentNeedNumberOfBrailleDotId { get; set; }
 
     /// <summary>
     /// Assessment Need Usage Type
@@ -204,7 +197,7 @@ public partial class AssessmentNeedBrailleViewModel : ObservableValidator, IAsse
         RefAssessmentNeedBrailleGradeTypeId = model.RefAssessmentNeedBrailleGradeTypeId; // Assessment Need Braille Grade Type
         RefAssessmentNeedBrailleMarkTypeId = model.RefAssessmentNeedBrailleMarkTypeId; // Assessment Need Braille Mark Type
         RefAssessmentNeedBrailleStatusCellTypeId = model.RefAssessmentNeedBrailleStatusCellTypeId; // Assessment Need Braille Status Cell Type
-        RefAssessmentNeedNumberOfBrailleDotsId = model.RefAssessmentNeedNumberOfBrailleDotsId; // Assessment Need Number of Braille Dots Type
+        RefAssessmentNeedNumberOfBrailleDotId = model.RefAssessmentNeedNumberOfBrailleDotId; // 
         RefAssessmentNeedUsageTypeId = model.RefAssessmentNeedUsageTypeId; // Assessment Need Usage Type
         IsChanged = false;
         IsNew = false;

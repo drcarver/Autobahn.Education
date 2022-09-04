@@ -19,6 +19,7 @@ public static partial class ServiceCollectionExtensions
         serviceCollection.AddTransient<IAeStaff, AeStaffViewModel>();
         serviceCollection.AddTransient<IAeStudentAcademicRecord, AeStudentAcademicRecordViewModel>();
         serviceCollection.AddTransient<IAeStudentEmployment, AeStudentEmploymentViewModel>();
+        serviceCollection.AddTransient<IProgramParticipationAe, ProgramParticipationAeViewModel>();
 
         return serviceCollection;
     }

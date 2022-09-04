@@ -80,18 +80,10 @@ public partial class AssessmentNeedBrailleEntity : EntityBase, IAssessmentNeedBr
     public Guid? RefAssessmentNeedBrailleStatusCellTypeId { get; set; }
 
     /// <summary>
-    /// Assessment Need Number of Braille Dots Type
-    /// <para>
-    /// Defines as part of an Assessment Personal Needs Profile the number of dots in a Braille cell.
-    /// </para>
-    /// <para>
-    /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=20036">Assessment Need Number of Braille Dots Type</a>
-    /// </para>
+    /// Reference to an optional instance of the <see cref="RefAssessmentNeedNumberOfBrailleDot"/> model
     /// </summary>
-    [Obsolete("The RefAssessmentNeedNumberOfBrailleDots property is obsolete and will be removed in a later version")]
-    [ForeignKey("RefAssessmentNeedNumberOfBrailleDots")]
-    [Comment("Defines as part of an Assessment Personal Needs Profile the number of dots in a Braille cell.")]
-    public Guid? RefAssessmentNeedNumberOfBrailleDotsId { get; set; }
+    [ForeignKey("RefAssessmentNeedNumberOfBrailleDot")]
+    public Guid? RefAssessmentNeedNumberOfBrailleDotId { get; set; }
 
     /// <summary>
     /// Assessment Need Usage Type
@@ -115,7 +107,7 @@ public partial class AssessmentNeedBrailleEntity : EntityBase, IAssessmentNeedBr
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual AssessmentPersonalNeedsProfileDisplayEntity AssessmentPersonalNeedsProfileDisplayEntity { get; set; }
+    public virtual AssessmentPersonalNeedsProfileDisplayEntity? AssessmentPersonalNeedsProfileDisplayEntity { get; set; }
 
     /// <summary>
     /// Defines as part of an Assessment Personal Needs Profile the rating for the collection of Access for All (AfA) needs and preferences.
@@ -126,7 +118,7 @@ public partial class AssessmentNeedBrailleEntity : EntityBase, IAssessmentNeedBr
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedUsageTypeEntity RefAssessmentNeedUsageTypeEntity { get; set; }
+    public virtual RefAssessmentNeedUsageTypeEntity? RefAssessmentNeedUsageTypeEntity { get; set; }
 
     /// <summary>
     /// Defines as part of an Assessment Personal Needs Profile the grade of Braille to use when using a Braille display.
@@ -137,7 +129,15 @@ public partial class AssessmentNeedBrailleEntity : EntityBase, IAssessmentNeedBr
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedBrailleGradeTypeEntity RefAssessmentNeedBrailleGradeTypeEntity { get; set; }
+    public virtual RefAssessmentNeedBrailleGradeTypeEntity? RefAssessmentNeedBrailleGradeTypeEntity { get; set; }
+
+    /// <summary>
+    /// Reference to an optional instance of the <see cref="IRefAssessmentNeedNumberOfBrailleDot"/> implementation
+    /// <remarks>
+    /// This entity is in the Assessments domain
+    /// </remarks>
+    /// </summary>
+    public virtual RefAssessmentNeedNumberOfBrailleDotEntity? RefAssessmentNeedNumberOfBrailleDotEntity { get; set; }
 
     /// <summary>
     /// Defines as part of an Assessment Personal Needs Profile what textual properties to mark when using a Braille display.
@@ -148,7 +148,7 @@ public partial class AssessmentNeedBrailleEntity : EntityBase, IAssessmentNeedBr
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedBrailleMarkTypeEntity RefAssessmentNeedBrailleMarkTypeEntity { get; set; }
+    public virtual RefAssessmentNeedBrailleMarkTypeEntity? RefAssessmentNeedBrailleMarkTypeEntity { get; set; }
 
     /// <summary>
     /// Defines as part of an Assessment Personal Needs Profile the preferred presence or location of a Braille display status cell.
@@ -159,7 +159,7 @@ public partial class AssessmentNeedBrailleEntity : EntityBase, IAssessmentNeedBr
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefAssessmentNeedBrailleStatusCellTypeEntity RefAssessmentNeedBrailleStatusCellTypeEntity { get; set; }
+    public virtual RefAssessmentNeedBrailleStatusCellTypeEntity? RefAssessmentNeedBrailleStatusCellTypeEntity { get; set; }
 
     #endregion
 }

@@ -109,9 +109,9 @@ public partial class AssessmentSubtestItemViewModel : ObservableValidator, IAsse
     public Guid AssessmentItemId { get; set; }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentSubtest"/> model
+    /// Reference to an optional instance of the <see cref="IAssessmentSubTest"/> model
     /// </summary>
-    public Guid AssessmentSubtestId { get; set; }
+    public Guid AssessmentSubTestId { get; set; }
 
     public Decimal? ItemWeightCorrect { get => itemWeightCorrect; set => SetProperty(ref itemWeightCorrect, value, false); }
 
@@ -129,7 +129,7 @@ public partial class AssessmentSubtestItemViewModel : ObservableValidator, IAsse
         IsBusy = true;
         Id = model.Id;
         AssessmentItemId = model.AssessmentItemId; // 
-        AssessmentSubtestId = model.AssessmentSubtestId; // 
+        AssessmentSubTestId = model.AssessmentSubTestId; // 
         ItemWeightCorrect = model.ItemWeightCorrect; // 
         ItemWeightIncorrect = model.ItemWeightIncorrect; // 
         ItemWeightNotAttempted = model.ItemWeightNotAttempted; // 

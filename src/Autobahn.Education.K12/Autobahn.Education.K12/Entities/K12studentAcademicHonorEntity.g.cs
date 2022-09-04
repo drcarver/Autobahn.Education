@@ -36,7 +36,7 @@ public partial class K12studentAcademicHonorEntity : EntityBase, IK12studentAcad
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefAcademicHonorTypeEntity RefAcademicHonorTypeEntity { get; set; }
+    public virtual RefAcademicHonorTypeEntity? RefAcademicHonorTypeEntity { get; set; }
 
     #endregion
 }

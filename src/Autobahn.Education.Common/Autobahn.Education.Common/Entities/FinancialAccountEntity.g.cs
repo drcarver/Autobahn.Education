@@ -184,7 +184,7 @@ public partial class FinancialAccountEntity : EntityBase, IFinancialAccount
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefFinancialAccountCategoryEntity RefFinancialAccountCategoryEntity { get; set; }
+    public virtual RefFinancialAccountCategoryEntity? RefFinancialAccountCategoryEntity { get; set; }
 
     /// <summary>
     /// A fund is a separate fiscal and accounting entity with a self-balancing set of accounts recording cash and other financial resources, together with all related liabilities and residual equities or balances or changes therein.
@@ -195,7 +195,7 @@ public partial class FinancialAccountEntity : EntityBase, IFinancialAccount
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefFinancialAccountFundClassificationEntity RefFinancialAccountFundClassificationEntity { get; set; }
+    public virtual RefFinancialAccountFundClassificationEntity? RefFinancialAccountFundClassificationEntity { get; set; }
 
     /// <summary>
     /// A program is a plan of activities and procedures designed to accomplish a predetermined objective or set of objectives.  The program classification provides the school district with a framework to classify instructional and other expenditures by program to determine cost.
@@ -206,7 +206,7 @@ public partial class FinancialAccountEntity : EntityBase, IFinancialAccount
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefFinancialAccountProgramCodeEntity RefFinancialAccountProgramCodeEntity { get; set; }
+    public virtual RefFinancialAccountProgramCodeEntity? RefFinancialAccountProgramCodeEntity { get; set; }
 
     /// <summary>
     /// Balance sheet accounts and statement of net position accounts are used to track financial transactions for each fund. Such financial statements only report assets, deferred outflows of resources, liabilities, deferred inflows of resources, and equity accounts and are considered "snapshots" of how these accounts stand as of a certain point in time.
@@ -217,7 +217,7 @@ public partial class FinancialAccountEntity : EntityBase, IFinancialAccount
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefFinancialAccountBalanceSheetCodeEntity RefFinancialAccountBalanceSheetCodeEntity { get; set; }
+    public virtual RefFinancialAccountBalanceSheetCodeEntity? RefFinancialAccountBalanceSheetCodeEntity { get; set; }
 
     /// <summary>
     /// The function describes the activity for which a service or material object is acquired. The functions of a school district are classified into five broad areas: instruction, support services, operation of noninstructional services, facilities acquisition and construction, and debt service. Functions are further classified into sub functions.
@@ -228,7 +228,7 @@ public partial class FinancialAccountEntity : EntityBase, IFinancialAccount
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefFinancialExpenditureFunctionCodeEntity RefFinancialExpenditureFunctionCodeEntity { get; set; }
+    public virtual RefFinancialExpenditureFunctionCodeEntity? RefFinancialExpenditureFunctionCodeEntity { get; set; }
 
     /// <summary>
     /// This classification is used to describe the service or commodity obtained as the result of a specific expenditure.  Nine major object categories have codes ending in 00 and are further subdivided.
@@ -239,7 +239,7 @@ public partial class FinancialAccountEntity : EntityBase, IFinancialAccount
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefFinancialExpenditureObjectCodeEntity RefFinancialExpenditureObjectCodeEntity { get; set; }
+    public virtual RefFinancialExpenditureObjectCodeEntity? RefFinancialExpenditureObjectCodeEntity { get; set; }
 
     /// <summary>
     /// This classification permits expenditures to be segregated by instructional level.
@@ -250,7 +250,7 @@ public partial class FinancialAccountEntity : EntityBase, IFinancialAccount
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefFinancialExpenditureLevelOfInstructionCodeEntity RefFinancialExpenditureLevelOfInstructionCodeEntity { get; set; }
+    public virtual RefFinancialExpenditureLevelOfInstructionCodeEntity? RefFinancialExpenditureLevelOfInstructionCodeEntity { get; set; }
 
     /// <summary>
     /// These codes are for recording revenue and other receivables by source.  Major revenue categories have codes ending in 00 and are further subdivided.
@@ -261,7 +261,7 @@ public partial class FinancialAccountEntity : EntityBase, IFinancialAccount
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefFinancialAccountRevenueCodeEntity RefFinancialAccountRevenueCodeEntity { get; set; }
+    public virtual RefFinancialAccountRevenueCodeEntity? RefFinancialAccountRevenueCodeEntity { get; set; }
 
     #endregion
 }

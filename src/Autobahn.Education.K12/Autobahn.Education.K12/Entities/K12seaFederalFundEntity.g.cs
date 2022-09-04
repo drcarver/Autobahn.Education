@@ -18,7 +18,6 @@ public partial class K12seaFederalFundEntity : EntityBase, IK12seaFederalFund
     /// Reference to an optional instance of the <see cref="IK12seaFederalFunds"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The K12seaFederalFunds property is obsolete and will be removed in a later version")]
     [ForeignKey("K12seaFederalFunds")]
     public Guid K12seaFederalFundsId { get; set; }
 

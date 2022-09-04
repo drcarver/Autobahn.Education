@@ -170,7 +170,7 @@ public partial class PsInstitutionEntity : EntityBase, IPsInstitution
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCarnegieBasicClassificationEntity RefCarnegieBasicClassificationEntity { get; set; }
+    public virtual RefCarnegieBasicClassificationEntity? RefCarnegieBasicClassificationEntity { get; set; }
 
     /// <summary>
     /// A classification of whether a postsecondary institution is operated by publicly elected or appointed officials (public control) or by privately elected or appointed officials and derives its major source of funds from private sources (private control). 
@@ -181,7 +181,7 @@ public partial class PsInstitutionEntity : EntityBase, IPsInstitution
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefControlOfInstitutionEntity RefControlOfInstitutionEntity { get; set; }
+    public virtual RefControlOfInstitutionEntity? RefControlOfInstitutionEntity { get; set; }
 
     /// <summary>
     /// A classification of whether a postsecondary institution's highest level of offering is a program of 4-years or higher (4 year), 2-but-less-than 4-years (2 year), or less than 2-years.
@@ -192,7 +192,7 @@ public partial class PsInstitutionEntity : EntityBase, IPsInstitution
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefLevelOfInstitutionEntity RefLevelOfInstitutionEntity { get; set; }
+    public virtual RefLevelOfInstitutionEntity? RefLevelOfInstitutionEntity { get; set; }
 
     /// <summary>
     /// The method by which an institution structures most of its courses for the academic year.
@@ -203,7 +203,7 @@ public partial class PsInstitutionEntity : EntityBase, IPsInstitution
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefPredominantCalendarSystemEntity RefPredominantCalendarSystemEntity { get; set; }
+    public virtual RefPredominantCalendarSystemEntity? RefPredominantCalendarSystemEntity { get; set; }
 
     /// <summary>
     /// An indicator of whether an institution has personnel positions that lead to consideration for tenure.
@@ -214,7 +214,7 @@ public partial class PsInstitutionEntity : EntityBase, IPsInstitution
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefTenureSystemEntity RefTenureSystemEntity { get; set; }
+    public virtual RefTenureSystemEntity? RefTenureSystemEntity { get; set; }
 
     /// <summary>
     /// The level of consideration given a type of admission criteria used at an institution during the selection process.
@@ -225,7 +225,7 @@ public partial class PsInstitutionEntity : EntityBase, IPsInstitution
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefAdmissionConsiderationLevelEntity RefAdmissionConsiderationLevelEntity { get; set; }
+    public virtual RefAdmissionConsiderationLevelEntity? RefAdmissionConsiderationLevelEntity { get; set; }
 
     /// <summary>
     /// The type of admission consideration used at an institution during the selection process.
@@ -236,7 +236,7 @@ public partial class PsInstitutionEntity : EntityBase, IPsInstitution
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefAdmissionConsiderationTypeEntity RefAdmissionConsiderationTypeEntity { get; set; }
+    public virtual RefAdmissionConsiderationTypeEntity? RefAdmissionConsiderationTypeEntity { get; set; }
 
     /// <summary>
     /// The type of education institution as classified by its funding source.
@@ -247,7 +247,7 @@ public partial class PsInstitutionEntity : EntityBase, IPsInstitution
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefAdministrativeFundingControlEntity RefAdministrativeFundingControlEntity { get; set; }
+    public virtual RefAdministrativeFundingControlEntity? RefAdministrativeFundingControlEntity { get; set; }
 
     /// <summary>
     /// The types of increased learning time provided.
@@ -258,7 +258,7 @@ public partial class PsInstitutionEntity : EntityBase, IPsInstitution
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefIncreasedLearningTimeTypeEntity RefIncreasedLearningTimeTypeEntity { get; set; }
+    public virtual RefIncreasedLearningTimeTypeEntity? RefIncreasedLearningTimeTypeEntity { get; set; }
 
     #endregion
 }

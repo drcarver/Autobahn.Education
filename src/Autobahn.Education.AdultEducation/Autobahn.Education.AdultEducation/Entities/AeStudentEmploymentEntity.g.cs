@@ -69,7 +69,7 @@ public partial class AeStudentEmploymentEntity : EntityBase, IAeStudentEmploymen
     /// This entity is in the AdultEducation domain
     /// </remarks>
     /// </summary>
-    public virtual RefEmployedWhileEnrolledEntity RefEmployedWhileEnrolledEntity { get; set; }
+    public virtual RefEmployedWhileEnrolledEntity? RefEmployedWhileEnrolledEntity { get; set; }
 
     /// <summary>
     /// An individual who is a paid employee or works in his or her own business, profession, or farm, as reported through the State Unemployment Insurance Wage Report, FEDES, or WRIS, after exiting secondary, postsecondary, or adult education or workforce programs.
@@ -80,7 +80,7 @@ public partial class AeStudentEmploymentEntity : EntityBase, IAeStudentEmploymen
     /// This entity is in the AdultEducation domain
     /// </remarks>
     /// </summary>
-    public virtual RefEmployedAfterExitEntity RefEmployedAfterExitEntity { get; set; }
+    public virtual RefEmployedAfterExitEntity? RefEmployedAfterExitEntity { get; set; }
 
     #endregion
 }

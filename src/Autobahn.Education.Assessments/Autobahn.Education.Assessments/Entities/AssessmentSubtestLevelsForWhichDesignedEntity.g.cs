@@ -14,7 +14,6 @@ public partial class AssessmentSubtestLevelsForWhichDesignedEntity : EntityBase,
     /// Reference to an optional instance of the <see cref="IAssessmentSubTest"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The AssessmentSubTest property is obsolete and will be removed in a later version")]
     [ForeignKey("AssessmentSubTest")]
     public Guid AssessmentSubTestId { get; set; }
 
@@ -22,12 +21,19 @@ public partial class AssessmentSubtestLevelsForWhichDesignedEntity : EntityBase,
     /// Reference to an optional instance of the <see cref="RefGrade"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The RefGrade property is obsolete and will be removed in a later version")]
     [ForeignKey("RefGrade")]
     public Guid RefGradeId { get; set; }
 
     #endregion
 
     #region "Virtual Properties for foreign keys"
+    /// <summary>
+    /// Reference to an optional instance of the <see cref="IAssessmentSubTest"/> implementation
+    /// <remarks>
+    /// This entity is in the Assessments domain
+    /// </remarks>
+    /// </summary>
+    public virtual AssessmentSubTestEntity AssessmentSubTestEntity { get; set; }
+
     #endregion
 }

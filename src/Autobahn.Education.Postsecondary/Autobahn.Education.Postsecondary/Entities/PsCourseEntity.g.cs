@@ -126,7 +126,7 @@ public partial class PsCourseEntity : EntityBase, IPsCourse
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCourseCreditBasisTypeEntity RefCourseCreditBasisTypeEntity { get; set; }
+    public virtual RefCourseCreditBasisTypeEntity? RefCourseCreditBasisTypeEntity { get; set; }
 
     /// <summary>
     /// The level of credit associated with the credit hours earned for the course.
@@ -137,7 +137,7 @@ public partial class PsCourseEntity : EntityBase, IPsCourse
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCourseCreditLevelTypeEntity RefCourseCreditLevelTypeEntity { get; set; }
+    public virtual RefCourseCreditLevelTypeEntity? RefCourseCreditLevelTypeEntity { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="IRefNcescollegeCourseMapCode"/> implementation
@@ -145,7 +145,7 @@ public partial class PsCourseEntity : EntityBase, IPsCourse
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefNcescollegeCourseMapCodeEntity RefNcescollegeCourseMapCodeEntity { get; set; }
+    public virtual RefNcescollegeCourseMapCodeEntity? RefNcescollegeCourseMapCodeEntity { get; set; }
 
     /// <summary>
     /// A six-digit code in the form xx.xxxx that identifies instructional program specialties within educational institutions.
@@ -156,7 +156,7 @@ public partial class PsCourseEntity : EntityBase, IPsCourse
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCipCodeEntity RefCipCodeEntity { get; set; }
+    public virtual RefCipCodeEntity? RefCipCodeEntity { get; set; }
 
     #endregion
 }

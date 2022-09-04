@@ -102,7 +102,7 @@ public partial class FacilityManagementEntity : EntityBase, IFacilityManagement
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingCharterSchoolRealtyAccessTypeEntity RefBuildingCharterSchoolRealtyAccessTypeEntity { get; set; }
+    public virtual RefBuildingCharterSchoolRealtyAccessTypeEntity? RefBuildingCharterSchoolRealtyAccessTypeEntity { get; set; }
 
     /// <summary>
     /// The standard for cleanliness, and benchmarks for how much space can be assigned to one properly supplied custodian to meet these standards.
@@ -113,7 +113,7 @@ public partial class FacilityManagementEntity : EntityBase, IFacilityManagement
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefBuildingCleaningStandardTypeEntity RefBuildingCleaningStandardTypeEntity { get; set; }
+    public virtual RefBuildingCleaningStandardTypeEntity? RefBuildingCleaningStandardTypeEntity { get; set; }
 
     /// <summary>
     /// The type of management organization for planning, design, and construction of major capital projects.
@@ -124,7 +124,7 @@ public partial class FacilityManagementEntity : EntityBase, IFacilityManagement
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityCapitalProgramMgmtTypeEntity RefFacilityCapitalProgramMgmtTypeEntity { get; set; }
+    public virtual RefFacilityCapitalProgramMgmtTypeEntity? RefFacilityCapitalProgramMgmtTypeEntity { get; set; }
 
     /// <summary>
     /// The type of agency that has ultimate responsibility for the compliance determination.
@@ -135,7 +135,7 @@ public partial class FacilityManagementEntity : EntityBase, IFacilityManagement
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityComplianceAgencyTypeEntity RefFacilityComplianceAgencyTypeEntity { get; set; }
+    public virtual RefFacilityComplianceAgencyTypeEntity? RefFacilityComplianceAgencyTypeEntity { get; set; }
 
     /// <summary>
     /// The type of management arrangements whereby a district oversees and manages its facilities operations.
@@ -146,7 +146,7 @@ public partial class FacilityManagementEntity : EntityBase, IFacilityManagement
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityOperationsMgmtTypeEntity RefFacilityOperationsMgmtTypeEntity { get; set; }
+    public virtual RefFacilityOperationsMgmtTypeEntity? RefFacilityOperationsMgmtTypeEntity { get; set; }
 
     #endregion
 }

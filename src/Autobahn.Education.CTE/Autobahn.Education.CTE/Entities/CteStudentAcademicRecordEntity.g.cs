@@ -80,7 +80,7 @@ public partial class CteStudentAcademicRecordEntity : EntityBase, ICteStudentAca
     /// This entity is in the CTE domain
     /// </remarks>
     /// </summary>
-    public virtual RefProfessionalTechnicalCredentialTypeEntity RefProfessionalTechnicalCredentialTypeEntity { get; set; }
+    public virtual RefProfessionalTechnicalCredentialTypeEntity? RefProfessionalTechnicalCredentialTypeEntity { get; set; }
 
     #endregion
 }

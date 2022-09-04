@@ -10,9 +10,9 @@ public partial class AssessmentSubtestEldevelopmentalDomainModel : AutobahnBaseM
 {
     #region "IAssessmentSubtestEldevelopmentalDomain Properties"
     /// <summary>
-    /// Reference to an optional instance of the <see cref="IAssessmentSubtest"/> model
+    /// Reference to an optional instance of the <see cref="IAssessmentSubTest"/> model
     /// </summary>
-    public Guid AssessmentSubtestId { get; set; }
+    public Guid AssessmentSubTestId { get; set; }
 
     /// <summary>
     /// Reference to an optional instance of the <see cref="RefAssessmentEldevelopmentalDomain"/> model

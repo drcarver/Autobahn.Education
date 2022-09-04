@@ -64,7 +64,7 @@ public partial class PsSectionLocationEntity : EntityBase, IPsSectionLocation
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefCourseInstructionSiteTypeEntity RefCourseInstructionSiteTypeEntity { get; set; }
+    public virtual RefCourseInstructionSiteTypeEntity? RefCourseInstructionSiteTypeEntity { get; set; }
 
     #endregion
 }

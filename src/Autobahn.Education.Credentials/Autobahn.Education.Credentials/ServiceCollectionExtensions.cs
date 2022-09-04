@@ -14,13 +14,17 @@ public static partial class ServiceCollectionExtensions
     public static IServiceCollection AddCredentialsServices(this IServiceCollection serviceCollection)
     {
         // First the known view models
+        serviceCollection.AddTransient<ICredentialAward, CredentialAwardViewModel>();
         serviceCollection.AddTransient<ICredentialAwardCredit, CredentialAwardCreditViewModel>();
+        serviceCollection.AddTransient<ICredentialAwardEvidence, CredentialAwardEvidenceViewModel>();
         serviceCollection.AddTransient<ICredentialCriteriaCourse, CredentialCriteriaCourseViewModel>();
         serviceCollection.AddTransient<ICredentialDefAgent, CredentialDefAgentViewModel>();
         serviceCollection.AddTransient<ICredentialDefAgentCredential, CredentialDefAgentCredentialViewModel>();
         serviceCollection.AddTransient<ICredentialDefCategory, CredentialDefCategoryViewModel>();
         serviceCollection.AddTransient<ICredentialDefCriterion, CredentialDefCriterionViewModel>();
         serviceCollection.AddTransient<ICredentialDefIdentifier, CredentialDefIdentifierViewModel>();
+        serviceCollection.AddTransient<ICredentialDefinition, CredentialDefinitionViewModel>();
+        serviceCollection.AddTransient<ICredentialIssuer, CredentialIssuerViewModel>();
         serviceCollection.AddTransient<ICredentialOffered, CredentialOfferedViewModel>();
 
         return serviceCollection;

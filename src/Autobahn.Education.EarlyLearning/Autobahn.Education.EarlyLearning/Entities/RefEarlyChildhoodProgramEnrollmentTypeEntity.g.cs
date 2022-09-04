@@ -23,7 +23,6 @@ public partial class RefEarlyChildhoodProgramEnrollmentTypeEntity : ReferenceBas
     /// Reference to an optional instance of the <see cref="RefEarlyChildhoodProgramType"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The RefEarlyChildhoodProgramType property is obsolete and will be removed in a later version")]
     [ForeignKey("RefEarlyChildhoodProgramType")]
     public Guid RefEarlyChildhoodProgramTypeId { get; set; }
 

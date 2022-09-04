@@ -268,16 +268,9 @@ public partial class LearnerActivityViewModel : ObservableValidator, ILearnerAct
     public Guid? RefLearnerActivityAddToGradeBookFlagId { get; set; }
 
     /// <summary>
-    /// Learner Activity Maximum Time Allowed Unit
-    /// <para>
-    /// The unit of time of the�Maximum Time Allowed�value.
-    /// </para>
-    /// <para>
-    /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19946">Learner Activity Maximum Time Allowed Unit</a>
-    /// </para>
+    /// Reference to an optional instance of the <see cref="RefLearnerActivityMaximumTimeAllowedUnit"/> model
     /// </summary>
-    [DisplayName("Learner Activity Maximum Time Allowed Unit")]
-    public Guid? RefLearnerActivityMaximumTimeAllowedUnitsId { get; set; }
+    public Guid? RefLearnerActivityMaximumTimeAllowedUnitId { get; set; }
 
     /// <summary>
     /// Learner Activity Type
@@ -372,7 +365,7 @@ public partial class LearnerActivityViewModel : ObservableValidator, ILearnerAct
         Prerequisite = model.Prerequisite; // Learner Activity Prerequisite
         RefLanguageId = model.RefLanguageId; // Learner Activity Language
         RefLearnerActivityAddToGradeBookFlagId = model.RefLearnerActivityAddToGradeBookFlagId; // Learner Activity Add to Grade Book Flag
-        RefLearnerActivityMaximumTimeAllowedUnitsId = model.RefLearnerActivityMaximumTimeAllowedUnitsId; // Learner Activity Maximum Time Allowed Unit
+        RefLearnerActivityMaximumTimeAllowedUnitId = model.RefLearnerActivityMaximumTimeAllowedUnitId; // 
         RefLearnerActivityTypeId = model.RefLearnerActivityTypeId; // Learner Activity Type
         ReleaseDate = model.ReleaseDate; // Learner Activity Release Date
         RubricUrl = model.RubricUrl; // Learner Activity Rubric URL

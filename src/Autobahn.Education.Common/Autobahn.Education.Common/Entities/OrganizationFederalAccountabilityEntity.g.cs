@@ -227,7 +227,6 @@ public partial class OrganizationFederalAccountabilityEntity : EntityBase, IOrga
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19208">Participation Status for Math</a>
     /// </para>
     /// </summary>
-    [Obsolete("The RefParticipationStatusMath property is obsolete and will be removed in a later version")]
     [ForeignKey("RefParticipationStatusMath")]
     [Comment("An indication of whether the school or district met the 95 percent participation requirement in the mathematics assessment in accordance with state definition for the purposes of determining AYP.")]
     public Guid? RefParticipationStatusMathId { get; set; }
@@ -241,7 +240,6 @@ public partial class OrganizationFederalAccountabilityEntity : EntityBase, IOrga
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19209">Participation Status for Reading and Language Arts</a>
     /// </para>
     /// </summary>
-    [Obsolete("The RefParticipationStatusRla property is obsolete and will be removed in a later version")]
     [ForeignKey("RefParticipationStatusRla")]
     [Comment("An indication of whether the school or district met the 95 percent participation requirement on the reading/language arts assessment in accordance with state definition for the purposes of determining AYP.")]
     public Guid? RefParticipationStatusRlaId { get; set; }
@@ -255,7 +253,6 @@ public partial class OrganizationFederalAccountabilityEntity : EntityBase, IOrga
     /// <a href="https://ceds.ed.gov/CEDSElementDetails.aspx?TermId=19221">Proficiency Target Status for Math</a>
     /// </para>
     /// </summary>
-    [Obsolete("The RefProficiencyTargetStatusMath property is obsolete and will be removed in a later version")]
     [ForeignKey("RefProficiencyTargetStatusMath")]
     [Comment("An indication of whether the school or district met the math proficiency target in accordance with state definition for the purposes of determining AYP.")]
     public Guid? RefProficiencyTargetStatusMathId { get; set; }
@@ -300,7 +297,7 @@ public partial class OrganizationFederalAccountabilityEntity : EntityBase, IOrga
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefAypStatusEntity RefAypStatusEntity { get; set; }
+    public virtual RefAypStatusEntity? RefAypStatusEntity { get; set; }
 
     /// <summary>
     /// An indication of whether the school or local education agency (LEA) submitted a Gun-Free Schools Act (GFSA) of 1994 report to the state, as defined by Title 18, Section 921.
@@ -311,7 +308,7 @@ public partial class OrganizationFederalAccountabilityEntity : EntityBase, IOrga
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefGunFreeSchoolsActReportingStatusEntity RefGunFreeSchoolsActReportingStatusEntity { get; set; }
+    public virtual RefGunFreeSchoolsActReportingStatusEntity? RefGunFreeSchoolsActReportingStatusEntity { get; set; }
 
     /// <summary>
     /// An indication of whether the school or district met the High School Graduation Rate requirement in accordance with state definition for the purposes of determining AYP.
@@ -322,7 +319,7 @@ public partial class OrganizationFederalAccountabilityEntity : EntityBase, IOrga
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefHighSchoolGraduationRateIndicatorEntity RefHighSchoolGraduationRateIndicatorEntity { get; set; }
+    public virtual RefHighSchoolGraduationRateIndicatorEntity? RefHighSchoolGraduationRateIndicatorEntity { get; set; }
 
     /// <summary>
     /// An indication that the school was restructured, transformed or otherwise changed as a consequence of the state's accountability system under ESEA or as a result of School Improvement Grants (SIG).
@@ -333,7 +330,7 @@ public partial class OrganizationFederalAccountabilityEntity : EntityBase, IOrga
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefReconstitutedStatusEntity RefReconstitutedStatusEntity { get; set; }
+    public virtual RefReconstitutedStatusEntity? RefReconstitutedStatusEntity { get; set; }
 
     /// <summary>
     ///  An indication of whether the school or district met the Elementary/Middle Additional Indicator requirement in accordance with state definition for the purpose of determining Adequate Yearly Progress (AYP).
@@ -344,7 +341,7 @@ public partial class OrganizationFederalAccountabilityEntity : EntityBase, IOrga
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefElementaryMiddleAdditionalEntity RefElementaryMiddleAdditionalEntity { get; set; }
+    public virtual RefElementaryMiddleAdditionalEntity? RefElementaryMiddleAdditionalEntity { get; set; }
 
     /// <summary>
     /// An indication of how CTE concentrators are included in the state's computation of its graduation rate.
@@ -355,7 +352,7 @@ public partial class OrganizationFederalAccountabilityEntity : EntityBase, IOrga
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefCteGraduationRateInclusionEntity RefCteGraduationRateInclusionEntity { get; set; }
+    public virtual RefCteGraduationRateInclusionEntity? RefCteGraduationRateInclusionEntity { get; set; }
 
     /// <summary>
     /// The designation given to a school by the state for additional targeted support and improvement as part of its statewide system of annual meaningful differentiation.
@@ -366,7 +363,7 @@ public partial class OrganizationFederalAccountabilityEntity : EntityBase, IOrga
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefAdditionalTargetedSupportAndImprovementStatusEntity RefAdditionalTargetedSupportAndImprovementStatusEntity { get; set; }
+    public virtual RefAdditionalTargetedSupportAndImprovementStatusEntity? RefAdditionalTargetedSupportAndImprovementStatusEntity { get; set; }
 
     /// <summary>
     /// The designation given to a school by the state for comprehensive support and improvement as part of its statewide system of annual meaningful differentiation.
@@ -377,7 +374,7 @@ public partial class OrganizationFederalAccountabilityEntity : EntityBase, IOrga
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefComprehensiveSupportAndImprovementStatusEntity RefComprehensiveSupportAndImprovementStatusEntity { get; set; }
+    public virtual RefComprehensiveSupportAndImprovementStatusEntity? RefComprehensiveSupportAndImprovementStatusEntity { get; set; }
 
     /// <summary>
     /// The designation given to a school by the state for targeted support and improvement as part of its statewide system of annual meaningful differentiation.
@@ -388,7 +385,7 @@ public partial class OrganizationFederalAccountabilityEntity : EntityBase, IOrga
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual RefTargetedSupportAndImprovementStatusEntity RefTargetedSupportAndImprovementStatusEntity { get; set; }
+    public virtual RefTargetedSupportAndImprovementStatusEntity? RefTargetedSupportAndImprovementStatusEntity { get; set; }
 
     #endregion
 }

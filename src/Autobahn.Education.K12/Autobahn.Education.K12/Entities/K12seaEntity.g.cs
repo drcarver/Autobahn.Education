@@ -32,7 +32,7 @@ public partial class K12seaEntity : EntityBase, IK12sea
     /// This entity is in the K12 domain
     /// </remarks>
     /// </summary>
-    public virtual RefStateAnsicodeEntity RefStateAnsicodeEntity { get; set; }
+    public virtual RefStateAnsicodeEntity? RefStateAnsicodeEntity { get; set; }
 
     #endregion
 }

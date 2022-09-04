@@ -153,7 +153,7 @@ public partial class OrganizationFinancialEntity : EntityBase, IOrganizationFina
     /// This entity is in the Common domain
     /// </remarks>
     /// </summary>
-    public virtual FinancialAccountProgramEntity FinancialAccountProgramEntity { get; set; }
+    public virtual FinancialAccountProgramEntity? FinancialAccountProgramEntity { get; set; }
 
     #endregion
 }

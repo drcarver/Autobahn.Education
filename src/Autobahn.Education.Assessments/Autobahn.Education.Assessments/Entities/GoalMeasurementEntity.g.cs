@@ -77,7 +77,7 @@ public partial class GoalMeasurementEntity : EntityBase, IGoalMeasurement
     /// This entity is in the Assessments domain
     /// </remarks>
     /// </summary>
-    public virtual RefGoalMeasurementTypeEntity RefGoalMeasurementTypeEntity { get; set; }
+    public virtual RefGoalMeasurementTypeEntity? RefGoalMeasurementTypeEntity { get; set; }
 
     #endregion
 }

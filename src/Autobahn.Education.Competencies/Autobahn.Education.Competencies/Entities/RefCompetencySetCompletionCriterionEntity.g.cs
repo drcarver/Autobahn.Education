@@ -14,7 +14,6 @@ public partial class RefCompetencySetCompletionCriterionEntity : ReferenceBaseEn
     /// Reference to an optional instance of the <see cref="RefCompetencySetCompletionCriteria"/> model
     /// </summary>
     [Required(ErrorMessage="{0} is required.")]
-    [Obsolete("The RefCompetencySetCompletionCriteria property is obsolete and will be removed in a later version")]
     [ForeignKey("RefCompetencySetCompletionCriteria")]
     public Guid RefCompetencySetCompletionCriteriaId { get; set; }
 

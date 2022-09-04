@@ -52,25 +52,10 @@ public partial class AssessmentItemApipDescriptionEntity : EntityBase, IAssessme
     public Boolean? ReducedAnswersAssignedSupportIndicator { get; set; }
 
     /// <summary>
-    /// Reference to an optional instance of the <see cref="RefHazardType"/> model
-    /// </summary>
-    [Obsolete("The RefHazardType property is obsolete and will be removed in a later version")]
-    [ForeignKey("RefHazardType")]
-    public Guid? RefHazardTypeId { get; set; }
-
-    /// <summary>
     /// Reference to an optional instance of the <see cref="RefKeywordTranslationLanguage"/> model
     /// </summary>
-    [Obsolete("The RefKeywordTranslationLanguage property is obsolete and will be removed in a later version")]
     [ForeignKey("RefKeywordTranslationLanguage")]
     public Guid? RefKeywordTranslationLanguageId { get; set; }
-
-    /// <summary>
-    /// Reference to an optional instance of the <see cref="RefSupportToolType"/> model
-    /// </summary>
-    [Obsolete("The RefSupportToolType property is obsolete and will be removed in a later version")]
-    [ForeignKey("RefSupportToolType")]
-    public Guid? RefSupportToolTypeId { get; set; }
 
     public Boolean? ScaffoldingActivateByDefaultIndicator { get; set; }
 

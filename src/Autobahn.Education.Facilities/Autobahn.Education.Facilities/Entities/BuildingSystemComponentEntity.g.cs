@@ -129,7 +129,7 @@ public partial class BuildingSystemComponentEntity : EntityBase, IBuildingSystem
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilityFurnishingsTypeEntity RefFacilityFurnishingsTypeEntity { get; set; }
+    public virtual RefFacilityFurnishingsTypeEntity? RefFacilityFurnishingsTypeEntity { get; set; }
 
     /// <summary>
     /// The rating of the system or component functions under the demands of its regular operation.
@@ -140,7 +140,7 @@ public partial class BuildingSystemComponentEntity : EntityBase, IBuildingSystem
     /// This entity is in the Facilities domain
     /// </remarks>
     /// </summary>
-    public virtual RefFacilitySystemOrComponentConditionEntity RefFacilitySystemOrComponentConditionEntity { get; set; }
+    public virtual RefFacilitySystemOrComponentConditionEntity? RefFacilitySystemOrComponentConditionEntity { get; set; }
 
     #endregion
 }

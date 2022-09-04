@@ -140,7 +140,7 @@ public partial class PsStudentApplicationEntity : EntityBase, IPsStudentApplicat
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefGradePointAverageDomainEntity RefGradePointAverageDomainEntity { get; set; }
+    public virtual RefGradePointAverageDomainEntity? RefGradePointAverageDomainEntity { get; set; }
 
     /// <summary>
     /// An indication of whether the reported Grade Point Average is weighted or unweighted.
@@ -151,7 +151,7 @@ public partial class PsStudentApplicationEntity : EntityBase, IPsStudentApplicat
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefGpaWeightedIndicatorEntity RefGpaWeightedIndicatorEntity { get; set; }
+    public virtual RefGpaWeightedIndicatorEntity? RefGpaWeightedIndicatorEntity { get; set; }
 
     /// <summary>
     /// Applicant who has been granted an official offer to enroll in a postsecondary institution. Admitted applicants should include wait-listed students who were subsequently offered admission.
@@ -162,7 +162,7 @@ public partial class PsStudentApplicationEntity : EntityBase, IPsStudentApplicat
     /// This entity is in the Postsecondary domain
     /// </remarks>
     /// </summary>
-    public virtual RefAdmittedStudentEntity RefAdmittedStudentEntity { get; set; }
+    public virtual RefAdmittedStudentEntity? RefAdmittedStudentEntity { get; set; }
 
     #endregion
 }
