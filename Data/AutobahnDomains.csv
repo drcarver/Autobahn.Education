@@ -13,6 +13,7 @@
 0|Common|Common Models|Common models used in multiple domains.|6D255E48-2117-43D5-9611-CFC8C9BAABEC
 13|Person|Person Models|Models that describe a person.|C06485BF-997A-4E25-902E-49484F18E73A
 14|Organization|Organization Models|Organization models that describe a company or organization.|08E66161-BB8D-4846-AC0C-8AB6B0B478DE
-15|Role|Role Models|Role models that describe a role a person has to a organization or item.|D5418FBB-6D0A-46C0-81F6-5D0B817F43B3
+15|Role|Role Models|Role that describe a relationship a person has to a organization or item.|D5418FBB-6D0A-46C0-81F6-5D0B817F43B3
 16|Invalid|Unknown Models|Unknown models not used in any domains.|202BE1CC-818E-45B6-AD2F-F7E829DA152F
+17|StockPortfolio|Stock Portfolio|Models and Services for getting data from https://site.financialmodelingprep.com|F25CE2C0-A26C-445B-852C-624DDDFAA719
 

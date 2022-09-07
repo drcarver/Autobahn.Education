@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Autobahn.Core\Autobahn.Core.csproj" />
+    <ProjectReference Include="..\..\Autobahn.Education.Common\Autobahn.Education.Common\Autobahn.Education.Common.csproj" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
+    <ApplicationId>com.drcarver.autobahn.education.earlylearning</ApplicationId>
+    <ApplicationDisplayVersion>1.0.0</ApplicationDisplayVersion>
+    <ApplicationVersion>1.0</ApplicationVersion>
+    <ApplicationIdGuid>4a4cb91a-ed3e-4bf5-95a6-91bda2c2ee36</ApplicationIdGuid>
+    <ApplicationTitle>Early Learning (EL)</ApplicationTitle>
+    <AssemblyName>Autobahn.Education.EarlyLearning.</AssemblyName>
+    <CompanyName>dcarver.com</CompanyName>
+    <Copyright>(c)Darrel Carver, 2021-2022</Copyright>
+    <Description>Early Learning (EL) is the CEDS domain on the stage in human development from birth through the early school years (often defined as birth to age 8), during which significant social, emotional, cognitive, language, psychological, and physical development occurs.</Description>
+    <ProductName>Autobahn</ProductName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+  </ItemGroup>
+</Project>
